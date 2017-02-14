@@ -1,0 +1,60 @@
+[core]
+    editor = vim
+	#pager = diff-so-fancy | less --tabs=4 -RFX
+
+[color]
+    ui = always
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    commit = green bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
+[color "diff-highlight"]
+    oldNormal = red bold
+    oldHighlight = "red bold 52"
+    newNormal = "green bold"
+    newHighlight = "green bold 22"
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[diff]
+    compactionHeuristic = true # >= 2.9.0
+
+[rebase]
+	autosquash = true
+[rerere]
+    enabled = true
+[merge]
+    ff = false
+    log = true
+    conflictstyle = diff3
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    ls = ls-files
+    pullff = pull --ff-only --prune
+    ff = merge --ff-only
+    df = diff
+    dfc = diff --cached
+    lo = log -p
+    lc = log ORIG_HEAD.. --stat --no-merges
+    who = shortlog -s --
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    lga = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
+    # show-branch
+    pushr = push origin HEAD:refs/for/master
+    edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; vim `f`"
+    aliases = !git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /'
+[push]
+	default = upstream
+#[commit]
+#   gpgsign = true
