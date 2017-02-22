@@ -14,7 +14,7 @@ else
 fi
 
 if ! fgrep -q 'keychain --eval' ~/.bashrc; then
-    echo 'eval `keychain --eval`' >> ~/.bashrc
-    ssh-add id_ed25519
+    echo 'eval `keychain --eval id_ed25519`' >> ~/.bashrc
+    ssh-add ~/.ssh/id_ed25519
 fi
 
