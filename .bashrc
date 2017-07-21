@@ -1,10 +1,10 @@
-if [ "$TERM" == "xterm-256color" ]; then
-    export TERM=xterm
-fi
-
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
+
+if [ "$TERM" == "xterm-256color" ]; then
+    export TERM=xterm
+fi
 
 # If not running interactively, don't do anything
 case $- in
@@ -51,12 +51,12 @@ esac
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-	# We have color support; assume it's compliant with Ecma-48
-	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-	# a case would tend to support setf rather than setaf.)
-	color_prompt=yes
+  # We have color support; assume it's compliant with Ecma-48
+  # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+  # a case would tend to support setf rather than setaf.)
+  color_prompt=yes
     else
-	color_prompt=
+  color_prompt=
     fi
 fi
 
@@ -71,6 +71,14 @@ else
 fi
 unset color_prompt force_color_prompt
 
+# If this is an xterm set the title to user@host:dir
+case "$TERM" in
+xterm*|rxvt*)
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h \w\a\]$PS1"
+    ;;
+*)
+    ;;
+esac
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
@@ -96,6 +104,8 @@ alias l='ls -CF'
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
+alias dc=docker-compose
+
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -116,46 +126,24 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# if the command-not-found package is installed, use it
-if [ -x /usr/lib/command-not-found -o -x /usr/share/command-not-found/command-not-found ]; then
-	function command_not_found_handle {
-	        # check because c-n-f could've been removed in the meantime
-                if [ -x /usr/lib/command-not-found ]; then
-		   /usr/lib/command-not-found -- "$1"
-                   return $?
-                elif [ -x /usr/share/command-not-found/command-not-found ]; then
-		   /usr/share/command-not-found/command-not-found -- "$1"
-                   return $?
-		else
-		   printf "%s: command not found\n" "$1" >&2
-		   return 127
-		fi
-	}
-fi
-
 if [ -x /usr/bin/mint-fortune ]; then
      /usr/bin/mint-fortune
 fi
 
+# Virtualenv
+export VIRTUALENV_PYTHON=/usr/bin/python3
 
-#########################################################################
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/projects
 
-export VIRTUALENVWRAPPER_PYTHON=python3
-source /usr/local/bin/virtualenvwrapper.sh >/dev/null
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
 
-export PYTHON_VIRTUAL_ENVS="$HOME/.virtualenvs/b2-27 $HOME/.virtualenvs/b2-34"
-
-# this should really be in ~/.bash_profile
-if [ -d "$HOME/bin" ] ; then
-    PATH="$HOME/bin:$PATH"
-fi
+# Misc
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
-eval "$(thefuck --alias)"
-
 # fix mouse pasting stuff ~0like this~1
 printf "\e[?2004l"
 
-eval `keychain --eval id_ed25519`
+# eval `keychain --eval id_ed25519`
