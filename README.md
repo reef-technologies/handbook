@@ -31,7 +31,7 @@ Z uwagi na różnorodność systemów operacyjnych używanych przez nasz zespó�
 
 Z uwagi na dość duże wykorzystanie przestrzeni przez nasze projekty - minimalny rozmiar partycji to **50 GB** (zalecane **100 GB**).
 
-W przypadku, gdy nie posiadasz preferencji zalecamy użycie [VeraCrypt](https://www.veracrypt.fr/en/Home.html). Instrukcja wyjaśniająca krok po kroku proces instalacji znajduje się [tutaj](docs/VeraCrypt.html).
+W przypadku, gdy nie posiadasz preferencji zalecamy użycie [VeraCrypt](https://www.veracrypt.fr/en/Home.html). Instrukcja wyjaśniająca krok po kroku proces instalacji znajduje się [tutaj](docs/VeraCrypt.md).
 
 
 ## 2. Maszyna wirtualna (host)
@@ -40,7 +40,7 @@ Podobnie jak w przypadku oprogramowania do szyfrowania danych nie mamy konkretny
 
 W celu zachowania spójności wersji oprogramowania pomiędzy wszystimi maszynami wirtualnymi stosujemy dystrybucję [Linux Mint](https://www.linuxmint.com/download.php). Chcielibyśmy żebyś też pracował na tym systemie. Pomoże to nam zaoszczędzić czas w przyszłości.
 
-Instrukcję opisującą krok po kroku proces tworzenia maszyny wirtualnej znajdziesz [tutaj](docs/VirtualBox.html).
+Instrukcję opisującą krok po kroku proces tworzenia maszyny wirtualnej znajdziesz [tutaj](docs/VirtualBox.md).
 
 ## 3. Instalacja niezbędnych pakietów (vm)
 
