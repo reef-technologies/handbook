@@ -1,4 +1,4 @@
-# Instalacja Veracrypt
+# Veracrypt installation
 
 ![](images/veracrypt_01.png "")
 
