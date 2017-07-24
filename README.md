@@ -156,6 +156,31 @@ Do not forget to say hello to us on #random. :)
 
 For Skype you can use your private account. If you do not want to do this, create a new account in the same format as your GitHub account.
 
+# 7. Rules
+
+Here are some rules to follow:
+
+- When a meeting starts, decide where to bill it.
+- If you are a junior and you get stuck - ask for help. Really, really, really do.
+- If there is time where you are working but you are not able to bill it, escalate it immediately. We are trying to avoid it.
+- Do not use the company email for RSS, out of work stuff etc. This is to minimize distractions, which is pretty important for us.
+- Use pomodoro, pair programming or other time organization method.
+- If you are not a manager - you shall not give estimates or deadlines to the client. Tell the client to ask the question to a manager.
+
+# 8. Tools
+
+### Pomotodo timer
+
+[Marinara: Pomodoro Timer](https://chrome.google.com/webstore/detail/marinara-pomodoro-timer/lojgmehidjdhhbmpjfamhpkpodfcodef)
+
+
+### Secure delete
+
+The "srm" tool which securely deletes data. We use it to wipe the repos (despite encryption).
+
+```bash
+apt-get install secure-delete
+```
 
 # Congratulations
 
