@@ -1,50 +1,54 @@
-# Wstęp
+# Introduction
 
-Ten dokument ma na celu wprowadzenie Ciebie do naszego zespołu. Cenimy sobie bezpieczeństwo danych naszych klientów dlatego wypracowacowaliśmy szereg praktyk, które przejdziesz teraz krok po kroku. Wszystkie informacje związane z firmą **muszą** znajdować się w maszynie wirtualnej. Istnieje kilka wyjątków, o których przeczytasz w dalszej części tego dokumentu.
+Welcome onboard. This document will help you prepare your development environment step-by-step.
 
+All data related to company **must** be stored in the virtual machine in encrypted volume. This practice prevents potential data leaks, i.e. when your computer get stolen. There are a few exceptions, that you will read about them later.
 
-# Aplikacja monitorująca czas
+# Time tracking
 
-### Logowanie do poczty
+### Sign in to e-mail account
 
-Pierwszym krokiem jaki wykonasz jest zalogowanie się na Twoj nowy adres email w domenie reef.pl.
+The first step you will take is to sign in to your new Google account at reef.pl. All information including credentials have been sent to your personal e-mail address.
 
-### **Uwaga!**
+### **Caution!**
 
-Pierwsze logowanie wykonujesz z poziomu komputera hosta, ponieważ jest to konieczne, aby zainstalować aplikację monitorującą czas. Kolejne logowania będziesz wykonywać z poziomu maszyny wirtualnej.
-
-### Aplikacja monitorująca czas
-
-Cenimy sobie transparentność, dlatego efekty naszej pracy mierzymy czas za pomocą oprogramowania, które jednocześnie wykonuje regularne zrzuty ekranowe. Jego instalacja jest pierwszym krokiem w przygotowaniu swojego środowiska do pracy.
-
-Zainstaluj ją, a następnie zaakceptuj zaproszenie otrzymane na swój adres e-mail.
-
-Aplikację można popbrać tutaj: [WebWork Tracker](https://www.webwork-tracker.com/#section-download)
+First sign in you make is from the host computer, as it is necessary to install the time tracking application. This is the one and only situation when you logging in from your host machine. 
 
 
+### Time tracking app
 
-# Konfiguracja środowiska
+We appreciate transparency, so are using the application that takes regular screenshots during your work. Its installation is the first step in preparing your environment to work.
 
-## 1. Utworzenie szyfrowanej partycji (host)
+Please install it and then accept the invitation received on your email address.
 
-Z uwagi na różnorodność systemów operacyjnych używanych przez nasz zespół nie narzucamy konkretnego rozwiązania. To od Ciebie zależy jakiego oprogramowania użyjesz. Dla systemów Linux może to być np. LUKS.
-
-Z uwagi na dość duże wykorzystanie przestrzeni przez nasze projekty - minimalny rozmiar partycji to **50 GB** (zalecane **100 GB**).
-
-W przypadku, gdy nie posiadasz preferencji zalecamy użycie [VeraCrypt](https://www.veracrypt.fr/en/Home.html). Instrukcja wyjaśniająca krok po kroku proces instalacji znajduje się [tutaj](docs/VeraCrypt.md).
+The application can be downloaded from here: [WebWork Tracker](https://www.webwork-tracker.com/#section-download)
 
 
-## 2. Maszyna wirtualna (host)
+# Configuring the environment
 
-Podobnie jak w przypadku oprogramowania do szyfrowania danych nie mamy konkretnych wymagań jakiego rozwiązania użyjesz. Jedynym warunkiem jest licencja. Zalecany przez nas jest [VirtualBox](https://www.virtualbox.org/).
+Once you have installed time tracking app, it's time to prepeare your environment.
 
-W celu zachowania spójności wersji oprogramowania pomiędzy wszystimi maszynami wirtualnymi stosujemy dystrybucję [Linux Mint](https://www.linuxmint.com/download.php). Chcielibyśmy żebyś też pracował na tym systemie. Pomoże to nam zaoszczędzić czas w przyszłości.
+## 1. Create an encrypted volume (host)	
 
-Instrukcję opisującą krok po kroku proces tworzenia maszyny wirtualnej znajdziesz [tutaj](docs/VirtualBox.md).
+Due to the variety of operating systems used by our team, we do not impose a specific solution. It depends on what software you use. For Linux systems it can be eg LUKS.
 
-## 3. Instalacja niezbędnych pakietów (vm)
+Due to the large space utilization of our projects, the minimum partition size is **50 GB** (recommended **100 GB**).
 
-Do pracy przydadzą się Tobie następujące pakiety:
+In case you have no preferences, we recommend using [VeraCrypt](https://www.veracrypt.fr/en/Home.html). The step-by-step instruction for the installation process is located [here](docs/VeraCrypt.md).
+
+
+## 2. Virtual machine (host)
+
+As with encryption software, we do not have specific requirements for what kind of solution you will use. The only requirement is the license. Recommended by us is [VirtualBox](https://www.virtualbox.org/).
+
+To maintain consistency across all virtual machines, we use the [Linux Mint](https://www.linuxmint.com/download.php) distribution. We would like you to also work on this system. This will help us save time in the future.
+
+A step-by-step guide to creating a virtual machine can be found [here](docs/VirtualBox.md).
+
+
+## 3. Installing the necessary packages (vm)
+
+You will need the following packages to work:
 
 ```bash
 $ sudo apt install \
@@ -57,24 +61,26 @@ $ sudo apt install \
 	virtualenvwrapper
 ```
 
-## 4. Podstawowa konfiguracja (bash, git, ssh)
+## 4. Initial configuration (bash, git, ssh)
 
 ### SSH
-Na początek wygeneruj sobie klucz SSH. Postępuj zgodnie z instrukcjami polecenia:
+First, generate an SSH key. We use Ed25519 which is more secure than default RSA key. We provided simple script that will do it all work for you.
+
+Just download it from this repository and run:
 
 ```bash
-$ ssh-keygen
+$ ./configure-keychain.sh
 ```
 
 ### Git
 
-Skopiuj plik `.gitconfig` załączony w tym repozytorium do swojego katalogu domowego:
+Copy the `.gitconfig` file included in this repository into your home directory:
 
 ```bash
 $ cp .gitconfig ~/
 ```
 
-Uzupełnij nazwę użytkownika oraz e-mail:
+Complete username and email:
 
 ```bash
 $ git config --global user.name "Imię Nazwisko"
@@ -83,7 +89,7 @@ $ git config --global user.email imie.nazwisko@reef.pl
 
 ### Bash
 
-Skopuj plik .bashrc do swojego katalogu domowego
+Copy the .bashrc file into your home directory
 
 ```bash
 $ cp .bashrc ~/
@@ -91,58 +97,66 @@ $ cp .bashrc ~/
 
 ### Docker
 
-Dodatnie aktualnie zalogowanego użytkownika do grupy:
+Add your user to `docker` group:
 
 ```bash
 $ sudo gpasswd -a $USER docker
 ```
 
-*Uwaga: Dla ułatwienia w pliku .bashrc dodany został alias **dc** dla docker-compose. Zamiast wpisywania pełnej nazwy możesz użyć skróconej wersji.*
+*Note: For ease of use, an alias ** dc ** for docker-compose is added to the .bashrc file. Instead of typing a full name, you can use the shortened version.*
 
-Przykład: 
+Example:
 
 ```bash
 $ dc up
 ```
 
 
-# 5. Konfiguracja konta Google oraz GitHub
+# 5. Configure your Google Account and GitHub
 
-Od momentu posiadania poprawnie skonfigurowanej maszyny wirtualnej wszelkie logowania na konta firmowe odbywają się za jej pośrednictwem.
+Since having a properly configured virtual machine, any logon to company accounts is done through it.
 
-## Włączenie autoryzacji dwuetapowej dla konta Google
+## Enable 2-step authorization for your Google Account
 
-W celu poprawienia bezpieczeństwa naszych kont wymagamy, aby włączyć weryfikację dwuetapową.
+To improve the security of our accounts, we require you to enable 2-step verification.
 
-[Konfiguracja autoryzacji dwuetapowej Google](https://myaccount.google.com/signinoptions/two-step-verification)
+[Google's 2-step authorization setup](https://myaccount.google.com/signinoptions/two-step-verification)
 
-## Utworzenie konta na GitHub
+## Create an account on GitHub
 
-Na potrzeby pracy utwórz nowe konto na GitHub. Sugerowana nazwa użytkownika to pierwsza litera imienia nazwisko oraz suffix `-reef`, np. `jkowalski-reef`.
+Create a new account for GitHub. The suggested username is the first letter of the first name and the full last name, and the suffix `-reef`, eg. ` jkowalski-reef`.
 
-Tutaj również należy włączyć aktoryzację dwuetapową.
+2-step authorization should enabled aswell.
 
-[Konfiguracja autoryzacji dwuetapowej GitHub](https://github.com/settings/two_factor_authentication/configure)
+[GitHub's 2-step authorization setup](https://github.com/settings/two_factor_authentication/configure)
 
 
 
-# 6. Komunikatory
+# 6. Instant messengers
 
-Do komunikacji w firmie używamy Slack'a oraz Skype. Możesz też używać ich w przeglądarce, jednak dla wygody zalcane jest zainstalowane ich na **komputerze hosta**. 
+We use Slack and Skype for business communications. You can also use them in your browser, but for convenience, they are installed on **the host computer**.
 
 ### Slack
 
-Na swojej firmowej poczcie czeka na Ciebie wiadomosć z zaproszeniem do zespołu reeftechnologies.slack.com.
+In your company e-mail inbox is waiting for you message with the invitation to the team reeftechnologies.slack.com.
 
-**@todo: opis poszczególnych kanałów**
 
-Nie zapomnij przywitać się z nami. :)
+Channels:
 
+- #random - All topics not directly related to work. If you read something interesting, don't hesitate to share with us.
+- #announcements - Business arrangements.
+- #internal - Everything else.
+
+
+[Slack's 2-step authorization setup](https://reeftechnologies.slack.com/account/settings)
+
+Do not forget to say hello to us on #random. :)
 
 ### Skype
 
-W przypadku Skype możesz użyć swojego prywatnego konta. Jeśli nie chcesz tego robić utwórz nowe konto w formacie identycznym jak dla konta GitHub (tj. pierwsza litera imienia nazwisko oraz suffix `-reef`, np. `jkowalski-reef`).
+For Skype you can use your private account. If you do not want to do this, create a new account in the same format as your GitHub account.
 
-# Gratulacje
 
-Wykonałeś wszystkie czynności niezbędne do  rozpoczęcia pracy. Powodzenia!
+# Congratulations
+
+You've done all the things you need to get started. Good luck!

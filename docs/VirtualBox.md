@@ -1,4 +1,4 @@
-# Konfiguracja maszyny wirtualnej VirtualBox
+# Virtual machine configuration
 
 
 ![](images/virtualbox_01.png "")
@@ -11,11 +11,11 @@
 
 ![](images/virtualbox_05.png "")
 
-Pamiętaj, że plik z dyskiem maszyny wirtualnej powinien znajdować się na szaszyfrowanej partycji!
+Note that the virtual machine disk file should reside on the encrypted volume!
 
 ![](images/virtualbox_06.png "")
 
-Jeśli powzwalają Tobie na to zasoby zalecane jest zwięskszenie ilości rdzeni wykorzystywanych przez maszynę wirtualną oraz pamięci dla grafiki:
+Depending on your computer hardware, it is recommended to increase the number of cores used by the virtual machine and memory for graphics:
 
 ![](images/virtualbox_07.png "")
 
