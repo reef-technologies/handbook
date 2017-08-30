@@ -10,6 +10,7 @@ You don't need to see all of it in one go. Instead, use it to tune the speed of 
  - https://www.youtube.com/watch?v=7Bp7yd8yGSg - WebWork tutorial for employees
  - https://www.youtube.com/watch?v=IyNPeTn8fpo - "Scrum et al." - the legendary talk at Google Campus by Ken Schwaber, the father of Scrum
  - https://www.youtube.com/watch?v=n7wH2XdOWpM - AgileByExample 2016: Henrik Kniberg - Keynote - Focus (or Stop Starting, Start Finishing)
+ - https://hbr.org/1999/11/management-time-whos-got-the-monkey - "Management Time: Who’s Got the Monkey?" by William Oncken, Jr.Donald L. Wass (1974)
 
 # Technical staff
 (coders, sysops, devops etc - people who primarily work with machines)
@@ -18,6 +19,7 @@ You don't need to see all of it in one go. Instead, use it to tune the speed of 
 
 ## Developers
 This section is divided into sort filters, sort of. See each section and find out if it applies to you. If it does, watch it all.
+
 ### all coders
 
 how to convert a putty key from a customer to id_rsa: https://askubuntu.com/a/584631 (you don't need to read it - just know it is here if you ever have to use it)
@@ -53,15 +55,15 @@ how to convert a putty key from a customer to id_rsa: https://askubuntu.com/a/58
 ## Leaders
 
  - https://www.youtube.com/watch?v=RyTQ5-SQYTo - Simon Sinek about millenials, and about the why it is not people that matter but the leaders
-
  - https://www.youtube.com/watch?v=ReRcHdeUG9Y - Simon Sinek: Why Leaders Eat Last
-
 
 ## Scrum masters
 
  - https://www.youtube.com/watch?v=lvs7VEsQzKY - Dan North: Patterns of Effective Teams
 
+## Managers
 
+ - WIP
 
 
 ```
