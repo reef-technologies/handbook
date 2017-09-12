@@ -21,7 +21,7 @@ We appreciate transparency, so are using the application that takes regular scre
 
 Please install it and then accept the invitation received on your email address.
 
-The application can be downloaded from here: [WebWork Tracker](https://www.webwork-tracker.com/#section-download)
+The application can be downloaded from here: [Hubstaff Tracker](https://app.hubstaff.com/download)
 
 
 # Configuring the environment
