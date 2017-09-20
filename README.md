@@ -2,7 +2,6 @@
 
 Welcome onboard. This document will help you prepare your development environment step-by-step.
 
-All data related to company **must** be stored in the virtual machine, image of which is stored on an encrypted volume. This practice prevents potential data leaks, i.e. when your computer get stolen. There are a few exceptions, that you will read about them later.
 
 # Foundation rules of the company
 
@@ -34,15 +33,20 @@ We will not accept a project targeted to manipulate and rip people off from thei
 
 There has been a point here about armed rocket navigation systems, but then someone said a low quality navigation system may cause the rocket to miss (hit something/someone else), but then the attacker would just fire another one (and maybe miss again due to the same bug). So that point is no longer clearly a no-go.
 
+# Your workspace
 
-# Time tracking
+All data related to company **must** be stored in the virtual machine, image of which is stored on an encrypted volume. This practice prevents potential data leaks, i.e. when your computer get stolen. There are a few exceptions, that you will read about them later.
+
+You should already have an email account in `reef.pl` domain. Use this only this email (and associated accounts) on the virtual machine - this way your private and work accounts will never mix access or customer data.
+
+
+## Time tracking
 
 ### Sign in to e-mail account
 
 The first step you will take is to sign in to your new Google account at `reef.pl`. All information including credentials have been sent to your personal e-mail address.
 
-
-### **Caution!**
+**Caution!**
 
 First sign in you make is from the host computer, as it is necessary to install the time tracking application. This is the one and only situation when you logging in from your host machine. 
 
@@ -73,7 +77,7 @@ Assuming that you somehow logged zero time to `INTERNAL / *`, when you work on m
 
 #### It can save you
 
-Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on it, then it's a good thing. Customer doesn't see how we work, so if there are no results, it is difficult to say whether someone is working hard but is working through a challenge, or whether somoene is not trying hard enough. As of writing this, the number of times when tracker was instrumental in such doubtful situation is: **4**.
+Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on it, then it's a good thing. Customer doesn't see how we work, so if there are no results, it is difficult to say whether someone is working hard but is working through a challenge, or whether somoene is not trying hard enough. As of writing this, the number of times when tracker was instrumental in preventing a rapid destruction of a relationship with a customer is: **4**.
 
 #### It is becoming an industry standard
 
@@ -196,17 +200,19 @@ We use Slack and Skype for business communications. You can also use them in you
 
 In your company e-mail inbox is waiting for you message with the invitation to the team reeftechnologies.slack.com.
 
+Using the desktop Slack application has a benefit of marking you as "available" on all the slack servers. If you use a browser, you are shown as only on the tab that you currently have on your screen.
+
 
 Channels:
 
-- #random - All topics not directly related to work. If you read something interesting, don't hesitate to share with us.
 - #announcements - Business arrangements.
-- #internal - Everything else.
+- #default - Everything else.
+- #random - All topics not directly related to work. If you read something interesting, don't hesitate to share with us.
 
 
 [Slack's 2-step authorization setup](https://reeftechnologies.slack.com/account/settings)
 
-Do not forget to say hello to us on #random. :)
+Do not forget to say hello to us on #random :)
 
 ### Skype
 
