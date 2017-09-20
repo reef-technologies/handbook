@@ -2,13 +2,45 @@
 
 Welcome onboard. This document will help you prepare your development environment step-by-step.
 
-All data related to company **must** be stored in the virtual machine in encrypted volume. This practice prevents potential data leaks, i.e. when your computer get stolen. There are a few exceptions, that you will read about them later.
+All data related to company **must** be stored in the virtual machine, image of which is stored on an encrypted volume. This practice prevents potential data leaks, i.e. when your computer get stolen. There are a few exceptions, that you will read about them later.
+
+# Foundation rules of the company
+
+This should have been covered on a recruitment call, but it is very important, so here is a reminder
+
+
+## Values
+
+ - happy customers
+ - high quality code in the repository
+
+That's it.
+
+
+## Project management
+
+Developer working on a project **must never** discuss deadlines or give estimates (even rough) to a customer. We have project managers for that. Why?
+
+As it turns out, developers are usually optimistic about their estimates. They are also Good People (at least the ones that we hire), so when the customer asks politely if a developer can help him, developer will usually agree. Delivering on such promise is a problem. This fails more often than not.
+
+Enter the project managers. Those are particularly skilled at risk management, reduction of scope to what is really needed etc. Also, they enjoy talking to the customer. Therefore we let them take responsibility for the deadlines - they take care about availability of developers, risk, schedule and so on. This way everyone is happier. Just to make it clear, if a developer would ever provide an estimate or a deadline, it is considered invalid. The customers know this too, so they shouldn't ask and you shouldn't reply - just redirect them to a project manager, tell them you'll contact him/her and produce an accurate estimate as soon as possible.
+
+
+## Projects
+
+We avoid fixed scope projects. TODO: why
+
+We will not accept a project targeted to manipulate and rip people off from their savings such as insurance+retirement funds.
+
+There has been a point here about armed rocket navigation systems, but then someone said a low quality navigation system may cause the rocket to miss (hit something/someone else), but then the attacker would just fire another one (and maybe miss again due to the same bug). So that point is no longer clearly a no-go.
+
 
 # Time tracking
 
 ### Sign in to e-mail account
 
-The first step you will take is to sign in to your new Google account at reef.pl. All information including credentials have been sent to your personal e-mail address.
+The first step you will take is to sign in to your new Google account at `reef.pl`. All information including credentials have been sent to your personal e-mail address.
+
 
 ### **Caution!**
 
@@ -22,6 +54,30 @@ We appreciate transparency, so are using the application that takes regular scre
 Please install it and then accept the invitation received on your email address.
 
 The application can be downloaded from here: [Hubstaff Tracker](https://app.hubstaff.com/download)
+
+### Why do we use a time tracker
+
+There are quite a few reasons!
+
+#### So that we know how much you should be paid
+
+We all have hourly rates
+
+#### So that we know how much we should charge the customer
+
+You may log some time to `INTERNAL / *`, which is paid by the company and not by a customer
+
+#### So that we know how much we should charge which customer
+
+Assuming that you somehow logged zero time to `INTERNAL / *`, when you work on multiple projects, we want to know how much time was worked for which customer so that we can bill them for it appropriately). Billing a customer inaccurately goes against a foundation of the company ("happy customers", see above).
+
+#### It can save you
+
+Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on it, then it's a good thing. Customer doesn't see how we work, so if there are no results, it is difficult to say whether someone is working hard but is working through a challenge, or whether somoene is not trying hard enough. As of writing this, the number of times when tracker was instrumental in such doubtful situation is: **4**.
+
+#### It is becoming an industry standard
+
+We don't really have a choice, it's going to happen whether we want it or not.
 
 
 # Configuring the environment
@@ -165,7 +221,6 @@ Here are some rules to follow:
 - If there is time where you are working but you are not able to bill it, escalate it immediately. We are trying to avoid it.
 - Do not use the company email for RSS, out of work stuff etc. This is to minimize distractions, which is pretty important for us.
 - Use pomodoro, pair programming or other time organization method.
-- If you are not a manager - you shall not give estimates or deadlines to the client. Tell the client to ask the question to a manager.
 
 # 8. Tools
 
