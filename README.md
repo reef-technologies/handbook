@@ -205,10 +205,20 @@ Using the desktop Slack application has a benefit of marking you as "available" 
 
 Channels:
 
-- #announcements - Business arrangements.
-- #default - Everything else.
-- #random - All topics not directly related to work. If you read something interesting, don't hesitate to share with us.
+- `#announcements` - business arrangements
+- `#default` - the default channel (if there is no dedicated channel for something, we use this one)
+- `management` - senior non-technical management (hiring etc)
+- `#opensource-candidates` - for discussion of what we should the opensource budget go to
+- `#random` - all topics not directly related to work. If you read something interesting, don't hesitate to share with us.
+- `#reefmerge` - opensource student project related to conflict resolution
+- `#reefperf` - opensource student project related to cloud performance benchmarking
+- `#sales` - sales team sends notifications there about high quality leads, signed contracts etc
+- `staff` - internal staff channel
+- `tpm` - technical project managers (think Senior Developers) (allocation of engineers to projects etc)
 
+(private channel names don't start with a `#`)
+
+the rest of the channels are customer- or project-specific. Only people involved in those projects are invited to the channels (for compartmentalization of IP).
 
 [Slack's 2-step authorization setup](https://reeftechnologies.slack.com/account/settings)
 
