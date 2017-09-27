@@ -263,6 +263,16 @@ The "srm" tool which securely deletes data. We use it to wipe the repos (despite
 apt-get install secure-delete
 ```
 
+# FAQ - Frequently Asked Questions
+
+<dl>
+  <dt>What's a virtual assistant?</dt>
+  <dd>It's like an office manager for a company that doesn't have an office</dd>
+
+  <dt>Do we have CI?</dt>
+  <dd>So far we used wercker because it is free for github private, but we are scheduled to try to switch over to GitLab.</dd>
+</dl>
+
 # Congratulations
 
 You've done all the things you need to get started. Good luck!
