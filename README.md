@@ -225,6 +225,7 @@ Channels:
 - `#sales` - sales team sends notifications there about high quality leads, signed contracts etc
 - `staff` - internal staff channel
 - `tpm` - technical project managers (think Senior Developers) (allocation of engineers to projects etc)
+- `va` - for delegating things to Virtual Assistants
 
 (private channel names don't start with a `#`)
 
