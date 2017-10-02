@@ -34,7 +34,9 @@ how to convert a putty key from a customer to id_rsa: https://askubuntu.com/a/58
 
 ### all python coders
 
- - https://www.youtube.com/watch?v=hk85RUtQsBI - python 3.6 goodies
+ - https://docs.python.org/3/library/typing.html#typing.NamedTuple how to typing.NamedTuple
+ - https://www.python.org/dev/peps/pep-0498/ - Python 3.6 string formatting
+ - https://www.youtube.com/watch?v=hk85RUtQsBI - presentation of python 3.6 goodies
  - https://www.youtube.com/watch?v=wf-BqAjZb8M - Raymond Hettinger - Beyond PEP 8
  - https://www.youtube.com/watch?v=p33CVV29OG8 - Modern Dictionaries by Raymond Hettinger
 
