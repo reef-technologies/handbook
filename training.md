@@ -68,7 +68,7 @@ how to convert a putty key from a customer to id_rsa: https://askubuntu.com/a/58
 
 ## Managers
 
- - WIP
+ - https://www.youtube.com/watch?v=yIPbE7BssOs - Randall Koutnik: Rethinking the Developer Career Path
 
 
 ```
