@@ -266,13 +266,15 @@ apt-get install secure-delete
 
 # FAQ - Frequently Asked Questions
 
-<dl>
-  <dt>What's a virtual assistant?</dt>
-  <dd>It's like an office manager for a company that doesn't have an office</dd>
+##### _What's a virtual assistant?_
+&nbsp;&nbsp;&nbsp; It's like an office manager for a company that doesn't have an office.</dd>
 
-  <dt>Do we have CI?</dt>
-  <dd>So far we used wercker because it is free for github private, but we are scheduled to try to switch over to GitLab.</dd>
-</dl>
+##### _Do we have CI?_
+&nbsp;&nbsp;&nbsp; So far we used wercker because it is free for github private, but we are scheduled to try to switch over to GitLab.
+  
+##### _How to bill my time to a different project?_
+&nbsp;&nbsp;&nbsp; In case you billed time to a wrong project, [here](docs/Hubstaff.md) is a step-by-step guide how to fix it.
+
 
 # Congratulations
 
