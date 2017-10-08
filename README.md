@@ -64,6 +64,16 @@ Please install it and then accept the invitation received on your email address.
 
 The application can be downloaded from here: [Hubstaff Tracker](https://app.hubstaff.com/download)
 
+#### Bugs
+
+Workaround for window resize (most project names are like `Internal / some...` - it is hard to find your project):
+you click `>>` then you can resize left pane a little bit, then `<<` - repeat several times - now you can read full project names.
+
+It tracks time per 10-minute slot per project, so if you log some time in the given 10-minute period, switch to another project and switch back to the first one, it cannot really be distinguished (number and order of such switches is not recorded).
+
+Another issue is that manually logged time in the given slot cannot co-exist with any application-tracked time, so if you work from 14:01 to 14:02 and then log manual time for 14:05 to 14:10, the manual time entry will eat the tracked time. It's quite difficult to run into this, but it happened at least once to us.
+
+
 ### Why do we use a time tracker
 
 #### So that we know how much you should be paid
@@ -76,15 +86,15 @@ You may log some time to `INTERNAL / *`, which is paid by the company and not by
 
 #### So that we know how much we should charge which customer
 
-Assuming that you somehow logged zero time to `INTERNAL / *`, when you work on multiple projects, we want to know how much time was worked for which customer so that we can bill them for it appropriately). Billing a customer inaccurately goes against a foundation of the company ("happy customers", see above).
+Assuming that you somehow logged zero time to `INTERNAL / *`, when you work on multiple projects, we want to know how much time was worked for which customer so that we can bill them for it appropriately. Billing a customer inaccurately goes against a foundation of the company ("happy customers", see above).
 
 #### So that we know how much VAT tax we should pay
 
-If a customer is from the same country as we are, the invoice we give him has a non-zero VAT tax. Otherwise, it has a zero VAT tax, but the vendors have taxed invoices, so we need to reclaim the VAT tax in an appropriate amount. We don't want to attempt to reclaim too much or too little, but just right. Generally, we don't want to mess with the tax agency and prefer to pay a greater tax when in doubt, but there is too much of VAT to ignore it.
+If a customer is from the same country as we are, the invoice we give him has a non-zero VAT tax. Generally, that doesn't seem to ever happen. Otherwise, when the customer is from a different country, invoice has a zero VAT tax, but the vendors (you) have taxed invoices, so we (as a company) need to reclaim the VAT tax in an appropriate amount. We don't want to attempt to reclaim too much or too little, but just right. Generally, we don't want to mess with the tax agency and prefer to pay a greater tax when in doubt, but there is too much of VAT to ignore it.
 
 #### It can save the contract and it can save you
 
-Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on it, then it's a good thing. Customer doesn't see how we work, so if there are no results, it is difficult to say whether someone is working hard but is working through a challenge, or whether somoene is not trying hard enough. As of writing this, the number of times when tracker was instrumental in preventing a rapid destruction of a relationship with a customer is: **4**.
+Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on it, then it's a good thing. Customer doesn't see us work in their office, so if there are no results, it is difficult to say whether someone is working hard but is fighting through a challenge, or whether somoene is not trying hard enough. As of writing this, the number of times when tracker was instrumental in preventing a rapid degradation of a relationship with a customer is: **4**.
 
 Trust is a fragile thing and the time tracker helps keeping it in a good shape.
 
@@ -267,12 +277,12 @@ apt-get install secure-delete
 # FAQ - Frequently Asked Questions
 
 ##### _What's a virtual assistant?_
-&nbsp;&nbsp;&nbsp; It's like an office manager for a company that doesn't have an office.</dd>
+&nbsp;&nbsp;&nbsp; It's like an office manager for a company that doesn't have an office.
 
 ##### _Do we have CI?_
 &nbsp;&nbsp;&nbsp; So far we used wercker because it is free for github private, but we are scheduled to try to switch over to GitLab.
   
-##### _How to bill my time to a different project?_
+##### _How to re-bill my time to a different project?_
 &nbsp;&nbsp;&nbsp; In case you billed time to a wrong project, [here](docs/Hubstaff.md) is a step-by-step guide how to fix it.
 
 
