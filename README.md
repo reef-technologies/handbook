@@ -55,7 +55,6 @@ The first step you will take is to sign in to your new Google account at `reef.p
 
 First sign in you make is from the host computer, as it is necessary to install the time tracking application. This is the one and only situation when you logging in from your host machine. 
 
-
 ### Time tracking app
 
 We appreciate transparency, so are using the application that takes regular screenshots during your work. Its installation is the first step in preparing your environment to work.
@@ -63,6 +62,10 @@ We appreciate transparency, so are using the application that takes regular scre
 Please install it and then accept the invitation received on your email address.
 
 The application can be downloaded from here: [Hubstaff Tracker](https://app.hubstaff.com/download)
+
+#### I SEE YOU
+
+As it turns out, people find this document before they sign a contract with us and before their tracker account is created. Then they work on preparing their environment even before they have access to the tracker. If you are one of those people, please, use something (free [toptracker](https://www.toptal.com/tracker/) maybe?) to track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can later fairly compensate you for this time.
 
 #### Bugs
 
@@ -284,6 +287,11 @@ apt-get install secure-delete
   
 ##### _How to re-bill my time to a different project?_
 &nbsp;&nbsp;&nbsp; In case you billed time to a wrong project, [here](docs/Hubstaff.md) is a step-by-step guide how to fix it.
+
+
+# Onboarding document improvement
+
+If you find some key knowledge (not covered by NDA) useful for the next candidate is missing from this document, please create a pull request. Log time spend on this to `INTERNAL / other internal development`.
 
 
 # Congratulations
