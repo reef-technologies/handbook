@@ -59,6 +59,7 @@ First sign in you make is from the host computer, as it is necessary to install 
 
 We appreciate transparency, so are using the application that takes regular screenshots during your work. Its installation is the first step in preparing your environment to work.
 
+To avoid issues regarding screenshots and keep consistency across users, please install the tracker on your host machine.
 Please install it and then accept the invitation received on your email address.
 
 The application can be downloaded from here: [Hubstaff Tracker](https://app.hubstaff.com/download)
