@@ -64,6 +64,34 @@ Please install it and then accept the invitation received on your email address.
 
 The application can be downloaded from here: [Hubstaff Tracker](https://app.hubstaff.com/download)
 
+#### INTERNAL projects
+Below you can find the list of INTERNAL projects alongside with their descriptions.
+Descriptions tell you where you should bill your INTERNAL time on hubstaff.
+
+| Project                                          | Description                                                                                                                                           |
+| -----------------------------------------------  | ----------------------------------------------------------------------------------------------------------------------------------------------------  |
+| INTERNAL / content marketing                     | writing articles or blog posts under company name; presenting company in the outside world;                                                           |
+| INTERNAL / django application dockerization      | modifying our internal django docker template project;                                                                                                |
+| INTERNAL / finding new partners                  | time spent on finding new partners/customers;                                                                                                         |
+| INTERNAL / internal infrastructure management    | anything related to preparing your workspace to work; creating encrypted partitions, installing vms or any software needed to work;                   |
+| INTERNAL / management                            | activity reserved for company management;                                                                                                             |
+| INTERNAL / non-project meeting                   | phone calls, slack conversations which are related to your work  but not directly project related;                                                    |
+| INTERNAL / Ogarniacz                             | stuff related to organizing things needed in the company (like laptops or any needed  office stuff or hardware);                                      |
+| INTERNAL / opensource development                | time spent on looking for any opensource bugs to be solved or projects to take part in as well as actual programming, resolving issues;               |
+| INTERNAL / other internal development            | spending time on improving internal infrastructure like onboarding, training or any other company related stuff which might be helpful for others;    |
+| INTERNAL / pre-sales                             | any pre-work needed to be done before starting project with customer; usually asked by @ppolewicz;                                                    |
+| INTERNAL / recruitment                           | time spent on actively recruiting other people;                                                                                                       |
+| INTERNAL / reefmerge                             | student project;                                                                                                                                      |
+| INTERNAL / reefperf                              | student project;                                                                                                                                      |
+| INTERNAL / Training                              | only during training phase (going through training.md after onboarding);                                                                              |
+| OTHER / just-in-case                             | this is in case there in no project to bill on yet; you can rebill that time later to the proper project when it will be created;                     |
+
+
+#### Non-INTERNAL projects
+If you are working on any external project for the customer you should bill all your time spent on
+this project onto it. Knowledge gathering, actual programming, meetings or designing.
+
+
 #### I SEE YOU
 
 As it turns out, people find this document before they sign a contract with us and before their tracker account is created. Then they work on preparing their environment even before they have access to the tracker. If you are one of those people, please, use something (free [toptracker](https://www.toptal.com/tracker/) maybe?) to track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can later fairly compensate you for this time.
