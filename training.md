@@ -13,6 +13,7 @@ You are expected to see everything that matches your position within two weeks f
  - https://www.youtube.com/watch?v=IyNPeTn8fpo - "Scrum et al." - the legendary talk at Google Campus by Ken Schwaber, the father of Scrum
  - https://www.youtube.com/watch?v=n7wH2XdOWpM - AgileByExample 2016: Henrik Kniberg - Keynote - Focus (or Stop Starting, Start Finishing)
  - https://hbr.org/1999/11/management-time-whos-got-the-monkey - "Management Time: Who’s Got the Monkey?" by William Oncken, Jr.Donald L. Wass (1974)
+ - http://randsinrepose.com/archives/be-unfailingly-kind/ - 100% effective guide on how to work efficiently with people when you have no power over them. Actually, it always works.
 
 # Technical staff
 (coders, sysops, devops etc - people who primarily work with machines)
@@ -24,8 +25,13 @@ This section is divided into sort filters, sort of. See each section and find ou
 
 ### all coders
 
- - how to convert a putty key from a customer to id_rsa: https://askubuntu.com/a/584631 (you don't need to read it - just know it is here if you ever have to use it)
  - https://touk.pl/blog/2012/09/16/test-driven-traps-part-1/ - what "test hell" is
+ - https://www.youtube.com/watch?v=502ILHjX9EE - Henrik Kniberg - Agile Product Ownership in a Nutshell. Watch if you are not sure what Product Owner should do.
+ - http://nvie.com/posts/a-successful-git-branching-model/ - well known git branching model. I think this one is actually bad, but it gets you thinking in the right direction.
+ - https://chris.beams.io/posts/git-commit/ - How to Write a Git Commit Message. Painfully long, but sets the standard for everyone to follow.
+
+#### any junor coders
+ - https://git-scm.com/book/ - how to git. Read if you don't know how to.
 
 ### all backend coders
 
@@ -41,6 +47,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://www.youtube.com/watch?v=wf-BqAjZb8M - Raymond Hettinger - Beyond PEP 8
  - https://www.youtube.com/watch?v=p33CVV29OG8 - Modern Dictionaries by Raymond Hettinger
  - http://www.laurentluce.com/posts/python-dictionary-implementation/ - how are the python (pre-3.6?) dictionaries implemented and why is it necessary to add an item to a python dictionary that was emptied, to reduce the memory usage.
+ - https://www.youtube.com/watch?v=EiOglTERPEo - Raymond Hettinger - `super()` considered super!
 
 ### intermediate python developer
 
@@ -59,9 +66,10 @@ This section is divided into sort filters, sort of. See each section and find ou
 
 
 ## Leaders
-
+ - https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action - Simon Sinek about why people do what they do
  - https://www.youtube.com/watch?v=RyTQ5-SQYTo - Simon Sinek about millenials, and about the why it is not people that matter but the leaders
  - https://www.youtube.com/watch?v=ReRcHdeUG9Y - Simon Sinek: Why Leaders Eat Last
+ - https://www.youtube.com/watch?v=_mG-hhWL_ug - Dan Pink - Drive: The surprising truth about what motivates us
 
 ## Scrum masters
 
@@ -71,8 +79,17 @@ This section is divided into sort filters, sort of. See each section and find ou
 
  - https://www.youtube.com/watch?v=yIPbE7BssOs - Randall Koutnik: Rethinking the Developer Career Path
  - https://dev9.com/blog-posts/2015/1/the-myth-of-developer-productivity - comprehensive look on the subject of measuring developer productivity
+ - www.crisp.se/henrik.kniberg/How-we-got-rid-of-time-reports.pdf - inspiring story of Henrik Kniberg fighting bureaucraccy with success
+ - https://www.youtube.com/watch?v=N8KXxfF4dtg - Jurgen Appelo - Keynote: Managing for Happiness
+ - https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884270610 - about theory of constraints. Beware, The Goal is written (very much like a good story|using NLP), so you won't even feel that you are learning, but you will be smarter after you finish it.
 
 
+# bonus material
+
+ - https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are - this explains what cortizol is
+ - https://www.youtube.com/watch?v=4u5N00ApR_k - if you are wondering how agile in corporations might look like
+ 
+ 
 ```
 WIP:
 https://www.joelonsoftware.com/
