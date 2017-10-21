@@ -24,7 +24,8 @@ This section is divided into sort filters, sort of. See each section and find ou
 
 ### all coders
 
-how to convert a putty key from a customer to id_rsa: https://askubuntu.com/a/584631 (you don't need to read it - just know it is here if you ever have to use it)
+ - how to convert a putty key from a customer to id_rsa: https://askubuntu.com/a/584631 (you don't need to read it - just know it is here if you ever have to use it)
+ - https://touk.pl/blog/2012/09/16/test-driven-traps-part-1/ - what "test hell" is
 
 ### all backend coders
 
