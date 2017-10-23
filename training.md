@@ -30,7 +30,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - http://nvie.com/posts/a-successful-git-branching-model/ - well known git branching model. I think this one is actually bad, but it gets you thinking in the right direction.
  - https://chris.beams.io/posts/git-commit/ - How to Write a Git Commit Message. Painfully long, but sets the standard for everyone to follow.
 
-#### any junor coders
+#### any junior coders
  - https://git-scm.com/book/ - how to git. Read if you don't know how to.
 
 ### all backend coders
@@ -79,14 +79,14 @@ This section is divided into sort filters, sort of. See each section and find ou
 
  - https://www.youtube.com/watch?v=yIPbE7BssOs - Randall Koutnik: Rethinking the Developer Career Path
  - https://dev9.com/blog-posts/2015/1/the-myth-of-developer-productivity - comprehensive look on the subject of measuring developer productivity
- - www.crisp.se/henrik.kniberg/How-we-got-rid-of-time-reports.pdf - inspiring story of Henrik Kniberg fighting bureaucraccy with success
+ - www.crisp.se/henrik.kniberg/How-we-got-rid-of-time-reports.pdf - inspiring story of Henrik Kniberg fighting bureaucracy with success
  - https://www.youtube.com/watch?v=N8KXxfF4dtg - Jurgen Appelo - Keynote: Managing for Happiness
  - https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884270610 - about theory of constraints. Beware, The Goal is written (very much like a good story|using NLP), so you won't even feel that you are learning, but you will be smarter after you finish it.
 
 
 # bonus material
 
- - https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are - this explains what cortizol is
+ - https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are - this explains what Cortisol is
  - https://www.youtube.com/watch?v=4u5N00ApR_k - if you are wondering how agile in corporations might look like
  
  
