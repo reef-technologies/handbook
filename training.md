@@ -38,6 +38,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://www.youtube.com/watch?v=H0Ji7bsEoUo - on some modern hw/sw problems for backend systems in 2017, and on types of storage devices and how they work, what are the problems with them etc
  - https://thehftguy.com/2016/11/01/docker-in-production-an-history-of-failure/ and https://thehftguy.com/2017/02/23/docker-in-production-an-update/ - on current state of Docker
  - http://cryto.net/~joepie91/blog/2015/07/19/why-you-should-never-ever-ever-use-mongodb/ - Why you should never, ever, ever use MongoDB. NOTE: read that until you are sure you will never use it. If you are still not convinced after reading it, speak up on `#default`, someone will help you.
+ - https://www.jasondavies.com/bloomfilter/ - a data structure used for lookup speedups, in databases among other uses
 
 ### all python coders
 
