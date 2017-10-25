@@ -73,23 +73,25 @@ Descriptions tell you where you should bill your INTERNAL time on hubstaff.
 | INTERNAL / content marketing                     | writing articles or blog posts under company name; presenting company in the outside world;                                                           |
 | INTERNAL / django application dockerization      | modifying our internal django docker template project;                                                                                                |
 | INTERNAL / finding new partners                  | time spent on finding new partners/customers;                                                                                                         |
-| INTERNAL / internal infrastructure management    | anything related to preparing your workspace to work; creating encrypted partitions, installing vms or any software needed to work;                   |
+| INTERNAL / internal infrastructure management    | anything related to preparing your workspace to work; creating encrypted partitions, installing vms or any software needed to work and not connected  |
+|                                                  | to any specific project; if it's related to any internal or external project then please bill the time on it                                          |
 | INTERNAL / management                            | activity reserved for company management;                                                                                                             |
-| INTERNAL / non-project meeting                   | phone calls, slack conversations which are related to your work  but not directly project related;                                                    |
-| INTERNAL / Ogarniacz                             | stuff related to organizing things needed in the company (like laptops or any needed  office stuff or hardware);                                      |
+| INTERNAL / non-project meeting                   | phone calls, slack conversations which are related to your work but not directly project related;                                                     |
+| INTERNAL / Ogarniacz                             | stuff related to organizing things needed in the company (like laptops or any needed office stuff or hardware);                                       |
 | INTERNAL / opensource development                | time spent on looking for any opensource bugs to be solved or projects to take part in as well as actual programming, resolving issues;               |
 | INTERNAL / other internal development            | spending time on improving internal infrastructure like onboarding, training or any other company related stuff which might be helpful for others;    |
-| INTERNAL / pre-sales                             | any pre-work needed to be done before starting project with customer; usually asked by @ppolewicz;                                                    |
+| INTERNAL / pre-sales                             | any pre-work needed to be done before the contract is signed with the customer; usually asked by @ppolewicz;                                          |
 | INTERNAL / recruitment                           | time spent on actively recruiting other people;                                                                                                       |
 | INTERNAL / reefmerge                             | student project;                                                                                                                                      |
 | INTERNAL / reefperf                              | student project;                                                                                                                                      |
 | INTERNAL / Training                              | only during training phase (going through training.md after onboarding);                                                                              |
-| OTHER / just-in-case                             | this is in case there in no project to bill on yet; you can rebill that time later to the proper project when it will be created;                     |
+| OTHER / just-in-case                             | this is in case you need to work on a project before you are assigned to it; in this case raise the problem to the management                         |
+|                                                  | and re-bill that time later to the proper project;                                                                                                    |
 
 
 #### Non-INTERNAL projects
 If you are working on any external project for the customer you should bill all your time spent on
-this project onto it. Knowledge gathering, actual programming, meetings or designing.
+this project onto it. Knowledge gathering, environment preparation, actual programming, meetings or designing.
 
 
 #### I SEE YOU
