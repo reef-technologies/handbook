@@ -34,6 +34,13 @@ We will not accept a project targeted to manipulate and rip people off from thei
 There has been a point here about armed rocket navigation systems, but then someone said a low quality navigation system may cause the rocket to miss (hit something/someone else), then the attacker would fire another one (and maybe miss again due to the same bug). So that point is no longer clearly a no-go.
 
 
+## Opensource
+
+When there is no task for you in commercial projects, don't worry - before someone find task for you, you can work on opensource projects and get paid for it! Opensource has lower priority than commercial projects for clients, but it sometimes happens that there is no commercial task for you. Time spent on opensource developing should be billed on `INTERNAL / opensource development`. When you find some interesting opensource projects or event particular issues in there, don't be shy to write about it on `#opensource-candidates` channel on slack.
+
+When coming to start work on opensource project, ensure that it is forked to our github. Than create branch for it and develop your changes there. When finished, ask other company developers for review. And finally, when review is done, submit a pull request to the original project repository. Because this code is opensourced and public, we want to ensure the best possible quality of code released by members of our company.
+
+
 ## Safety of your workspace
 
 All data related to company **must** be stored in the virtual machine, image of which is stored on an encrypted volume. This practice prevents potential data leaks, i.e. when your computer get stolen. There are a few exceptions, you will read about them later.
