@@ -214,6 +214,11 @@ Create a new account for GitHub. The suggested username is the first letter of t
 
 [GitHub's 2-step authorization setup](https://github.com/settings/two_factor_authentication/configure)
 
+### Set this repository as watched
+
+Go [here](https://github.com/reef-technologies/onboarding/subscription) and select ***watching***. This will send you an email whenever this repository is updated. This is useful to keep up with the training video/article list,  description of chat channels and meaning of projects in the time tracker.
+
+**WARNING:** if the document was updated after you started reading it and before you set the repository to watched, you could miss an update. Check the latest changes [here](https://github.com/reef-technologies/onboarding/commits/master).
 
 
 ## 6. Instant messengers
@@ -288,6 +293,11 @@ apt-get install secure-delete
   
 ##### _How to re-bill my time to a different project?_
 &nbsp;&nbsp;&nbsp; In case you billed time to a wrong project, [here](docs/Hubstaff.md) is a step-by-step guide how to fix it.
+
+##### _Why all communication (exept 1to1) is in English?_
+&nbsp;&nbsp;&nbsp; Pawel: Let me tell you a story. There was an Python office in Warsaw in which most employees were from Poland, but eventually the company started hiring foreigners, so there were some of them in the office too. They could not understand the conversation in the kitchen, which was awkward for both sides, so a rule was mandated, to switch to English as soon as a foreigner enters the room.
+One day, a foreigner walked through the corridor and overheard laughter in the kitchen. As soon as he arrived, however, everyone went silent, finishing the conversation. Turns out that switching the language mid-conversation is not an effortless task. In that company, foreigners were discriminated every day. They were excluded from gossip and whenever they entered the room, with high probablility they have stopped any conversation that was ongoing at that place.
+We've had a foreigner with us for a few days, so we switched then and just didn't switch back. If we did, the next one joining the company could be a source of resentment. There would also be a problem with chat history. One of the things we proudly offer to members of our staff, is respect. I like to think that by keeping communication in English, we show respect to the person that is one day going to join the company and have as little friction as possible.
 
 
 # Onboarding document improvement
