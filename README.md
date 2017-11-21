@@ -300,7 +300,7 @@ One day, a foreigner walked through the corridor and overheard laughter in the k
 We've had a foreigner with us for a few days, so we switched then and just didn't switch back. If we did, the next one joining the company could be a source of resentment. There would also be a problem with chat history. One of the things we proudly offer to members of our staff, is respect. I like to think that by keeping communication in English, we show respect to the person that is one day going to join the company and have as little friction as possible.
 
 
-# Onboarding document improvement
+# Handbook document improvement
 
 If you find some key knowledge (not covered by NDA) useful for the next candidate is missing from this document, please create a pull request. Log time spend on this to `INTERNAL / other internal development`.
 
