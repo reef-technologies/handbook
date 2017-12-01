@@ -227,7 +227,7 @@ We use Slack and Skype for business communications. You can also use them in you
 
 ### Slack
 
-In your company e-mail inbox is waiting for you message with the invitation to the team reeftechnologies.slack.com.
+In your company e-mail inbox is waiting for you message with the invitation to the team reeftechnologies.slack.com. Right after signing in, remember to fill field for your phone number in your account settings. Remember to **add your country-specific prefix number**, e.g. for Poland it is `+48`. This is important when someone is working from different countries.
 
 Using the desktop Slack application has a benefit of marking you as "available" on all the slack servers. If you use a browser, you are shown as only on the tab that you currently have on your screen.
 
