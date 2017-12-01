@@ -64,6 +64,10 @@ Please install it and then accept the invitation received on your email address.
 
 The application can be downloaded from here: [Hubstaff Tracker](https://app.hubstaff.com/download)
 
+#### I SEE YOU
+
+As it turns out, people find this document before they sign a contract with us and before their tracker account is created. Then they work on preparing their environment even before they have access to the tracker. If you are one of those people, please, use something (free [toptracker](https://www.toptal.com/tracker/) maybe?) to track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can later fairly compensate you for this time.
+
 #### INTERNAL projects
 Below you can find the list of INTERNAL projects alongside with their descriptions.
 Descriptions tell you where you should bill your INTERNAL time on hubstaff.
@@ -91,10 +95,6 @@ Descriptions tell you where you should bill your INTERNAL time on hubstaff.
 If you are working on any external project for the customer you should bill all your time spent on
 this project onto it. Knowledge gathering, environment preparation, actual programming, meetings or designing.
 
-
-#### I SEE YOU
-
-As it turns out, people find this document before they sign a contract with us and before their tracker account is created. Then they work on preparing their environment even before they have access to the tracker. If you are one of those people, please, use something (free [toptracker](https://www.toptal.com/tracker/) maybe?) to track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can later fairly compensate you for this time.
 
 #### Bugs
 
