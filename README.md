@@ -249,6 +249,7 @@ Channels:
 - `#default` - the default channel (if there is no dedicated channel for something, we use this one)
 - `management` - senior non-technical management (hiring etc)
 - `#opensource-candidates` - for discussion of what we should the opensource budget go to
+- `#opensource-operations` - channel for opensource project development
 - `#random` - all topics not directly related to work. If you read something interesting, don't hesitate to share with us.
 - `#reefmerge` - opensource student project related to conflict resolution
 - `#reefperf` - opensource student project related to cloud performance benchmarking
