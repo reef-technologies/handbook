@@ -36,9 +36,11 @@ There has been a point here about armed rocket navigation systems, but then some
 
 ## Opensource
 
-When there is no task for you in commercial projects, don't worry - before someone find task for you, you can work on opensource projects and get paid for it! Opensource has lower priority than commercial projects for clients, but it sometimes happens that there is no commercial task for you. Time spent on opensource developing should be billed on `INTERNAL / opensource development`. When you find some interesting opensource projects or event particular issues in there, don't be shy to write about it on `#opensource-candidates` channel on slack.
+When there is no task for you in commercial projects, don't worry - before someone finds a task for you, you can work on opensource projects and get paid for it! Opensource is a "default" project for all coders and generally has lower priority than commercial projects, but it sometimes happens that there are no tasks in any commercial project for you, so then you have something to fall back to. This is usually true in the first couple of days of work with us, where formalities of assignment to project are being taken care of.
 
-When coming to start work on opensource project, ensure that it is forked to our github. Then create branch for it and develop your changes there. When finished, ask other company developers for review. And finally, when review is done, submit a pull request to the original project repository. Because this code is opensourced and public, we want to ensure the best possible quality of code released by members of our company.
+Time spent on opensource development should be billed on `INTERNAL / opensource development`. If you find some interesting opensource projects or particular issues, don't be shy to write about it on `#opensource-candidates` channel on slack.
+
+When starting work on an opensource project, ensure that it is forked on our github (if it's not, post a request on `#opensource-operations`). Then create branch for your change and develop your changes there. When finished, ask other company developers for review. Finally, when review is done, submit a pull request to the original project repository (we call it "upstream"). Because this code is opensourced and public, we want to ensure the best possible quality of code released by members of our company.
 
 We often have two forks, one private (`reef-technologies/foobar-priv`) and one public (`reef-technologies/foobar`). This is so that we can teach junior developers in a safe environment, when they can receive a lot of comments in the early phases of their first pull requests. When the PR is ready, we push the branch to the public fork and make a PR to upstream from there.
 
