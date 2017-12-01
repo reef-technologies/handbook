@@ -77,7 +77,7 @@ Descriptions tell you where you should bill your INTERNAL time on hubstaff.
 | INTERNAL / content marketing                     | writing articles or blog posts under company name; presenting company in the outside world;                                                           |
 | INTERNAL / django application dockerization      | modifying our internal django docker template project;                                                                                                |
 | INTERNAL / finding new partners                  | time spent on finding new partners/customers;                                                                                                         |
-| INTERNAL&nbsp;/&nbsp;internal&nbsp;infrastructure&nbsp;management    | anything related to preparing your workspace to work; creating encrypted partitions, installing vms or any software needed to work and not connected to any specific project; if it's related to any internal or external project then please bill the time on it;|
+| INTERNAL&nbsp;/&nbsp;internal&nbsp;infrastructure&nbsp;management    | anything related to preparing your workspace to work; creating encrypted partitions, installing vms or any software needed to work and **not connected to any specific project**; if it's related to any internal or external project then please bill the time on it;|
 | INTERNAL / management                            | activity reserved for company management;                                                                                                             |
 | INTERNAL / non-project meeting                   | phone calls, slack conversations which are related to your work but not directly project related;                                                     |
 | INTERNAL / Ogarniacz                             | stuff related to organizing things needed in the company (like laptops or any needed office stuff or hardware);                                       |
@@ -92,8 +92,8 @@ Descriptions tell you where you should bill your INTERNAL time on hubstaff.
 
 
 #### Non-INTERNAL projects
-If you are working on any external project for the customer you should bill all your time spent on
-this project onto it. Knowledge gathering, environment preparation, actual programming, meetings or designing.
+
+If you are working on any external project for the customer, you should bill all your time spent on this project onto it. Knowledge gathering, environment preparation, actual programming, meetings or design. If you need to learn a framework, library or language in order to deliver value for the project, bill the learning to that project as well. If the learning took a long time, please mention it to our PM on that project (so he might issue a discount to the customer if that's appropriate (that's pretty common, actually)).
 
 
 #### Bugs
