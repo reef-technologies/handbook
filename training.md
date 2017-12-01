@@ -9,7 +9,7 @@ You are expected to see everything that matches your position within two weeks f
 
 # All staff
 
- - https://www.youtube.com/watch?v=7Bp7yd8yGSg - WebWork tutorial for employees
+ - https://hackernoon.com/why-isnt-agile-working-d7127af1c552 - Why Isn’t Agile Working?
  - https://www.youtube.com/watch?v=IyNPeTn8fpo - "Scrum et al." - the legendary talk at Google Campus by Ken Schwaber, the father of Scrum
  - https://www.youtube.com/watch?v=n7wH2XdOWpM - AgileByExample 2016: Henrik Kniberg - Keynote - Focus (or Stop Starting, Start Finishing)
  - https://hbr.org/1999/11/management-time-whos-got-the-monkey - "Management Time: Who’s Got the Monkey?" by William Oncken, Jr.Donald L. Wass (1974)
