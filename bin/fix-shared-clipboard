@@ -1,0 +1,8 @@
+#!/bin/bash -ux
+killall VBoxClient
+sleep 1
+/usr/bin/VBoxClient --clipboard
+/usr/bin/VBoxClient --display
+/usr/bin/VBoxClient --seamless
+/usr/bin/VBoxClient --draganddrop
+
