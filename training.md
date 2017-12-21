@@ -50,6 +50,10 @@ This section is divided into sort filters, sort of. See each section and find ou
  - http://www.laurentluce.com/posts/python-dictionary-implementation/ - how are the python (pre-3.6?) dictionaries implemented and why is it necessary to add an item to a python dictionary that was emptied, to reduce the memory usage.
  - https://www.youtube.com/watch?v=EiOglTERPEo - Raymond Hettinger - `super()` considered super!
 
+### junior python developer
+
+ - https://github.com/reef-technologies/python-review-zoo/ - here we collect common/interesting review findings
+
 ### intermediate python developer
 
  - https://www.youtube.com/watch?v=cKPlPJyQrt4 - some advanced python patterns
