@@ -53,6 +53,8 @@ You should already have an email account in `reef.pl` domain. Use this only this
 
 The relatively high security level we keep, gives us a possibility to work for financial institutions (or just any institutions that treat their security seriously). Funny story here: Pawel talked to a bank and they wanted him to work on site. Pawel described our security model and when he finished, an engineer from the bank made a comment "they have more security at their home offices than we have here!". The manager looked at the engineer and he was not happy ;)
 
+UPDATE: a fully encrypted laptop computer of one of our developers has been stolen from his bag when he was returning from a conference by train. Spooky.
+
 
 # Environment preparation
 
@@ -68,12 +70,14 @@ First sign in you make is from the host computer, as it is necessary to install 
 
 ### Time tracking app
 
-We appreciate transparency, so are using the application that takes regular screenshots during your work. Its installation is the first step in preparing your environment to work.
+We are using the application that measures time and takes regular screenshots during your work. Its installation is the first step in preparing your environment to work.
 
-To avoid issues regarding screenshots and keep consistency across users, please install the tracker on your host machine.
+To avoid issues with screenshot grabbing and keep consistency across users, please install the tracker on your ***host*** machine.
 Please install it and then accept the invitation received on your email address.
 
 The application can be downloaded from here: [Hubstaff Tracker](https://app.hubstaff.com/download)
+
+If you will ever wonder how hubstaff calculates the activity levels, here is a handy link to [their documentation](https://support.hubstaff.com/how-are-activity-levels-calculated/).
 
 #### I SEE YOU
 
@@ -98,7 +102,9 @@ Descriptions tell you where you should bill your INTERNAL time on hubstaff.
 | INTERNAL / recruitment                           | time spent on actively recruiting other people;                                                                                                       |
 | INTERNAL / reefmerge                             | student project;                                                                                                                                      |
 | INTERNAL / reefperf                              | student project;                                                                                                                                      |
-| INTERNAL / Training                              | only during training phase (going through training.md after onboarding);                                                                              |
+| INTERNAL / sociocracy                            | for s3 meetings, but also for chatting on the channel and for tuners |
+| INTERNAL / special assignment from CEO           | bill like this only when asked to |
+| INTERNAL / Training                              | only during training phase (going through [training](training.md) after onboarding);                                                                              |
 | OTHER / just-in-case                             | this is in case you need to work on a project before you are assigned to it; in this case raise the problem to the management and re-bill that time later to the proper project;|
 
 
@@ -247,7 +253,7 @@ To improve the security of our accounts, we require you to enable 2-step verific
 
 ### Create an account on GitHub
 
-Create a new account for GitHub. The suggested username is the first letter of the first name and the full last name, and the suffix `-reef`, eg. ` jkowalski-reef`.
+Create a new account for GitHub. The suggested username is the first letter of the first name and the full last name, and the suffix `-reef`, eg. `jkowalski-reef`.
 
 2-step authorization should enabled aswell.
 
@@ -255,14 +261,14 @@ Create a new account for GitHub. The suggested username is the first letter of t
 
 ### Set this repository as watched
 
-Go [here](https://github.com/reef-technologies/onboarding/subscription) and select ***watching***. This will send you an email whenever this repository is updated. This is useful to keep up with the training video/article list,  description of chat channels and meaning of projects in the time tracker.
+Go [here](https://github.com/reef-technologies/onboarding/subscription) and select ***watching***. This will send you an email whenever this repository is updated. This is useful to keep up with the training video/article list, description of chat channels and meaning of projects in the time tracker.
 
-**WARNING:** if the document was updated after you started reading it and before you set the repository to watched, you could miss an update. Check the latest changes [here](https://github.com/reef-technologies/onboarding/commits/master).
+**WARNING:** if the document was updated after you started reading it and before you set the repository to watched, you could miss an update. Check the latest changes [here](https://github.com/reef-technologies/onboarding/commits/master) after subscribing to updates.
 
 
 ## 6. Instant messengers
 
-We use Slack and Skype for business communications. You can also use them in your browser, but for convenience, they are installed on **the host computer**.
+We use Slack and [Zoom](zoom.us) for business communications. You can also use them in your browser, but for convenience, they are installed on **the host computer**.
 
 ### Slack
 
@@ -273,19 +279,22 @@ Using the desktop Slack application has a benefit of marking you as "available" 
 
 Channels:
 
+- `allocation` - every week PMs decide together how to allocate developer hours to best satisfy the needs of our customers
 - `#announcements` - business arrangements
 - `#default` - the default channel (if there is no dedicated channel for something, we use this one)
 - `management` - senior non-technical management (hiring etc)
 - `#opensource-candidates` - for discussion of what we should the opensource budget go to
 - `#opensource-operations` - channel for opensource project development
 - `#random` - all topics not directly related to work. If you read something interesting, don't hesitate to share with us.
-- `#reefmerge` - opensource student project related to conflict resolution
-- `#reefperf` - opensource student project related to cloud performance benchmarking
+- `#reefmerge` - opensource student project related to merge conflict resolution
+- `#reefperf` - opensource student project related to cloud application performance benchmarking
 - `#sales` - sales team sends notifications there about high quality leads, signed contracts etc
+- `#security` - for things like [heartbleed](http://heartbleed.com/), [shellshock](https://www.symantec.com/outbreak/?id=shellshock), [krack](https://www.krackattacks.com/), [poodle](https://www.us-cert.gov/ncas/alerts/TA14-290A), [venom](http://venom.crowdstrike.com/), [ghost](https://blog.qualys.com/laws-of-vulnerabilities/2015/01/27/the-ghost-vulnerability), [meltdown/spectre](https://meltdownattack.com/)
+- `sociocracy` - channel where sociocracy is coordinated (TODO: link to our S3 resources)
 - `staff` - internal staff channel
 - `tpm` - technical project managers (think Senior Developers) (allocation of engineers to projects etc)
 - `va` - for delegating things to Virtual Assistants
-- `#security` - for things like [heartbleed](http://heartbleed.com/), [shellshock](https://www.symantec.com/outbreak/?id=shellshock), [krack](https://www.krackattacks.com/), [poodle](https://www.us-cert.gov/ncas/alerts/TA14-290A), [venom](http://venom.crowdstrike.com/), [ghost](https://blog.qualys.com/laws-of-vulnerabilities/2015/01/27/the-ghost-vulnerability), [meltdown/spectre](https://meltdownattack.com/)
+- `#website` - discussion about our company website and its development
 
 (private channel names don't start with a `#`)
 
