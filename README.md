@@ -285,6 +285,7 @@ Channels:
 - `staff` - internal staff channel
 - `tpm` - technical project managers (think Senior Developers) (allocation of engineers to projects etc)
 - `va` - for delegating things to Virtual Assistants
+- `#security` - for things like [heartbleed](http://heartbleed.com/), [shellshock](https://www.symantec.com/outbreak/?id=shellshock), [krack](https://www.krackattacks.com/), [poodle](https://www.us-cert.gov/ncas/alerts/TA14-290A), [venom](http://venom.crowdstrike.com/), [ghost](https://blog.qualys.com/laws-of-vulnerabilities/2015/01/27/the-ghost-vulnerability), [meltdown/spectre](https://meltdownattack.com/)
 
 (private channel names don't start with a `#`)
 
