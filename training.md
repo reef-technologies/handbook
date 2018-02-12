@@ -63,6 +63,8 @@ Generally, whenever there is a temptation to use `@staticmethod`, just use `@cla
 
  - https://www.youtube.com/watch?v=cKPlPJyQrt4 - some advanced python patterns
  - https://www.youtube.com/watch?v=Bv25Dwe84g0 - Raymond Hettinger: Thinking about Concurrency
+ - https://hackernoon.com/asynchronous-python-45df84b82434 - Asynchronous Python
+ - https://hackernoon.com/async-through-the-looking-glass-d69a0a88b661 - Async Through the Looking Glass
 
 
 
