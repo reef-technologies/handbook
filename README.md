@@ -143,7 +143,7 @@ If a customer is from the same country as we are, the invoice we give him has a 
 
 #### It can save the contract and it can save you
 
-Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on it, then it's a good thing. Customer doesn't see us work in their office, so if there are no results, it is difficult to say whether someone is working hard but is fighting through a challenge, or whether somoene is not trying hard enough. As of writing this, the number of times when tracker was instrumental in preventing a rapid degradation of a relationship with a customer is: **4**.
+Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on it, then it's a good thing. Customer doesn't see us work in their office, so if there are no results, it is difficult to say whether someone is working hard but is fighting through a challenge, or whether somoene is not trying hard enough. As of writing this, the number of times when tracker was instrumental in preventing a rapid degradation of a relationship with a customer is: **5**.
 
 Trust is a fragile thing and the time tracker helps keeping it in a good shape.
 
