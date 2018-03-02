@@ -265,8 +265,25 @@ Go [here](https://github.com/reef-technologies/onboarding/subscription) and sele
 
 **WARNING:** if the document was updated after you started reading it and before you set the repository to watched, you could miss an update. Check the latest changes [here](https://github.com/reef-technologies/onboarding/commits/master) after subscribing to updates.
 
+### Avatars
 
-## 6. Instant messengers
+Please add your avatar to all programs that we use: Slack, Github, Hustaff, Jira/Bitbucket etc. It helps better identifying each other.
+
+## 6. Communication
+
+### 6.1 Sociocracy meetings - hand signals 
+
+We RT people have sociocracy meeting once in a week. We use simple hand signals to communicate effectively. Please remember to show a hand signal next to your nose. In such case a cam will catch your hand as well and the other people can see the hand signal properly.
+Let me explain in details: there are two regular situations during our meetings. A round and voting. During the round all of the people have a chance to say something. One by one. Sometimes you want to add something or otherwise you want to pass.
+-> when you want to tell sth just show "point up" :point_up:
+-> when you pass and you don’t want to say anything just show a "fist" :fist:
+During the voting you can signal:
+-> a consent, when you agree with the proposal formulated by a meeting moderator use "thumbsup" :thumbsup:
+-> a consideration, when you are not sure what to think and you don’t block the agreement, use hand with palm down 
+-> an objection, when you don’t agree with the proposal and you want to block an agreement, use hand with palm up :open_hands: (one hand is ehough but I couldn't find proper emoji)
+After the meeting we use to say goodbay with “spock hand” :spock-hand: or simply “a wave” :wave:
+
+### 6.2 Instant messengers
 
 We use Slack and [Zoom](zoom.us) for business communications. You can also use them in your browser, but for convenience, they are installed on **the host computer**.
 
@@ -318,9 +335,18 @@ Here are some rules to follow:
 - Do not use the company email for RSS, out of work stuff etc. This is to minimize distractions, which is pretty important for us.
 - Use pomodoro, pair programming or other time organization method.
 
+### 7.1 Attending conferences - refunding rules.
+
+Let’s assume that there is a conference you want to attend. 
+Let’s assume that we reach and agreement and we find your attendance in this conference valuable for Reef Technologies.
+-> We don’t pay for hours spent on conference
+-> We’ll fund your conference ticket
+-> We’ll fund your train/bus ticket
+-> We’ll fund your stay (airbnb for example) if the price is reasonable
+
 ## 8. Tools
 
-### Pomotodo timer
+### Pomodoro timer
 
 [Marinara: Pomodoro Timer](https://chrome.google.com/webstore/detail/marinara-pomodoro-timer/lojgmehidjdhhbmpjfamhpkpodfcodef)
 
