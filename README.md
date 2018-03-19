@@ -66,7 +66,7 @@ The first step you will take is to sign in to your new Google account at `reef.p
 
 **Caution!**
 
-First sign in you make is from the host computer, as it is necessary to install the time tracking application. This is the one and only situation when you logging in from your host machine. 
+First sign in you make is from the host computer, as it is necessary to install the time tracking application. This is the one and only situation when you logging in from your host machine.
 
 ### Time tracking app
 
@@ -265,12 +265,33 @@ Go [here](https://github.com/reef-technologies/onboarding/subscription) and sele
 
 **WARNING:** if the document was updated after you started reading it and before you set the repository to watched, you could miss an update. Check the latest changes [here](https://github.com/reef-technologies/onboarding/commits/master) after subscribing to updates.
 
+### Avatars
 
-## 6. Instant messengers
+Please add your photo (one that shows your face clearly without sunglasses etc) to all services that we use: Slack, Github, time tracker, Trello, Atlassian account etc. It is important to do so especially on non-small teams, but everywhere in context of communication with the customer (or ourselves) we want to recognize ourselves as human beings. Cultural differences, timezones and language barriers make communication a challenge - lets make it at least slightly easier by showing a smiling face to the customer and his team.
 
-We use Slack and [Zoom](zoom.us) for business communications. You can also use them in your browser, but for convenience, they are installed on **the host computer**.
 
-### Slack
+## 6. Communication
+
+### 6.1 Video hand signal protocol
+
+We use simple hand signals during video calls to communicate more efficiently.
+
+||sign||meaning||context||
+|:fist:|pass (no comment)|moderated discussion|
+|:point_up:|requesting voice|moderated discussion|
+|:thumbsup:|vote "consent"|S3 decision making|
+|hand with palm down|vote "concerned"|S3 decision making|
+|hand with palm up|vote "protest"|S3 decision making|
+|:spock-hand: or :wave:|ready to disconnect the call|call coming to an end|
+
+in case of decision making or closing the call, everyone holds the sign until everyone else does - this way the situation is clear at a glance. In the past we used to show a sign for a moment, but then the quick responders hid their signals before the slow ones started signing and it was not clear what the situation is. Now we hold until everything is clear.
+
+
+### 6.2 Instant messengers
+
+We use Slack and [Zoom](zoom.us) for business communications. You could use them in your browser, but for convenience, those are usually installed on **the host computer**.
+
+#### Slack
 
 In your company e-mail inbox is waiting for you message with the invitation to the team reeftechnologies.slack.com. Right after signing in, remember to fill field for your phone number in your account settings. Remember to **add your country-specific prefix number**, e.g. for Poland it is `+48`. This is important when someone is working from different countries.
 
@@ -304,9 +325,6 @@ the rest of the channels are customer- or project-specific. Only people involved
 
 Do not forget to say hello to us on #random :)
 
-### Skype
-
-For Skype you can use your private account. If you do not want to do this, create a new account in the same format as your GitHub account.
 
 ## 7. Rules
 
@@ -316,11 +334,20 @@ Here are some rules to follow:
 - If you are a junior and you get stuck - ask for help. Really, really, really do.
 - If there is time where you are working but you are not able to bill it, escalate it immediately. We are trying to avoid it.
 - Do not use the company email for RSS, out of work stuff etc. This is to minimize distractions, which is pretty important for us.
-- Use pomodoro, pair programming or other time organization method.
+- Try to use pomodoro, pair programming or other time organization method.
+
+### 7.1 Conferences
+
+If there is a conference you'd like to attend and we agree that your attendance would be valuable for the company.
+- The company fund your conference ticket
+- The company fund your train/bus ticket
+- The company fund your stay if the price is reasonable (airbnb seems to lead here)
+- The company will not pay for the time spent on conference
+
 
 ## 8. Tools
 
-### Pomotodo timer
+### Pomodoro timer
 
 [Marinara: Pomodoro Timer](https://chrome.google.com/webstore/detail/marinara-pomodoro-timer/lojgmehidjdhhbmpjfamhpkpodfcodef)
 
@@ -340,7 +367,7 @@ apt-get install secure-delete
 
 ##### _Do we have CI?_
 &nbsp;&nbsp;&nbsp; So far we used wercker because it is free for github private, but we are scheduled to try to switch over to GitLab.
-  
+
 ##### _How to re-bill my time to a different project?_
 &nbsp;&nbsp;&nbsp; In case you billed time to a wrong project, [here](docs/Hubstaff.md) is a step-by-step guide how to fix it.
 
