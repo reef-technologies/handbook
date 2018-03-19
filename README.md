@@ -66,7 +66,7 @@ The first step you will take is to sign in to your new Google account at `reef.p
 
 **Caution!**
 
-First sign in you make is from the host computer, as it is necessary to install the time tracking application. This is the one and only situation when you logging in from your host machine. 
+First sign in you make is from the host computer, as it is necessary to install the time tracking application. This is the one and only situation when you logging in from your host machine.
 
 ### Time tracking app
 
@@ -271,7 +271,7 @@ Please add your avatar to all programs that we use: Slack, Github, Hustaff, Jira
 
 ## 6. Communication
 
-### 6.1 Sociocracy meetings - hand signals 
+### 6.1 Sociocracy meetings - hand signals
 
 We RT people have sociocracy meeting once in a week. We use simple hand signals to communicate effectively. Please remember to show a hand signal next to your nose. In such case a cam will catch your hand as well and the other people can see the hand signal properly.
 Let me explain in details: there are two regular situations during our meetings. A round and voting. During the round all of the people have a chance to say something. One by one. Sometimes you want to add something or otherwise you want to pass.
@@ -279,7 +279,7 @@ Let me explain in details: there are two regular situations during our meetings.
 -> when you pass and you don’t want to say anything just show a "fist" :fist:
 During the voting you can signal:
 -> a consent, when you agree with the proposal formulated by a meeting moderator use "thumbsup" :thumbsup:
--> a consideration, when you are not sure what to think and you don’t block the agreement, use hand with palm down 
+-> a consideration, when you are not sure what to think and you don’t block the agreement, use hand with palm down
 -> an objection, when you don’t agree with the proposal and you want to block an agreement, use hand with palm up :open_hands: (one hand is ehough but I couldn't find proper emoji)
 After the meeting we use to say goodbay with “spock hand” :spock-hand: or simply “a wave” :wave:
 
@@ -337,7 +337,7 @@ Here are some rules to follow:
 
 ### 7.1 Attending conferences - refunding rules.
 
-Let’s assume that there is a conference you want to attend. 
+Let’s assume that there is a conference you want to attend.
 Let’s assume that we reach and agreement and we find your attendance in this conference valuable for Reef Technologies.
 -> We don’t pay for hours spent on conference
 -> We’ll fund your conference ticket
@@ -366,7 +366,7 @@ apt-get install secure-delete
 
 ##### _Do we have CI?_
 &nbsp;&nbsp;&nbsp; So far we used wercker because it is free for github private, but we are scheduled to try to switch over to GitLab.
-  
+
 ##### _How to re-bill my time to a different project?_
 &nbsp;&nbsp;&nbsp; In case you billed time to a wrong project, [here](docs/Hubstaff.md) is a step-by-step guide how to fix it.
 
