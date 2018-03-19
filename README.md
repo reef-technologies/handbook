@@ -267,7 +267,8 @@ Go [here](https://github.com/reef-technologies/onboarding/subscription) and sele
 
 ### Avatars
 
-Please add your avatar to all programs that we use: Slack, Github, Hustaff, Jira/Bitbucket etc. It helps better identifying each other.
+Please add your photo (one that shows your face clearly without sunglasses etc) to all services that we use: Slack, Github, time tracker, Trello, Atlassian account etc. It is important to do so especially on non-small teams, but everywhere in context of communication with the customer (or ourselves) we want to recognize ourselves as human beings. Cultural differences, timezones and language barriers make communication a challenge - lets make it at least slightly easier by showing a smiling face to the customer and his team.
+
 
 ## 6. Communication
 
