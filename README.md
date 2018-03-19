@@ -334,16 +334,16 @@ Here are some rules to follow:
 - If you are a junior and you get stuck - ask for help. Really, really, really do.
 - If there is time where you are working but you are not able to bill it, escalate it immediately. We are trying to avoid it.
 - Do not use the company email for RSS, out of work stuff etc. This is to minimize distractions, which is pretty important for us.
-- Use pomodoro, pair programming or other time organization method.
+- Try to use pomodoro, pair programming or other time organization method.
 
-### 7.1 Attending conferences - refunding rules.
+### 7.1 Conferences
 
-Let’s assume that there is a conference you want to attend.
-Let’s assume that we reach and agreement and we find your attendance in this conference valuable for Reef Technologies.
--> We don’t pay for hours spent on conference
--> We’ll fund your conference ticket
--> We’ll fund your train/bus ticket
--> We’ll fund your stay (airbnb for example) if the price is reasonable
+If there is a conference you'd like to attend and we agree that your attendance would be valuable for the company.
+- The company fund your conference ticket
+- The company fund your train/bus ticket
+- The company fund your stay if the price is reasonable (airbnb seems to lead here)
+- The company will not pay for the time spent on conference
+
 
 ## 8. Tools
 
