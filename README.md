@@ -272,23 +272,26 @@ Please add your photo (one that shows your face clearly without sunglasses etc) 
 
 ## 6. Communication
 
-### 6.1 Sociocracy meetings - hand signals
+### 6.1 Video hand signal protocol
 
-We RT people have sociocracy meeting once in a week. We use simple hand signals to communicate effectively. Please remember to show a hand signal next to your nose. In such case a cam will catch your hand as well and the other people can see the hand signal properly.
-Let me explain in details: there are two regular situations during our meetings. A round and voting. During the round all of the people have a chance to say something. One by one. Sometimes you want to add something or otherwise you want to pass.
--> when you want to tell sth just show "point up" :point_up:
--> when you pass and you don’t want to say anything just show a "fist" :fist:
-During the voting you can signal:
--> a consent, when you agree with the proposal formulated by a meeting moderator use "thumbsup" :thumbsup:
--> a consideration, when you are not sure what to think and you don’t block the agreement, use hand with palm down
--> an objection, when you don’t agree with the proposal and you want to block an agreement, use hand with palm up :open_hands: (one hand is ehough but I couldn't find proper emoji)
-After the meeting we use to say goodbay with “spock hand” :spock-hand: or simply “a wave” :wave:
+We use simple hand signals during video calls to communicate more efficiently.
+
+||sign||meaning||context||
+|:fist:|pass (no comment)|moderated discussion|
+|:point_up:|requesting voice|moderated discussion|
+|:thumbsup:|vote "consent"|S3 decision making|
+|hand with palm down|vote "concerned"|S3 decision making|
+|hand with palm up|vote "protest"|S3 decision making|
+|:spock-hand: or :wave:|ready to disconnect the call|call coming to an end|
+
+in case of decision making or closing the call, everyone holds the sign until everyone else does - this way the situation is clear at a glance. In the past we used to show a sign for a moment, but then the quick responders hid their signals before the slow ones started signing and it was not clear what the situation is. Now we hold until everything is clear.
+
 
 ### 6.2 Instant messengers
 
-We use Slack and [Zoom](zoom.us) for business communications. You can also use them in your browser, but for convenience, they are installed on **the host computer**.
+We use Slack and [Zoom](zoom.us) for business communications. You could use them in your browser, but for convenience, those are usually installed on **the host computer**.
 
-### Slack
+#### Slack
 
 In your company e-mail inbox is waiting for you message with the invitation to the team reeftechnologies.slack.com. Right after signing in, remember to fill field for your phone number in your account settings. Remember to **add your country-specific prefix number**, e.g. for Poland it is `+48`. This is important when someone is working from different countries.
 
@@ -322,9 +325,6 @@ the rest of the channels are customer- or project-specific. Only people involved
 
 Do not forget to say hello to us on #random :)
 
-### Skype
-
-For Skype you can use your private account. If you do not want to do this, create a new account in the same format as your GitHub account.
 
 ## 7. Rules
 
