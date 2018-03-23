@@ -286,14 +286,18 @@ We use simple hand signals during video calls to communicate more efficiently.
 
 in case of decision making or closing the call, everyone holds the sign until everyone else does - this way the situation is clear at a glance. In the past we used to show a sign for a moment, but then the quick responders hid their signals before the slow ones started signing and it was not clear what the situation is. Now we hold until everything is clear.
 
+### 6.2 Communication channels
 
-### 6.2 Instant messengers
+When you need to contact one of Reef teammates you have three communication channels: slack, SMS and phone.
+First, we try to connect each other via slack. Then you can contact via phone and finally SMS or the other way around: SMS then phone. Everyone has a descripion "phone -> SMS" or "SMS -> phone" under his/her picture in slack. Please choose which sequence suits you better and we will respect this. Please check and expect ours (contact preferences).
+
+### 6.3 Instant messengers
 
 We use Slack and [Zoom](zoom.us) for business communications. You could use them in your browser, but for convenience, those are usually installed on **the host computer**.
 
 #### Slack
 
-In your company e-mail inbox is waiting for you message with the invitation to the team reeftechnologies.slack.com. Right after signing in, remember to fill field for your phone number in your account settings. Remember to **add your country-specific prefix number**, e.g. for Poland it is `+48`. This is important when someone is working from different countries.
+In your company e-mail inbox is waiting for you message with the invitation to the team reeftechnologies.slack.com. Right after signing in, remember to fill field for your phone number in your account settings. Remember to **add your country-specific prefix number**, e.g. for Poland it is `+48`. This is important when someone is working from different countries. Another important information is the sequence "phone -> SMS" or "SMS -> phone" under your picture.
 
 Using the desktop Slack application has a benefit of marking you as "available" on all the slack servers. If you use a browser, you are shown as only on the tab that you currently have on your screen.
 
