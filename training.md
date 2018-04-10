@@ -32,7 +32,8 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://chris.beams.io/posts/git-commit/ - How to Write a Git Commit Message. Painfully long, but sets the standard for everyone to follow.
 
 #### any junior coders
- - https://git-scm.com/book/ - how to git. Read if you don't know how to.
+ - https://git-scm.com/book/ - how to git
+ - https://semver.org - a version number convention
 
 ### all backend coders
 
