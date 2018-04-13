@@ -16,6 +16,7 @@ You are expected to see everything that matches your position within two weeks f
  - http://randsinrepose.com/archives/be-unfailingly-kind/ - 100% effective guide on how to work efficiently with people when you have no power over them. Actually, it always works.
  - https://techblog.bozho.net/gdpr-practical-guide-developers/ - GDPR - A Practical Guide For Developers
  - https://youtu.be/eYMz-VOw4r8 - James Priest - Agile, decentralized Learning Organizations With Sociocracy 3.0
+ - https://www.linkedin.com/pulse/77-elements-sociocracy-30-ewa-koprowska/ - Ewa Koprowska - 77 Elements of Sociocracy 3.0
  
 # Technical staff
 (coders, sysops, devops etc - people who primarily work with machines)
