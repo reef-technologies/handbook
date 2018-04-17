@@ -224,6 +224,8 @@ Copy the .bashrc file into your home directory
 $ cp .bashrc ~/
 ```
 
+In order for this to take effect, relog your shell or run `. .bashrc`
+
 ### Docker
 
 Add your user to `docker` group:
