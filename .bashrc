@@ -146,4 +146,7 @@ export EDITOR="$VISUAL"
 # fix mouse pasting stuff ~0like this~1
 printf "\e[?2004l"
 
-# eval `keychain --eval id_ed25519`
+PROMPT_COMMAND="history -a;history -c;history -r;$PROMPT_COMMAND"
+
+eval `keychain --eval id_ed25519`
+eval "$(direnv hook bash)"
