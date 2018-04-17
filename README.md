@@ -187,8 +187,11 @@ $ sudo apt install \
 	python3-pip \
 	python3-setuptools \
 	python3-virtualenv \
-	virtualenvwrapper \
 	direnv
+```
+
+```bash
+$ sudo pip3 install virtualenvwrapper
 ```
 
 ## 4. Initial configuration (bash, git, ssh)
