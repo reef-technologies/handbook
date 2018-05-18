@@ -282,9 +282,11 @@ Please add your photo (one that shows your face clearly without sunglasses etc) 
 
 We use simple hand signals during video calls to communicate more efficiently.
 
-||sign||meaning||context||
-|:fist:|pass (no comment)|moderated discussion|
-|:point_up:|requesting voice|moderated discussion|
+| sign | meaning | context |
+|--- | --- | --- |
+|hand with palm down|vote "concerned"|S3 decision making|
+| :fist: | pass (no comment) | moderated discussion |
+| :point_up: | requesting voice | moderated discussion | 
 |:thumbsup:|vote "consent"|S3 decision making|
 |hand with palm down|vote "concerned"|S3 decision making|
 |hand with palm up|vote "protest"|S3 decision making|
