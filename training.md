@@ -34,6 +34,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://chris.beams.io/posts/git-commit/ - How to Write a Git Commit Message. Painfully long, but sets the standard for everyone to follow.
 
 #### any junior coders
+
  - https://git-scm.com/book/ - how to git
  - https://semver.org - a version number convention
 
@@ -43,6 +44,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://thehftguy.com/2016/11/01/docker-in-production-an-history-of-failure/ and https://thehftguy.com/2017/02/23/docker-in-production-an-update/ - on current state of Docker
  - http://cryto.net/~joepie91/blog/2015/07/19/why-you-should-never-ever-ever-use-mongodb/ - Why you should never, ever, ever use MongoDB. NOTE: read that until you are sure you will never use it. If you are still not convinced after reading it, read [this](https://blog.scrapinghub.com/2013/05/13/mongo-bad-for-scraped-data/), if you are still not convinced, try [this](http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/comment-page-1/) and if you still are not entirely sure, speak up on `#default`, someone will help you.
  - https://www.jasondavies.com/bloomfilter/ - a data structure used for lookup speedups, in databases among other uses
+ - https://arp242.net/weblog/yaml_probably_not_so_great_after_all.html - YAML: probably not so great after all
 
 ### all python coders
 
