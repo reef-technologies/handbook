@@ -286,7 +286,6 @@ We use simple hand signals during video calls to communicate more efficiently.
 
 | sign | meaning | context |
 |--- | --- | --- |
-|hand with palm down|vote "concerned"|S3 decision making|
 | :fist: | pass (no comment) | moderated discussion |
 | :point_up: | requesting voice | moderated discussion | 
 |:thumbsup:|vote "consent"|S3 decision making|
