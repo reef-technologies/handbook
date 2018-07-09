@@ -101,6 +101,10 @@ Generally, whenever there is a temptation to use `@staticmethod`, just use `@cla
  - www.crisp.se/henrik.kniberg/How-we-got-rid-of-time-reports.pdf - inspiring story of Henrik Kniberg fighting bureaucracy with success
  - https://www.youtube.com/watch?v=N8KXxfF4dtg - Jurgen Appelo - Keynote: Managing for Happiness
  - https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884270610 - about theory of constraints. Beware, The Goal is written (very much like a good story|using NLP), so you won't even feel that you are learning, but you will be smarter after you finish it.
+ - https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959 - Frederick P. Brooks Jr: The Mythical Man-Month
+ - https://www.amazon.com/Managing-Humans-Humorous-Software-Engineering/dp/1430243147 - Michael Lopp: Managing Humans: Biting and Humorous Tales of a Software Engineering Manager
+ - https://www.amazon.com/Management-3-0-Developers-Developing-Addison-Wesley/dp/0321712471 - Jurgen Appelo: Management 3.0: Leading Agile Developers, Developing Agile Leaders
+ - https://www.amazon.com/Minute-Manager-Kenneth-Blanchard-Ph-D/dp/074350917X - Kenneth Blanchard Ph.D., Spencer Johnson M.D.: The One Minute Manager
 
 
 # bonus material
