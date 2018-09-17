@@ -55,6 +55,8 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://www.youtube.com/watch?v=p33CVV29OG8 - Modern Dictionaries by Raymond Hettinger
  - http://www.laurentluce.com/posts/python-dictionary-implementation/ - how are the python (pre-3.6?) dictionaries implemented and why is it necessary to add an item to a python dictionary that was emptied, to reduce the memory usage.
  - https://www.youtube.com/watch?v=EiOglTERPEo - Raymond Hettinger - `super()` considered super!
+ - https://pypi.org/project/indexed.py/ - A dictionary that is indexed by insertion order
+ - https://more-itertools.readthedocs.io/en/latest/ - a library of rarely useful itertools functions. It's better to use this than to write it yourself
 
 ### junior python developer
 
