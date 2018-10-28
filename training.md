@@ -57,6 +57,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://www.youtube.com/watch?v=EiOglTERPEo - Raymond Hettinger - `super()` considered super!
  - https://pypi.org/project/indexed.py/ - A dictionary that is indexed by insertion order
  - https://more-itertools.readthedocs.io/en/latest/ - a library of rarely useful itertools functions. It's better to use this than to write it yourself
+ - https://benbernardblog.com/tracking-down-a-freaky-python-memory-leak/ - if you ever need to track memory leaks, see here first
 
 ### junior python developer
 
