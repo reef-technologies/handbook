@@ -109,6 +109,9 @@ Generally, whenever there is a temptation to use `@staticmethod`, just use `@cla
  - https://www.amazon.com/Management-3-0-Developers-Developing-Addison-Wesley/dp/0321712471 - Jurgen Appelo: Management 3.0: Leading Agile Developers, Developing Agile Leaders
  - https://www.amazon.com/Minute-Manager-Kenneth-Blanchard-Ph-D/dp/074350917X - Kenneth Blanchard Ph.D., Spencer Johnson M.D.: The One Minute Manager
 
+## Lean project managers
+
+ - https://www.youtube.com/watch?v=rHdS_4GsKmg - Clayton Christensen: Where does Growth come from? (video about Jobs To Be Done (JTBD))
 
 # bonus material
  - https://docs.google.com/a/reef.pl/document/d/1IkixAHnuAFWPlDDPIcRg2RIYsQTVOpq26TqwZPgPSCo/edit?usp=sharing - Document with Reef employees' skills (I can help you with) and wishes (I would (not) like to work with). This information in taken into account while selecting the project process
