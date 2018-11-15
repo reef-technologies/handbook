@@ -17,7 +17,18 @@ You are expected to see everything that matches your position within two weeks f
  - https://techblog.bozho.net/gdpr-practical-guide-developers/ - GDPR - A Practical Guide For Developers
  - https://youtu.be/eYMz-VOw4r8 - James Priest - Agile, decentralized Learning Organizations With Sociocracy 3.0
  - https://www.linkedin.com/pulse/77-elements-sociocracy-30-ewa-koprowska/ - Ewa Koprowska - 77 Elements of Sociocracy 3.0
- 
+
+## business travel
+(skip it initially, but see before traveling)
+
+ - https://www.youtube.com/watch?v=gYpuPZYrd2M - why one should wear a seatbelt while in a car (WARNING: it's a drastic, but effective explanation)
+ - why you should never talk to the police (keep watching until you are convinced):
+   - https://www.youtube.com/watch?v=d-7o9xYp7eE - Don't talk to the police (it has two completely different parts that show different angles)
+   - https://www.youtube.com/watch?v=EEUhE0NbinA - You Have the Right to Remain Innocent with Professor James Duane (shows more very specific examples of why it's *never*)
+ - in EU your national id card needs to be valid for at least 3 months after you plan to come back (EU has a weird way of interpreting "valid until" date)
+ - choose a Bed & Breakfast place close to the target venue
+ - if going with other people, try to book everyone into the same hotel so that you can have breakfast together
+
 # Technical staff
 (coders, sysops, devops etc - people who primarily work with machines)
 
