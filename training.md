@@ -119,6 +119,7 @@ Generally, whenever there is a temptation to use `@staticmethod`, just use `@cla
  - https://www.amazon.com/Managing-Humans-Humorous-Software-Engineering/dp/1430243147 - Michael Lopp: Managing Humans: Biting and Humorous Tales of a Software Engineering Manager
  - https://www.amazon.com/Management-3-0-Developers-Developing-Addison-Wesley/dp/0321712471 - Jurgen Appelo: Management 3.0: Leading Agile Developers, Developing Agile Leaders
  - https://www.amazon.com/Minute-Manager-Kenneth-Blanchard-Ph-D/dp/074350917X - Kenneth Blanchard Ph.D., Spencer Johnson M.D.: The One Minute Manager
+ - https://youtu.be/u0LDhtoWiGg?t=2437 - Angel Medinilla - a snippet of a presentation which explains how personal goals end up working on teams
 
 ## Lean project managers
 
