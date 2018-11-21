@@ -308,6 +308,8 @@ We use Slack and [Zoom](zoom.us) for business communications. You could use them
 
 In your company e-mail inbox is waiting for you message with the invitation to the team reeftechnologies.slack.com. Right after signing in, remember to fill field for your phone number in your account settings. Remember to **add your country-specific prefix number**, e.g. for Poland it is `+48`. This is important when someone is working from different countries. Another important information is the sequence "phone -> SMS" or "SMS -> phone" under your picture.
 
+If you want to acknowledge a slack message, you can use `ctrl+shift+\, 1, enter` to quickly make a :+1: reaction. It is better than writing "ok", especially if there are many acknowledgers - reactions prevent half of the conversation from being filled with "ok" / "right" / "I see" messages.
+
 Using the desktop Slack application has a benefit of marking you as "available" on all the slack servers. If you use a browser, you are shown as only on the tab that you currently have on your screen. Therefore you should use the desktop application, not the browser.
 
 
