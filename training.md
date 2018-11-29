@@ -17,6 +17,7 @@ You are expected to see everything that matches your position within two weeks f
  - https://techblog.bozho.net/gdpr-practical-guide-developers/ - GDPR - A Practical Guide For Developers
  - https://youtu.be/eYMz-VOw4r8 - James Priest - Agile, decentralized Learning Organizations With Sociocracy 3.0
  - https://www.linkedin.com/pulse/77-elements-sociocracy-30-ewa-koprowska/ - Ewa Koprowska - 77 Elements of Sociocracy 3.0
+ - https://people.neilon.software/ - Neil Green - How to Deal with Difficult People on Software Projects
 
 ## Business travel
 
