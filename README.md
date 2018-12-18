@@ -381,6 +381,12 @@ The "srm" tool which securely deletes data. We use it to wipe the repos (despite
 apt-get install secure-delete
 ```
 
+To remove the docker containers created while working on a project, please use following command (get "dockerkill.sh" from bin directory of this repo):
+
+```bash
+./dockerkill.sh <container-name>
+```
+
 # FAQ - Frequently Asked Questions
 
 ##### _What's a virtual assistant?_
