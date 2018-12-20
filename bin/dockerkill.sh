@@ -16,12 +16,12 @@ select container_id in $(docker ps -a --filter "name=$containername" --format '{
 do 
   echo "Removing: $container_id"
   # stop any running containers
-  echo $container_id | awk '{print $1}' | xargs docker stop ;
+  echo "$container_id" | awk '{print $1}' | xargs docker stop ;
 
   # remove the container
-  echo $container_id | awk '{print $1}' | xargs docker rm ;
-
-  docker rmi $(docker images -q -f dangling=true)
+  echo "$container_id" | awk '{print $1}' | xargs docker rm ;
 done
+
+docker rmi "$(docker images -q -f dangling=true)"
 
 IFS="$OLD_IFS"
