@@ -27,11 +27,9 @@ Enter the project managers. Those are people particularly skilled at risk manage
 
 ## Projects
 
-We avoid fixed scope projects. TODO: why
+We avoid fixed scope projects. The reason for that is that we want to focus on creation of software and not on amending contracts.
 
 We will not accept a project targeted to manipulate and rip people off from their savings such as insurance+retirement funds.
-
-There has been a point here about armed rocket navigation systems, but then someone said a low quality navigation system may cause the rocket to miss (hit something/someone else), then the attacker would fire another one (and maybe miss again due to the same bug). So that point is no longer clearly a no-go.
 
 
 ## Opensource
@@ -343,14 +341,15 @@ Do not forget to say hello to us on #random :)
 
 ## 7. Rules
 
-Here are some rules to follow:
+Here are some miscellaneous rules to follow, that were hard to put in some other categories, so they were all collected here:
 
 - When a meeting starts, decide where to bill it.
-- If you are a junior and you get stuck - ask for help. Really, really, really do.
+- If you are a junior and you get stuck - ask for help. Really, really, really do. Do not spend 2 days trying to solve something a senior peer could help you go through in 10 minutes. Ask on the project slack and if that's not possible, use our `#default`. 
 - If you are a developer, always perform basic functional testing of your code and self-review your PR before you give it to a peer for review.
 - If there is time where you are working but you are not able to bill it, escalate it immediately. We are trying to avoid it.
 - It is forbidden to transfer any customer data through a non-encrypted channel. Use https and ssh tunnels when necessary.
 - It is forbidden to store customer data on a non-encrypted device. Use fully encrypted systems (or virtual machines with images stored on encrypted partitions, where the host machine has a disabled swap file, or where swap is encrypted).
+- Try to avoid task switching, especially project switching. Generally, we do our best to switch only on "break points", which are moments where you loose concentration on the task at hand, such as end of working day, going away for lunch, end of a task. This means that if a new task appears on a high priority project, you will not switch to it immediately, but rather only after finishing what you are doing, or first thing next day etc. Usually you should have at most one project switch per day.
 - Avoid `ssh -A`, also called `ForwardAgent` (except for jb). If we use it on a server owned by a customer and it gets hacked, someone could potentially set a trap for us and authorize using our key. The better way is to use deployment keys on the customer server to access the repository.
 - Do not use the company email for RSS, out of work stuff etc. This is to minimize distractions, which is pretty important for us.
 - Try to use pomodoro, pair programming or other time organization method.
