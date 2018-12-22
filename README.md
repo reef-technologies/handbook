@@ -351,6 +351,7 @@ Here are some rules to follow:
 - If there is time where you are working but you are not able to bill it, escalate it immediately. We are trying to avoid it.
 - It is forbidden to transfer any customer data through a non-encrypted channel. Use https and ssh tunnels when necessary.
 - It is forbidden to store customer data on a non-encrypted device. Use fully encrypted systems (or virtual machines with images stored on encrypted partitions, where the host machine has a disabled swap file, or where swap is encrypted).
+- Avoid `ssh -A`, also called `ForwardAgent` (except for jb). If we use it on a server owned by a customer and it gets hacked, someone could potentially set a trap for us and authorize using our key. The better way is to use deployment keys on the customer server to access the repository.
 - Do not use the company email for RSS, out of work stuff etc. This is to minimize distractions, which is pretty important for us.
 - Try to use pomodoro, pair programming or other time organization method.
 
