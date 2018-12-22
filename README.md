@@ -13,7 +13,9 @@ This should have been covered on a recruitment call, but it is very important, s
  - happy customers
  - high quality code in the repository
 
-That's it.
+That's it. It may be surprising that there is no "happy employees" entry on the list - this is because it would assume we know what makes people happy.
+
+We use Sociocracy 3.0 decision making process to give control over the environment to the company staff. They might choose to use that power to do changes to how company works (and they do!), which might increase their happiness. This works surprisingly well.
 
 
 ## Deadlines and estimates
