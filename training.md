@@ -51,6 +51,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://www.jasondavies.com/bloomfilter/ - a data structure used for lookup speedups, in databases among other uses
  - http://thesecretlivesofdata.com/raft/ - demo of RAFT, a consensus algorithm
  - https://arp242.net/weblog/yaml_probably_not_so_great_after_all.html - YAML: probably not so great after all
+ - https://rock-it.pl/how-to-write-excellent-dockerfiles/ - (somewhat outdated) information about good dockerfile creation (reducing amount of layers by multi-stage build was added after this guide was written)
 
 ### all python coders
 
