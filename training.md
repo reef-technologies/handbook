@@ -83,6 +83,9 @@ Generally, whenever there is a temptation to use `@staticmethod`, just use `@cla
  - https://hackernoon.com/async-through-the-looking-glass-d69a0a88b661 - Async Through the Looking Glass
  - https://www.dabapps.com/blog/api-performance-profiling-django-rest-framework/ - on where the time is spent in DRF-based APIs and what to do with it
 
+### senior python developer
+
+ - https://realpython.com/modeling-polymorphism-django-python/ - Modeling Polymorphism in Django With Python
 
 
 # Non-technical staff
