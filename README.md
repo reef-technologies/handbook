@@ -402,8 +402,12 @@ To remove the docker containers created while working on a project, please use f
 
 ##### _Why all communication (exept 1to1) is in English?_
 &nbsp;&nbsp;&nbsp; Pawel: Let me tell you a story. There was an Python office in Warsaw in which most employees were from Poland, but eventually the company started hiring foreigners, so there were some of them in the office too. They could not understand the conversation in the kitchen, which was awkward for both sides, so a rule was mandated, to switch to English as soon as a foreigner enters the room.
+
 One day, a foreigner walked through the corridor and overheard laughter in the kitchen. As soon as he arrived, however, everyone went silent, finishing the conversation. Turns out that switching the language mid-conversation is not an effortless task. In that company, foreigners were discriminated every day. They were excluded from gossip and whenever they entered the room, with high probablility they have stopped any conversation that was ongoing at that place.
+
 We've had a foreigner with us for a few days, so we switched then and just didn't switch back. If we did, the next one joining the company could be a source of resentment. There would also be a problem with chat history. One of the things we proudly offer to members of our staff, is respect. I like to think that by keeping communication in English, we show respect to the person that is one day going to join the company and have as little friction as possible.
+
+UPDATE: now we have several staff members who don't know a word of Polish, so the story above is no longer relevant for the purpose of explaining why we communicate in English... but I am leaving it here because it shows a part of our culture: it's ok for all of us to be slightly inconvenienced, to make sure that we properly respect another staff member, even when he or she does not exist yet.
 
 
 # Handbook document improvement
