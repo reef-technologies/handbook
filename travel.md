@@ -29,6 +29,10 @@
    - if the pilot suddenly enables the seatbelt sign, this could mean he has seen something big and unavoitable on the weather radar and you now have less than 30 seconds to hit turbulence
  - be extremely nice to cabin crew. This never hurts.
 
+#### Boarding in a group
+
+- https://youtu.be/oAHbLRjF0vo - effectiveness of various methods of boarding
+
 ### Authorities
 
  - why you should never talk to the police. Keep watching until you are convinced:
