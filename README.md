@@ -38,7 +38,7 @@ We will not accept a project targeted to manipulate and rip people off from thei
 
 When there is no task for you in commercial projects, don't worry - before someone finds a task for you, you can work on opensource projects and get paid for it! Opensource is a "default" project for all coders and generally has lower priority than commercial projects, but it sometimes happens that there are no tasks in any commercial project for you, so then you have something to fall back to. This is usually true in the first couple of days of work with us, where formalities of assignment to project are being taken care of.
 
-Time spent on opensource development should be billed on `INTERNAL / opensource development`. If you find some interesting opensource projects or particular issues, don't be shy to write about it on `#opensource-candidates` channel on slack.
+Time spent on opensource development should be billed on `RT / opensource development`. If you find some interesting opensource projects or particular issues, don't be shy to write about it on `#opensource-candidates` channel on slack.
 
 When starting work on an opensource project, ensure that it is forked on our github (if it's not, post a request on `#opensource-operations`). Then create branch for your change and develop your changes there. When finished, ask other company developers for review. Finally, when review is done, submit a pull request to the original project repository (we call it "upstream"). Because this code is opensourced and public, we want to ensure the best possible quality of code released by members of our company.
 
@@ -83,39 +83,37 @@ If you will ever wonder how hubstaff calculates the activity levels, here is a h
 
 As it turns out, people find this document before they sign a contract with us and before their tracker account is created. Then they work on preparing their environment even before they have access to the tracker. If you are one of those people, please, use something (free [toptracker](https://www.toptal.com/tracker/) maybe?) to track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can later fairly compensate you for this time.
 
-#### INTERNAL projects
-Below you can find the list of INTERNAL projects alongside with their descriptions.
-Descriptions tell you where you should bill your INTERNAL time on hubstaff.
+#### RT projects
+Below you can find the list of RT projects alongside with their descriptions.
+Descriptions tell you where you should bill your RT time on hubstaff.
 
 | Project                                          | Description                                                                                                                                           |
 | -----------------------------------------------  | ----------------------------------------------------------------------------------------------------------------------------------------------------  |
-| INTERNAL / content marketing                     | writing articles or blog posts under company name; presenting company in the outside world;                                                           |
-| INTERNAL / django application dockerization      | modifying our internal django docker template project;                                                                                                |
-| INTERNAL / finding new partners                  | time spent on finding new partners/customers;                                                                                                         |
-| INTERNAL&nbsp;/&nbsp;internal&nbsp;infrastructure&nbsp;management    | anything related to preparing your workspace to work; creating encrypted partitions, installing vms or any software needed to work and **not connected to any specific project**; if it's related to any internal or external project then please bill the time on it;|
-| INTERNAL / management                            | activity reserved for company management;                                                                                                             |
-| INTERNAL / non-project meeting                   | phone calls, slack conversations which are related to your work but not directly project related;                                                     |
-| INTERNAL / Ogarniacz                             | stuff related to organizing things needed in the company (like laptops or any needed office stuff or hardware);                                       |
-| INTERNAL / opensource development                | time spent on looking for any opensource bugs to be solved or projects to take part in as well as actual programming, resolving issues;               |
-| INTERNAL / other internal development            | spending time on improving internal infrastructure like onboarding, training or any other company related stuff which might be helpful for others;    |
-| INTERNAL / pre-sales                             | any pre-work needed to be done before the contract is signed with the customer; usually asked by @ppolewicz;                                          |
-| INTERNAL / recruitment                           | time spent on actively recruiting other people;                                                                                                       |
-| INTERNAL / reefmerge                             | student project;                                                                                                                                      |
-| INTERNAL / reefperf                              | student project;                                                                                                                                      |
-| INTERNAL / sociocracy                            | for s3 meetings, but also for chatting on the channel and for tuners |
-| INTERNAL / special assignment from CEO           | bill like this only when asked to |
-| INTERNAL / Training                              | only during training phase (going through [training](training.md) after onboarding);                                                                              |
+| RT / content marketing                     | writing articles or blog posts under company name; presenting company in the outside world;                                                           |
+| RT / django cookiecutter template          | modifying our internal django template;                                                                                                |
+| RT / finding new partners                  | time spent on finding new partners/customers;                                                                                                         |
+| RT&nbsp;/&nbsp;internal&nbsp;infrastructure&nbsp;management    | anything related to preparing your workspace to work; creating encrypted partitions, installing vms or any software needed to work and **not connected to any specific project**; if it's related to any internal or external project then please bill the time on it;|
+| RT / management                            | activity reserved for company management;                                                                                                             |
+| RT / non-project meeting                   | phone calls, slack conversations which are related to your work but not directly project related;                                                     |
+| RT / virtual assistant                           | stuff related to organizing things needed in the company (like laptops or any needed office stuff or hardware);                                       |
+| RT / opensource development                      | time spent on looking for any opensource bugs to be solved or projects to take part in as well as actual programming, resolving issues;               |
+| RT / other internal development            | spending time on improving internal infrastructure like onboarding, training or any other company related stuff which might be helpful for others;    |
+| RT / pre-sales                             | any pre-work needed to be done before the contract is signed with the customer; usually asked by @ppolewicz;                                          |
+| RT / recruitment                           | time spent on actively recruiting other people;                                                                                                       |
+| RT / sociocracy                            | for s3 meetings, but also for chatting on the channel and for tuners |
+| RT / special assignment from CEO           | bill like this only when asked to |
+| RT / Training                              | only during training phase (going through [training](training.md) after onboarding);                                                                              |
 | OTHER / just-in-case                             | this is in case you need to work on a project before you are assigned to it; in this case raise the problem to the management and re-bill that time later to the proper project;|
 
 
-#### Non-INTERNAL projects
+#### Non-RT projects
 
 If you are working on any external project for the customer, you should bill all your time spent on this project onto it. Knowledge gathering, environment preparation, actual programming, meetings or design. If you need to learn a framework, library or language in order to deliver value for the project, bill the learning to that project as well. If the learning took a long time, please mention it to our PM on that project (so he might issue a discount to the customer if that's appropriate (that's pretty common, actually)).
 
 
 #### Bugs
 
-Workaround for window resize (most project names are like `Internal / some...` - it is hard to find your project):
+Workaround for window resize (most project names are like `RT / somethi...` - it is hard to find your project):
 you click `>>` then you can resize left pane a little bit, then `<<` - repeat several times - now you can read full project names.
 
 It tracks time per 10-minute slot per project, so if you log some time in the given 10-minute period, switch to another project and switch back to the first one, it cannot really be distinguished (number and order of such switches is not recorded).
@@ -131,11 +129,11 @@ We all have hourly rates
 
 #### So that we know how much we should charge the customer
 
-You may log some time to `INTERNAL / *`, which is paid by the company and not by a customer
+You may log some time to `RT / *`, which is paid by the company and not by a customer
 
 #### So that we know how much we should charge which customer
 
-Assuming that you somehow logged zero time to `INTERNAL / *`, when you work on multiple projects, we want to know how much time was worked for which customer so that we can bill them for it appropriately. Billing a customer inaccurately goes against a foundation of the company ("happy customers", see above).
+Assuming that you somehow logged zero time to `RT / *`, when you work on multiple projects, we want to know how much time was worked for which customer so that we can bill them for it appropriately. Billing a customer inaccurately goes against a foundation of the company ("happy customers", see above).
 
 #### So that we know how much VAT tax we should pay
 
@@ -315,20 +313,17 @@ Using the desktop Slack application has a benefit of marking you as "available" 
 
 Channels:
 
-- `allocation` - every week PMs decide together how to allocate developer hours to best satisfy the needs of our customers
-- `#announcements` - business arrangements
+- `#announcements` - general announcement channel, where we mostly welcome new people and announce our vacation periods to others
 - `#default` - the default channel (if there is no dedicated channel for something, we use this one)
 - `management` - senior non-technical management (hiring etc)
 - `#opensource-candidates` - for discussion of what we should the opensource budget go to
 - `#opensource-operations` - channel for opensource project development
+- `#python` - were we sometimes discuss things such as the usage of walrus operator (`:=`), if it is better to use `raise` or `raise e` (as not everyone speaks python on #default)
 - `#random` - all topics not directly related to work. If you read something interesting, don't hesitate to share with us.
-- `#reefmerge` - opensource student project related to merge conflict resolution
-- `#reefperf` - opensource student project related to cloud application performance benchmarking
-- `#sales` - sales team sends notifications there about high quality leads, signed contracts etc
+- `#sales` - sales team sends notifications there about high quality leads, signed/terminated contracts etc
 - `#security` - for things like [heartbleed](http://heartbleed.com/), [shellshock](https://www.symantec.com/outbreak/?id=shellshock), [krack](https://www.krackattacks.com/), [poodle](https://www.us-cert.gov/ncas/alerts/TA14-290A), [venom](http://venom.crowdstrike.com/), [ghost](https://blog.qualys.com/laws-of-vulnerabilities/2015/01/27/the-ghost-vulnerability), [meltdown/spectre](https://meltdownattack.com/)
 - `sociocracy` - channel where sociocracy is coordinated (TODO: link to our S3 resources)
 - `staff` - internal staff channel
-- `tpm` - technical project managers (think Senior Developers) (allocation of engineers to projects etc)
 - `va` - for delegating things to Virtual Assistants
 - `#website` - discussion about our company website and its development
 
@@ -412,7 +407,7 @@ UPDATE: now we have several staff members who don't know a word of Polish, so th
 
 # Handbook document improvement
 
-If you find some key knowledge (not covered by NDA) useful for the next candidate is missing from this document, please create a pull request. Log time spend on this to `INTERNAL / other internal development`.
+If you find some key knowledge (not covered by NDA) useful for the next candidate is missing from this document, please create a pull request. Log time spend on this to `RT / other internal development`.
 
 
 # Congratulations
