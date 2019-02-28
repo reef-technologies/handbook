@@ -42,6 +42,7 @@ This section is divided into sort filters, sort of. See each section and find ou
 
  - https://git-scm.com/book/ - how to git
  - https://semver.org - a version number convention
+ - https://www.cs.usfca.edu/~galles/visualization/Algorithms.html - Data Structure Visualizations (you don't need to see them all, just know it is there if you need it one day)
 
 ### all backend coders
 
