@@ -83,6 +83,7 @@ Generally, whenever there is a temptation to use `@staticmethod`, just use `@cla
  - https://hackernoon.com/asynchronous-python-45df84b82434 - Asynchronous Python
  - https://hackernoon.com/async-through-the-looking-glass-d69a0a88b661 - Async Through the Looking Glass
  - https://www.dabapps.com/blog/api-performance-profiling-django-rest-framework/ - on where the time is spent in DRF-based APIs and what to do with it
+ - https://medium.com/zendesk-engineering/hunting-for-memory-leaks-in-python-applications-6824d0518774 - Hunting for Memory Leaks in Python applications
 
 ### senior python developer
 
