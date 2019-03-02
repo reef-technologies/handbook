@@ -296,7 +296,9 @@ in case of decision making or closing the call, everyone holds the sign until ev
 ### 6.2 Communication channels
 
 When you need to contact one of Reef teammates you have three communication channels: slack, SMS and phone.
-First, we try to connect each other via slack. Then you can contact via phone and finally SMS or the other way around: SMS then phone. Everyone has a descripion "phone -> SMS" or "SMS -> phone" under his/her picture in slack. Please choose which sequence suits you better and we will respect this. Please check and expect ours (contact preferences).
+First, we try to connect each other via slack. Then you can contact via phone and finally SMS or the other way around: SMS then phone. Everyone has a descripion "phone -> SMS" or "SMS -> phone" under his/her picture in slack. Please choose which sequence suits you better and we will respect this. We expect you to respect our contact preferences too.
+
+We don't really use email for communications, some people don't check it too often. If you need to be sure that someone sees your email, ping them on slack.
 
 ### 6.3 Instant messengers
 
