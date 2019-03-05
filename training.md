@@ -19,6 +19,8 @@ You are expected to see everything that matches your position within two weeks f
  - https://www.linkedin.com/pulse/77-elements-sociocracy-30-ewa-koprowska/ - Ewa Koprowska - 77 Elements of Sociocracy 3.0
  - https://people.neilon.software/ - Neil Green - How to Deal with Difficult People on Software Projects
  - https://www.ted.com/talks/derek_sivers_how_to_start_a_movement?language=en - Derek Sivers - How to start a movement
+ - http://alexthunder.livejournal.com/309815.html - "DON'T WAKE UP THE PROGRAMMER!"
+ - http://chrisaitchison.com/2011/05/03/you-are-not-a-software-engineer/ - You are NOT a Software Engineer! (you are a software gardener)
 
 ## Business travel
 
@@ -123,7 +125,8 @@ Generally, whenever there is a temptation to use `@staticmethod`, just use `@cla
  - https://www.amazon.com/Management-3-0-Developers-Developing-Addison-Wesley/dp/0321712471 - Jurgen Appelo: Management 3.0: Leading Agile Developers, Developing Agile Leaders
  - https://www.amazon.com/Minute-Manager-Kenneth-Blanchard-Ph-D/dp/074350917X - Kenneth Blanchard Ph.D., Spencer Johnson M.D.: The One Minute Manager
  - https://youtu.be/u0LDhtoWiGg?t=2437 - Angel Medinilla - a snippet of a presentation which explains how personal goals end up working on teams
-
+ - http://randsinrepose.com/archives/technicality/ - Michael Lopp - Technicality
+ 
 ## Lean project managers
 
  - https://www.youtube.com/watch?v=rHdS_4GsKmg - Clayton Christensen: Where does Growth come from? (video about Jobs To Be Done (JTBD))
