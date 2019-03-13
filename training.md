@@ -130,6 +130,7 @@ Generally, whenever there is a temptation to use `@staticmethod`, just use `@cla
 ## Lean project managers
 
  - https://www.youtube.com/watch?v=rHdS_4GsKmg - Clayton Christensen: Where does Growth come from? (video about Jobs To Be Done (JTBD))
+ - https://klientboost.com/cro/multi-step-landing-pages/ - Johnathan Dane: How Multi Step Landing Pages Will Explode Your Conversion Rates
 
 # bonus material
  - https://docs.google.com/a/reef.pl/document/d/1IkixAHnuAFWPlDDPIcRg2RIYsQTVOpq26TqwZPgPSCo/edit?usp=sharing - Document with Reef employees' skills (I can help you with) and wishes (I would (not) like to work with). This information in taken into account while selecting the project process
