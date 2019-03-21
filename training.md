@@ -69,6 +69,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://pypi.org/project/indexed.py/ - A dictionary that is indexed by insertion order
  - https://more-itertools.readthedocs.io/en/latest/ - a library of rarely useful itertools functions. It's better to use this than to write it yourself
  - https://benbernardblog.com/tracking-down-a-freaky-python-memory-leak/ - if you ever need to track memory leaks, see here first
+ - https://medium.com/@dwdraju/python-function-on-aws-lambda-with-api-gateway-endpoint-288eae7617cb - how to do a simple serverless application on AWS Lambda and publish it
 
 ### junior python developer
 
