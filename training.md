@@ -9,18 +9,23 @@ You are expected to see everything that matches your position within two weeks f
 
 # All staff
 
- - https://hackernoon.com/why-isnt-agile-working-d7127af1c552 - Why Isn’t Agile Working?
- - https://www.youtube.com/watch?v=IyNPeTn8fpo - "Scrum et al." - the legendary talk at Google Campus by Ken Schwaber, the father of Scrum
  - https://www.youtube.com/watch?v=n7wH2XdOWpM - AgileByExample 2016: Henrik Kniberg - Keynote - Focus (or Stop Starting, Start Finishing)
  - https://hbr.org/1999/11/management-time-whos-got-the-monkey - "Management Time: Who’s Got the Monkey?" by William Oncken, Jr.Donald L. Wass (1974)
- - http://randsinrepose.com/archives/be-unfailingly-kind/ - 100% effective guide on how to work efficiently with people when you have no power over them. Actually, it always works.
- - https://techblog.bozho.net/gdpr-practical-guide-developers/ - GDPR - A Practical Guide For Developers
+ - http://randsinrepose.com/archives/be-unfailingly-kind/ - 100% effective guide on how to work efficiently with people when you have no power over them.
  - https://youtu.be/eYMz-VOw4r8 - James Priest - Agile, decentralized Learning Organizations With Sociocracy 3.0
  - https://www.linkedin.com/pulse/77-elements-sociocracy-30-ewa-koprowska/ - Ewa Koprowska - 77 Elements of Sociocracy 3.0
- - https://people.neilon.software/ - Neil Green - How to Deal with Difficult People on Software Projects
  - https://www.ted.com/talks/derek_sivers_how_to_start_a_movement?language=en - Derek Sivers - How to start a movement
+ - https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are - this explains what Cortisol is
+
+# All staff that has anything to do with software development
+
+ - https://hackernoon.com/why-isnt-agile-working-d7127af1c552 - Why Isn’t Agile Working?
+ - https://www.youtube.com/watch?v=IyNPeTn8fpo - "Scrum et al." - the legendary talk at Google Campus by Ken Schwaber, the father of Scrum
+ - https://techblog.bozho.net/gdpr-practical-guide-developers/ - GDPR - A Practical Guide For Developers
+ - https://people.neilon.software/ - Neil Green - How to Deal with Difficult People on Software Projects
  - http://alexthunder.livejournal.com/309815.html - "DON'T WAKE UP THE PROGRAMMER!"
  - http://chrisaitchison.com/2011/05/03/you-are-not-a-software-engineer/ - You are NOT a Software Engineer! (you are a software gardener)
+ - https://www.youtube.com/watch?v=502ILHjX9EE - Henrik Kniberg - Agile Product Ownership in a Nutshell
 
 ## Business travel
 
@@ -37,9 +42,10 @@ This section is divided into sort filters, sort of. See each section and find ou
 ### all coders
 
  - https://touk.pl/blog/2012/09/16/test-driven-traps-part-1/ - what "test hell" is
- - https://www.youtube.com/watch?v=502ILHjX9EE - Henrik Kniberg - Agile Product Ownership in a Nutshell. Watch if you are not sure what Product Owner should do.
  - http://nvie.com/posts/a-successful-git-branching-model/ - well known git branching model. I think this one is actually bad, but it gets you thinking in the right direction.
  - https://chris.beams.io/posts/git-commit/ - How to Write a Git Commit Message. Painfully long, but sets the standard for everyone to follow.
+ - http://www.agitar.com/downloads/TheWayOfTestivus.pdf - The Way of Testivus
+ - https://www.artima.com/weblogs/viewpost.jsp?thread=204677 - How Much Unit Test Coverage Do You Need? - The Testivus Answer
 
 #### any junior coders
 
@@ -135,7 +141,6 @@ Generally, whenever there is a temptation to use `@staticmethod`, just use `@cla
 
 # bonus material
  - https://docs.google.com/a/reef.pl/document/d/1IkixAHnuAFWPlDDPIcRg2RIYsQTVOpq26TqwZPgPSCo/edit?usp=sharing - Document with Reef employees' skills (I can help you with) and wishes (I would (not) like to work with). This information in taken into account while selecting the project process
- - https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are - this explains what Cortisol is
  - https://www.youtube.com/watch?v=4u5N00ApR_k - if you are wondering how agile in corporations might look like
  
  
