@@ -95,6 +95,8 @@ Generally, whenever there is a temptation to use `@staticmethod`, just use `@cla
  - https://www.dabapps.com/blog/api-performance-profiling-django-rest-framework/ - on where the time is spent in DRF-based APIs and what to do with it
  - https://medium.com/zendesk-engineering/hunting-for-memory-leaks-in-python-applications-6824d0518774 - Hunting for Memory Leaks in Python applications
  - https://dev.to/methane/how-to-speed-up-python-application-startup-time-nkf - how to use 3.7's `-X importtime` import time tracer
+ - https://vsupalov.com/favorite-django-packages-2019/ - list of modern useful Django packages. All nice stuff, except DRF - see TastyPie below instead
+ - https://django-tastypie.readthedocs.io/ - how to API in django
 
 ### senior python developer
 
