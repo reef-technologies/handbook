@@ -39,22 +39,23 @@ Skip it initially, but see before traveling: [travel.md](travel.md)
 ## Developers
 This section is divided into sort filters, sort of. See each section and find out if it applies to you. If it does, watch it all.
 
-### all coders
+### all developers
 
  - https://touk.pl/blog/2012/09/16/test-driven-traps-part-1/ - what "test hell" is
  - http://nvie.com/posts/a-successful-git-branching-model/ - well known git branching model. I think this one is actually bad, but it gets you thinking in the right direction.
  - https://chris.beams.io/posts/git-commit/ - How to Write a Git Commit Message. Painfully long, but sets the standard for everyone to follow.
  - http://www.agitar.com/downloads/TheWayOfTestivus.pdf - The Way of Testivus
  - https://www.artima.com/weblogs/viewpost.jsp?thread=204677 - How Much Unit Test Coverage Do You Need? - The Testivus Answer
+ - http://www.leanessays.com/2019/04/what-if-your-team-wrote-code-for-737.html?m=1 - on the difference between coder/programmer and developer/engineer
 
-#### any junior coders
+#### any junior developers
 
  - https://git-scm.com/book/ - how to git
  - https://semver.org - a version number convention
  - https://www.cs.usfca.edu/~galles/visualization/Algorithms.html - Data Structure Visualizations (you don't need to see them all, just know it is there if you need it one day)
  - https://youtu.be/yIPbE7BssOs - Randall Koutnik: Rethinking the Developer Career Path (the guy in a crooked viking hat)
 
-### all backend coders
+### all backend developers
 
  - https://www.youtube.com/watch?v=H0Ji7bsEoUo - on some modern hw/sw problems for backend systems in 2017, and on types of storage devices and how they work, what are the problems with them etc
  - https://thehftguy.com/2016/11/01/docker-in-production-an-history-of-failure/ and https://thehftguy.com/2017/02/23/docker-in-production-an-update/ - on current state of Docker
@@ -64,7 +65,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://arp242.net/weblog/yaml_probably_not_so_great_after_all.html - YAML: probably not so great after all
  - https://rock-it.pl/how-to-write-excellent-dockerfiles/ - (somewhat outdated) information about good dockerfile creation (reducing amount of layers by multi-stage build was added after this guide was written)
 
-### all python coders
+### all python developers
 
  - https://docs.python.org/3/library/typing.html#typing.NamedTuple - how to typing.NamedTuple
  - https://www.python.org/dev/peps/pep-0498/ - Python 3.6 string formatting
