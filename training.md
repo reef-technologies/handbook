@@ -107,6 +107,7 @@ Generally, whenever there is a temptation to use `@staticmethod`, just use `@cla
  - https://realpython.com/modeling-polymorphism-django-python/ - Modeling Polymorphism in Django With Python
  - https://julien.danjou.info/high-performance-in-python-with-zero-copy-and-the-buffer-protocol/ - High-Performance in Python with Zero-Copy and the Buffer Protocol
  - https://robert-mcdermott.gitlab.io/posts/speeding-up-python-with-nim/ - Speeding Up Python with Nim(py)
+ - https://pydist.com/blog/distributions-vs-releases - on troubles with consistent installations of python packages
  
 # Non-technical staff
 (leaders, managers, salesmen, testers etc - people who primarily work with people and products)
