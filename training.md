@@ -80,6 +80,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://medium.com/zendesk-engineering/hunting-for-memory-leaks-in-python-applications-6824d0518774 - if you ever need to track memory leaks, see here first
  - https://benbernardblog.com/tracking-down-a-freaky-python-memory-leak/ - if it's a more demanding memory leak, here's even more tools
  - https://medium.com/@dwdraju/python-function-on-aws-lambda-with-api-gateway-endpoint-288eae7617cb - how to do a simple serverless application on AWS Lambda and publish it
+ - https://golang-for-python-programmers.readthedocs.io/en/latest/ - to read one day if/when we need golang
 
 ### junior python developer
 
