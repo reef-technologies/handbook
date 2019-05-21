@@ -91,6 +91,7 @@ This section is divided into sort filters, sort of. See each section and find ou
 Generally, whenever there is a temptation to use `@staticmethod`, just use `@classmethod` instead (and if it doesn't work, speak up on `#default`, someone will help you).
 
  - https://github.com/reef-technologies/python-review-zoo/ - here we collect common/interesting review findings
+ - https://treyhunner.com/2019/05/python-builtins-worth-learning/ - a friendly description of python builtin functions
 
 ### intermediate python developer
 
