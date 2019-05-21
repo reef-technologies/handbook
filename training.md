@@ -92,6 +92,7 @@ Generally, whenever there is a temptation to use `@staticmethod`, just use `@cla
 
  - https://github.com/reef-technologies/python-review-zoo/ - here we collect common/interesting review findings
  - https://treyhunner.com/2019/05/python-builtins-worth-learning/ - a friendly description of python builtin functions
+ - https://write.as/chobeat/python-project-tooling-explained - a list of tools commonly used in development of python-based projects
 
 ### intermediate python developer
 
