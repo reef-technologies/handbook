@@ -66,6 +66,10 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://rock-it.pl/how-to-write-excellent-dockerfiles/ - (somewhat outdated) information about good dockerfile creation (reducing amount of layers by multi-stage build was added after this guide was written)
  - https://wingolog.org/archives/2018/05/21/correct-or-inotify-pick-one - if you are tempted to use `inotify` in production. See [fatrace](http://manpages.ubuntu.com/manpages/trusty/man1/fatrace.1.html) or [python-fanotify](https://github.com/google/python-fanotify) instead
 
+#### senior backend developers
+
+ - https://www.twilio.com/blog/a-http-headers-for-the-responsible-developer - about modern http headers and what they do  
+
 ### all python developers
 
  - https://docs.python.org/3/library/typing.html#typing.NamedTuple - how to typing.NamedTuple
