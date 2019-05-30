@@ -34,6 +34,7 @@ Skip it initially, but see before traveling: [travel.md](travel.md)
 # Technical staff
 (coders, sysops, devops etc - people who primarily work with machines)
 
+ - http://http.jameshfisher.com/2019/05/26/i-can-see-your-local-web-servers/ - on "localhost" servers
  - how to convert a putty key from a customer to id_rsa: https://askubuntu.com/a/584631 (you don't need to read it - just know it is here if you ever have to use it)
 
 ## Developers
