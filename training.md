@@ -77,6 +77,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://docs.python.org/3/library/typing.html#typing.NamedTuple - how to typing.NamedTuple
  - https://www.python.org/dev/peps/pep-0498/ - Python 3.6 string formatting
  - https://www.youtube.com/watch?v=hk85RUtQsBI - presentation of python 3.6 goodies
+ - https://datawhatnow.com/things-you-are-probably-not-using-in-python-3-but-should/ - Things you’re probably not using in Python 3 - but should
  - https://www.youtube.com/watch?v=wf-BqAjZb8M - Raymond Hettinger - Beyond PEP 8
  - https://www.youtube.com/watch?v=p33CVV29OG8 - Modern Dictionaries by Raymond Hettinger
  - http://www.laurentluce.com/posts/python-dictionary-implementation/ - how are the python (pre-3.6?) dictionaries implemented and why is it necessary to add an item to a python dictionary that was emptied, to reduce the memory usage.
