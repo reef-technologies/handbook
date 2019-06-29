@@ -70,6 +70,7 @@ This section is divided into sort filters, sort of. See each section and find ou
 #### senior backend developers
 
  - https://www.twilio.com/blog/a-http-headers-for-the-responsible-developer - about modern http headers and what they do  
+ - https://datatracker.ietf.org/meeting/97/materials/slides-97-iccrg-bbr-congestion-control - about new TCP congestion control
 
 ### all python developers
 
