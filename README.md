@@ -406,6 +406,8 @@ We've had a foreigner with us for a few days, so we switched then and just didn'
 
 UPDATE: now we have several staff members who don't know a word of Polish, so the story above is no longer relevant for the purpose of explaining why we communicate in English... but I am leaving it here because it shows a part of our culture: it's ok for all of us to be slightly inconvenienced, to make sure that we properly respect another staff member, even when he or she does not exist yet.
 
+##### _Do we work on performance problems?_
+&nbsp;&nbsp;&nbsp; We have worked on many performance and scaling problems. A recent example includes where an open source file cleaner software was running slow for some use cases (like big files in many directories). The issue had a bounty on it as well but no one could solve that problem. Our team identified the problem by just looking at it but the client was not sure whether this was a problem, so we wanted to show him. And we used pyflame to create a flame graph and show him where most of the time is taken and you won't believe it was taking almost 90% of the time where we identified the problem. A file cleaner software which is supposed to search and remove files had a performance bottleneck in searching the files. There were like O(n) calls to system to search the file paths. We solved the problem and wow, with our solution it got to O(1).
 
 # Handbook document improvement
 
