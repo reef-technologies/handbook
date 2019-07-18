@@ -58,6 +58,12 @@ UPDATE: a fully encrypted laptop computer of one of our developers has been stol
 
 # Environment preparation
 
+This guide will show how to set up a standard, secure environment for software development.
+
+It is not needed for recruitment assignemnts.
+
+It may be needed for trial period assignments. Usually it is mandatory unless the trial period assignment is an open source project and there is nothing to hide. If in doubt, ask your buddy.
+
 ## Time tracking
 
 ### Sign in to e-mail account
@@ -81,7 +87,7 @@ If you will ever wonder how hubstaff calculates the activity levels, here is a h
 
 #### I SEE YOU
 
-As it turns out, people find this document before they sign a contract with us and before their tracker account is created. Then they work on preparing their environment even before they have access to the tracker. If you are one of those people, please, use something (free [toptracker](https://www.toptal.com/tracker/) maybe?) to track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can later fairly compensate you for this time.
+As it turns out, people find this document before they sign a contract with us and before their tracker account is created. Then they work on preparing their environment even before they have access to the tracker. If you are one of those people, please, use something (free [toptracker](https://www.toptal.com/tracker/) maybe?) to track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can compensate you for this time as soon as you get access to the official company tracker. We really, really don't like when people work for us but are not getting compensated for it.
 
 #### RT projects
 Below you can find the list of RT projects alongside with their descriptions.
