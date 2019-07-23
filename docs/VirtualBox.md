@@ -1,6 +1,16 @@
 # Virtual machine configuration
 
 
+**For Windows 10 Pro host:** You will need to disable HyperV  
+
+![](images/hyperv_windows/hyperv_windows_01.png "")
+
+Make sure that **Hyper-V is NOT checked**, so deselect it if it's selected like below. 
+
+![](images/hyperv_windows/hyperv_windows_02.png "")
+
+**Virtual machine configuration**
+
 ![](images/virtualbox_01.png "")
 
 ![](images/virtualbox_02.png "")
