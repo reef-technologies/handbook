@@ -71,6 +71,7 @@ This section is divided into sort filters, sort of. See each section and find ou
 
  - https://www.twilio.com/blog/a-http-headers-for-the-responsible-developer - about modern http headers and what they do  
  - https://datatracker.ietf.org/meeting/97/materials/slides-97-iccrg-bbr-congestion-control - about new TCP congestion control
+ - https://danluu.com/deconstruct-files/ - why writing to files is hard and you should probably not do it
 
 ### all python developers
 
