@@ -144,6 +144,7 @@ Generally, whenever there is a temptation to use `@staticmethod`, just use `@cla
 ## Managers
 
  - https://www.youtube.com/watch?v=yIPbE7BssOs - Randall Koutnik: Rethinking the Developer Career Path
+ - https://medium.com/better-programming/the-differences-between-a-junior-mid-level-and-senior-developer-bb2cb2eb000d - a perspective on junior vs senior developer level
  - https://dev9.com/blog-posts/2015/1/the-myth-of-developer-productivity - comprehensive look on the subject of measuring developer productivity
  - www.crisp.se/henrik.kniberg/How-we-got-rid-of-time-reports.pdf - inspiring story of Henrik Kniberg fighting bureaucracy with success
  - https://www.youtube.com/watch?v=N8KXxfF4dtg - Jurgen Appelo - Keynote: Managing for Happiness
