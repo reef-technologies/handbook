@@ -16,7 +16,8 @@ You are expected to see everything that matches your position within two weeks f
  - https://www.linkedin.com/pulse/77-elements-sociocracy-30-ewa-koprowska/ - Ewa Koprowska - 77 Elements of Sociocracy 3.0
  - https://www.ted.com/talks/derek_sivers_how_to_start_a_movement?language=en - Derek Sivers - How to start a movement
  - https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are - this explains what Cortisol is
-
+ - https://risk-engineering.org/concept/Rasmussen-practical-drift - this explains a fairly critical viewpoint on erosion of procedures
+ 
 # All staff that has anything to do with software development
 
  - https://hackernoon.com/why-isnt-agile-working-d7127af1c552 - Why Isn’t Agile Working?
