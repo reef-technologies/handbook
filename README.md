@@ -350,7 +350,7 @@ Here are some miscellaneous rules to follow, that were hard to put in some other
 
 - When a meeting starts, decide where to bill it.
 - If you are a junior and you get stuck - ask for help. Really, really, really do. Do not spend 2 days trying to solve something a senior peer could help you go through in 10 minutes. Ask on the project slack and if that's not possible, use our `#default`. 
-- If you are a developer, always perform basic functional testing of your code and self-review your PR before you give it to a peer for review.
+- If you are a developer, always perform basic functional testing (manually!) of your code and self-review your PR before you give it to a peer for review.
 - If there is time where you are working but you are not able to bill it, escalate it immediately. We are trying to avoid it.
 - It is forbidden to transfer any customer data through a non-encrypted channel. Use https and ssh tunnels when necessary.
 - It is forbidden to store customer data on a non-encrypted device. Use fully encrypted systems (or virtual machines with images stored on encrypted partitions, where the host machine has a disabled swap file, or where swap is encrypted).
