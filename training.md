@@ -116,7 +116,8 @@ Generally, whenever there is a temptation to use `@staticmethod`, just use `@cla
  - https://vsupalov.com/favorite-django-packages-2019/ - list of modern useful Django packages. All nice stuff, except DRF - see TastyPie below instead
  - https://django-tastypie.readthedocs.io/ - how to API in django
  - https://www.toptal.com/python/top-10-mistakes-that-python-programmers-make - an explanation for a few uncommon errors which shouldn't really happen in the first place as good practices will prevent you from running into those... but still it might be interesting to see a few of those
-
+ - https://nedbatchelder.com//blog/201908/why_your_mock_doesnt_work.html - on mocking right, or, why dependency injection might be a good idea
+ 
 ### senior python developer
 
  - https://realpython.com/modeling-polymorphism-django-python/ - Modeling Polymorphism in Django With Python
