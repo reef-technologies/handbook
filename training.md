@@ -75,7 +75,8 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://danluu.com/deconstruct-files/ - why writing to files is hard and you should probably not do it
  - http://morningcoffee.io/killing-a-process-and-all-of-its-descendants.html - Killing a process and all of its descendants
  - http://sven.stormbind.net/blog/posts/docker_from_30_to_230/ - (read if ever needed) on running many docker containers on the same host
-
+ - https://dzone.com/articles/understanding-recursive-queries-in-postgres - recursive queries in postgres (to find topmost parent, for example)
+ 
 ### all python developers
 
  - https://docs.python.org/3/library/typing.html#typing.NamedTuple - how to typing.NamedTuple
