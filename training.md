@@ -57,6 +57,10 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://www.cs.usfca.edu/~galles/visualization/Algorithms.html - Data Structure Visualizations (you don't need to see them all, just know it is there if you need it one day)
  - https://youtu.be/yIPbE7BssOs - Randall Koutnik: Rethinking the Developer Career Path (the guy in a crooked viking hat)
 
+#### junior fronted developers
+
+ - https://www.vrk.dev/2019/07/11/why-is-modern-web-development-so-complicated-a-long-yet-hasty-explanation-part-1/ - Why is modern web development so complicated?
+
 ### all backend developers
 
  - https://www.youtube.com/watch?v=H0Ji7bsEoUo - on some modern hw/sw problems for backend systems in 2017, and on types of storage devices and how they work, what are the problems with them etc
