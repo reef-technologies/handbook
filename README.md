@@ -167,7 +167,7 @@ Once you have installed time tracking app, it's time to prepeare your environmen
 
 ## 1. Create an encrypted volume (host)	
 
-Due to the variety of operating systems used by our team, we do not impose a specific solution. It depends on what software you use. For Linux systems it can be eg LUKS.
+Due to the variety of operating systems used by our team, we do not impose a specific solution. It depends on what software you use. For Linux systems it can be eg LUKS. For MacOS you can use built-in FileVault encryption.
 
 Due to the large space utilization of our projects, the minimum partition size is **50 GB** (recommended **100 GB**).
 
