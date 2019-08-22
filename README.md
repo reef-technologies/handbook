@@ -74,6 +74,10 @@ The first step you will take is to sign in to your new Google account at `reef.p
 
 First sign in you make is from the host computer, as it is necessary to install the time tracking application. This is the one and only situation when you logging in from your host machine.
 
+**Another caution!**
+
+You have to set up 2-factor authentication within 24h from the first successful login, or the security policy will cut you off. It's best to set it up right after you perform the initial login.
+
 ### Time tracking app
 
 We are using the application that measures time and takes regular screenshots during your work. Its installation is the first step in preparing your environment to work.
