@@ -100,6 +100,32 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://golang-for-python-programmers.readthedocs.io/en/latest/ - to read one day if/when we need golang
  - https://blog.heroku.com/python37-dataclasses-async-await - well written summary of what's new in python-3.7
 
+Why pathlib is fun:
+
+```py
+Python 3.6.7 (default, Oct 22 2018, 11:32:17) 
+[GCC 8.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from pathlib import Path
+>>> base_path = Path('/usr')
+>>> lib = base_path / 'lib'
+>>> lib
+PosixPath('/usr/lib')
+>>> 
+```
+
+```
+Python 3.6.0 (v3.6.0:41df79263a11, Dec 23 2016, 08:06:12) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from pathlib import Path
+>>> base_path = Path('C:\Windows')
+>>> system = base_path / 'system'
+>>> system
+WindowsPath('C:/Windows/system')
+>>>
+```
+
+
 ### junior python developer
 
  - Guido van Rossum, python BDFL, [wrote](https://mail.python.org/pipermail/python-ideas/2012-May/014969.html) this about `staticmethods`: 
