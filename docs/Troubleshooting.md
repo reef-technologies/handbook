@@ -22,6 +22,9 @@ then you can see (and save to compare via `vimdiff`) the requests made by the sc
 
 Previously I tried to tell my operating system that the certificate of mitmproxy is legit and should be allowed to SSL everything. That did not go so well, not on ubuntu, not on Windows. It would seem that mitmproxy documentation was not updated since Windows XP times.
 
+## Decrypting TLS Browser Traffic With Wireshark
+
+https://redflagsecurity.net/2019/03/10/decrypting-tls-wireshark/
 
 ## When your laptop's wifi adapter is not working
 You can use your phone as wireless adapter.
