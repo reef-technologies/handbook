@@ -275,9 +275,9 @@ Create a new account for GitHub. The suggested username is the first letter of t
 
 ### Set this repository as watched
 
-Go [here](https://github.com/reef-technologies/onboarding/subscription) and select ***watching***. This will send you an email whenever this repository is updated. This is useful to keep up with the training video/article list, description of chat channels and meaning of projects in the time tracker.
+Go [here](https://github.com/reef-technologies/handbook/subscription) and select ***watching***. This will send you an email whenever this repository is updated. This is useful to keep up with the training video/article list, description of chat channels and meaning of projects in the time tracker.
 
-**WARNING:** if the document was updated after you started reading it and before you set the repository to watched, you could miss an update. Check the latest changes [here](https://github.com/reef-technologies/onboarding/commits/master) after subscribing to updates.
+**WARNING:** if the document was updated after you started reading it and before you set the repository to watched, you could miss an update. Check the latest changes [here](https://github.com/reef-technologies/handbook/commits/master) after subscribing to updates.
 
 ### Avatars
 
