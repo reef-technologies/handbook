@@ -57,9 +57,15 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://www.cs.usfca.edu/~galles/visualization/Algorithms.html - Data Structure Visualizations (you don't need to see them all, just know it is there if you need it one day)
  - https://youtu.be/yIPbE7BssOs - Randall Koutnik: Rethinking the Developer Career Path (the guy in a crooked viking hat)
 
-#### junior fronted developers
+### all frontend developers
+
+#### junior frontend developers
 
  - https://www.vrk.dev/2019/07/11/why-is-modern-web-development-so-complicated-a-long-yet-hasty-explanation-part-1/ - Why is modern web development so complicated?
+
+#### intermediate frontend developers
+
+ - https://github.com/joshbuchea/HEAD - A list of everything that could go in the head of your document
 
 ### all backend developers
 
