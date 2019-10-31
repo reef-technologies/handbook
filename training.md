@@ -151,6 +151,7 @@ WindowsPath('C:/Windows/system')
  - https://django-tastypie.readthedocs.io/ - how to API in django
  - https://www.toptal.com/python/top-10-mistakes-that-python-programmers-make - an explanation for a few uncommon errors which shouldn't really happen in the first place as good practices will prevent you from running into those... but still it might be interesting to see a few of those
  - https://nedbatchelder.com//blog/201908/why_your_mock_doesnt_work.html - on mocking right, or, why dependency injection might be a good idea
+ - https://books.agiliq.com/projects/django-admin-cookbook/ - many recipes for django admin customization
  
 ### senior python developer
 
@@ -158,6 +159,7 @@ WindowsPath('C:/Windows/system')
  - https://julien.danjou.info/high-performance-in-python-with-zero-copy-and-the-buffer-protocol/ - High-Performance in Python with Zero-Copy and the Buffer Protocol
  - https://robert-mcdermott.gitlab.io/posts/speeding-up-python-with-nim/ - Speeding Up Python with Nim(py)
  - https://pydist.com/blog/distributions-vs-releases - on troubles with consistent installations of python packages
+ - https://books.agiliq.com/projects/django-multi-tenant/ - on various ways to make django apps multitenant
  
 # Non-technical staff
 (leaders, managers, salesmen, testers etc - people who primarily work with people and products)
