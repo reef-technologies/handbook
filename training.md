@@ -152,6 +152,7 @@ WindowsPath('C:/Windows/system')
  - https://www.toptal.com/python/top-10-mistakes-that-python-programmers-make - an explanation for a few uncommon errors which shouldn't really happen in the first place as good practices will prevent you from running into those... but still it might be interesting to see a few of those
  - https://nedbatchelder.com//blog/201908/why_your_mock_doesnt_work.html - on mocking right, or, why dependency injection might be a good idea
  - https://books.agiliq.com/projects/django-admin-cookbook/ - many recipes for django admin customization
+ - https://stevedower.id.au/blog/most-critical-python-metric - article about an interesting code metric, testability and side effects
  
 ### senior python developer
 
