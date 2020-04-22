@@ -147,7 +147,7 @@ Assuming that you somehow logged zero time to `RT / *`, when you work on multipl
 
 #### So that we know how much VAT tax we should pay
 
-If a customer is from the same country as we are, the invoice we give him has a non-zero VAT tax. Generally, that doesn't seem to ever happen. Otherwise, when the customer is from a different country, invoice has a zero VAT tax, but the vendors (you) have taxed invoices, so we (as a company) need to reclaim the VAT tax in an appropriate amount. We don't want to attempt to reclaim too much or too little, but just right. Generally, we don't want to mess with the tax agency and prefer to pay a greater tax when in doubt, but there is too much of VAT to ignore it.
+If a customer is from the same country as we are, the invoice we give him has a non-zero VAT tax. Generally, that doesn't seem to ever happen. Otherwise, when the customer is from a different country, invoice has a zero VAT tax, but the vendors (you) have taxed invoices, so we (as a company) need to reclaim the VAT tax in an appropriate amount. We don't want to attempt to reclaim too much or too little, but just right. Generally, we don't want to mess with the tax agency and prefer to pay a greater tax when in doubt, but there is too much of VAT to ignore it. One could say that (assuming the company doesn't choose to forfeit the reclaimable VAT) we are required by EU tax law to accurately track the time into "exported" and "not exported" buckets and the time tracker is just a practical too to get it done. 
 
 #### It can save the contract and it can save you
 
