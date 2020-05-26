@@ -1,6 +1,6 @@
 # What is this about
 
-When you join the company, we need to bring you up to our level (or maybe you need to bring us to your level ;) ). Best way we found to do that, is to show you some video / text material, so here it is. Bill the time spent doing this on `INTERNAL / training`, put the title of the movie/article into the work subject note.
+When you join the company, we need to bring you up to our level (or maybe you need to bring us to your level ;) ). Best way we found to do that, is to show you some video / text material, so here it is. Bill the time spent doing this on `RT / training`, put the title of the movie/article into the work subject note.
 
 You don't need to see all of it in one go. Instead, use it to tune the speed of your initial transition into the project. If the transition is quick (you are heavily coding on your first day), slow it down and watch some training material every day. If the transition is slow due to questions, timezones, environment issues and other blocking issues, then report those and watch some training material.
 
