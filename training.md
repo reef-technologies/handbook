@@ -69,24 +69,24 @@ This section is divided into sort filters, sort of. See each section and find ou
 
 ### all backend developers
 
- - https://www.youtube.com/watch?v=H0Ji7bsEoUo - on some modern hw/sw problems for backend systems in 2017, and on types of storage devices and how they work, what are the problems with them etc
- - https://thehftguy.com/2016/11/01/docker-in-production-an-history-of-failure/ and https://thehftguy.com/2017/02/23/docker-in-production-an-update/ - on current state of Docker
- - http://cryto.net/~joepie91/blog/2015/07/19/why-you-should-never-ever-ever-use-mongodb/ - Why you should never, ever, ever use MongoDB. NOTE: read that until you are sure you will never use it. If you are still not convinced after reading it, read [this](https://blog.scrapinghub.com/2013/05/13/mongo-bad-for-scraped-data/), if you are still not convinced, try [this](http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/comment-page-1/) and if you still are not entirely sure, you might want to know that their "atomic" property actually makes it so that if you have a collection with some objects and you'll query to get 1000 objects based on some criteria during an update operation, you will sometimes get 999 back. And this is by design, they closed the bug as "won't fix". So if you ask mongodb for something, you have to check if it returned what you asked for, because if it didn't, then you need to retry and *if you are lucky* then eventually you'll get what you asked for. Not everyone likes to write code like that and most people want to have access to my data always, not just when lucky. And also [this](https://www.infoq.com/news/2014/04/bitcoin-banking-mongodb/). If the largest cryptomarkets couldn't use it properly, are you sure you will be able to? :) Anyway, if you are still not sure whether you can use it or not, speak up on `#default`, someone will help you.
- - https://www.jasondavies.com/bloomfilter/ - a data structure used for lookup speedups, in databases among other uses
- - http://thesecretlivesofdata.com/raft/ - demo of RAFT, a consensus algorithm
- - https://arp242.net/weblog/yaml_probably_not_so_great_after_all.html - YAML: probably not so great after all
- - https://rock-it.pl/how-to-write-excellent-dockerfiles/ - (somewhat outdated) information about good dockerfile creation (reducing amount of layers by multi-stage build was added after this guide was written)
- - https://wingolog.org/archives/2018/05/21/correct-or-inotify-pick-one - if you are tempted to use `inotify` in production. See [fatrace](http://manpages.ubuntu.com/manpages/trusty/man1/fatrace.1.html) or [python-fanotify](https://github.com/google/python-fanotify) instead
+ - https://www.youtube.com/watch?v=H0Ji7bsEoUo - on some modern hw/sw problems for backend systems in 2017, and on types of storage devices and how they work, what are the problems with them, etc.;
+ - https://thehftguy.com/2016/11/01/docker-in-production-an-history-of-failure/ and https://thehftguy.com/2017/02/23/docker-in-production-an-update/ - on the current state of Docker;
+ - http://cryto.net/~joepie91/blog/2015/07/19/why-you-should-never-ever-ever-use-mongodb/ - why you should never, ever, ever use MongoDB. NOTE: read that until you are sure you will never use it. If you are still not convinced after reading it, read [this](https://blog.scrapinghub.com/2013/05/13/mongo-bad-for-scraped-data/), if you are still not convinced, try [this](http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/comment-page-1/) and if you still are not entirely sure, you might want to know that their "atomic" property actually makes it so that if you have a collection with some objects and you'll query to get 1000 objects based on some criteria during an update operation, you will sometimes get 999 back. And that is by design, they closed the bug as "won't fix". So if you ask mongodb for something, you have to check if it returned what you asked for, because if it didn't, then you need to retry and *if you are lucky* then eventually you'll get what you asked for. Not everyone likes to write code like that and most people want to have access to their data always, not just when it's their lucky day. And also [this](https://www.infoq.com/news/2014/04/bitcoin-banking-mongodb/). If the largest cryptomarkets couldn't use it properly, are you sure you will be able to? :) Anyway, if you are still not sure whether you can use it or not, speak up on `#default`, someone will help you;
+ - https://www.jasondavies.com/bloomfilter/ - a data structure used for lookup speedups,  among other uses, in databases;
+ - http://thesecretlivesofdata.com/raft/ - a demo of RAFT, a consensus algorithm;
+ - https://arp242.net/weblog/yaml_probably_not_so_great_after_all.html - YAML: probably not so great after all;
+ - https://rock-it.pl/how-to-write-excellent-dockerfiles/ - (somewhat outdated) information about good dockerfile creation (reducing amount of layers by multi-stage build was added after this guide had been written);
+ - https://wingolog.org/archives/2018/05/21/correct-or-inotify-pick-one - if you are tempted to use `inotify` in production. See [fatrace](http://manpages.ubuntu.com/manpages/trusty/man1/fatrace.1.html) or [python-fanotify](https://github.com/google/python-fanotify) instead;
 
 #### senior backend developers
 
- - https://www.twilio.com/blog/a-http-headers-for-the-responsible-developer - about modern http headers and what they do  
- - https://datatracker.ietf.org/meeting/97/materials/slides-97-iccrg-bbr-congestion-control - about new TCP congestion control
- - https://danluu.com/deconstruct-files/ - why writing to files is hard and you should probably not do it
- - http://morningcoffee.io/killing-a-process-and-all-of-its-descendants.html - Killing a process and all of its descendants
- - http://sven.stormbind.net/blog/posts/docker_from_30_to_230/ - (read if ever needed) on running many docker containers on the same host
- - https://dzone.com/articles/understanding-recursive-queries-in-postgres - recursive queries in postgres (to find topmost parent, for example)
- - https://txt.black/~jack/cloud.txt - an opinion about cloud performance (or lack of it) and alternative solutions
+ - https://www.twilio.com/blog/a-http-headers-for-the-responsible-developer - about modern http headers and what they do;
+ - https://datatracker.ietf.org/meeting/97/materials/slides-97-iccrg-bbr-congestion-control - about new TCP congestion control;
+ - https://danluu.com/deconstruct-files/ - why writing to files is hard and you should probably not do it;
+ - http://morningcoffee.io/killing-a-process-and-all-of-its-descendants.html - killing a process and all of its descendants;
+ - http://sven.stormbind.net/blog/posts/docker_from_30_to_230/ - (read if ever needed) on running many docker containers on the same host;
+ - https://dzone.com/articles/understanding-recursive-queries-in-postgres - recursive queries in postgres (to find the topmost parent, for example);
+ - https://txt.black/~jack/cloud.txt - an opinion about cloud performance (or the lack thereof) and alternative solutions;
  
 ### all python developers
 
