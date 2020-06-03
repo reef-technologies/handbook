@@ -90,21 +90,21 @@ This section is divided into sort filters, sort of. See each section and find ou
  
 ### all python developers
 
- - https://docs.python.org/3/library/typing.html#typing.NamedTuple - how to typing.NamedTuple
- - https://www.python.org/dev/peps/pep-0498/ - Python 3.6 string formatting
- - https://www.youtube.com/watch?v=hk85RUtQsBI - presentation of python 3.6 goodies
- - https://datawhatnow.com/things-you-are-probably-not-using-in-python-3-but-should/ - Things you’re probably not using in Python 3 - but should
- - https://www.youtube.com/watch?v=wf-BqAjZb8M - Raymond Hettinger - Beyond PEP 8
- - https://www.youtube.com/watch?v=p33CVV29OG8 - Modern Dictionaries by Raymond Hettinger
- - http://www.laurentluce.com/posts/python-dictionary-implementation/ - how are the python (pre-3.6?) dictionaries implemented and why is it necessary to add an item to a python dictionary that was emptied, to reduce the memory usage.
- - https://www.youtube.com/watch?v=EiOglTERPEo - Raymond Hettinger - `super()` considered super!
- - https://pypi.org/project/indexed.py/ - A dictionary that is indexed by insertion order
- - https://more-itertools.readthedocs.io/en/latest/ - a library of rarely useful itertools functions. It's better to use this than to write it yourself
- - https://medium.com/zendesk-engineering/hunting-for-memory-leaks-in-python-applications-6824d0518774 - if you ever need to track memory leaks, see here first
- - https://benbernardblog.com/tracking-down-a-freaky-python-memory-leak/ - if it's a more demanding memory leak, here's even more tools
- - https://medium.com/@dwdraju/python-function-on-aws-lambda-with-api-gateway-endpoint-288eae7617cb - how to do a simple serverless application on AWS Lambda and publish it
- - https://golang-for-python-programmers.readthedocs.io/en/latest/ - to read one day if/when we need golang
- - https://blog.heroku.com/python37-dataclasses-async-await - well written summary of what's new in python-3.7
+ - https://docs.python.org/3/library/typing.html#typing.NamedTuple - how to typing.NamedTuple;
+ - https://www.python.org/dev/peps/pep-0498/ - Python 3.6 string formatting;
+ - https://www.youtube.com/watch?v=hk85RUtQsBI - a presentation of Python 3.6 goodies;
+ - https://datawhatnow.com/things-you-are-probably-not-using-in-python-3-but-should/ - things you’re probably not using in Python 3, but you should;
+ - https://www.youtube.com/watch?v=wf-BqAjZb8M - Raymond Hettinger - Beyond PEP 8;
+ - https://www.youtube.com/watch?v=p33CVV29OG8 - Modern Dictionaries by Raymond Hettinger;
+ - http://www.laurentluce.com/posts/python-dictionary-implementation/ - how are the Python (pre-3.6?) dictionaries implemented and why it is necessary to add an item to a Python dictionary that was emptied to reduce  memory usage;
+ - https://www.youtube.com/watch?v=EiOglTERPEo - Raymond Hettinger - `super()` considered super!;
+ - https://pypi.org/project/indexed.py/ - a dictionary that is indexed by insertion order;
+ - https://more-itertools.readthedocs.io/en/latest/ - a library of rarely useful itertools functions. It's better to use this than to write it yourself;
+ - https://medium.com/zendesk-engineering/hunting-for-memory-leaks-in-python-applications-6824d0518774 - if you ever need to track memory leaks, see here first;
+ - https://benbernardblog.com/tracking-down-a-freaky-python-memory-leak/ - if it's a more demanding memory leak, here's even more tools;
+ - https://medium.com/@dwdraju/python-function-on-aws-lambda-with-api-gateway-endpoint-288eae7617cb - how to do a simple serverless application on AWS Lambda and publish it;
+ - https://golang-for-python-programmers.readthedocs.io/en/latest/ - to read one day if/when we need golang;
+ - https://blog.heroku.com/python37-dataclasses-async-await - well written summary of what's new in python-3.7;
 
 Why pathlib is fun:
 
