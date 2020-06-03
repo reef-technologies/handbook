@@ -312,15 +312,15 @@ We don't really use email for communications, some people don't check it too oft
 
 ### 6.3 Instant messengers
 
-We use Slack and [Zoom](zoom.us) for business communications. You could use them in your browser, but for convenience, those are usually installed on **the host computer**.
+For business communications, we use Slack and [Zoom](zoom.us). You may use them in your browser, but they are usually installed on **the host computer** for convenience.
 
 #### Slack
 
-In your company e-mail inbox is waiting for you message with the invitation to the team reeftechnologies.slack.com. Right after signing in, remember to fill field for your phone number in your account settings. Remember to **add your country-specific prefix number**, e.g. for Poland it is `+48`. This is important when someone is working from different countries. Another important information is the sequence "phone -> SMS" or "SMS -> phone" under your picture.
+In your company e-mail inbox,  you will find a message with an invitation to the Slack team reeftechnologies.slack.com. Right after signing in, remember to fill out the phone number field in your account settings. Remember to **add your country-specific prefix number**, e.g., Poland uses `+48`. It's essential, as our members come from many different countries. Also, remember to place your chosen sequence under your picture: "phone -> SMS" or "SMS -> phone".
 
-If you want to acknowledge a slack message, you can use `ctrl+shift+\, 1, enter` to quickly make a :+1: reaction. It is better than writing "ok", especially if there are many acknowledgers - reactions prevent half of the conversation from being filled with "ok" / "right" / "I see" messages.
+If you want to acknowledge a Slack message, you can use `ctrl+shift+\, 1, enter` to quickly reply with a :+1: reaction. It is better than writing "ok", especially when there are many acknowledgers - reactions prevent half of the conversation from being filled with meaningless messages like "ok" / "right" / "I see".
 
-Using the desktop Slack application has a benefit of marking you as "available" on all the slack servers. If you use a browser, you are shown as only on the tab that you currently have on your screen. Therefore you should use the desktop application, not the browser.
+Using the desktop Slack application has a benefit of marking you as "available" on all the Slack servers. If you use a browser, you are only shown as available on the tab that you currently have open on your screen. Therefore, you should use the desktop application, not the browser.
 
 
 Channels:
