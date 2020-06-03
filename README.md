@@ -390,7 +390,7 @@ The "srm" tool which securely deletes data. We use it to wipe the repos (despite
 apt-get install secure-delete
 ```
 
-To remove the docker containers created while working on a project, please use following command (get "dockerkill.sh" from bin directory of this repo):
+To remove the docker containers created while working on a project, please use the following command (get "dockerkill.sh" from the bin directory of this repo):
 
 ```bash
 ./dockerkill.sh <container-name>
@@ -402,24 +402,24 @@ To remove the docker containers created while working on a project, please use f
 &nbsp;&nbsp;&nbsp; It's like an office manager for a company that doesn't have an office.
 
 ##### _Do we have CI?_
-&nbsp;&nbsp;&nbsp; So far we used wercker because it is free for github private, but we are scheduled to try to switch over to GitLab.
+&nbsp;&nbsp;&nbsp; So far, we have used wercker because it is free for github private, but we are scheduled to try to switch over to GitLab.
 
 ##### _How to re-bill my time to a different project?_
-&nbsp;&nbsp;&nbsp; In case you billed time to a wrong project, [here](docs/Hubstaff.md) is a step-by-step guide how to fix it.
+&nbsp;&nbsp;&nbsp; In case you ever bill the time worked to the wrong project, [here](docs/Hubstaff.md) is a step-by-step guide on how to fix it.
 
-##### _Why all communication (exept 1to1) is in English?_
-&nbsp;&nbsp;&nbsp; Pawel: Let me tell you a story. There was an Python office in Warsaw in which most employees were from Poland, but eventually the company started hiring foreigners, so there were some of them in the office too. They could not understand the conversation in the kitchen, which was awkward for both sides, so a rule was mandated, to switch to English as soon as a foreigner enters the room.
+##### _Why is all communication (except 1to1) in English?_
+&nbsp;&nbsp;&nbsp; Pawel: Let me tell you a story. There was a Python office in Warsaw where most employees were from Poland, but eventually, the company started hiring foreigners, too. They could not understand the kitchen conversations, which was awkward for both sides, so a new rule was introduced. Everyone was supposed to switch to English as soon as a foreigner entered the room.
 
-One day, a foreigner walked through the corridor and overheard laughter in the kitchen. As soon as he arrived, however, everyone went silent, finishing the conversation. Turns out that switching the language mid-conversation is not an effortless task. In that company, foreigners were discriminated every day. They were excluded from gossip and whenever they entered the room, with high probablility they have stopped any conversation that was ongoing at that place.
+One day, a foreigner walked through the corridor and overheard laughter in the kitchen. As soon as he entered the room, however, everyone went silent. Turns out that switching the language mid-conversation is not an effortless task. In that company, foreigners suffered discrimination every day. They were excluded from gossip, and whenever they entered the room, any conversation was likely to come to a halt.
 
-We've had a foreigner with us for a few days, so we switched then and just didn't switch back. If we did, the next one joining the company could be a source of resentment. There would also be a problem with chat history. One of the things we proudly offer to members of our staff, is respect. I like to think that by keeping communication in English, we show respect to the person that is one day going to join the company and have as little friction as possible.
+The first time we had a foreigner join us for a few days, we switched to English and just haven't switched back. If we did, the next foreigner joining the company could be a source of resentment. There would also be a problem with chat history. One of the things we proudly offer to our staff members is respect. I like to think that by keeping communications in English, we show respect to the person that will join the company at some time in the future. We want as little friction as possible.
 
-UPDATE: now we have several staff members who don't know a word of Polish, so the story above is no longer relevant for the purpose of explaining why we communicate in English... but I am leaving it here because it shows a part of our culture: it's ok for all of us to be slightly inconvenienced, to make sure that we properly respect another staff member, even when he or she does not exist yet.
+UPDATE: We now have several staff members who don't know a word of Polish, so the story above is no longer relevant for explaining why we communicate in English... but I am leaving it here because it shows a part of our culture: it's ok for all of us to be slightly inconvenienced to make sure that we properly respect another staff member, even when he or she does not exist yet.
 
 
 # Handbook document improvement
 
-If you find some key knowledge (not covered by NDA) useful for the next candidate is missing from this document, please create a pull request. Log time spend on this to `RT / other internal development`.
+If you find that some key knowledge (not covered by the NDA) that might useful for the next candidate is missing from this document, please create a pull request. Log the time spend on this to `RT / other internal development`.
 
 
 # Congratulations
