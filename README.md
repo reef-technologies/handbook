@@ -295,13 +295,13 @@ We use simple hand signals during video calls to communicate more efficiently.
 | sign | meaning | context |
 |--- | --- | --- |
 | :fist: | pass (no comment) | moderated discussion |
-| :point_up: | requesting voice | moderated discussion | 
+| :point_up: | request voice | moderated discussion | 
 |:thumbsup:|vote "consent"|S3 decision making|
 |hand with palm down|vote "concerned"|S3 decision making|
 |hand with palm up|vote "protest"|S3 decision making|
 |:spock-hand: or :wave:|ready to disconnect the call|call coming to an end|
 
-in case of decision making or closing the call, everyone holds the sign until everyone else does - this way the situation is clear at a glance. In the past we used to show a sign for a moment, but then the quick responders hid their signals before the slow ones started signing and it was not clear what the situation is. Now we hold until everything is clear.
+When we're trying to make a decision or closing the call, everyone holds their sign until everyone shows a sign of their choice. This way, the situation is clear at a glance. In the past, we used to show signs for a moment, but then the quick responders hid their signals before the slow ones started signing, and the situation was not clear. Now we hold the sign until we're sure of the consensus.
 
 ### 6.2 Communication channels
 
