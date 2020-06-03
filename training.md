@@ -9,53 +9,53 @@ You are expected to see everything that matches your position within two weeks f
 
 # All staff
 
- - https://www.youtube.com/watch?v=n7wH2XdOWpM - AgileByExample 2016: Henrik Kniberg - Keynote - Focus (or Stop Starting, Start Finishing)
- - https://hbr.org/1999/11/management-time-whos-got-the-monkey - "Management Time: Who’s Got the Monkey?" by William Oncken, Jr.Donald L. Wass (1974)
- - http://randsinrepose.com/archives/be-unfailingly-kind/ - 100% effective guide on how to work efficiently with people when you have no power over them.
- - https://youtu.be/eYMz-VOw4r8 - James Priest - Agile, decentralized Learning Organizations With Sociocracy 3.0
- - https://www.linkedin.com/pulse/77-elements-sociocracy-30-ewa-koprowska/ - Ewa Koprowska - 77 Elements of Sociocracy 3.0
- - https://www.ted.com/talks/derek_sivers_how_to_start_a_movement?language=en - Derek Sivers - How to start a movement
- - https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are - this explains what Cortisol is
- - https://risk-engineering.org/concept/Rasmussen-practical-drift - this explains a fairly critical viewpoint on erosion of procedures
+ - https://www.youtube.com/watch?v=n7wH2XdOWpM - AgileByExample 2016: Henrik Kniberg - Keynote - Focus (or Stop Starting, Start Finishing);
+ - https://hbr.org/1999/11/management-time-whos-got-the-monkey - "Management Time: Who’s Got the Monkey?" by William Oncken, Jr.Donald L. Wass (1974);
+ - http://randsinrepose.com/archives/be-unfailingly-kind/ - a 100% effective guide on how to work efficiently with people when you have no power over them;
+ - https://youtu.be/eYMz-VOw4r8 - James Priest - Agile, decentralized Learning Organizations With Sociocracy 3.0;
+ - https://www.linkedin.com/pulse/77-elements-sociocracy-30-ewa-koprowska/ - Ewa Koprowska - 77 Elements of Sociocracy 3.0;
+ - https://www.ted.com/talks/derek_sivers_how_to_start_a_movement?language=en - Derek Sivers - How to start a movement;
+ - https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are - this explains what cortisol is;
+ - https://risk-engineering.org/concept/Rasmussen-practical-drift - this explains a fairly critical viewpoint on the erosion of procedures;
  
 # All staff that has anything to do with software development
 
- - https://hackernoon.com/why-isnt-agile-working-d7127af1c552 - Why Isn’t Agile Working?
- - https://www.youtube.com/watch?v=IyNPeTn8fpo - "Scrum et al." - the legendary talk at Google Campus by Ken Schwaber, the father of Scrum
- - https://techblog.bozho.net/gdpr-practical-guide-developers/ - GDPR - A Practical Guide For Developers
- - https://people.neilon.software/ - Neil Green - How to Deal with Difficult People on Software Projects
- - http://alexthunder.livejournal.com/309815.html - "DON'T WAKE UP THE PROGRAMMER!"
- - http://chrisaitchison.com/2011/05/03/you-are-not-a-software-engineer/ - You are NOT a Software Engineer! (you are a software gardener)
- - https://www.youtube.com/watch?v=502ILHjX9EE - Henrik Kniberg - Agile Product Ownership in a Nutshell
+ - https://hackernoon.com/why-isnt-agile-working-d7127af1c552 - Why Isn’t Agile Working?;
+ - https://www.youtube.com/watch?v=IyNPeTn8fpo - "Scrum et al." - the legendary talk at Google Campus by Ken Schwaber, the father of Scrum;
+ - https://techblog.bozho.net/gdpr-practical-guide-developers/ - GDPR - A Practical Guide For Developers;
+ - https://people.neilon.software/ - Neil Green - How to Deal with Difficult People on Software Projects;
+ - http://alexthunder.livejournal.com/309815.html - "DON'T WAKE UP THE PROGRAMMER!";
+ - http://chrisaitchison.com/2011/05/03/you-are-not-a-software-engineer/ - You are NOT a Software Engineer! (you are a software gardener);
+ - https://www.youtube.com/watch?v=502ILHjX9EE - Henrik Kniberg - Agile Product Ownership in a Nutshell;
 
 ## Business travel
 
-Skip it initially, but see before traveling: [travel.md](travel.md)
+For now, you can skip it, but read it before you go on your first business trip: [travel.md](travel.md).
 
 # Technical staff
 (coders, sysops, devops etc - people who primarily work with machines)
 
- - http://http.jameshfisher.com/2019/05/26/i-can-see-your-local-web-servers/ - on "localhost" servers
- - how to convert a putty key from a customer to id_rsa: https://askubuntu.com/a/584631 (you don't need to read it - just know it is here if you ever have to use it)
+ - http://http.jameshfisher.com/2019/05/26/i-can-see-your-local-web-servers/ - on "localhost" servers;
+ - how to convert a putty key from a customer to id_rsa: https://askubuntu.com/a/584631 (you don't need to read it - just know it is here if you ever have to use it);
 
 ## Developers
 This section is divided into sort filters, sort of. See each section and find out if it applies to you. If it does, watch it all.
 
 ### all developers
 
- - https://touk.pl/blog/2012/09/16/test-driven-traps-part-1/ - what "test hell" is
- - http://nvie.com/posts/a-successful-git-branching-model/ - well known git branching model. I think this one is actually bad, but it gets you thinking in the right direction.
- - https://chris.beams.io/posts/git-commit/ - How to Write a Git Commit Message. Painfully long, but sets the standard for everyone to follow.
- - http://www.agitar.com/downloads/TheWayOfTestivus.pdf - The Way of Testivus
- - https://www.artima.com/weblogs/viewpost.jsp?thread=204677 - How Much Unit Test Coverage Do You Need? - The Testivus Answer
- - http://www.leanessays.com/2019/04/what-if-your-team-wrote-code-for-737.html?m=1 - on the difference between coder/programmer and developer/engineer
+ - https://touk.pl/blog/2012/09/16/test-driven-traps-part-1/ - what "test hell" is;
+ - http://nvie.com/posts/a-successful-git-branching-model/ - a well known git branching model. I think this one is actually bad, but it gets you thinking in the right direction;
+ - https://chris.beams.io/posts/git-commit/ - How to Write a Git Commit Message. Painfully long, but sets the standard for everyone to follow;
+ - http://www.agitar.com/downloads/TheWayOfTestivus.pdf - The Way of Testivus;
+ - https://www.artima.com/weblogs/viewpost.jsp?thread=204677 - How Much Unit Test Coverage Do You Need? - The Testivus Answer;
+ - http://www.leanessays.com/2019/04/what-if-your-team-wrote-code-for-737.html?m=1 - on the difference between coders/programmers and developers/engineers
 
-#### any junior developers
+#### all junior developers
 
- - https://git-scm.com/book/ - how to git
- - https://semver.org - a version number convention
- - https://www.cs.usfca.edu/~galles/visualization/Algorithms.html - Data Structure Visualizations (you don't need to see them all, just know it is there if you need it one day)
- - https://youtu.be/yIPbE7BssOs - Randall Koutnik: Rethinking the Developer Career Path (the guy in a crooked viking hat)
+ - https://git-scm.com/book/ - how to git;
+ - https://semver.org - a version number convention;
+ - https://www.cs.usfca.edu/~galles/visualization/Algorithms.html - Data Structure Visualizations (you don't need to see them all, just know it is there if you need it one day);
+ - https://youtu.be/yIPbE7BssOs - Randall Koutnik: Rethinking the Developer Career Path (the guy in a crooked viking hat);
 
 ### all frontend developers
 
@@ -65,7 +65,7 @@ This section is divided into sort filters, sort of. See each section and find ou
 
 #### intermediate frontend developers
 
- - https://github.com/joshbuchea/HEAD - A list of everything that could go in the head of your document
+ - https://github.com/joshbuchea/HEAD - A list of everything that could go in the head of your document;
 
 ### all backend developers
 
