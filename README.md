@@ -369,11 +369,11 @@ If any of the above is not clear, not optimal, or you are curious about the rati
 
 ### 7.1 Conferences
 
-If there is a conference you'd like to attend and we agree that your attendance would be valuable for the company.
-- The company fund your conference ticket
-- The company fund your train/bus ticket
-- The company fund your stay if the price is reasonable (airbnb seems to lead here)
-- The company will not pay for the time spent on conference
+If there is a conference that you'd like to attend, and we agree that your attendance would be valuable for the company:
+- The company will fund your conference ticket;
+- The company will fund your train/bus ticket;
+- The company will fund your stay if the price is reasonable (AirBnB seems to lead here);
+- The company will not pay for the time spent at the conference.
 
 
 ## 8. Tools
