@@ -326,27 +326,27 @@ Using the desktop Slack application has a benefit of marking you as "available" 
 
 Channels:
 
-- `#announcements` - general announcement channel, where we mostly welcome new people and announce our vacation periods to others
+- `#announcements` - the general announcement channel, where we mostly welcome new people and announce our vacation periods to others
 - `#default` - the default channel (if there is no dedicated channel for something, we use this one)
-- `management` - senior non-technical management (hiring etc)
-- `#opensource-candidates` - for discussion of what we should the opensource budget go to
-- `#opensource-operations` - channel for opensource project development
-- `#python` - were we sometimes discuss things such as the usage of walrus operator (`:=`), if it is better to use `raise` or `raise e` (as not everyone speaks python on #default)
-- `#random` - all topics not directly related to work. If you read something interesting, don't hesitate to share with us.
-- `#sales` - sales team sends notifications there about high quality leads, signed/terminated contracts etc
+- `management` - senior non-technical management discussions (hiring etc)
+- `#opensource-candidates` - for discussions on what the opensource budget should go to
+- `#opensource-operations` - the channel for opensource project development
+- `#python` - where we sometimes discuss things such as the usage of walrus operator (`:=`) or if it is better to use `raise` or `raise e` (as not everyone speaks Python on #default)
+- `#random` - all topics not directly related to work. If you read something interesting, don't hesitate to share it with us.
+- `#sales` - sales team sends notifications there about high quality leads, signed/terminated contracts etc.
 - `#security` - for things like [heartbleed](http://heartbleed.com/), [shellshock](https://www.symantec.com/outbreak/?id=shellshock), [krack](https://www.krackattacks.com/), [poodle](https://www.us-cert.gov/ncas/alerts/TA14-290A), [venom](http://venom.crowdstrike.com/), [ghost](https://blog.qualys.com/laws-of-vulnerabilities/2015/01/27/the-ghost-vulnerability), [meltdown/spectre](https://meltdownattack.com/)
-- `sociocracy` - channel where sociocracy is coordinated (TODO: link to our S3 resources)
+- `sociocracy` - the channel where sociocracy is coordinated (TODO: link to our S3 resources)
 - `staff` - internal staff channel
 - `va` - for delegating things to Virtual Assistants
 - `#website` - discussion about our company website and its development
 
 (private channel names don't start with a `#`)
 
-the rest of the channels are customer- or project-specific. Only people involved in those projects are invited to the channels (for compartmentalization of IP).
+The remaining channels are client- or project-specific. Only the people involved in those projects get invited to the channels (for IP compartmentalization).
 
 [Slack's 2-step authorization setup](https://reeftechnologies.slack.com/account/settings)
 
-Do not forget to say hello to us on #random :)
+Do not forget to say hello to us on #random. :)
 
 
 ## 7. Rules
