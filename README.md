@@ -351,20 +351,20 @@ Do not forget to say hello to us on #random. :)
 
 ## 7. Rules
 
-Here are some miscellaneous rules to follow, that were hard to put in some other categories, so they were all collected here:
+Here are some miscellaneous rules to follow that were hard to put in some other categories, so they were all collected here:
 
 - When a meeting starts, decide where to bill it.
-- If you are a junior and you get stuck - ask for help. Really, really, really do. Do not spend 2 days trying to solve something a senior peer could help you go through in 10 minutes. Ask on the project slack and if that's not possible, use our `#default`. 
+- If you are a junior and you get stuck - ask for help. Really, really, really do. Do not spend two days trying to solve something a senior peer could help you go through in 10 minutes. Ask on the project Slack and if that's not possible, use our `#default` channel. 
 - If you are a developer, always perform basic functional testing (manually!) of your code and self-review your PR before you give it to a peer for review.
-- If there is time where you are working but you are not able to bill it, escalate it immediately. We are trying to avoid it.
-- It is forbidden to transfer any customer data through a non-encrypted channel. Use https and ssh tunnels when necessary.
-- It is forbidden to store customer data on a non-encrypted device. Use fully encrypted systems (or virtual machines with images stored on encrypted partitions, where the host machine has a disabled swap file, or where swap is encrypted).
-- Try to avoid task switching, especially project switching. Generally, we do our best to switch only on "break points", which are moments where you loose concentration on the task at hand, such as end of working day, going away for lunch, end of a task. This means that if a new task appears on a high priority project, you will not switch to it immediately, but rather only after finishing what you are doing, or first thing next day etc. Usually you should have at most one project switch per day.
-- Avoid `ssh -A`, also called `ForwardAgent` (except for jb). If we use it on a server owned by a customer and it gets hacked, someone could potentially set a trap for us and authorize using our key. The better way is to use deployment keys on the customer server to access the repository.
-- Do not use the company email for RSS, out of work stuff etc. This is to minimize distractions, which is pretty important for us.
-- Try to use pomodoro, pair programming or other time organization method.
+- If there is ever a time when you are working, but for some reason, you are not able to bill it, escalate it immediately. We want to avoid such incidents.
+- It is forbidden to transfer any client data through a non-encrypted channel. Use https and ssh tunnels when necessary.
+- It is forbidden to store client data on a non-encrypted device. Use fully encrypted systems (or virtual machines with images stored on encrypted partitions, where the host machine has a disabled swap file, or where swap is encrypted).
+- Try to avoid task switching, especially project switching. Generally, we do our best to switch only on "breakpoints", which are the moments when you lose concentration on the task at hand, such as the end of the working day, going away for lunch, the end of a task. Thus, if a new task appears on a high priority project, we do not expect you to switch to it immediately, but rather after you finish what you are doing, or first thing next day, etc. Usually, you should have at most one project switch per day.
+- Avoid `ssh -A`, also called `ForwardAgent` (except for jb). If we use it on a server owned by a client and it gets hacked, someone could potentially set a trap for us and authorize using our key. The better way is to use deployment keys on the client server to access the repository.
+- Do not use the company email for RSS, out of work stuff etc. That is to minimize distractions, which is pretty important for us.
+- Try to use Pomodoro, pair programming, or another time organization method.
 
-If any of the above is not clear, not optimal or if you are curious about the rationale behind the rule, speak up on `#default`.
+If any of the above is not clear, not optimal, or you are curious about the rationale behind a rule, speak up on `#default`.
 
 
 ### 7.1 Conferences
