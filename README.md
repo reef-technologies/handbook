@@ -38,22 +38,22 @@ We will not accept a project targeted to manipulate people, rip them off or put 
 
 When there is no task for you among commercial projects, don't worry - before someone finds a task for you, you can work on opensource projects and get paid for it! Opensource is a "default" project for all coders and generally has lower priority than commercial projects. However, sometimes there may be no tasks for you  in any commercial project, so then you have something to fall back on. That is usually the case in the first couple of days of you working with us, while we're still taking care of some formalities.
 
-The time spent on opensource development should be billed on `RT / opensource development`. If you find some interesting opensource projects, don't be shy and let us know more on the `#opensource-candidates` channel on Slack.
+The time spent on opensource development should be billed on `RT / opensource development`. If you find some interesting opensource projects, don't be shy and speak out, we are always on a lookout for something to contribute to.
 
-When you start working on an opensource project, make sure that it is forked on our github. If it's not, post a request on `#opensource-operations`. Then, create a branch for your change and develop your changes there. When finished, ask other company developers for review. Finally, when the review is done, submit a pull request to the original project repository (we call it "upstream"). Because this code is opensourced and public, we want to ensure the best possible quality of the code that members of our company release.
-
-We often have two forks, one private (`reef-technologies/foobar-priv`) and one public (`reef-technologies/foobar`). That is so that we can teach junior developers in a safe environment, where they can receive a lot of comments in the early phases of their first pull requests. When the PR is ready, we push the branch to the public fork and make a PR to upstream from there.
+When you start working on an opensource project, make sure that it is forked on our github. If it's not, get someone to make a RT fork. Then, create a branch for your change and develop your changes there. When finished, ask other company developers for review. Finally, when the review is done, submit a pull request to the original project repository (we call it "upstream"). Because this code is opensourced and public, we want to ensure the best possible quality of the code that members of our company submit for merging.
 
 
 ## Workspace safety
 
-All data related to the company **must** be stored in a virtual machine, and its image **must** be stored on an encrypted volume. This practice prevents potential data leaks, i.e. if your computer get stolen. There are a few exceptions, you will read about them later on.
+All data related to the company **must** be stored on encrypted media (usually in a virtual machine which has its image stored on an encrypted volume, but dual boot with full disk encryption is also allowed). This practice prevents potential data leaks, i.e. if your computer get stolen. There are a couple exceptions, you will read about them later on.
 
-You should already have an email account in the `reef.pl` domain. Only ever use this email address (and the associated accounts) on the virtual machine - this way your private and work accounts will never mix access or customer data.
+You should already have an email account in the `reef.pl` domain. Only ever use this email address (and the associated accounts) on secure environment (VM/dual boot) - this way your private and work accounts will never mix access or customer data.
 
-The relatively high security level we keep allows us to work for financial institutions and, in general, institutions that treat their security seriously. Funny story moment: Pawel talked to a bank once, and they wanted him to work on site. Pawel described our security model and when he finished, an engineer from the bank said: "They have more security at their home offices than we have here!". The manager looked at the engineer and he was not happy. ;)
+2FA is mandatory everywhere it is possible to use it (more explanation below). We recommend Twilio's [Authy](https://authy.com/) because it has a pin code and e2e encrypted cloud backup.
 
-UPDATE: A fully encrypted laptop computer of one of our developers has been stolen from his bag while he was on a train, returning from a conference. Spooky.
+The relatively high security level we keep allows us to work for financial institutions and, in general, institutions that treat their security seriously. Funny story moment: Pawel talked to a bank once, and they wanted him to work on site. Pawel described our security model and when he finished, an engineer from the bank said: "They have more security at their homes than we have at the office!". The manager looked at the engineer and he was not happy. ;)
+
+UPDATE: A fully encrypted laptop of our senior developer has been stolen from his bag while he was on a train, returning from a conference in late 2017. Spooky.
 
 
 # Environment preparation
@@ -62,7 +62,7 @@ This guide will show how to set up a standard, secure environment for software d
 
 It is not needed for recruitment assignments.
 
-It may be needed for trial period assignments. Usually, it is mandatory, unless the trial period assignment is an open source project and there is nothing to hide. If in doubt, ask your buddy.
+It may be needed for later trial period assignments. Usually, it is mandatory, unless the trial period assignment is an open source project and there is nothing to hide. If in doubt, ask the person who is giving you the task.
 
 ## Time-tracking
 
@@ -87,11 +87,13 @@ Please install it and then accept the invitation that you received on your email
 
 You can download the application here: [Hubstaff Tracker](https://app.hubstaff.com/download)
 
-If you ever wonder how Hubstaff calculates the activity levels, here is a handy link to [their documentation](https://support.hubstaff.com/how-are-activity-levels-calculated/).
+If you ever wonder how Hubstaff calculates the activity levels, here is a handy link to [their documentation](https://support.hubstaff.com/how-are-activity-levels-calculated/) (not that anyone looks on it, calls have 0% activity and we do them a few times per week, this metric is a bit impractical).
 
 #### I CAN SEE YOU
 
 As it turns out, people usually find this document before they sign a contract with us and before their tracker account is created. Then they decide to work on their environment even before they have access to the tracker. If you are one of those people, please, track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can compensate you for this time as soon as you get access to the official company tracker. For example, you can use the free [toptracker](https://www.toptal.com/tracker/). We really, really don't like it when people work for us but are not getting paid for it. 
+
+UPDATE after 2 years or so: nobody seems to actually track it, but now that we have more data, we know it takes approximately 90 minutes to set everything up, so in worst case we can compensate based on that value.
 
 #### RT projects
 Below you can find the list of RT projects alongside with their descriptions.
@@ -118,28 +120,24 @@ The descriptions tell you where you should bill your RT time on hubstaff.
 
 #### Non-RT projects
 
-If you are working on any external project for the customer, you should bill all your time spent on this project onto it. Knowledge gathering, environment preparation, actual programming, meetings or design. If you need to learn a framework, library or language in order to deliver value for the project, bill the learning to that project as well. If it took you a long time to learn a new skill, please mention it to our PM on that project. It's pretty common to issue a discount to the customer in cases like these.
+If you are working on any external project for the customer, you should bill all your time spent on this project onto it. Knowledge gathering, environment preparation, actual programming, meetings or design. If you need to learn a framework, library or language in order to deliver value for the project, bill the learning to that project as well. If it took you a long time to learn a new skill, please mention it to our PM on that project. It's pretty common to issue a discount to the customer in cases like these, but it is the responsibility of the PM to do that (sometimes the entire contract or milestone may be discounted and it is not necessary to adjust the coefficients every week).
 
 
 #### Bugs
 
 Workaround for window resize (most project names are like `RT / somethi...` - it is hard to find your project):
-you click `>>` then you can resize left pane a little bit, then `<<` - repeat several times - now you can read full project names.
+you click `>>` then you can resize left pane a little bit, then `<<` - repeat several times - now you can read full project names. UPDATE: this seems to have been fixed in 2019.
 
-It tracks time per 10-minute slot per project, so if you log some time in the given 10-minute period, switch to another project and switch back to the first one, it cannot really be distinguished (number and order of such switches is not recorded).
+It tracks time per 10-minute slot per project, so if you log some time in the given 10-minute period, switch to another project and switch back to the first one, it cannot really be distinguished (number and order of such switches is not recorded). UPDATE: this was written in 2017 and is no longer True. Activity is tracked in 10min buckets, but time is tracked accurately (and nobody cares about activity, really).
 
-Another issue is that manually logged time in the given slot cannot co-exist with any application-tracked time, so if you work from 14:01 to 14:02 and then log manual time for 14:05 to 14:10, the manual time entry will eat the tracked time. It's quite difficult to run into this, but it happened at least once to us.
+Another issue is that manually logged time in the given slot cannot co-exist with any application-tracked time, so if you work from 14:01 to 14:02 and then log manual time for 14:05 to 14:10, the manual time entry will eat the tracked time. It's quite difficult to run into this, but it happened at least once to us. UPDATE: this was written in 2017 and that problem seems to have disappeared a long time ago. Inspect your work log after adjusting time, just in case.
 
 
 ### Why we use a time tracker
 
-#### So that we know how much you should be paid.
-
-We all have hourly rates.
-
 #### So that we know how much we should charge the client.
 
-You may log some time to `RT / *`, which is paid by the company and not by the client
+You may log some time to `RT / *`, which is paid by the company and not by the client.
 
 #### So that we know how much we should charge which client.
 
@@ -149,16 +147,13 @@ Assuming that you somehow logged zero time to `RT / *`, when you work on multipl
 
 If a client is from the same country as we are, the invoice we give him has a non-zero VAT. Generally, that doesn't seem to ever happen. Otherwise, when the client is from a different country, the invoice has zero VAT. However, the vendors (such as yourself) have taxed invoices, so we (as a company) need to reclaim the VAT in an appropriate amount. We don't want to attempt to reclaim too much or too little, only the right amount. Generally, we don't want to mess with the tax agency and prefer to pay a greater tax when in doubt, but there is too much of VAT to ignore it. One could say that, assuming the company doesn't choose to forfeit the reclaimable VAT, we are required by the EU tax law to accurately track the time into "exported" and "not exported" buckets. The time tracker is just a practical too to get it done. 
 
-#### It can save the contract and it can save you
+#### So that we know how much you should be paid.
 
-Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on the project, then it is a good thing. The client doesn't see us work in their office, so if there are no results, it is difficult to say whether someone is working hard but struggling with a challenge, or whether somoene is not trying hard enough. As of writing this, the number of times the tracker was instrumental in preventing a rapid degradation of a relationship with a customer is: **5**.
+We all have hourly rates.
 
-Trust is a fragile thing and the time tracker helps to keep it in a good shape.
+#### It can save the contract
 
-
-#### It is becoming an industry standard
-
-We don't really have a choice, it's going to happen whether we want it or not.
+Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on the project, then it is a good thing. The client doesn't see us work in their office, so if there are no results, it is difficult to say whether someone is working hard but struggling with a challenge, or whether somoene is not trying hard enough. As of writing this, the number of times the tracker was instrumental in preventing a rapid degradation of a relationship with a customer is: **5**.  UPDATE: this counter stopped incrementing in mid 2018, when we changed the target client group slightly. Seems that "better" clients don't really care about the time, but they do care about results. Someone even wanted to disable the screenshot feature of the tracker, but others said they use it to inspect their own diary at the end of the day and after a short discussion everyone said they don't really care about it so we just left it as it was.
 
 
 # Configuring the environment
@@ -269,7 +264,7 @@ To improve the security of our accounts, we require you to enable 2-step verific
 
 Create a new account on GitHub. The suggested username is the first letter of your first name and your full last name, and the suffix `-reef`, eg. `jkowalski-reef` or `asmith-reef`.
 
-2-step authorization should be enabled as well.
+2-step authorization should be enabled as well. If you don't enable it (or if you disable it - which is crazy, but technically possible), a periodic audit will catch you and you will make the auditor very sad.
 
 [GitHub's 2-step authorization setup](https://github.com/settings/two_factor_authentication/configure)
 
@@ -281,7 +276,7 @@ Go [here](https://github.com/reef-technologies/handbook/subscription) and select
 
 ### Avatars
 
-Please add your photo (one that shows your face clearly without sunglasses etc) to all services that we use: Slack, Github, time tracker, Trello, Atlassian account etc. It is recommended to add it to [gravatar](https://gravatar.com), then It will load up automatically to many services. Avatars are important, especially on non-small teams, but also everywhere in context of communication with the customer (or ourselves), where we want to be recognized as human beings rather than lines of text. Cultural differences, timezones and language barriers make communication a challenge - lets make it at least slightly easier by showing a smiling face to the customer and his team.
+Please add your photo (one that shows your face clearly without sunglasses etc) to all services that we use: Slack, Github, time tracker, Trello, Atlassian account etc. It is recommended to add it to [gravatar](https://gravatar.com), then It will load up automatically to many services. Avatars are important, especially on non-small teams, but also everywhere in context of communication with the client (or ourselves), where we want to be recognized as human beings rather than lines of text. Cultural differences, timezones and language barriers make communication a challenge - lets make it at least slightly easier by showing a smiling face to the client and his team.
 
 Why no sunglasses? Please imagine the company in a few years, where almost every avatar on slack looks the same: either a sunglassed person or a 10-pixel high character on the top or bottom of a mountain. That won't work. Therefore we should all use clear pictures from the beginning.
 
@@ -297,9 +292,9 @@ We use simple hand signals during video calls to communicate more efficiently.
 | :fist: | pass (no comment) | moderated discussion |
 | :point_up: | requesting voice | moderated discussion | 
 |:thumbsup:|vote "consent"|S3 decision making|
-|hand with palm down|vote "concerned"|S3 decision making|
+|hand with palm down|vote "concern"|S3 decision making|
 |hand with palm up|vote "protest"|S3 decision making|
-|:spock-hand: or :wave:|ready to disconnect the call|call coming to an end|
+|:wave:|ready to disconnect the call|call coming to an end|
 
 in case of decision making or closing the call, everyone holds the sign until everyone else does - this way the situation is clear at a glance. In the past we used to show a sign for a moment, but then the quick responders hid their signals before the slow ones started signing and it was not clear what the situation is. Now we hold until everything is clear.
 
