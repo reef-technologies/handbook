@@ -12,7 +12,7 @@ You are expected to watch or read everything that matches your position within t
  - https://www.youtube.com/watch?v=n7wH2XdOWpM - AgileByExample 2016: Henrik Kniberg - Keynote - Focus (or Stop Starting, Start Finishing);
  - https://hbr.org/1999/11/management-time-whos-got-the-monkey - "Management Time: Who’s Got the Monkey?" by William Oncken, Jr.Donald L. Wass (1974);
  - http://randsinrepose.com/archives/be-unfailingly-kind/ - a 100% effective guide on how to work efficiently with people when you have no power over them;
- - https://youtu.be/eYMz-VOw4r8 - James Priest - Agile, decentralized Learning Organizations With Sociocracy 3.0;
+ - https://youtu.be/eYMz-VOw4r8 - James Priest - Agile, decentralized Learning Organizations With Sociocracy 3.0 (BTW when he mentions the startup sitting at the front, that actually was our team, taking most of the front row);
  - https://www.linkedin.com/pulse/77-elements-sociocracy-30-ewa-koprowska/ - Ewa Koprowska - 77 Elements of Sociocracy 3.0;
  - https://www.ted.com/talks/derek_sivers_how_to_start_a_movement?language=en - Derek Sivers - How to start a movement;
  - https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are - this explains what cortisol is;
