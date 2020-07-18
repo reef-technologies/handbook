@@ -161,7 +161,8 @@ WindowsPath('C:/Windows/system')
  - https://robert-mcdermott.gitlab.io/posts/speeding-up-python-with-nim/ - Speeding Up Python with Nim(py)
  - https://pydist.com/blog/distributions-vs-releases - on troubles with consistent installations of python packages
  - https://books.agiliq.com/projects/django-multi-tenant/ - on various ways to make django apps multitenant
- 
+ - ijson.backends.yajl2_c - iterative json parser capable of going through a 0.5TB json, maybe use cython to run it quickly.
+
 # Non-technical staff
 (leaders, managers, salesmen, testers etc - people who primarily work with people and products)
 
