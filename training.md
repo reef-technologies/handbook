@@ -87,7 +87,8 @@ This section is divided into sort filters, sort of. See each section and find ou
  - http://sven.stormbind.net/blog/posts/docker_from_30_to_230/ - (read if ever needed) on running many docker containers on the same host;
  - https://dzone.com/articles/understanding-recursive-queries-in-postgres - recursive queries in postgres (to find the topmost parent, for example);
  - https://txt.black/~jack/cloud.txt - an opinion about cloud performance (or the lack thereof) and alternative solutions;
- 
+ - https://chrisshort.net/the-aws-bill-heard-around-the-world/ - scary story about S3 and Cloudflare CDN that shows a couple interesting things;
+
 ### all python developers
 
  - https://docs.python.org/3/library/typing.html#typing.NamedTuple - how to typing.NamedTuple;
