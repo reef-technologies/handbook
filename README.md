@@ -360,6 +360,7 @@ Here are some miscellaneous rules to follow that were hard to put in some other 
 - Avoid `ssh -A`, also called `ForwardAgent` (except for jb). If we use it on a server owned by a client and it gets hacked, someone could potentially set a trap for us and authorize using our key. The better way is to use deployment keys on the client server to access the repository.
 - Do not use the company email for RSS, out of work stuff etc. That is to minimize distractions, which is pretty important for us.
 - Try to use Pomodoro, pair programming, or another time organization method.
+- If you issue an invoice to the company, please prefix the name of the file with your surname. This makes things much easier to find for the staff members who are dealing with a few dozen invoices every month.
 
 If any of the above is not clear, not optimal, or you are curious about the rationale behind a rule, speak up on `#default`.
 
