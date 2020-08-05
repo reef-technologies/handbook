@@ -153,7 +153,7 @@ We all have hourly rates.
 
 #### It can save the contract
 
-Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on the project, then it is a good thing. The client doesn't see us work in their office, so if there are no results, it is difficult to say whether someone is working hard but struggling with a challenge, or whether somoene is not trying hard enough. As of writing this, the number of times the tracker was instrumental in preventing a rapid degradation of a relationship with a customer is: **5**.  UPDATE: this counter stopped incrementing in mid 2018, when we changed the target client group slightly. Seems that "better" clients don't really care about the time, but they do care about results. Someone even wanted to disable the screenshot feature of the tracker, but others said they use it to inspect their own diary at the end of the day and after a short discussion everyone said they don't really care about it so we just left it as it was.
+Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on the project, then it is a good thing. The client doesn't see us work in their office, so if there are no results, it is difficult to say whether someone is working hard but struggling with a challenge, or whether somoene is not trying hard enough. As of writing this, the number of times the tracker was instrumental in preventing a rapid degradation of a relationship with a customer is: **5**.  UPDATE: this counter stopped incrementing in mid 2018, when we changed the target client group. Seems that "better" clients don't really care about the time, but they do care about results. CEO even wanted to disable the screenshot feature of the tracker in early 2020, but others said they use it to inspect their own diary at the end of the day and after a short discussion everyone said they don't really care about it so we just left it as it was. It seems that nobody has reviewed a screenshot since July 2018, except for people reviewing their own thing at the end of the day. Being able to easily recover from a situation where you have accidentally billed a client for doing something private (as you forgot to pause the timer) is nice and in line with the company values.
 
 
 # Configuring the environment
@@ -167,6 +167,8 @@ Due to the variety of operating systems used by our team, we do not impose a spe
 Due to the large space utilization of our projects, the minimum partition size is **50 GB** (recommended size: **100 GB**).
 
 In case you have no preferences, we recommend using [VeraCrypt](https://www.veracrypt.fr/en/Home.html). A step-by-step instruction for the installation process can be found [here](docs/VeraCrypt.md).
+
+It is allowed to use a non-virtual machine for work purposes (via dual boot or separate physical machine). This is not very common and if you are considering setting it up, you probably don't need detailed instructions, so the rest of the guide will show how to build a VM environment.
 
 
 ## 2. Virtual machine (host machine)
