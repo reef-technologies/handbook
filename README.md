@@ -34,13 +34,13 @@ We avoid fixed-scope projects. The reason why is that we want to focus on the cr
 We will not accept a project targeted to manipulate people, rip them off or put their savings at risk, such as insurance+retirement funds.
 
 
-## Opensource
+## Open source
 
-When there is no task for you among commercial projects, don't worry - before someone finds a task for you, you can work on opensource projects and get paid for it! Opensource is a "default" project for all coders and generally has lower priority than commercial projects. However, sometimes there may be no tasks for you  in any commercial project, so then you have something to fall back on. That is usually the case in the first couple of days of you working with us, while we're still taking care of some formalities.
+When there is no task for you among commercial projects, don't worry - before someone finds a task for you, you can work on open-source projects and get paid for it! Open source is a "default" project for all coders and generally has lower priority than commercial projects. However, sometimes there may be no tasks for you  in any commercial project, so then you have something to fall back on. That is usually the case in the first couple of days of you working with us, while we're still taking care of some formalities.
 
-The time spent on opensource development should be billed on `RT / opensource development`. If you find some interesting opensource projects, don't be shy and speak out, we are always on a lookout for something to contribute to.
+The time spent on open-source development should be billed on `RT / opensource development`. If you find some interesting open-source projects, don't be shy and speak out, we are always on a lookout for something to contribute to.
 
-When you start working on an opensource project, make sure that it is forked on our github. If it's not, get someone to make a RT fork. Then, create a branch for your change and develop your changes there. When finished, ask other company developers for review. Finally, when the review is done, submit a pull request to the original project repository (we call it "upstream"). Because this code is opensourced and public, we want to ensure the best possible quality of the code that members of our company submit for merging.
+When you start working on an open-source project, make sure that it is forked on our github. If it's not, get someone to make a RT fork. Then, create a branch for your change and develop your changes there. When finished, ask other company developers for review. Finally, when the review is done, submit a pull request to the original project repository (we call it "upstream"). Because this code is open-sourced and public, we want to ensure the best possible quality of the code that members of our company submit for merging.
 
 
 ## Workspace safety
@@ -62,7 +62,7 @@ This guide will show how to set up a standard, secure environment for software d
 
 It is not needed for recruitment assignments.
 
-It may be needed for later trial period assignments. Usually, it is mandatory, unless the trial period assignment is an open source project and there is nothing to hide. If in doubt, ask the person who is giving you the task.
+It may be needed for later trial period assignments. Usually, it is mandatory, unless the trial period assignment is an open-source project and there is nothing to hide. If in doubt, ask the person who is giving you the task.
 
 ## Time-tracking
 
@@ -108,7 +108,7 @@ The descriptions tell you where you should bill your RT time on hubstaff.
 | RT / management                            | a project reserved for company management;                                                                                                             |
 | RT / non-project meeting                   | phone calls and Slack conversations that are related to your work but not directly project-related;                                                     |
 | RT / virtual assistant                           | things related to organizing the equipment needed in the company (like laptops or any necessary office stuff or hardware);                                       |
-| RT / opensource development                      | time spent looking for any opensource bugs to be solved or projects to take part in, as well as actual programming, resolving issues;               |
+| RT / opensource development                      | time spent looking for any open-source bugs to be solved or projects to take part in, as well as actual programming, resolving issues;               |
 | RT / other internal development            | spending time on improving internal infrastructure like onboarding, training or any other company related stuff that might be helpful for others;    |
 | RT / pre-sales                             | any pre-work needed to be done before the contract is signed with the customer; usually asked by @ppolewicz;                                          |
 | RT / recruitment                           | time spent on actively recruiting other people;                                                                                                       |
@@ -326,8 +326,8 @@ Channels:
 - `#announcements` - the general announcement channel, where we mostly welcome new people and announce our vacation periods to others
 - `#default` - the default channel (if there is no dedicated channel for something, we use this one)
 - `management` - senior non-technical management discussions (hiring etc)
-- `#opensource-candidates` - for discussions on what the opensource budget should go to
-- `#opensource-operations` - the channel for opensource project development
+- `#opensource-candidates` - for discussions on what the open-source budget should go to
+- `#opensource-operations` - the channel for open-source project development
 - `#python` - where we sometimes discuss things such as the usage of walrus operator (`:=`) or if it is better to use `raise` or `raise e` (as not everyone speaks Python on #default)
 - `#random` - all topics not directly related to work. If you read something interesting, don't hesitate to share it with us.
 - `#sales` - sales team sends notifications there about high quality leads, signed/terminated contracts etc.
