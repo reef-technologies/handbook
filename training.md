@@ -6,6 +6,13 @@ You don't need to see all of it in one go. You're free to adjust your pace to th
 
 You are expected to watch or read everything that matches your position within two weeks from starting the work with the company.
 
+# Trial candidates
+ - https://www.youtube.com/watch?v=ZQUxL4Jm1Lo&feature=youtu.be - What is imposter syndrome and how can you combat it? (5 minutes video);
+ - https://hbr.org/1999/11/management-time-whos-got-the-monkey - "Management Time: Who’s Got the Monkey?" by William Oncken, Jr.Donald L. Wass (1974);
+ - https://www.youtube.com/watch?v=n7wH2XdOWpM - AgileByExample 2016: Henrik Kniberg - Keynote - Focus (or Stop Starting, Start Finishing);
+
+ - https://management30.com/practice/celebration-grids/ - Celebration grid - Celebrate Learnings with Managment 3.0 (6 minutes video);
+ - https://medium.com/@tadeumarinho/identifying-learning-from-problems-and-successes-with-celebration-grid-3b38244f07e9 - Celebration grid (5 min read aricle);
 
 # All staff
 
