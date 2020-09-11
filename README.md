@@ -107,7 +107,6 @@ The descriptions tell you where you should bill your RT time on hubstaff.
 | RT / management                            | a project reserved for company management;                                                                                                             |
 | RT / non-project meeting                   | phone calls and Slack conversations that are related to your work but not directly project-related;                                                     |
 | RT / virtual assistant                           | things related to organizing the equipment needed in the company (like laptops or any necessary office stuff or hardware);                                       |
-| RT / opensource development                      | time spent looking for any open-source bugs to be solved or projects to take part in, as well as actual programming, resolving issues;               |
 | RT / other internal development            | spending time on improving internal infrastructure like onboarding, training or any other company related stuff that might be helpful for others;    |
 | RT / pre-sales                             | any pre-work needed to be done before the contract is signed with the customer; usually asked by @ppolewicz;                                          |
 | RT / recruitment                           | time spent on actively recruiting other people;                                                                                                       |
