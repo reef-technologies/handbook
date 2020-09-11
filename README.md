@@ -388,6 +388,13 @@ The "srm" tool which securely deletes data. We use it to wipe the repos (despite
 apt-get install secure-delete
 ```
 
+You can use following command to delete directory:
+```
+srm -fllz -r -v <directory>
+```
+
+(you can skip `-r` for single file or `-v` if you don't care about verbosity - `-fllz` is the fastest possible way to run `srm` and it is safe due to encrypted drive and also modern ways of storing data in hard drives - default full *Gutmann method* is not needed)
+
 To remove the docker containers created while working on a project, please use the following command (get "dockerkill.sh" from the bin directory of this repo):
 
 ```bash
