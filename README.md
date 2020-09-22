@@ -113,7 +113,7 @@ The descriptions tell you where you should bill your RT time on hubstaff.
 | RT / recruitment                           | time spent on actively recruiting other people;                                                                                                       |
 | RT / sociocracy                            | for s3 meetings, but also for chatting on the channel and for tuners |
 | RT / special assignment from CEO           | bill like this only when specifically asked to |
-| RT / Training                              | only during training phase (going through [training](training.md) after onboarding);                                                                              |
+| RT / onboarding                            | only during onboarding phase (going through [training](training.md) materials); |
 | OTHER / just-in-case                             | this is in case you need to work on a project before you are assigned to it; in such case raise the problem to the management and re-bill that time later to the proper project;|
 
 
