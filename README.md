@@ -432,3 +432,120 @@ If you find that some key knowledge (not covered by the NDA) that might useful f
 You've done all the things you need to get started. Good luck!
 
 Now head on to [training](training.md)!
+
+# linkedin.py
+
+```
+from __future__ import annotations
+from dataclasses import dataclass
+from typing import Optional
+
+
+@dataclass
+class Benefit:
+    brief_description: str
+    extended_description: Optional[str] = None
+
+    def __str__(self) -> str:
+        if self.extended_description is not None:
+            return f'{self.brief_description}: {self.extended_description}'
+        return self.brief_description
+
+
+@dataclass
+class Project:
+    __slots__ = ('brief_description', 'location')
+
+    brief_description: str
+    location: str
+
+    def __str__(self) -> str:
+        return f'{self.brief_description} from {self.location}'
+
+
+@dataclass
+class Dev:
+    name: str
+    years_of_programming: int = 7
+    loves_python: bool = True
+
+    def __str__(self) -> str:
+        return self.name
+
+
+@dataclass
+class Company:
+    name: str
+    info: dict[str, str]
+    benefits: list[Benefit]
+    projects: list[Project]
+    job_ad: str
+
+    def invite(self, dev: Dev) -> None:
+        print('#' * 40)
+        print(f"We'd love to see you work here at {self.name}, {dev}!")
+        for what in ('benefits', 'projects'):
+            self.brief(what)
+        print(f'\nPlease join us at: {self.job_ad}\n')
+
+    def brief(self, what: str) -> None:
+        print(f'\nHere are the example {what} of working at {self.name}:')
+        for idx, benefit in enumerate(getattr(self, what), start=1):
+            print(f'{idx}. {benefit}')
+
+
+if __name__ == '__main__':
+    INFO = {
+        'industry': 'IT',
+        'field': 'backend',
+        'language': 'python',
+        'work_model': 'fully remote',
+        'level': 'senior only',
+        'hiring': 'yes',
+    }
+
+    BENEFITS = [
+        Benefit('remote work'),
+        Benefit('asynchronicity', 'work whenever you like'),
+        Benefit('coworking cost support'),
+        Benefit('hardware and software cost support'),
+        Benefit('private assistant'),
+        Benefit('budget for tools'),
+        Benefit('sociocracy', 'we make decisions together'),
+        Benefit('no calls on Mondays'),
+    ]
+
+    PROJECTS = [
+        Project('sales data analysis tool for a fintech company', 'Chicago, IL'),
+        Project('paper product level tracker for toilet cleaners', 'Canada'),
+        Project('AI video content analyzer/searcher for drone pilots', 'Detroit, MI'),
+        Project('two e-commerce applications for a customer', 'Washington, DC'),
+        Project('hydrant certification report generator', 'Australian plumbers'),
+    ]
+
+    reef_technologies = Company(
+        name='Reef Technologies',
+        info=INFO,
+        benefits=BENEFITS,
+        projects=PROJECTS,
+        job_ad='https://justjoin.it/offers/reef-technologies-rockstar-python-developer',
+    )
+
+    name = input('Your Name: ')
+    years_of_programming = int(input('Years of Programming Experience: '))
+    loves_python = input('Do you love Python? (yes/no): ').lower() == 'yes'
+
+    you = Dev(
+        name=name,
+        years_of_programming=years_of_programming,
+        loves_python=loves_python,
+    )
+
+    MIN_EXP = 4
+    if you.years_of_programming >= MIN_EXP and you.loves_python:
+        reef_technologies.invite(you)
+    else:
+        print(
+            f'Our job requires at least {MIN_EXP} years of programming experience and some python love'
+        )
+```
