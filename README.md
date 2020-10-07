@@ -435,7 +435,7 @@ Now head on to [training](training.md)!
 
 # linkedin.py
 
-```
+```python
 from __future__ import annotations
 from dataclasses import dataclass
 from typing import Optional
