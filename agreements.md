@@ -45,11 +45,11 @@ At Reef Technologies, we mostly make decisions in our weekly Sociocracy meetings
 
 The fast-track approach for decision-making allows staff members to propose “small changes”, such as minor operational improvements on the #sociocracy channel on Slack. Everyone is invited to cast their votes through upvoting (:thumbsup:) or downvoting (:thumbsdown:)  the message.
 
-##24h format
+## 24h format
 
 Some staff members mentioned that the 12-hour clock led to unnecessary confusion. As we are an international company and we live in different time zones, it can be doubly problematic. Thus, we decided to always use the 24-hour standard (the so-called “military time”) to minimize misunderstandings.
 
-##Joking in company meetings
+## Joking in company meetings
 
 We want the company environment to be friendly and allow for joking around in good humor. However, we realize that due to cultural differences or a slip of the tongue, someone may make a joke that is offensive to another staff member. If such a situation occurs, we take the following steps:
 - The person who feels that something offensive has been said reacts by saying: “Hey, that was inappropriate”.
@@ -61,7 +61,7 @@ This solution is meant to allow the team to auto-calibrate and recognize what co
 
 If the offensive comment is seen as severe and above the grade of this agreement, it will be raised to the HR circle to decide on further steps. Fortunately, so far, there have been no such situations.
 
-##Audio/video processing in Zoom calls
+## Audio/video processing in Zoom calls
 
 It is not allowed to use audio or video processing in company Zoom calls. The only exception to this rule is the active noise cancellation function, which staff members may use freely.
 
