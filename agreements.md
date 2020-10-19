@@ -43,7 +43,8 @@ When a Reef Technologies developer encounters a bug that fits this description, 
 
 At Reef Technologies, we mostly make decisions in our weekly Sociocracy meetings. The standard Sociocracy framework for proposing changes is a useful tool, but we admit that it can be time-consuming. Additionally, in some cases, a staff member may not want to wait for the Sociocracy call.
 
-The fast-track approach for decision-making allows staff members to propose “small changes”, such as minor operational improvements on the #sociocracy channel on Slack. Everyone is invited to cast their votes through upvoting (:thumbsup:) or downvoting (:thumbsdown:)  the message.
+The fast-track approach for decision-making allows staff members to propose “small changes”, such as minor operational improvements on the #sociocracy channel on Slack. Everyone is invited to cast their votes through upvoting (:thumbsup:) or downvoting (:thumbsdown:)  the message.  If no one objects to the proposal within 24 hours, it becomes a new active agreement.
+
 
 ## 24h format
 
