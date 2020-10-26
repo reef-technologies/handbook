@@ -17,6 +17,8 @@ That's it. It may be surprising that there is no "happy employees" entry on the 
 
 We use the Sociocracy 3.0 decision making process to give control over the environment to the company staff. They might choose, which sometimes they do, to use that power to change how the company works. That, in turn, might increase their happiness. This mechanism works surprisingly well.
 
+Here you can find list of [active agreements](agreements.md).
+
 
 ## Deadlines and estimates
 
