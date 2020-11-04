@@ -30,7 +30,7 @@ You are expected to watch or read everything that matches your position within t
  - https://hackernoon.com/why-isnt-agile-working-d7127af1c552 - Why Isn’t Agile Working?;
  - https://www.youtube.com/watch?v=IyNPeTn8fpo - "Scrum et al." - the legendary talk at Google Campus by Ken Schwaber, the father of Scrum;
  - https://techblog.bozho.net/gdpr-practical-guide-developers/ - GDPR - A Practical Guide For Developers;
- - https://people.neilon.software/ - Neil Green - How to Deal with Difficult People on Software Projects;
+ - https://www.howtodeal.dev/ - Neil Green - How to Deal with Difficult People on Software Projects;
  - http://alexthunder.livejournal.com/309815.html - "DON'T WAKE UP THE PROGRAMMER!";
  - http://chrisaitchison.com/2011/05/03/you-are-not-a-software-engineer/ - You are NOT a Software Engineer! (you are a software gardener);
  - https://www.youtube.com/watch?v=502ILHjX9EE - Henrik Kniberg - Agile Product Ownership in a Nutshell;
