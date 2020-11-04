@@ -116,6 +116,8 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://medium.com/@dwdraju/python-function-on-aws-lambda-with-api-gateway-endpoint-288eae7617cb - how to do a simple serverless application on AWS Lambda and publish it;
  - https://golang-for-python-programmers.readthedocs.io/en/latest/ - to read one day if/when we need golang;
  - https://blog.heroku.com/python37-dataclasses-async-await - well written summary of what's new in python-3.7;
+ - https://realpython.com/python38-new-features/ - cool new features in Python 3.8;
+ - https://realpython.com/python39-new-features/ - cool new features in Python 3.9;
 
 Why pathlib is fun:
 
