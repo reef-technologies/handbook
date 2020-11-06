@@ -104,3 +104,23 @@ Given the number of hours that she has tracked so far:
 Given that the company refunds up to 50% of the hardware cost, Mary may now buy hardware worth up to $210. She will receive up to $105 co-funding from the company. The hardware will instantly belong to her 100%. The cost has already been amortized by the hours she had tracked for Reef Technologies.
 
 As a senior Reef Technologies staff member, you are eligible to use the services of a personal assistant. The assistant may do the necessary research, make a list of top hardware models for you to choose from, find a good online shop that is available in your country and have the appropriate equipment delivered to your address.
+
+## Training and upskilling
+
+At Reef Technologies, we support the development of our staff members in the following areas:
+
+### Organized events
+
+When a Reef Technologies staff member participates in an event such as an industry-themed conference or a visit to a client’s office, the company refunds transportation, accommodation, and food costs.
+
+If the staff member attends a conference, the company also covers or refunds the cost of the entry fee. 
+
+In case the staff member opts for active participation in an event, such as giving a speech, working in a client’s office, or having a face-to-face meeting with a client, the company also remunerates the staff member according to the hours tracked and the standard hourly rate.
+
+### Self-development
+
+When a staff member needs to learn a new skill for a specific project, they need to bill that time to the client as a separate task on Hubstaff (i.e., “Learning Kubernetes”). They are also required to inform Paweł before the end of that week, as he needs to check if he should discount the client for the training time.
+
+We have all agreed that it would be artificial and stifling to have a fixed, Hubstaff-tracked time budget for regular upskilling. When a staff member wants to learn a new technology out of their own interest, they should inform Paweł about it. He can then take it into account when looking for new projects and try to create an opportunity to learn the requested skill while working for a client.
+
+We all love what we do and enjoy upskilling and self-development, so staff members are also encouraged to expand their knowledge in their free time. That effort is also compensated, but indirectly – through periodic hourly rate adjustments, which currently happen in November.
