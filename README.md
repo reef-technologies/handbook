@@ -58,17 +58,16 @@ The relatively high security level we keep allows us to work for financial insti
 UPDATE: A fully encrypted laptop of our senior developer has been stolen from his bag while he was on a train, returning from a conference in late 2017. Spooky.
 
 
-# Environment preparation
+# Time-tracking
 
-This guide will show how to set up a standard, secure environment for software development.
+This guide will show how to set up a time tracking app.
 
 It is not needed for recruitment assignments.
 
-It may be needed for later trial period assignments. Usually, it is mandatory, unless the trial period assignment is an open-source project and there is nothing to hide. If in doubt, ask the person who is giving you the task.
+It is needed for trial period assignments.
 
-## Time-tracking
 
-### Sign in to your new e-mail account
+## Sign in to your new e-mail account
 
 The first step you need to take is to sign in to your new Google account at `reef.pl`. All the necessary information, including credentials, have been sent to your personal e-mail address.
 
@@ -80,7 +79,7 @@ You should sign in for the first time from the host computer, as it is necessary
 
 You have to set up 2-factor authentication within 24 hours from the first successful login, or the security policy will cut you off. It's best to set it up right after you perform the initial login.
 
-### Time tracking app
+## Time tracking app
 
 We use an application that measures the time your spend at work and takes regular screenshots. The first step in preparing your work environment is to install it.
 
@@ -91,13 +90,14 @@ You can download the application here: [Hubstaff Tracker](https://app.hubstaff.c
 
 If you ever wonder how Hubstaff calculates the activity levels, here is a handy link to [their documentation](https://support.hubstaff.com/how-are-activity-levels-calculated/) (not that anyone looks on it, calls have 0% activity and we do them a few times per week, this metric is a bit impractical).
 
-#### I CAN SEE YOU
+### I CAN SEE YOU
 
 As it turns out, people usually find this document before they sign a contract with us and before their tracker account is created. Then they decide to work on their environment even before they have access to the tracker. If you are one of those people, please, track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can compensate you for this time as soon as you get access to the official company tracker. For example, you can use the free [toptracker](https://www.toptal.com/tracker/). We really, really don't like it when people work for us but are not getting paid for it. 
 
 UPDATE after 2 years or so: nobody seems to actually track it, but now that we have more data, we know it takes approximately 90 minutes to set everything up, so in worst case we can compensate based on that value.
 
-#### RT projects
+### RT projects
+
 Below you can find the list of RT projects alongside with their descriptions.
 The descriptions tell you where you should bill your RT time on hubstaff.
 
@@ -119,12 +119,12 @@ The descriptions tell you where you should bill your RT time on hubstaff.
 | OTHER / just-in-case                             | this is in case you need to work on a project before you are assigned to it; in such case raise the problem to the management and re-bill that time later to the proper project;|
 
 
-#### Non-RT projects
+### Non-RT projects
 
 If you are working on any external project for the customer, you should bill all your time spent on this project onto it. Knowledge gathering, environment preparation, actual programming, meetings or design. If you need to learn a framework, library or language in order to deliver value for the project, bill the learning to that project as well. If it took you a long time to learn a new skill, please mention it to our PM on that project. It's pretty common to issue a discount to the customer in cases like these, but it is the responsibility of the PM to do that (sometimes the entire contract or milestone may be discounted and it is not necessary to adjust the coefficients every week).
 
 
-#### Bugs
+### Bugs
 
 Workaround for window resize (most project names are like `RT / somethi...` - it is hard to find your project):
 you click `>>` then you can resize left pane a little bit, then `<<` - repeat several times - now you can read full project names. UPDATE: this seems to have been fixed in 2019.
@@ -134,25 +134,25 @@ It tracks time per 10-minute slot per project, so if you log some time in the gi
 Another issue is that manually logged time in the given slot cannot co-exist with any application-tracked time, so if you work from 14:01 to 14:02 and then log manual time for 14:05 to 14:10, the manual time entry will eat the tracked time. It's quite difficult to run into this, but it happened at least once to us. UPDATE: this was written in 2017 and that problem seems to have disappeared a long time ago. Inspect your work log after adjusting time, just in case.
 
 
-### Why we use a time tracker
+## Why we use a time tracker
 
-#### So that we know how much we should charge the client.
+### So that we know how much we should charge the client.
 
 You may log some time to `RT / *`, which is paid by the company and not by the client.
 
-#### So that we know how much we should charge which client.
+### So that we know how much we should charge which client.
 
 Assuming that you somehow logged zero time to `RT / *`, when you work on multiple projects, we want to know how much time was worked for which client, so that we can bill them for it appropriately. Billing a client inaccurately goes against a foundation of the company ("happy clients", see above).
 
-#### So that we know how much VAT (value-added tax) we should pay
+### So that we know how much VAT (value-added tax) we should pay
 
 If a client is from the same country as we are, the invoice we give him has a non-zero VAT. Generally, that doesn't seem to ever happen. Otherwise, when the client is from a different country, the invoice has zero VAT. However, the vendors (such as yourself) have taxed invoices, so we (as a company) need to reclaim the VAT in an appropriate amount. We don't want to attempt to reclaim too much or too little, only the right amount. Generally, we don't want to mess with the tax agency and prefer to pay a greater tax when in doubt, but there is too much of VAT to ignore it. One could say that, assuming the company doesn't choose to forfeit the reclaimable VAT, we are required by the EU tax law to accurately track the time into "exported" and "not exported" buckets. The time tracker is just a practical too to get it done. 
 
-#### So that we know how much you should be paid.
+### So that we know how much you should be paid.
 
 We all have hourly rates.
 
-#### It can save the contract
+### It can save the contract
 
 Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on the project, then it is a good thing. The client doesn't see us work in their office, so if there are no results, it is difficult to say whether someone is working hard but struggling with a challenge, or whether somoene is not trying hard enough. As of writing this, the number of times the tracker was instrumental in preventing a rapid degradation of a relationship with a customer is: **5**.  UPDATE: this counter stopped incrementing in mid 2018, when we changed the target client group. Seems that "better" clients don't really care about the time, but they do care about results. CEO even wanted to disable the screenshot feature of the tracker in early 2020, but others said they use it to inspect their own diary at the end of the day and after a short discussion everyone said they don't really care about it so we just left it as it was. It seems that nobody has reviewed a screenshot since July 2018, except for people reviewing their own thing at the end of the day. Being able to easily recover from a situation where you have accidentally billed a client for doing something private (as you forgot to pause the timer) is nice and in line with the company values.
 
@@ -160,6 +160,13 @@ Sometimes the work doesn't go as well as it should for an amount of time that ca
 # Configuring the environment
 
 Once you have installed the time-tracking app, it's time to prepare your environment.
+
+This guide will show how to set up a standard, secure environment for software development.
+
+It is not needed for recruitment assignments.
+
+It may be needed for later trial period assignments. Usually, it is mandatory, unless the trial period assignment is an open-source project and there is nothing to hide. If in doubt, ask the person who is giving you the task.
+
 
 ## 1. Create an encrypted volume (host machine)	
 
