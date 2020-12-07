@@ -68,7 +68,7 @@ It is not allowed to use audio or video processing in company Zoom calls. The on
 
 ## Hardware co-funding
 
-All senior staff members of Reef Technologies may receive co-funding for hardware, up to 50% of the value of the hardware and up to 1024$ per two years. The 50% of company ownership passes to the staff member after two years of full-time work, with full-time defined as 30 hours per week.
+All senior staff members of Reef Technologies may receive co-funding for hardware, up to 50% of the value of the hardware and up to $1024 per two years. The 50% of company ownership passes to the staff member after two years of full-time work, with full-time defined as 30 hours per week.
 
 Two years of full-time work is equivalent to 2568 hours according to the following assumptions:
 - 250 days is the average amount of working days per year.
@@ -99,7 +99,7 @@ Now, John decides to terminate his contract with Reef Technologies. Given the ab
 Mary has tracked 264 hours working for Reef Technologies and she plans to continue working for the company. She wonders how much of hardware co-funding is already amortized in her case – or, in other words, how much money she can spend on hardware that will already be 100% hers.
 
 Given the number of hours that she has tracked so far:
-264 hours / 2568 hours * $1024 = 0.103 * $1024 = $105.47, rounded up to 105$.
+264 hours / 2568 hours * $1024 = 0.103 * $1024 = $105.47, rounded up to $105.
 
 Given that the company refunds up to 50% of the hardware cost, Mary may now buy hardware worth up to $210. She will receive up to $105 co-funding from the company. The hardware will instantly belong to her 100%. The cost has already been amortized by the hours she had tracked for Reef Technologies.
 
