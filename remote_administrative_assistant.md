@@ -1,4 +1,4 @@
-## Job Application: Remote Administrative Assistant
+## Job Offer: Remote Administrative Assistant
 
 Reef Technologies is a fully remote software house that works with clients from many different countries, including the US, the UK, and Canada. The demand for our work is extremely high, and we are constantly expanding our operations. 
 
