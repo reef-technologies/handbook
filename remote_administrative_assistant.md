@@ -1,3 +1,5 @@
+## Job Application: Remote Administrative Assistant
+
 Reef Technologies is a fully remote software house that works with clients from many different countries, including the US, the UK, and Canada. The demand for our work is extremely high, and we are constantly expanding our operations. 
 
 **Due to the increasing operational workload, we are now looking for a remote administrative assistant to join the company and perform a variety of tasks to support our CEO and Chief Strategy Officer**. Managing a software house entails many different responsibilities. Some of them are absolutely necessary, but too time-consuming for the CEO to deal with them himself. And that is where you come in. We need someone to maintain close contact with our CEO, Paweł, and take care of both professional and personal tasks that he needs to be taken care of.
