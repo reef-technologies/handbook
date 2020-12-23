@@ -517,7 +517,7 @@ if __name__ == '__main__':
         Benefit('remote work'),
         Benefit('asynchronicity', 'work whenever you like'),
         Benefit('coworking cost support'),
-        Benefit('hardware and software cost support'),
+        Benefit('hardware cost support'),
         Benefit('private assistant'),
         Benefit('budget for tools'),
         Benefit('sociocracy', 'we make decisions together'),
