@@ -14,7 +14,7 @@ We are **100% remote**, and that applies to you, too. You’ll be free to work f
 The description is vague by design – we need someone to deal with both repetitive tasks and ad-hoc solutions for the everyday functioning of the company. The work responsibilities are diverse, but mostly basic.
 
 **We are looking for someone who satisfies the following requirements:**
-- **Fluent English (B2 level) is indispensable** – we use English to communicate with pretty much all of our clients. Our staff members are international, and apart from one-on-one conversations with other Polish speakers, English is our everyday language.
+- **Fluent English (B2 level) is indispensable** – we use English to communicate with pretty much all of our clients. Our staff members are international, and apart from one-on-one conversations with other Polish speakers, (mostly written) English is our everyday language.
 - **Available for an exclusive engagement** – we are looking for someone who is ready to work for us full time, defined as ~120 hours per month as calculated by a time tracker.
 - **A smart, respectful, and concise communicator** – we work remotely, so precise communication is of great importance.
 - **A responsible and independent worker** – we respect each other’s time and keep our commitments, and we expect you to do the same. You should know how to self-regulate your work in a remote environment. We are looking for someone whose presence will bring order and not chaos. Everyone makes mistakes, but we expect you to focus and make sure not to repeat them.
