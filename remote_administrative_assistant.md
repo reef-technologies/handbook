@@ -23,7 +23,7 @@ The description is vague by design – we need someone to deal with both repetit
 
 **What do we bring to the table?**
 - You can expect lots of **independence**. You don’t need to commute anywhere, and we don’t have a dress code. This job is **100% remote**. We mostly work **asynchronously**. While some tasks may need to be done at a certain time or you may need to arrange a call with someone at a set hour, in general, you will **not** need to work “9 to 5”.
-- We are prepared to pay for about **120 hours of work every month**. We are offering **a stable, long-term collaboration**.
+- We are offering **a stable, long-term collaboration**.
 - You can **learn a lot**. The company is made up of experts in their respective fields, and you can be sure to pick up a lot of business know-how by participating in all kinds of activities at the company.
 - **Your voice counts.** The company is small, and everyone hates bureaucracy at an equal level. You will enjoy a close working relationship with the CEO, and you are more than allowed to bring up your concerns or come up with new ways to improve the way we do things.
 
