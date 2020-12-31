@@ -537,7 +537,7 @@ if __name__ == '__main__':
         info=INFO,
         benefits=BENEFITS,
         projects=PROJECTS,
-        job_ad='https://justjoin.it/offers/reef-technologies-no-cv-senior-python-developer-6h-day',
+        job_ad='https://careers.reef.pl',
     )
 
     name = input('Your Name: ')
