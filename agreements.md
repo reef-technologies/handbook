@@ -21,6 +21,29 @@ All staff members must respect the preferences of their colleagues.
 
 * It is acceptable for people who want to be called first to reject the call and wait for a text message.
 
+## Review channel
+
+The #review channel on Slack is where we request code reviews and perform them for other developers whenever needed.
+
+We use the following procedure for the code review process:
+
+1. The developer who needs their code to be reviewed posts a @here mark, the project name as shown on Hubstaff, and the code to the #review channel.
+
+2. Other team members may react to the message in the following ways:
+- :thumbsdown: downvote emoji – “I am busy and cannot help you right now”,
+- :eyes: eyes emoji – “I am reviewing your code now”,
+- :white_check_mark: green check emoji – “I have reviewed your code”.
+
+Developers should also take into consideration the following rules:
+
+- Code reviews for other staff members are seen as important, and, in most cases, they should be prioritized above other duties. A developer should only ignore a code review request if engaged in a highest-priority task such as a critical bug fix or finishing up a project for an upcoming deadline.
+- Only one developer should perform a code review for each code snippet posted to the #review channel. Therefore, if someone has already posted the eyes emoji, other staff members should ignore the post and carry on with their work.
+- Any team member may review any post – there is no preference as to who should do that.
+- Each post is a separate review round, so any developer may respond, even if they did not review the previous iterations. 
+- It is recommendable for different developers to look at the subsequent iterations of the same code, as it may help catch bugs or look at the code differently.
+- If a staff member realizes that everyone has refused to review a post, they should escalate the issue and discuss it with the team.
+
+
 ## Maintaining organizational culture
 
 The Reef Technologies Culture Book is a shared journal where we document company life, recording the most interesting events, challenges, solutions and decisions. It has been regularly updated since 2017, and it serves as a company chronicle that allows staff members to develop a common perception of the organization’s culture.
