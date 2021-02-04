@@ -62,6 +62,20 @@ The Bug Zoo is a useful resource that allows experienced staff members to quickl
 
 When a Reef Technologies developer encounters a bug that fits this description, they should propose changes to the [Bug Zoo repository](https://github.com/reef-technologies/python-review-zoo/) and describe the bug and an appropriate solution.
 
+## Opensource contributions
+
+Sometimes we encounter a bug or a missing feature in an opensource package that we use in one of our projects. We then face a choice: should we fix the bug or implement a change and push it upstream, or should we do whatever is needed on a private fork?
+
+There are a few things to consider:
+- who do we bill? Intellectual property usually goes to the client, but in this case, we would do some work for the client and then release the IP to an upstream vendor. Is our client okay with this?
+- if we do the change on a private fork, the patch maintenance will not be taken over by the upstream maintainer and may later become a problem for the client
+- sometimes, it can take a lot of time and effort to convince a stubborn maintainer to accept a PR
+- if we are going to push it upstream, we may want to review the PR internally before submitting it
+- if we decide to use a private fork, it might be necessary to fix the same issue twice on two different projects. There are two problems here: firstly, we are allergic to waste, and secondly, this may create an IP problem)
+- having a few opensource contributions to show to a prospective client can be useful during the sales process
+
+As you can see, it might be tricky to figure out which path is right for any given scenario. The solution is simple, just don't try to do it on your own. :) Always ask the person who is in charge of the relationship with the client to take care of it and let you know the final decision.
+
 ## Fast track decisions via Slack instead of standard Sociocracy approach
 
 At Reef Technologies, we mostly make decisions in our weekly Sociocracy meetings. The standard Sociocracy framework for proposing changes is a useful tool, but we admit that it can be time-consuming. Additionally, in some cases, a staff member may not want to wait for the Sociocracy call.
