@@ -36,15 +36,6 @@ We avoid fixed-scope projects. The reason why is that we want to focus on the cr
 We will not accept a project targeted to manipulate people, rip them off or put their savings at risk, such as insurance+retirement funds.
 
 
-## Open source
-
-When there is no task for you among commercial projects, don't worry - before someone finds a task for you, you can work on open-source projects and get paid for it! Open source is a "default" project for all coders and generally has lower priority than commercial projects. However, sometimes there may be no tasks for you  in any commercial project, so then you have something to fall back on. That is usually the case in the first couple of days of you working with us, while we're still taking care of some formalities.
-
-The time spent on open-source development should be billed on `RT / opensource development`. If you find some interesting open-source projects, don't be shy and speak out, we are always on a lookout for something to contribute to.
-
-When you start working on an open-source project, make sure that it is forked on our github. If it's not, get someone to make a RT fork. Then, create a branch for your change and develop your changes there. When finished, ask other company developers for review. Finally, when the review is done, submit a pull request to the original project repository (we call it "upstream"). Because this code is open-sourced and public, we want to ensure the best possible quality of the code that members of our company submit for merging.
-
-
 ## Workspace safety
 
 All data related to the company **must** be stored on encrypted media (usually in a virtual machine which has its image stored on an encrypted volume, but dual boot with full disk encryption is also allowed). This practice prevents potential data leaks, i.e. if your computer get stolen. There are a couple exceptions, you will read about them later on.
