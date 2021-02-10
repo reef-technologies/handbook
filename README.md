@@ -380,6 +380,10 @@ If there is a conference that you'd like to attend, and we agree that your atten
 - The company will fund your stay if the price is reasonable (AirBnB seems to lead here);
 - The company will not pay for the time spent at the conference.
 
+### 7.2 Copying Code
+
+Please follow these guidelines when copying code:
+- Please mention the license of the source code which is copied 
 
 ## 8. Tools
 
