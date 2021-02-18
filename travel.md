@@ -37,6 +37,7 @@
 
  - why you should never talk to the police. Keep watching until you are convinced:
    - https://www.youtube.com/watch?v=d-7o9xYp7eE - Don't talk to the police (it has two completely different parts that show different angles)
+   - https://youtu.be/9x2NaGkl6BI?t=720 - until 0:16:28. Shows a direct example of how police twists people to extract information that would then be used to convict them (whether they are guilty or not)
    - https://www.youtube.com/watch?v=EEUhE0NbinA - You Have the Right to Remain Innocent with Professor James Duane (shows more very specific examples of why it's *never*)
 
 ### Accommodation
