@@ -71,10 +71,10 @@ There are a few things to consider:
 - if we do the change on a private fork, the patch maintenance will not be taken over by the upstream maintainer and may later become a problem for the client
 - sometimes, it can take a lot of time and effort to convince a stubborn maintainer to accept a PR
 - if we are going to push it upstream, we may want to review the PR internally before submitting it
-- if we decide to use a private fork, it might be necessary to fix the same issue twice on two different projects. There are two problems here: firstly, we are allergic to waste, and secondly, this may create an IP problem)
+- if we decide to use a private fork, it might be necessary to fix the same issue twice on two different projects. There are two problems here: firstly, we are allergic to waste, and secondly, this may create an IP problem
 - having a few opensource contributions to show to a prospective client can be useful during the sales process
 
-As you can see, it might be tricky to figure out which path is right for any given scenario. The solution is simple, just don't try to do it on your own. :) Always ask the person who is in charge of the relationship with the client to take care of it and let you know the final decision.
+As you can see, it might be tricky to figure out which path is right for any given scenario. The solution is simple, just don't do it on your own :) Always ask the person who is in charge of the relationship with the client to take care of it and let you know the final decision. That's one of the reasons we have someone in that role for every project. This also allows for other solutions such as, for example, splitting the cost of a fix between two clients, discounts etc - something you couldn't do on your own. Fortunately, with a dedicated client contact person, you don't have to!
 
 ## Fast track decisions via Slack instead of standard Sociocracy approach
 
