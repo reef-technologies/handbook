@@ -221,7 +221,6 @@ WindowsPath('C:/Windows/system')
  - https://www.saastr.com/what-your-first-100-hires-will-look-like/ - What Your First 100 Hires Will Look Like
 
 # bonus material
- - https://docs.google.com/a/reef.pl/document/d/1IkixAHnuAFWPlDDPIcRg2RIYsQTVOpq26TqwZPgPSCo/edit?usp=sharing - Document with Reef employees' skills (I can help you with) and wishes (I would (not) like to work with). This information in taken into account while selecting the project process
  - https://www.youtube.com/watch?v=4u5N00ApR_k - if you are wondering how agile in corporations might look like
  - https://hbr.org/2018/11/how-our-careers-affect-our-children - if you are worried working long hours may affect your kinds. Turns out, the problem is not in the hours at all.
 
