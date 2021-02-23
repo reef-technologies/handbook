@@ -44,7 +44,7 @@ If a developer spots a review request not following this structure (missing some
 Developers should also take into consideration the following rules:
 
 - Code reviews for other staff members are seen as important, and, in most cases, they should be prioritized above other duties. A developer should only ignore a code review request if engaged in a highest-priority task such as a critical bug fix or finishing up a project for an upcoming deadline.
-- The reviewer should bill the time it took him to do the review to the posted project and todo in HubStaff.
+- The reviewer should bill the time it took them to do the review to the posted project and todo in HubStaff.
 - Only one developer should perform a code review for each code snippet posted to the #review channel. Therefore, if someone has already posted the eyes emoji, other staff members should ignore the post and carry on with their work.
 - Any team member may review any post – there is no preference as to who should do that.
 - Each post is a separate review round, so any developer may respond, even if they did not review the previous iterations. 
