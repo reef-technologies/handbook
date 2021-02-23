@@ -27,7 +27,14 @@ The #review channel on Slack is where we request code reviews and perform them f
 
 We use the following procedure for the code review process:
 
-1. The developer who needs their code to be reviewed posts a @here mark, the project name as shown on Hubstaff, and the code to the #review channel.
+1. The developer who needs their code to be reviewed posts a @here mark, the project name as shown on Hubstaff, a todo name, and the code to the #review channel.
+
+The general structure of the review request is:
+
+@here https://github.pr.link
+`Hubstaff project name` :: `Todo name`
+
+If a developer spots a review request not following this structure (missing some information), they should reply with `Please follow the review request structure`. This is an agreed upon gentle reminder, that carries no criticism or hard feelings.
 
 2. Other team members may react to the message in the following ways:
 - :thumbsdown: downvote emoji – “I am busy and cannot help you right now”,
