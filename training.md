@@ -169,7 +169,8 @@ WindowsPath('C:/Windows/system')
  - https://nedbatchelder.com//blog/201908/why_your_mock_doesnt_work.html - on mocking right, or, why dependency injection might be a good idea
  - https://books.agiliq.com/projects/django-admin-cookbook/ - many recipes for django admin customization
  - https://stevedower.id.au/blog/most-critical-python-metric - article about an interesting code metric, testability and side effects
- 
+ - https://web.eecs.utk.edu/~azh/blog/pythonstringsaremutable.html - Python strings are immutable, but only sometimes
+
 ### senior python developer
 
  - https://realpython.com/modeling-polymorphism-django-python/ - Modeling Polymorphism in Django With Python
