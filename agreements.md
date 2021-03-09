@@ -37,7 +37,9 @@ The general structure of the review request is:
 If a developer spots a review request not following this structure (usualy missing some information), they should reply with `Please follow the review request structure` and react with ❌ (`:x:`). This is an agreed upon gentle reminder, that carries no criticism or hard feelings.
 
 2. Other team members may react to the message in the following ways:
-- :thumbsdown: downvote emoji – “I am busy and cannot help you right now”,
+- 👎 (`:thumbsdown:`) downvote emoji – “I am busy and cannot help you right now”,
+- 👀 (`:eyes:`) – “I am reviewing your code now”,
+- ✅ (`:white_check_mark:`) – “I have reviewed your code”.
 - :eyes: eyes emoji – “I am reviewing your code now”,
 - :white_check_mark: green check emoji – “I have reviewed your code”.
 
