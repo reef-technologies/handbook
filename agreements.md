@@ -34,7 +34,7 @@ The general structure of the review request is:
 @here https://github.pr.link
 `Hubstaff project name` :: `Todo name`
 
-If a developer spots a review request not following this structure (missing some information), they should reply with `Please follow the review request structure`. This is an agreed upon gentle reminder, that carries no criticism or hard feelings.
+If a developer spots a review request not following this structure (usualy missing some information), they should reply with `Please follow the review request structure` and react with ❌ (`:x:`). This is an agreed upon gentle reminder, that carries no criticism or hard feelings.
 
 2. Other team members may react to the message in the following ways:
 - :thumbsdown: downvote emoji – “I am busy and cannot help you right now”,
