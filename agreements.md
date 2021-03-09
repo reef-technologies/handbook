@@ -27,16 +27,24 @@ The #review channel on Slack is where we request code reviews and perform them f
 
 We use the following procedure for the code review process:
 
-1. The developer who needs their code to be reviewed posts a @here mark, the project name as shown on Hubstaff, and the code to the #review channel.
+1. The developer who needs their code to be reviewed posts a `@here` mark, the project name as shown on Hubstaff, a todo name, and a link to the PR on the #review channel.
+
+The general structure of the review request is:
+
+@here https://github.pr.link `Hubstaff project name` :: `Todo name`
+
+If a developer spots a review request not following this structure (usualy missing some information), they should reply with `Please follow the review request structure` and react with ❌ (`:x:`). This is an agreed upon gentle reminder, that carries no criticism or hard feelings.
 
 2. Other team members may react to the message in the following ways:
-- :thumbsdown: downvote emoji – “I am busy and cannot help you right now”,
-- :eyes: eyes emoji – “I am reviewing your code now”,
-- :white_check_mark: green check emoji – “I have reviewed your code”.
+- 👎 (`:thumbsdown:`) downvote emoji – “I am busy and cannot help you right now”,
+- 👀 (`:eyes:`) – “I am reviewing your code now”,
+- ✅ (`:white_check_mark:`) – “I have reviewed your code”,
+- 🔒 (`:lock:`) – “I don't have permission to access this project”.
 
 Developers should also take into consideration the following rules:
 
 - Code reviews for other staff members are seen as important, and, in most cases, they should be prioritized above other duties. A developer should only ignore a code review request if engaged in a highest-priority task such as a critical bug fix or finishing up a project for an upcoming deadline.
+- The reviewer should track the time it took them to do the review on the project and todo indicated in the review request
 - Only one developer should perform a code review for each code snippet posted to the #review channel. Therefore, if someone has already posted the eyes emoji, other staff members should ignore the post and carry on with their work.
 - Any team member may review any post – there is no preference as to who should do that.
 - Each post is a separate review round, so any developer may respond, even if they did not review the previous iterations. 
