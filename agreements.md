@@ -39,7 +39,7 @@ If a developer spots a review request not following this structure (usualy missi
 - 👎 (`:thumbsdown:`) downvote emoji – “I am busy and cannot help you right now”,
 - 👀 (`:eyes:`) – “I am reviewing your code now”,
 - ✅ (`:white_check_mark:`) – “I have reviewed your code”,
-- 🔒 (`:lock:`) – “I don't have access to this project”.
+- 🔒 (`:lock:`) – “I don't have permission to access this project”.
 
 Developers should also take into consideration the following rules:
 
