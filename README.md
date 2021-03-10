@@ -380,10 +380,22 @@ If there is a conference that you'd like to attend, and we agree that your atten
 - The company will fund your stay if the price is reasonable (AirBnB seems to lead here);
 - The company will not pay for the time spent at the conference.
 
+
 ### 7.2 Copying Code
 
 Please follow these guidelines when copying code:
 - Please mention the license of the source code which is copied 
+
+
+### 7.3 Restricted patterns
+
+Whenever someone would like to use a pattern listed below, we have decided that they will get an opinion from a design reviewer __before__ writing the code. The restricted technologies are:
+1. Django GFK (generic foreign key)
+2. Django signals (please note that `transaction.on_commit()` hook is NOT a signal)
+3. Writing to `self.__class__`
+
+The reasoning behind this is that we usually prefer for the code to be structured differently and it's better to discuss this before implementation and not after. All of those technologies have their uses in good cases, but what we found is that often the alternative is more elegant, so in order to limit the amount of rewritten code, in those cases we choose to review the design before implementation. Design review is generally welcome and can save a lot of time, but in this case we have unanimously agreed it will be mandatory.
+
 
 ## 8. Tools
 
