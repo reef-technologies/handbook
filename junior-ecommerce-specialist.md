@@ -32,4 +32,4 @@ The description is slightly vague by design – we need someone to deal with bot
 - You can **learn a lot.** The company collaborates with experts in their respective fields, and you can be sure to pick up a lot of business know-how by participating in all kinds of activities.
 - **Your voice counts.** The company is small, and everyone hates bureaucracy at an equal level. You will enjoy a close working relationship with the CEO, and you are more than allowed to bring up your concerns or come up with new ways to improve the way we do things.
 
-You don’t need to send us your CV – it’s enough if you fill out our survey((out of date, Junior E-commerce Specialist has been found) ) and tell us a little about yourself.
+You don’t need to send us your CV – it’s enough if you fill out our survey (out of date, Junior E-commerce Specialist has been found) and tell us a little about yourself.
