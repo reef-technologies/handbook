@@ -90,6 +90,8 @@ You can download the application here: [Hubstaff Tracker](https://app.hubstaff.c
 
 If you ever wonder how Hubstaff calculates the activity levels, here is a handy link to [their documentation](https://support.hubstaff.com/how-are-activity-levels-calculated/) (not that anyone looks on it, calls have 0% activity and we do them a few times per week, this metric is a bit impractical).
 
+Here you can find [time-tracking rules which were co-created by company staff members](time-tracking-how-to.md).
+
 ### I CAN SEE YOU
 
 As it turns out, people usually find this document before they sign a contract with us and before their tracker account is created. Then they decide to work on their environment even before they have access to the tracker. If you are one of those people, please, track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can compensate you for this time as soon as you get access to the official company tracker. For example, you can use the free [toptracker](https://www.toptal.com/tracker/). We really, really don't like it when people work for us but are not getting paid for it. 
