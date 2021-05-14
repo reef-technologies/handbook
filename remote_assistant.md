@@ -7,8 +7,8 @@ Reef Technologies is a fully remote software house that works with clients from 
 We are **100% remote**, and that applies to you, too. You’ll be free to work from wherever you want to, as long as it doesn’t interfere with your work duties.
 
 **Some of your main obligations would be to:**
-- Assist the CEO and his family in personal matters such as performing research, ordering products, organizing family holidays or making appointments.
 - Assist the CEO through performing basic technical, logistic & administrative tasks.
+- Assist the CEO and his family in personal matters such as performing research, ordering products, organizing family holidays or making appointments.
 
 The description is vague by design – we need someone to deal with both repetitive tasks and ad-hoc solutions. The work responsibilities are diverse, but mostly basic.
 
