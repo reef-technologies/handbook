@@ -1,4 +1,4 @@
-## Job Offer: Remote Assistant
+## (out of date) Job Offer: Remote Assistant
 
 Reef Technologies is a fully remote software house that works with clients from many different countries, including the US, the UK, and Canada. The demand for our work is extremely high, and we are constantly expanding our operations.
 
@@ -31,4 +31,4 @@ The description is vague by design – we need someone to deal with both repetit
 - **Your voice counts**. The company is small, and everyone hates bureaucracy at an equal level. You will enjoy a close working relationship with the CEO, and you are more than allowed to bring up your concerns or come up with new ways to improve the way we do things.
 
 
-You don’t need to send us your CV – it’s enough if you fill out our [survey](https://forms.gle/Mpw9RguuwtzfgGw79) and tell us a little about yourself.
+You don’t need to send us your CV – it’s enough if you fill out our survey (out of date, Remote Assistant has been found) and tell us a little about yourself.
