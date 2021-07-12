@@ -26,7 +26,7 @@ A developer working on a project **must never** discuss deadlines or give estima
 
 As it turns out, developers are usually overly optimistic in their estimates. They are also good people, at least the ones that we hire, so when a client politely asks if a developer can help him, the developer will usually agree. Delivering on such a promise is problematic and often stressful for everyone involved.
 
-This is where project managers come in. They're particularly skilled at risk management, reducing the scope to what is really needed etc. Also, they enjoy talking to clients. Therefore, we let them take responsibility for the deadlines - they take care of developers' availability, risks, scheduling and so on. This way everyone is happier. Just to make it clear, if a developer ever provides an estimate or a deadline, it is considered to be invalid. The client know this too, so they shouldn't ask and you shouldn't reply - just redirect them to a project manager or tell them you'll contact him/her yourself and produce an accurate estimate as soon as possible.
+This is where project managers come in. They're particularly skilled at risk management, reducing the scope to what is really needed etc. Also, they enjoy talking to clients. Therefore, we let them take responsibility for the deadlines - they take care of developers' availability, risks, scheduling and so on. This way everyone is happier. Just to make it clear, if a developer ever provides an estimate or a deadline, it is considered to be invalid. The clients know this too, so they shouldn't ask and you shouldn't reply - just redirect them to a project manager or tell them you'll contact him/her yourself and produce an accurate estimate as soon as possible.
 
 
 ## Projects
