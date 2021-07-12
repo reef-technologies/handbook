@@ -15,12 +15,12 @@
 
 ### Transportation
 
-#### Car
+#### Car 🚗
 
  - https://www.youtube.com/watch?v=gYpuPZYrd2M - why one should wear a seatbelt while in a car (WARNING: it's a drastic, but very effective explanation)
  - some taxi drivers in many countries, are, unfortunately, malicious: try to use an Uber-like app to avoid being scammed
 
-### Airplane
+### Airplane ✈️
 
  - store your larger devices during taxi, landing and takeoff. Most landings are smooth, but you really don't want to be hit in the face with a laptop
  - if airplane engine malfunctions during takeoff, it often ends with a fire. You have like 94s between ignition and an explosion, so during evacuation make sure you do everything in your power to get away from the airplane by the time this happens. It is good to have your phone, credit card and passport in your pockets when you are running (you can prepare that during taxi) as you cannot take any luggage with you in such situation (don't worry, it is insured)
@@ -33,14 +33,13 @@
 
 - https://youtu.be/oAHbLRjF0vo - effectiveness of various methods of boarding
 
-### Authorities
+### Authorities 👮
 
  - why you should never talk to the police. Keep watching until you are convinced:
    - https://www.youtube.com/watch?v=d-7o9xYp7eE - Don't talk to the police (it has two completely different parts that show different angles)
-   - https://youtu.be/9x2NaGkl6BI?t=720 - until 0:16:28. Shows a direct example of how police twists people to extract information that would then be used to convict them (whether they are guilty or not)
    - https://www.youtube.com/watch?v=EEUhE0NbinA - You Have the Right to Remain Innocent with Professor James Duane (shows more very specific examples of why it's *never*)
 
-### Accommodation
+### Accommodation 🏨
 
  - choose a Bed & Breakfast place close to the target venue
  - for multi-day conferences the target venue itself (often a hotel) might be a good option (reduces logistics etc)
