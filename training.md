@@ -197,6 +197,7 @@ WindowsPath('C:/Windows/system')
  - https://www.youtube.com/watch?v=RyTQ5-SQYTo - Simon Sinek about millenials, and about the why it is not people that matter but the leaders
  - https://www.youtube.com/watch?v=ReRcHdeUG9Y - Simon Sinek: Why Leaders Eat Last
  - https://www.youtube.com/watch?v=_mG-hhWL_ug - Dan Pink - Drive: The surprising truth about what motivates us
+ - https://youtu.be/N2qAHtonLkI - Simon Sinek: A Surprising Habit of Great Leaders  
 
 ## Scrum masters
 
