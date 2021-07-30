@@ -391,6 +391,16 @@ The reasoning behind this is that we usually prefer for the code to be structure
 
 See also: https://github.com/reef-technologies/python-review-zoo/
 
+### 7.4 Holidays (days off)
+
+Whenever you're taking some days off, it's important to let other team members know, so that work can be 
+planned and client expectations managed. 
+* You should mark days when you won't be working in GSheet 'Work planning' as soon as you know about it. 
+* If you need time off urgently because of something unexpected, please let others know in Slack in #annoucements
+channel right away. 
+* If it's some time you're planning to take off in the future, 
+please mention that on Friday status call. 
+
 
 ## 8. Tools
 
