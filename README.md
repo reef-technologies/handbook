@@ -220,8 +220,8 @@ $ cp .gitconfig ~/
 Complete username and email:
 
 ```bash
-$ git config --global user.name "Imię Nazwisko"
-$ git config --global user.email imie.nazwisko@reef.pl
+$ git config --global user.name "Name Surname"
+$ git config --global user.email name.surname@reef.pl
 ```
 
 ### Bash
@@ -395,7 +395,7 @@ See also: https://github.com/reef-technologies/python-review-zoo/
 
 Whenever you're taking some days off, it's important to let other team members know, so that work can be 
 planned and client expectations managed. 
-* You should mark days when you won't be working in GSheet 'Work planning' as soon as you know about it. 
+* You should mark days when you won't be working in GSheet ['Work planning'](https://docs.google.com/spreadsheets/d/12nQKdskWDwFHhQ01BMjfllabqJTZo4tMdCsWx6NJaL4/edit?usp=sharing) as soon as you know about it. 
 * If you need time off urgently because of something unexpected, please let others know in Slack in #annoucements
 channel right away. 
 * If it's some time you're planning to take off in the future, 
