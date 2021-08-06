@@ -570,7 +570,7 @@ if __name__ == '__main__':
         loves_python=loves_python,
     )
 
-    MIN_EXP = 4
+    MIN_EXP = 5
     if you.years_of_programming >= MIN_EXP and you.loves_python:
         reef_technologies.invite(you)
     else:
