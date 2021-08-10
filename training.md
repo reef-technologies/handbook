@@ -124,7 +124,6 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://blog.heroku.com/python37-dataclasses-async-await - well written summary of what's new in python-3.7;
  - https://realpython.com/python38-new-features/ - cool new features in Python 3.8;
  - https://realpython.com/python39-new-features/ - cool new features in Python 3.9;
- - https://www.dabeaz.com/python/UnderstandingGIL.pdf - GIL War
 
 Why pathlib is fun:
 
@@ -183,6 +182,7 @@ WindowsPath('C:/Windows/system')
  - https://pydist.com/blog/distributions-vs-releases - on troubles with consistent installations of python packages
  - https://books.agiliq.com/projects/django-multi-tenant/ - on various ways to make django apps multitenant
  - ijson.backends.yajl2_c - iterative json parser capable of going through a 0.5TB json, maybe use cython to run it quickly.
+ - https://www.dabeaz.com/python/UnderstandingGIL.pdf - GIL War
 
 # Non-technical staff
 (leaders, managers, salesmen, testers etc - people who primarily work with people and products)
