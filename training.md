@@ -103,6 +103,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://txt.black/~jack/cloud.txt - an opinion about cloud performance (or the lack thereof) and alternative solutions;
  - https://chrisshort.net/the-aws-bill-heard-around-the-world/ - scary story about S3 and Cloudflare CDN that shows a couple interesting things;
  - https://www.citusdata.com/blog/2016/03/30/five-ways-to-paginate/ - Five ways to paginate in Postgres, from the basic to the exotic;
+ - https://hoytech.com/vmtouch/ - Portable file system cache diagnostics and control tool
 
 ### all python developers
 
