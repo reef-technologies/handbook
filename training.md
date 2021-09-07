@@ -8,6 +8,7 @@ You are expected to watch or read everything that matches your position within t
 
 # Trial candidates
  - https://www.youtube.com/watch?v=ZQUxL4Jm1Lo&feature=youtu.be - What is imposter syndrome and how can you combat it? (5 minutes video);
+ - https://asana.com/pl/resources/impostor-syndrome - Turn impostor syndrome into confidence: 15 tips for managers and individuals (11 minutes read);
  - https://hbr.org/1999/11/management-time-whos-got-the-monkey - "Management Time: Who’s Got the Monkey?" by William Oncken, Jr.Donald L. Wass (1974);
  - https://www.youtube.com/watch?v=n7wH2XdOWpM - AgileByExample 2016: Henrik Kniberg - Keynote - Focus (or Stop Starting, Start Finishing);
  - https://www.smashingmagazine.com/2017/12/designers-copyright-law-essentials/ - Copyright Law Essentials All Designers Should Know 
