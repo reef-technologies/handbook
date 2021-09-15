@@ -104,6 +104,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://chrisshort.net/the-aws-bill-heard-around-the-world/ - scary story about S3 and Cloudflare CDN that shows a couple interesting things;
  - https://www.citusdata.com/blog/2016/03/30/five-ways-to-paginate/ - Five ways to paginate in Postgres, from the basic to the exotic;
  - https://hoytech.com/vmtouch/ - Portable file system cache diagnostics and control tool
+ - https://github.com/hankhank10/false-positive-malware-reporting - How to stop anti virus software flagging your Python application as malware
 
 ### all python developers
 
