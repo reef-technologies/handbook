@@ -202,10 +202,6 @@ WindowsPath('C:/Windows/system')
  - https://www.youtube.com/watch?v=_mG-hhWL_ug - Dan Pink - Drive: The surprising truth about what motivates us
  - https://youtu.be/N2qAHtonLkI - Simon Sinek: A Surprising Habit of Great Leaders  
 
-## Scrum masters
-
- - https://www.youtube.com/watch?v=lvs7VEsQzKY - Dan North: Patterns of Effective Teams
-
 ## Managers
 
  - https://www.youtube.com/watch?v=yIPbE7BssOs - Randall Koutnik: Rethinking the Developer Career Path
@@ -220,6 +216,8 @@ WindowsPath('C:/Windows/system')
  - https://www.amazon.com/Minute-Manager-Kenneth-Blanchard-Ph-D/dp/074350917X - Kenneth Blanchard Ph.D., Spencer Johnson M.D.: The One Minute Manager
  - https://youtu.be/u0LDhtoWiGg?t=2437 - Angel Medinilla - a snippet of a presentation which explains how personal goals end up working on teams
  - http://randsinrepose.com/archives/technicality/ - Michael Lopp - Technicality
+ - https://www.youtube.com/watch?v=lvs7VEsQzKY - Dan North: Patterns of Effective Teams
+ - https://richmironov.medium.com/the-risks-of-replatforming-dbdc1de3a69d - Rich Mironov: The Risks of Replatforming
  
 ## Lean project managers
 
