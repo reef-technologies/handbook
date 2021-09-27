@@ -154,13 +154,13 @@ WindowsPath('C:/Windows/system')
 ```
 
 
-### junior python developer
+### junior python developers
 
  - https://github.com/reef-technologies/python-review-zoo/ - here we collect common/interesting review findings
  - https://treyhunner.com/2019/05/python-builtins-worth-learning/ - a friendly description of python builtin functions
  - https://write.as/chobeat/python-project-tooling-explained - a list of tools commonly used in development of python-based projects
 
-### intermediate python developer
+### intermediate python developers
 
  - https://www.youtube.com/watch?v=cKPlPJyQrt4 - some advanced python patterns
  - https://www.youtube.com/watch?v=Bv25Dwe84g0 - Raymond Hettinger: Thinking about Concurrency
@@ -177,7 +177,7 @@ WindowsPath('C:/Windows/system')
  - https://stevedower.id.au/blog/most-critical-python-metric - article about an interesting code metric, testability and side effects
  - https://web.eecs.utk.edu/~azh/blog/pythonstringsaremutable.html - Python strings are immutable, but only sometimes
 
-### senior python developer
+### senior python developers
 
  - https://realpython.com/modeling-polymorphism-django-python/ - Modeling Polymorphism in Django With Python
  - https://julien.danjou.info/high-performance-in-python-with-zero-copy-and-the-buffer-protocol/ - High-Performance in Python with Zero-Copy and the Buffer Protocol
@@ -186,6 +186,11 @@ WindowsPath('C:/Windows/system')
  - https://books.agiliq.com/projects/django-multi-tenant/ - on various ways to make django apps multitenant
  - ijson.backends.yajl2_c - iterative json parser capable of going through a 0.5TB json, maybe use cython to run it quickly.
  - https://www.dabeaz.com/python/UnderstandingGIL.pdf - GIL War
+
+### junior quality assurance engineers
+
+ - https://www.chiark.greenend.org.uk/~sgtatham/bugs.html - How to Report Bugs Effectively 
+ - https://www.softwaretestinghelp.com/exploratory-testing-tours/ - How to Use Tours to Ensure Complete and Thorough Exploratory Testing
 
 # Non-technical staff
 (leaders, managers, salesmen, testers etc - people who primarily work with people and products)
