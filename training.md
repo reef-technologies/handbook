@@ -194,7 +194,7 @@ WindowsPath('C:/Windows/system')
  - https://www.softwaretestinghelp.com/exploratory-testing-tours/ - How to Use Tours to Ensure Complete and Thorough Exploratory Testing
 
 # Non-technical staff
-(leaders, managers, salesmen, testers etc - people who primarily work with people and products)
+(leaders, managers, salesmen etc - people who primarily work with people and products)
 
 ## Sales
 
@@ -208,6 +208,7 @@ WindowsPath('C:/Windows/system')
  - https://www.youtube.com/watch?v=ReRcHdeUG9Y - Simon Sinek: Why Leaders Eat Last
  - https://www.youtube.com/watch?v=_mG-hhWL_ug - Dan Pink - Drive: The surprising truth about what motivates us
  - https://youtu.be/N2qAHtonLkI - Simon Sinek: A Surprising Habit of Great Leaders  
+ - https://youtu.be/kKj4FA5EY5Q - Simon Sinek: The Problem Does Not Equal the Person
 
 ## Managers
 
@@ -216,6 +217,7 @@ WindowsPath('C:/Windows/system')
  - https://dev9.com/blog-posts/2015/1/the-myth-of-developer-productivity - comprehensive look on the subject of measuring developer productivity
  - www.crisp.se/henrik.kniberg/How-we-got-rid-of-time-reports.pdf - inspiring story of Henrik Kniberg fighting bureaucracy with success
  - https://www.youtube.com/watch?v=N8KXxfF4dtg - Jurgen Appelo - Keynote: Managing for Happiness
+ - https://www.youtube.com/watch?v=lvs7VEsQzKY - Dan North: Patterns of Effective Teams
  - https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884270610 - about theory of constraints. Beware, The Goal is written (very much like a good story|using NLP), so you won't even feel that you are learning, but you will be smarter after you finish it.
  - https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959 - Frederick P. Brooks Jr: The Mythical Man-Month
  - https://www.amazon.com/Managing-Humans-Humorous-Software-Engineering/dp/1430243147 - Michael Lopp: Managing Humans: Biting and Humorous Tales of a Software Engineering Manager
