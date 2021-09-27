@@ -62,6 +62,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://www.artima.com/weblogs/viewpost.jsp?thread=204677 - How Much Unit Test Coverage Do You Need? - The Testivus Answer;
  - http://www.leanessays.com/2019/04/what-if-your-team-wrote-code-for-737.html?m=1 - on the difference between coders/programmers and developers/engineers
  - https://blog.ploeh.dk/2020/10/05/fortunately-i-dont-squash-my-commits/ - good reason to not squash commits
+ - https://www.divio.com/blog/documentation/ basic knowledge of software documentation structure
 
 #### all junior developers
 
