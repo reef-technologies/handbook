@@ -8,6 +8,7 @@ You are expected to watch or read everything that matches your position within t
 
 # Trial candidates
  - https://www.youtube.com/watch?v=ZQUxL4Jm1Lo&feature=youtu.be - What is imposter syndrome and how can you combat it? (5 minutes video);
+ - https://asana.com/pl/resources/impostor-syndrome - Turn impostor syndrome into confidence: 15 tips for managers and individuals (11 minutes read);
  - https://hbr.org/1999/11/management-time-whos-got-the-monkey - "Management Time: Who’s Got the Monkey?" by William Oncken, Jr.Donald L. Wass (1974);
  - https://www.youtube.com/watch?v=n7wH2XdOWpM - AgileByExample 2016: Henrik Kniberg - Keynote - Focus (or Stop Starting, Start Finishing);
  - https://www.smashingmagazine.com/2017/12/designers-copyright-law-essentials/ - Copyright Law Essentials All Designers Should Know 
@@ -61,6 +62,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://www.artima.com/weblogs/viewpost.jsp?thread=204677 - How Much Unit Test Coverage Do You Need? - The Testivus Answer;
  - http://www.leanessays.com/2019/04/what-if-your-team-wrote-code-for-737.html?m=1 - on the difference between coders/programmers and developers/engineers
  - https://blog.ploeh.dk/2020/10/05/fortunately-i-dont-squash-my-commits/ - good reason to not squash commits
+ - https://www.divio.com/blog/documentation/ basic knowledge of software documentation structure
 
 #### all junior developers
 
@@ -104,6 +106,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://chrisshort.net/the-aws-bill-heard-around-the-world/ - scary story about S3 and Cloudflare CDN that shows a couple interesting things;
  - https://www.citusdata.com/blog/2016/03/30/five-ways-to-paginate/ - Five ways to paginate in Postgres, from the basic to the exotic;
  - https://hoytech.com/vmtouch/ - Portable file system cache diagnostics and control tool
+ - https://github.com/hankhank10/false-positive-malware-reporting - How to stop anti virus software flagging your Python application as malware
 
 ### all python developers
 
@@ -152,13 +155,13 @@ WindowsPath('C:/Windows/system')
 ```
 
 
-### junior python developer
+### junior python developers
 
  - https://github.com/reef-technologies/python-review-zoo/ - here we collect common/interesting review findings
  - https://treyhunner.com/2019/05/python-builtins-worth-learning/ - a friendly description of python builtin functions
  - https://write.as/chobeat/python-project-tooling-explained - a list of tools commonly used in development of python-based projects
 
-### intermediate python developer
+### intermediate python developers
 
  - https://www.youtube.com/watch?v=cKPlPJyQrt4 - some advanced python patterns
  - https://www.youtube.com/watch?v=Bv25Dwe84g0 - Raymond Hettinger: Thinking about Concurrency
@@ -175,7 +178,7 @@ WindowsPath('C:/Windows/system')
  - https://stevedower.id.au/blog/most-critical-python-metric - article about an interesting code metric, testability and side effects
  - https://web.eecs.utk.edu/~azh/blog/pythonstringsaremutable.html - Python strings are immutable, but only sometimes
 
-### senior python developer
+### senior python developers
 
  - https://realpython.com/modeling-polymorphism-django-python/ - Modeling Polymorphism in Django With Python
  - https://julien.danjou.info/high-performance-in-python-with-zero-copy-and-the-buffer-protocol/ - High-Performance in Python with Zero-Copy and the Buffer Protocol
@@ -184,6 +187,11 @@ WindowsPath('C:/Windows/system')
  - https://books.agiliq.com/projects/django-multi-tenant/ - on various ways to make django apps multitenant
  - ijson.backends.yajl2_c - iterative json parser capable of going through a 0.5TB json, maybe use cython to run it quickly.
  - https://www.dabeaz.com/python/UnderstandingGIL.pdf - GIL War
+
+### junior quality assurance engineers
+
+ - https://www.chiark.greenend.org.uk/~sgtatham/bugs.html - How to Report Bugs Effectively 
+ - https://www.softwaretestinghelp.com/exploratory-testing-tours/ - How to Use Tours to Ensure Complete and Thorough Exploratory Testing
 
 # Non-technical staff
 (leaders, managers, salesmen etc - people who primarily work with people and products)
@@ -217,6 +225,8 @@ WindowsPath('C:/Windows/system')
  - https://www.amazon.com/Minute-Manager-Kenneth-Blanchard-Ph-D/dp/074350917X - Kenneth Blanchard Ph.D., Spencer Johnson M.D.: The One Minute Manager
  - https://youtu.be/u0LDhtoWiGg?t=2437 - Angel Medinilla - a snippet of a presentation which explains how personal goals end up working on teams
  - http://randsinrepose.com/archives/technicality/ - Michael Lopp - Technicality
+ - https://www.youtube.com/watch?v=lvs7VEsQzKY - Dan North: Patterns of Effective Teams
+ - https://richmironov.medium.com/the-risks-of-replatforming-dbdc1de3a69d - Rich Mironov: The Risks of Replatforming
  
 ## Lean project managers
 
