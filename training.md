@@ -187,6 +187,7 @@ WindowsPath('C:/Windows/system')
  - https://books.agiliq.com/projects/django-multi-tenant/ - on various ways to make django apps multitenant
  - ijson.backends.yajl2_c - iterative json parser capable of going through a 0.5TB json, maybe use cython to run it quickly.
  - https://www.dabeaz.com/python/UnderstandingGIL.pdf - GIL War
+ - https://tenthousandmeters.com/blog/python-behind-the-scenes-13-the-gil-and-its-effects-on-python-multithreading/ - state of the GIL in 2021
 
 ### junior quality assurance engineers
 
