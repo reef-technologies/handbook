@@ -80,6 +80,7 @@ This section is divided into sort filters, sort of. See each section and find ou
 #### intermediate frontend developers
 
  - https://github.com/joshbuchea/HEAD - A list of everything that could go in the head of your document;
+ - https://dev.to/asayerio_techblog/redux-is-dead-long-live-redux-toolkit-db8 - what is react-toolkit
 
 ### all backend developers
 
