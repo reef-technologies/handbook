@@ -1,4 +1,4 @@
-## (out of date) Job Offer: Remote Assistant
+## Job Offer: Remote Assistant
 
 Reef Technologies is a fully remote software house that works with clients from many different countries, including the US, the UK, and Canada. The demand for our work is extremely high, and we are constantly expanding our operations.
 
@@ -15,7 +15,7 @@ The description is vague by design – we need someone to deal with both repetit
 **We are looking for someone who satisfies the following requirements:**
 
 - **Fluent English (B2 level) is indispensable** – we use English to communicate with pretty much all of our clients. Our staff members are international, and apart from one-on-one conversations with other Polish speakers, (mostly written) English is our everyday language. You will mostly use Polish when communicating with the CEO and his family, of course, but sometimes you may be required to contact someone in English.
-- **Fluent Polish** – the CEO is located in Poland, so you will need to browse the Polish internet and make arrangements with Polish-speakers as well.
+- **Fluent Polish** – the CEO is located in Poland (planned change: since January 2022, in Thailand), so you will need to browse the Polish internet and make arrangements with Polish-speakers as well.
 - **Available for an exclusive engagement** – we are looking for someone who is ready to work for us full time, defined as **~120 hours per month as calculated by a time tracker**.
 - **A smart, respectful, and concise communicator** – we work remotely, so precise communication is of great importance.
 - **A responsible and independent worker** – we respect each other’s time and keep our commitments, and we expect you to do the same. You should know how to self-regulate your work in a remote environment. We are looking for someone whose presence will bring order and not chaos. Everyone makes mistakes, but we expect you to focus and make sure not to repeat them.
@@ -31,4 +31,4 @@ The description is vague by design – we need someone to deal with both repetit
 - **Your voice counts**. The company is small, and everyone hates bureaucracy at an equal level. You will enjoy a close working relationship with the CEO, and you are more than allowed to bring up your concerns or come up with new ways to improve the way we do things.
 
 
-You don’t need to send us your CV – it’s enough if you fill out our survey (out of date, Remote Assistant has been found) and tell us a little about yourself.
+You don’t need to send us your CV – it’s enough if you fill out our [survey](https://forms.gle/Cxw6B3ZPknvJfJHz9) and tell us a little about yourself.
