@@ -360,7 +360,7 @@ Here are some miscellaneous rules to follow that were hard to put in some other 
 - Do not use the company email for RSS, out of work stuff etc. That is to minimize distractions, which is pretty important for us.
 - Try to use Pomodoro, pair programming, or another time organization method.
 - If you issue an invoice to the company, please prefix the name of the file with your surname. This makes things much easier to find for the staff members who are dealing with a few dozen invoices every month.
-- If your changes are not ready to be submitted at the end of your work day, make a dirty branch, commit all of your changes to it (typically `git commit -am'WIP'`) and push it to a remote. This way if your HDD is damaged or something, you will never loose more than a day of work.
+- If your changes are not ready to be submitted at the end of your work day, make a dirty branch, commit all of your changes to it (typically `git commit -am'WIP'`) and push it to a remote. This way if your HDD is damaged or something, you will never lose more than a day of work.
 
 If any of the above is not clear, not optimal, or you are curious about the rationale behind a rule, speak up on `#default`.
 
