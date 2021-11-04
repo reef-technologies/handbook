@@ -227,7 +227,6 @@ WindowsPath('C:/Windows/system')
  - https://www.amazon.com/Minute-Manager-Kenneth-Blanchard-Ph-D/dp/074350917X - Kenneth Blanchard Ph.D., Spencer Johnson M.D.: The One Minute Manager
  - https://youtu.be/u0LDhtoWiGg?t=2437 - Angel Medinilla - a snippet of a presentation which explains how personal goals end up working on teams
  - http://randsinrepose.com/archives/technicality/ - Michael Lopp - Technicality
- - https://www.youtube.com/watch?v=lvs7VEsQzKY - Dan North: Patterns of Effective Teams
  - https://richmironov.medium.com/the-risks-of-replatforming-dbdc1de3a69d - Rich Mironov: The Risks of Replatforming
  
 ## Lean project managers
