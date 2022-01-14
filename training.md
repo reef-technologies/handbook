@@ -125,6 +125,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://benbernardblog.com/tracking-down-a-freaky-python-memory-leak/ - if it's a more demanding memory leak, here's even more tools;
  - https://medium.com/@dwdraju/python-function-on-aws-lambda-with-api-gateway-endpoint-288eae7617cb - how to do a simple serverless application on AWS Lambda and publish it;
  - https://golang-for-python-programmers.readthedocs.io/en/latest/ - to read one day if/when we need golang;
+ - [candy japan / credit card fraud](https://www.candyjapan.com/behind-the-scenes/candy-japan-hit-with-credit-card-fraud), [candy japan / fraud under control](https://www.candyjapan.com/behind-the-scenes/how-i-got-credit-card-fraud-somewhat-under-control), [candy japan / fraud signs](https://www.candyjapan.com/behind-the-scenes/fraudulent-transaction-warning-signs) - in case you gonna accept credit card payments in some project;
  - https://www.youtube.com/watch?v=YjHsOrOOSuI - Sebastian Witowski - Writing faster Python;
  - https://blog.heroku.com/python37-dataclasses-async-await - well written summary of what's new in python-3.7;
  - https://realpython.com/python38-new-features/ - cool new features in Python 3.8;
