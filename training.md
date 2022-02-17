@@ -179,6 +179,7 @@ WindowsPath('C:/Windows/system')
  - https://books.agiliq.com/projects/django-admin-cookbook/ - many recipes for django admin customization
  - https://stevedower.id.au/blog/most-critical-python-metric - article about an interesting code metric, testability and side effects
  - https://web.eecs.utk.edu/~azh/blog/pythonstringsaremutable.html - Python strings are immutable, but only sometimes
+ - https://realpython.com/python-multiple-constructors/#a-real-world-example-of-a-single-dispatch-method - Python cannot do method overloading, so core devs decided to add a special decorator in functools which tries to make overloading work, but only in simplest case ever. The article mentions 3rd party package that handles more complicated cases
 
 ### senior python developers
 
