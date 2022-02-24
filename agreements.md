@@ -27,16 +27,24 @@ The #review channel on Slack is where we request code reviews and perform them f
 
 We use the following procedure for the code review process:
 
-1. The developer who needs their code to be reviewed posts a @here mark, the project name as shown on Hubstaff, and the code to the #review channel.
+1. The developer who needs their code to be reviewed posts a `@here` mark, the project name as shown on Hubstaff, a todo name, and a link to the PR on the #review channel.
+
+The general structure of the review request is:
+
+@here https://github.pr.link `Hubstaff project name` :: `Todo name`
+
+If a developer spots a review request not following this structure (usualy missing some information), they should reply with `Please follow the review request structure` and react with ❌ (`:x:`). This is an agreed upon gentle reminder, that carries no criticism or hard feelings.
 
 2. Other team members may react to the message in the following ways:
-- :thumbsdown: downvote emoji – “I am busy and cannot help you right now”,
-- :eyes: eyes emoji – “I am reviewing your code now”,
-- :white_check_mark: green check emoji – “I have reviewed your code”.
+- 👎 (`:thumbsdown:`) downvote emoji – “I am busy and cannot help you right now”,
+- 👀 (`:eyes:`) – “I am reviewing your code now”,
+- ✅ (`:white_check_mark:`) – “I have reviewed your code”,
+- 🔒 (`:lock:`) – “I don't have permission to access this project”.
 
 Developers should also take into consideration the following rules:
 
 - Code reviews for other staff members are seen as important, and, in most cases, they should be prioritized above other duties. A developer should only ignore a code review request if engaged in a highest-priority task such as a critical bug fix or finishing up a project for an upcoming deadline.
+- The reviewer should track the time it took them to do the review on the project and todo indicated in the review request
 - Only one developer should perform a code review for each code snippet posted to the #review channel. Therefore, if someone has already posted the eyes emoji, other staff members should ignore the post and carry on with their work.
 - Any team member may review any post – there is no preference as to who should do that.
 - Each post is a separate review round, so any developer may respond, even if they did not review the previous iterations. 
@@ -61,6 +69,20 @@ There is no way to prevent bugs altogether, but we’d rather avoid repeatedly c
 The Bug Zoo is a useful resource that allows experienced staff members to quickly redirect colleagues to an explanation when they see a bug that they had already dealt with at some point in the past. 
 
 When a Reef Technologies developer encounters a bug that fits this description, they should propose changes to the [Bug Zoo repository](https://github.com/reef-technologies/python-review-zoo/) and describe the bug and an appropriate solution.
+
+## Opensource contributions
+
+Sometimes we encounter a bug or a missing feature in an opensource package that we use in one of our projects. We then face a choice: should we fix the bug or implement a change and push it upstream, or should we do whatever is needed on a private fork?
+
+There are a few things to consider:
+- who do we bill? Intellectual property usually goes to the client, but in this case, we would do some work for the client and then release the IP to an upstream vendor. Is our client okay with this?
+- if we do the change on a private fork, the patch maintenance will not be taken over by the upstream maintainer and may later become a problem for the client
+- sometimes, it can take a lot of time and effort to convince a stubborn maintainer to accept a PR
+- if we are going to push it upstream, we may want to review the PR internally before submitting it
+- if we decide to use a private fork, it might be necessary to fix the same issue twice on two different projects. There are two problems here: firstly, we are allergic to waste, and secondly, this may create an IP problem
+- having a few opensource contributions to show to a prospective client can be useful during the sales process
+
+As you can see, it might be tricky to figure out which path is right for any given scenario. The solution is simple, just don't do it on your own :) Always ask the person who is in charge of the relationship with the client to take care of it and let you know the final decision. That's one of the reasons we have someone in that role for every project. This also allows for other solutions such as, for example, splitting the cost of a fix between two clients, discounts etc - something you couldn't do on your own. Fortunately, with a dedicated client contact person, you don't have to!
 
 ## Fast track decisions via Slack instead of standard Sociocracy approach
 

@@ -26,7 +26,7 @@ A developer working on a project **must never** discuss deadlines or give estima
 
 As it turns out, developers are usually overly optimistic in their estimates. They are also good people, at least the ones that we hire, so when a client politely asks if a developer can help him, the developer will usually agree. Delivering on such a promise is problematic and often stressful for everyone involved.
 
-This is where project managers come in. They're particularly skilled at risk management, reducing the scope to what is really needed etc. Also, they enjoy talking to clients. Therefore, we let them take responsibility for the deadlines - they take care of developers' availability, risks, scheduling and so on. This way everyone is happier. Just to make it clear, if a developer ever provides an estimate or a deadline, it is considered to be invalid. The client know this too, so they shouldn't ask and you shouldn't reply - just redirect them to a project manager or tell them you'll contact him/her yourself and produce an accurate estimate as soon as possible.
+This is where project managers come in. They're particularly skilled at risk management, reducing the scope to what is really needed etc. Also, they enjoy talking to clients. Therefore, we let them take responsibility for the deadlines - they take care of developers' availability, risks, scheduling and so on. This way everyone is happier. Just to make it clear, if a developer ever provides an estimate or a deadline, it is considered to be invalid. The clients know this too, so they shouldn't ask and you shouldn't reply - just redirect them to a project manager or tell them you'll contact him/her yourself and produce an accurate estimate as soon as possible.
 
 
 ## Projects
@@ -81,6 +81,8 @@ You can download the application here: [Hubstaff Tracker](https://app.hubstaff.c
 
 If you ever wonder how Hubstaff calculates the activity levels, here is a handy link to [their documentation](https://support.hubstaff.com/how-are-activity-levels-calculated/) (not that anyone looks on it, calls have 0% activity and we do them a few times per week, this metric is a bit impractical).
 
+Here you can find [time-tracking rules which were co-created by company staff members](time-tracking-how-to.md).
+
 ### I CAN SEE YOU
 
 As it turns out, people usually find this document before they sign a contract with us and before their tracker account is created. Then they decide to work on their environment even before they have access to the tracker. If you are one of those people, please, track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can compensate you for this time as soon as you get access to the official company tracker. For example, you can use the free [toptracker](https://www.toptal.com/tracker/). We really, really don't like it when people work for us but are not getting paid for it. 
@@ -100,7 +102,6 @@ The descriptions tell you where you should bill your RT time on hubstaff.
 | RT / management                            | a project reserved for company management;                                                                                                             |
 | RT / non-project meeting                   | phone calls and Slack conversations that are related to your work but not directly project-related;                                                     |
 | RT / virtual assistant                           | things related to organizing the equipment needed in the company (like laptops or any necessary office stuff or hardware);                                       |
-| RT / opensource development                      | time spent looking for any open-source bugs to be solved or projects to take part in, as well as actual programming, resolving issues;               |
 | RT / other internal development            | spending time on improving internal infrastructure like onboarding, training or any other company related stuff that might be helpful for others;    |
 | RT / pre-sales                             | any pre-work needed to be done before the contract is signed with the customer; usually asked by @ppolewicz;                                          |
 | RT / recruitment                           | time spent on actively recruiting other people;                                                                                                       |
@@ -137,7 +138,7 @@ Assuming that you somehow logged zero time to `RT / *`, when you work on multipl
 
 ### So that we know how much VAT (value-added tax) we should pay
 
-If a client is from the same country as we are, the invoice we give him has a non-zero VAT. Generally, that doesn't seem to ever happen. Otherwise, when the client is from a different country, the invoice has zero VAT. However, the vendors (such as yourself) have taxed invoices, so we (as a company) need to reclaim the VAT in an appropriate amount. We don't want to attempt to reclaim too much or too little, only the right amount. Generally, we don't want to mess with the tax agency and prefer to pay a greater tax when in doubt, but there is too much of VAT to ignore it. One could say that, assuming the company doesn't choose to forfeit the reclaimable VAT, we are required by the EU tax law to accurately track the time into "exported" and "not exported" buckets. The time tracker is just a practical too to get it done. 
+If a client is from the same country as we are, the invoice we give him has a non-zero VAT. Generally, that doesn't seem to ever happen. Otherwise, when the client is from a different country, the invoice has zero VAT. However, the vendors (such as yourself) have taxed invoices, so we (as a company) need to reclaim the VAT in an appropriate amount. We don't want to attempt to reclaim too much or too little, only the right amount. Generally, we don't want to mess with the tax agency and prefer to pay a greater tax when in doubt, but there is too much of VAT to ignore it. One could say that, assuming the company doesn't choose to forfeit the reclaimable VAT, we are required by the EU tax law to accurately track the time into "exported" and "not exported" buckets. The time tracker is just a practical tool to get it done. 
 
 ### So that we know how much you should be paid.
 
@@ -220,8 +221,8 @@ $ cp .gitconfig ~/
 Complete username and email:
 
 ```bash
-$ git config --global user.name "Imię Nazwisko"
-$ git config --global user.email imie.nazwisko@reef.pl
+$ git config --global user.name "Name Surname"
+$ git config --global user.email name.surname@reef.pl
 ```
 
 ### Bash
@@ -291,13 +292,13 @@ We use simple hand signals during video calls to communicate more efficiently.
 | sign | meaning | context |
 |--- | --- | --- |
 | :fist: | pass (no comment) | moderated discussion |
-| :point_up: | requesting voice | moderated discussion | 
+| :point_up: | request voice | moderated discussion | 
 |:thumbsup:|vote "consent"|S3 decision making|
 |hand with palm down|vote "concern"|S3 decision making|
 |hand with palm up|vote "protest"|S3 decision making|
 |:wave:|ready to disconnect the call|call coming to an end|
 
-in case of decision making or closing the call, everyone holds the sign until everyone else does - this way the situation is clear at a glance. In the past we used to show a sign for a moment, but then the quick responders hid their signals before the slow ones started signing and it was not clear what the situation is. Now we hold until everything is clear.
+When we're trying to make a decision or closing the call, everyone holds their sign until everyone shows a sign of their choice. This way, the situation is clear at a glance. In the past, we used to show signs for a moment, but then the quick responders hid their signals before the slow ones started signing, and the situation was not clear. Now we all hold the sign until we're sure of the consent.
 
 ### 6.2 Communication channels
 
@@ -360,6 +361,7 @@ Here are some miscellaneous rules to follow that were hard to put in some other 
 - Do not use the company email for RSS, out of work stuff etc. That is to minimize distractions, which is pretty important for us.
 - Try to use Pomodoro, pair programming, or another time organization method.
 - If you issue an invoice to the company, please prefix the name of the file with your surname. This makes things much easier to find for the staff members who are dealing with a few dozen invoices every month.
+- If your changes are not ready to be submitted at the end of your work day, make a dirty branch, commit all of your changes to it (typically `git commit -am'WIP'`) and push it to a remote. This way if your HDD is damaged or something, you will never lose more than a day of work.
 
 If any of the above is not clear, not optimal, or you are curious about the rationale behind a rule, speak up on `#default`.
 
@@ -368,9 +370,39 @@ If any of the above is not clear, not optimal, or you are curious about the rati
 
 If there is a conference that you'd like to attend, and we agree that your attendance would be valuable for the company:
 - The company will fund your conference ticket;
-- The company will fund your train/bus ticket;
-- The company will fund your stay if the price is reasonable (AirBnB seems to lead here);
+- The company will fund your train/bus/airplane ticket;
+- The company will fund your stay if the price is reasonable (AirBnB seems to lead here, but we often use a booking.com bed&breakfast option);
 - The company will not pay for the time spent at the conference.
+
+
+### 7.2 Copying Code
+
+Please follow these guidelines when copying code:
+- Please mention the license of the source code which is copied 
+
+
+### 7.3 Restricted patterns
+
+Whenever someone would like to use a pattern listed below, we have decided that they will get an opinion from a design reviewer __before__ writing the code. The restricted technologies are:
+1. Django GFK (generic foreign key)
+2. Django signals (please note that `transaction.on_commit()` hook is NOT a signal)
+3. Writing to `self.__class__`
+4. `atexit.register()` (use `try: ... finally: ...` instead)
+5. Defaults for environment variables in `settings.py` (all defaults should be defined in `dev/.env.template` and `prod/.env.template`)
+
+The reasoning behind this is that we usually prefer for the code to be structured differently and it's better to discuss this before implementation and not after. All of those technologies have their uses in good cases, but what we found is that often the alternative is more elegant, so in order to limit the amount of rewritten code, in those cases we choose to review the design before implementation. Design review is generally welcome and can save a lot of time, but in this case we have unanimously agreed it will be mandatory.
+
+See also: https://github.com/reef-technologies/python-review-zoo/
+
+### 7.4 Holidays (days off)
+
+Whenever you're taking some days off, it's important to let other team members know, so that work can be 
+planned and client expectations managed. 
+* You should mark days when you won't be working in GSheet ['Work planning'](https://docs.google.com/spreadsheets/d/12nQKdskWDwFHhQ01BMjfllabqJTZo4tMdCsWx6NJaL4/edit?usp=sharing) as soon as you know about it. 
+* If you need time off urgently because of something unexpected, please let others know in Slack in #annoucements
+channel right away. 
+* If it's some time you're planning to take off in the future, 
+please mention that on Friday status call. 
 
 
 ## 8. Tools
@@ -541,7 +573,7 @@ if __name__ == '__main__':
         loves_python=loves_python,
     )
 
-    MIN_EXP = 4
+    MIN_EXP = 5
     if you.years_of_programming >= MIN_EXP and you.loves_python:
         reef_technologies.invite(you)
     else:

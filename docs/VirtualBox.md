@@ -30,3 +30,5 @@ Depending on your computer hardware, it is recommended to increase the number of
 ![](images/virtualbox_07.png "")
 
 ![](images/virtualbox_08.png "")
+
+Guide on resizing linux partitions in case you'd need to grow the device can be found [here](https://www.vultr.com/docs/block-storage#:~:text=Resize%20the%20filesystem%20-%20Linux)

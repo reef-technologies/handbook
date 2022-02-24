@@ -8,6 +8,7 @@ You are expected to watch or read everything that matches your position within t
 
 # Trial candidates
  - https://www.youtube.com/watch?v=ZQUxL4Jm1Lo&feature=youtu.be - What is imposter syndrome and how can you combat it? (5 minutes video);
+ - https://asana.com/pl/resources/impostor-syndrome - Turn impostor syndrome into confidence: 15 tips for managers and individuals (11 minutes read);
  - https://hbr.org/1999/11/management-time-whos-got-the-monkey - "Management Time: Who’s Got the Monkey?" by William Oncken, Jr.Donald L. Wass (1974);
  - https://www.youtube.com/watch?v=n7wH2XdOWpM - AgileByExample 2016: Henrik Kniberg - Keynote - Focus (or Stop Starting, Start Finishing);
  - https://www.smashingmagazine.com/2017/12/designers-copyright-law-essentials/ - Copyright Law Essentials All Designers Should Know 
@@ -36,6 +37,8 @@ You are expected to watch or read everything that matches your position within t
  - http://alexthunder.livejournal.com/309815.html - "DON'T WAKE UP THE PROGRAMMER!";
  - http://chrisaitchison.com/2011/05/03/you-are-not-a-software-engineer/ - You are NOT a Software Engineer! (you are a software gardener);
  - https://www.youtube.com/watch?v=502ILHjX9EE - Henrik Kniberg - Agile Product Ownership in a Nutshell;
+ - https://threader.app/thread/1376985854229504007 - This is a story about how I lost $10,000,000 by doing something stupid
+ - https://hbr-org.cdn.ampproject.org/c/s/hbr.org/amp/2016/12/if-your-boss-could-do-your-job-youre-more-likely-to-be-happy-at-work - If Your Boss Could Do Your Job, You’re More Likely to Be Happy at Work
 
 ## Business travel
 
@@ -59,6 +62,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://www.artima.com/weblogs/viewpost.jsp?thread=204677 - How Much Unit Test Coverage Do You Need? - The Testivus Answer;
  - http://www.leanessays.com/2019/04/what-if-your-team-wrote-code-for-737.html?m=1 - on the difference between coders/programmers and developers/engineers
  - https://blog.ploeh.dk/2020/10/05/fortunately-i-dont-squash-my-commits/ - good reason to not squash commits
+ - https://www.divio.com/blog/documentation/ basic knowledge of software documentation structure
 
 #### all junior developers
 
@@ -76,6 +80,7 @@ This section is divided into sort filters, sort of. See each section and find ou
 #### intermediate frontend developers
 
  - https://github.com/joshbuchea/HEAD - A list of everything that could go in the head of your document;
+ - https://dev.to/asayerio_techblog/redux-is-dead-long-live-redux-toolkit-db8 - what is react-toolkit
 
 ### all backend developers
 
@@ -100,6 +105,9 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://dzone.com/articles/understanding-recursive-queries-in-postgres - recursive queries in postgres (to find the topmost parent, for example);
  - https://txt.black/~jack/cloud.txt - an opinion about cloud performance (or the lack thereof) and alternative solutions;
  - https://chrisshort.net/the-aws-bill-heard-around-the-world/ - scary story about S3 and Cloudflare CDN that shows a couple interesting things;
+ - https://www.citusdata.com/blog/2016/03/30/five-ways-to-paginate/ - Five ways to paginate in Postgres, from the basic to the exotic;
+ - https://hoytech.com/vmtouch/ - Portable file system cache diagnostics and control tool
+ - https://github.com/hankhank10/false-positive-malware-reporting - How to stop anti virus software flagging your Python application as malware
 
 ### all python developers
 
@@ -117,6 +125,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://benbernardblog.com/tracking-down-a-freaky-python-memory-leak/ - if it's a more demanding memory leak, here's even more tools;
  - https://medium.com/@dwdraju/python-function-on-aws-lambda-with-api-gateway-endpoint-288eae7617cb - how to do a simple serverless application on AWS Lambda and publish it;
  - https://golang-for-python-programmers.readthedocs.io/en/latest/ - to read one day if/when we need golang;
+ - [candy japan / credit card fraud](https://www.candyjapan.com/behind-the-scenes/candy-japan-hit-with-credit-card-fraud), [candy japan / fraud under control](https://www.candyjapan.com/behind-the-scenes/how-i-got-credit-card-fraud-somewhat-under-control), [candy japan / fraud signs](https://www.candyjapan.com/behind-the-scenes/fraudulent-transaction-warning-signs) - in case you gonna accept credit card payments in some project;
  - https://www.youtube.com/watch?v=YjHsOrOOSuI - Sebastian Witowski - Writing faster Python;
  - https://blog.heroku.com/python37-dataclasses-async-await - well written summary of what's new in python-3.7;
  - https://realpython.com/python38-new-features/ - cool new features in Python 3.8;
@@ -148,13 +157,13 @@ WindowsPath('C:/Windows/system')
 ```
 
 
-### junior python developer
+### junior python developers
 
  - https://github.com/reef-technologies/python-review-zoo/ - here we collect common/interesting review findings
  - https://treyhunner.com/2019/05/python-builtins-worth-learning/ - a friendly description of python builtin functions
  - https://write.as/chobeat/python-project-tooling-explained - a list of tools commonly used in development of python-based projects
 
-### intermediate python developer
+### intermediate python developers
 
  - https://www.youtube.com/watch?v=cKPlPJyQrt4 - some advanced python patterns
  - https://www.youtube.com/watch?v=Bv25Dwe84g0 - Raymond Hettinger: Thinking about Concurrency
@@ -169,8 +178,9 @@ WindowsPath('C:/Windows/system')
  - https://nedbatchelder.com//blog/201908/why_your_mock_doesnt_work.html - on mocking right, or, why dependency injection might be a good idea
  - https://books.agiliq.com/projects/django-admin-cookbook/ - many recipes for django admin customization
  - https://stevedower.id.au/blog/most-critical-python-metric - article about an interesting code metric, testability and side effects
- 
-### senior python developer
+ - https://web.eecs.utk.edu/~azh/blog/pythonstringsaremutable.html - Python strings are immutable, but only sometimes
+
+### senior python developers
 
  - https://realpython.com/modeling-polymorphism-django-python/ - Modeling Polymorphism in Django With Python
  - https://julien.danjou.info/high-performance-in-python-with-zero-copy-and-the-buffer-protocol/ - High-Performance in Python with Zero-Copy and the Buffer Protocol
@@ -178,9 +188,16 @@ WindowsPath('C:/Windows/system')
  - https://pydist.com/blog/distributions-vs-releases - on troubles with consistent installations of python packages
  - https://books.agiliq.com/projects/django-multi-tenant/ - on various ways to make django apps multitenant
  - ijson.backends.yajl2_c - iterative json parser capable of going through a 0.5TB json, maybe use cython to run it quickly.
+ - https://www.dabeaz.com/python/UnderstandingGIL.pdf - GIL War
+ - https://tenthousandmeters.com/blog/python-behind-the-scenes-13-the-gil-and-its-effects-on-python-multithreading/ - state of the GIL in 2021
+
+### junior quality assurance engineers
+
+ - https://www.chiark.greenend.org.uk/~sgtatham/bugs.html - How to Report Bugs Effectively 
+ - https://www.softwaretestinghelp.com/exploratory-testing-tours/ - How to Use Tours to Ensure Complete and Thorough Exploratory Testing
 
 # Non-technical staff
-(leaders, managers, salesmen, testers etc - people who primarily work with people and products)
+(leaders, managers, salesmen etc - people who primarily work with people and products)
 
 ## Sales
 
@@ -193,10 +210,8 @@ WindowsPath('C:/Windows/system')
  - https://www.youtube.com/watch?v=RyTQ5-SQYTo - Simon Sinek about millenials, and about the why it is not people that matter but the leaders
  - https://www.youtube.com/watch?v=ReRcHdeUG9Y - Simon Sinek: Why Leaders Eat Last
  - https://www.youtube.com/watch?v=_mG-hhWL_ug - Dan Pink - Drive: The surprising truth about what motivates us
-
-## Scrum masters
-
- - https://www.youtube.com/watch?v=lvs7VEsQzKY - Dan North: Patterns of Effective Teams
+ - https://youtu.be/N2qAHtonLkI - Simon Sinek: A Surprising Habit of Great Leaders  
+ - https://youtu.be/kKj4FA5EY5Q - Simon Sinek: The Problem Does Not Equal the Person
 
 ## Managers
 
@@ -205,6 +220,7 @@ WindowsPath('C:/Windows/system')
  - https://dev9.com/blog-posts/2015/1/the-myth-of-developer-productivity - comprehensive look on the subject of measuring developer productivity
  - www.crisp.se/henrik.kniberg/How-we-got-rid-of-time-reports.pdf - inspiring story of Henrik Kniberg fighting bureaucracy with success
  - https://www.youtube.com/watch?v=N8KXxfF4dtg - Jurgen Appelo - Keynote: Managing for Happiness
+ - https://www.youtube.com/watch?v=lvs7VEsQzKY - Dan North: Patterns of Effective Teams
  - https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884270610 - about theory of constraints. Beware, The Goal is written (very much like a good story|using NLP), so you won't even feel that you are learning, but you will be smarter after you finish it.
  - https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959 - Frederick P. Brooks Jr: The Mythical Man-Month
  - https://www.amazon.com/Managing-Humans-Humorous-Software-Engineering/dp/1430243147 - Michael Lopp: Managing Humans: Biting and Humorous Tales of a Software Engineering Manager
@@ -212,6 +228,7 @@ WindowsPath('C:/Windows/system')
  - https://www.amazon.com/Minute-Manager-Kenneth-Blanchard-Ph-D/dp/074350917X - Kenneth Blanchard Ph.D., Spencer Johnson M.D.: The One Minute Manager
  - https://youtu.be/u0LDhtoWiGg?t=2437 - Angel Medinilla - a snippet of a presentation which explains how personal goals end up working on teams
  - http://randsinrepose.com/archives/technicality/ - Michael Lopp - Technicality
+ - https://richmironov.medium.com/the-risks-of-replatforming-dbdc1de3a69d - Rich Mironov: The Risks of Replatforming
  
 ## Lean project managers
 
@@ -221,9 +238,8 @@ WindowsPath('C:/Windows/system')
  - https://www.saastr.com/what-your-first-100-hires-will-look-like/ - What Your First 100 Hires Will Look Like
 
 # bonus material
- - https://docs.google.com/a/reef.pl/document/d/1IkixAHnuAFWPlDDPIcRg2RIYsQTVOpq26TqwZPgPSCo/edit?usp=sharing - Document with Reef employees' skills (I can help you with) and wishes (I would (not) like to work with). This information in taken into account while selecting the project process
  - https://www.youtube.com/watch?v=4u5N00ApR_k - if you are wondering how agile in corporations might look like
- - https://hbr.org/2018/11/how-our-careers-affect-our-children - if you are worried working long hours may affect your kinds. Turns out, the problem is not in the hours at all.
+ - https://hbr.org/2018/11/how-our-careers-affect-our-children - if you are worried working long hours may affect your kids. Turns out, the problem is not in the hours at all.
 
 ```
 WIP:
