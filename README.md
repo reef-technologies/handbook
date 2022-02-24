@@ -35,6 +35,7 @@ We avoid fixed-scope projects. The reason why is that we want to focus on the cr
 
 We will not accept a project targeted to manipulate people, rip them off or put their savings at risk, such as insurance+retirement funds.
 
+
 ## Workspace safety
 
 All data related to the company **must** be stored on encrypted media (usually in a virtual machine which has its image stored on an encrypted volume, but dual boot with full disk encryption is also allowed). This practice prevents potential data leaks, i.e. if your computer get stolen. There are a couple exceptions, you will read about them later on.
