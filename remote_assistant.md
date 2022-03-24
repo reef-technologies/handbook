@@ -7,14 +7,14 @@ Reef Technologies is a fully remote software house that works with clients from 
 We are **100% remote**, and that applies to you, too. You’ll be free to work from wherever you want to, as long as it doesn’t interfere with your work duties.
 
 **Some of your main obligations would be to:**
-- Assist the CEO through performing basic technical, logistic & administrative tasks.
 - Assist the CEO and his family in personal matters such as performing research, ordering products, organizing family holidays or making appointments.
+- Assist the CEO through performing basic technical, logistic & administrative tasks.
 
 The description is vague by design – we need someone to deal with both repetitive tasks and ad-hoc solutions. The work responsibilities are diverse, but mostly basic.
 
 **We are looking for someone who satisfies the following requirements:**
 
-- **Fluent English (B2 level) is indispensable** – we use English to communicate with pretty much all of our clients. Our staff members are international, and apart from one-on-one conversations with other Polish speakers, (mostly written) English is our everyday language. You will mostly use Polish when communicating with the CEO and his family, of course, but sometimes you may be required to contact someone in English.
+- **Fluent English (B2 level) is indispensable** – we use English to communicate with pretty much all of our clients. Our staff members are international, and apart from one-on-one conversations with other Polish speakers, (mostly written) English is our everyday language. You will mostly use Polish when communicating with the CEO and his family, of course, but sometimes you may be required to contact someone in English. However, **we do not require Polish language skills**. All the communication may be in English.
 - **A smart, respectful, and concise communicator** – we work remotely, so precise communication is of great importance.
 - **A responsible and independent worker** – we respect each other’s time and keep our commitments, and we expect you to do the same. You should know how to self-regulate your work in a remote environment. We are looking for someone whose presence will bring order and not chaos. Everyone makes mistakes, but we expect you to focus and make sure not to repeat them.
 - **A resourceful and active learner** – you’ll need to use many different tools, and Google will be one of the most important. You need to be an efficient researcher and enjoy getting to know new things. We appreciate people who are always looking for methods to improve the way they work, and even the way the whole company works.
@@ -24,9 +24,9 @@ The description is vague by design – we need someone to deal with both repetit
 **What do we bring to the table?**
 
 - You can expect lots of **independence**. You don’t need to commute anywhere, and we don’t have a dress code. This job is 100% remote. We mostly work asynchronously. While some tasks may need to be done at a certain time or you may need to arrange a call with someone at a set hour, in general, you will not need to work “9 to 5”. 
-- We are offering **a stable, long-term collaboration** via a contract of mandate (umowa zlecenie, 25-40 PLN brutto / hour, calculated by a time-tracker).
-- You can **learn a lot**. The company is made up of experts in their respective fields, and you can be sure to pick up a lot of business know-how by participating in all kinds of activities at the company.
+- Your availability is up to you. We require availability of **no fewer than 40 hours calculated by a time tracker per month**, but there is no upper limit. You can work with us on a full-time basis.
+- We are offering **a stable, long-term collaboration** via a contract of mandate or B2B contract.
+- You can **learn a lot**. You can be sure to gain a lot of experience by dealing with various private and business administrative tasks. Our CEO currently lives in Thailand so you will have the opportunity to learn a lot about the country.
 - **Your voice counts**. The company is small, and everyone hates bureaucracy at an equal level. You will enjoy a close working relationship with the CEO, and you are more than allowed to bring up your concerns or come up with new ways to improve the way we do things.
-
 
 You don’t need to send us your CV – it’s enough if you fill out our [survey](https://forms.gle/Cxw6B3ZPknvJfJHz9) and tell us a little about yourself.
