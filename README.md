@@ -381,7 +381,77 @@ Please follow these guidelines when copying code:
 - Please mention the license of the source code which is copied 
 
 
-### 7.3 Restricted patterns
+### 7.3 Conventions
+
+We _typically_ follow the conventions listed below. Not always. The list seems long, but it really isn't.
+
+Why is this list here, you may ask - don't all RT developers follow all of those subconciously? Usually yes, but some of our trial candidates said it would be easier for them if they could look at the list, so we wrote it down out of respect for them.
+
+#### 1NF
+
+Described [here](https://en.wikipedia.org/wiki/First_normal_form). We break it when doing advanced indexing, but we adhere to 1NF until we can't get the desired result using basic indexing.
+
+#### DRY
+
+Described [here](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). We adhere to it pretty closely, you won't find much of copied code in our repos (with one notable exception, it's a long story).
+
+#### SOLID
+
+Described [here](https://en.wikipedia.org/wiki/SOLID). We follow the first 5, not sure about the others.
+
+#### CUPID
+
+Described [here](https://dannorth.net/2022/02/10/cupid-for-joyful-coding/). Not as well known as the others.
+
+#### git commit message formatting
+
+Described [here](https://chris.beams.io/posts/git-commit/). There are many such conventions, but this is the one we use. It's pretty straightforward.
+
+#### making things resilient to failures in general
+
+https://blog.cloudflare.com/pipefail-how-a-missing-shell-option-slowed-cloudflare-down/
+
+#### no 3.10+ only syntax for the time being
+
+Because we want an option to switch to 3.9-nogil. This can be dropped very easily, but please mention it beforehand.
+
+#### SemVer 2
+
+Described [here](https://semver.org/spec/v2.0.0.html)
+
+#### isort style import sorting
+
+Described [here](https://pycqa.github.io/isort/docs/configuration/custom_sections_and_ordering.html)
+
+#### type hints
+
+Described [here](https://docs.python.org/3/library/typing.html). We try to use it at least for all new public functions.
+
+#### docstrings for everything public
+
+As above - it should be possible to use stuff without reading its code.
+
+#### PEP8
+
+https://peps.python.org/pep-0008/
+
+#### trailing commas on multiline statements
+
+See [here](https://stackoverflow.com/a/17492103/1935381)
+
+#### keepachangelog
+
+https://keepachangelog.com/
+
+#### Safe shell settings
+
+https://sipb.mit.edu/doc/safe-shell/
+
+#### not using stuff from forbidden technology list without prior discussion
+
+See the next section
+
+### 7.4 Restricted patterns
 
 Whenever someone would like to use a pattern listed below, we have decided that they will get an opinion from a design reviewer __before__ writing the code. The restricted technologies are:
 1. Django GFK (generic foreign key)
@@ -394,7 +464,7 @@ The reasoning behind this is that we usually prefer for the code to be structure
 
 See also: https://github.com/reef-technologies/python-review-zoo/
 
-### 7.4 Holidays (days off)
+### 7.5 Holidays (days off)
 
 Whenever you're taking some days off, it's important to let other team members know, so that work can be 
 planned and client expectations managed. 
