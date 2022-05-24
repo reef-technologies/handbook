@@ -437,7 +437,7 @@ https://peps.python.org/pep-0008/
 
 #### trailing commas on multiline statements
 
-See [here](https://stackoverflow.com/a/17492103/1935381)
+See [here](https://stackoverflow.com/a/17492103/1935381). We skip it after `**kwargs` as no argument will ever follow it.
 
 #### keepachangelog
 
