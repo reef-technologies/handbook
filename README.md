@@ -141,6 +141,18 @@ In fact many software houses nowadays bill their clients by the hour. In consequ
 
 In the end it doesn't matter much - if you get paid by the hour, you do a certain amount of those hours in a year and then it's either divided equally into 12 installments or proportionally to the amount of work done in a given billing cycle. Assuning you earn at least slightly more than you spend and that you have some kind of a financial buffer, at the end of the year you'll end up with the same amount. In 2022Q2 we tried to open a position for a "full time" engagement with a fixed monthly payment model (which would automatically bonus people who perform well to make it fair, sort of like a liquidity pool)... But nobody was really interested and we took the job ad down.
 
+### So that we put ourselves in the right mindset
+
+Let me tell you a story.
+
+One of our staff members worked from a room on the top floor of his 3 story house. A few times per day he wanted to get some tea 🍵, but the kitchen was downstairs, so he stopped the time tracker, walked down the squeaky wooden stairs, got to the kitchen, filled up the kettle, prepared a cup and a teabag while waiting for the kettle to boil the water, poured the hot water into the cup and waited for a few minutes for the tea to brew. He then removed the teabag from the cup and slowly walked up 3 flights of stairs. Started the timer and got back to work (well, sort of - that entire activity distracted him, so he needed to reload the task which he was working on to his short term memory before he could do actual development).
+
+Later that day he has taken a look at his time log and realized he spent 15min on a tea break. It was not a very relaxing type of activity (trying not to burn himself with a hot liquid while going up ~stairs~ squeaky wooden stairs was not his favourite hobby) (actually his hobby was board games, but I digress).
+
+Now, what's the moral of that story? Later that day he bought a kettle and installed it in his room. We could see it on video calls - he could reach behind his chair and start the kettle without loosing focus. Tea and cup were also there. That's like 30-45min extra more time *per day* spent on building something he loves to build. Python backends. This is why we are here. This is why you are here, am I right? Seriously, if you could choose between RT and a workplace optimized for "walking up squeaky wooden stairs while trying to not burn yourself with a hot liquid", what would you do?
+
+(or maybe it was ☕? I don't remember)
+
 ### So that we know how much we should charge the client
 
 Even if you'd only work for one client per billing period, you'd still log some time to `RT / *` and `RTO / *` projects and those are paid by the company and not by the client.
