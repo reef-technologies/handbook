@@ -86,10 +86,10 @@ This section is divided into sort filters, sort of. See each section and find ou
 
  - https://www.youtube.com/watch?v=H0Ji7bsEoUo - on some modern hw/sw problems for backend systems in 2017, and on types of storage devices and how they work, what are the problems with them, etc.;
  - https://thehftguy.com/2016/11/01/docker-in-production-an-history-of-failure/ and https://thehftguy.com/2017/02/23/docker-in-production-an-update/ - on the current state of Docker;
- - http://cryto.net/~joepie91/blog/2015/07/19/why-you-should-never-ever-ever-use-mongodb/ - why you should never, ever, ever use MongoDB. NOTE: read that until you are sure you will never use it. If you are still not convinced after reading it, read [this](https://blog.scrapinghub.com/2013/05/13/mongo-bad-for-scraped-data/), if you are still not convinced, try [this](http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/comment-page-1/) and if you still are not entirely sure, you might want to know that their "atomic" property actually makes it so that if you have a collection with some objects and you'll query to get 1000 objects based on some criteria during an update operation, you will sometimes get 999 back. And that is by design, they closed the bug as "won't fix". So if you ask mongodb for something, you have to check if it returned what you asked for, because if it didn't, then you need to retry and *if you are lucky* then eventually you'll get what you asked for. Not everyone likes to write code like that and most people want to have access to their data always, not just when it's their lucky day. And also [this](https://www.infoq.com/news/2014/04/bitcoin-banking-mongodb/). If the largest cryptomarkets couldn't use it properly, are you sure you will be able to? :) Anyway, if you are still not sure whether you can use it or not, speak up on `#default`, someone will help you;
+ - http://cryto.net/~joepie91/blog/2015/07/19/why-you-should-never-ever-ever-use-mongodb/ - why you should never, ever, ever use MongoDB. NOTE: read that until you are sure you will never use it. If you are still not convinced after reading it, read [this](https://blog.scrapinghub.com/2013/05/13/mongo-bad-for-scraped-data/), if you are still not convinced, try [this](http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/comment-page-1/), if you want more recent info, try [this](https://www.mongodb.com/community/forums/t/primary-node-in-replica-set-down-and-2-weeks-of-data-lost/110472/6 - TL;DR: in a cluster overwhelmed with writes during primary node failure most writes landed in a journal, but became inaccessible after failback and in practice lost because there is no way to retrieve it from there; June 2021, Mongo 4.0), and if you still are not entirely sure, you might want to know that their "atomic" property actually makes it so that if you have a collection with some objects, and you'll query to get 1000 objects based on some criteria during an update operation, you will sometimes get 999 back. And that is by design, they closed the bug as "won't fix". So if you ask mongodb for something, you have to check if it returned what you asked for, because if it didn't, then you need to retry and *if you are lucky* then eventually you'll get what you asked for. Not everyone likes to write code like that and most people want to have access to their data always, not just when it's their lucky day. And also [this](https://www.infoq.com/news/2014/04/bitcoin-banking-mongodb/). If the largest cryptomarkets couldn't use it properly, are you sure you will be able to? :) Anyway, if you are still not sure whether you can use it or not, speak up on `#default`, someone will help you;
  - https://briancaffey.github.io/2020/08/01/django-and-lambda-with-cdk-and-api-gateway.html - basically the same thing but with serverless django - the amount of pain you need to get through and fragility of the solution makes you wonder if a $5/mo droplet can do the same job more reliably;
  - https://www.serverless.com/blog/api-gateway-websockets-example - same thing with serverless websockets (technically possible but with ~60 pages tutorial);
- - https://www.jasondavies.com/bloomfilter/ - a data structure used for lookup speedups,  among other uses, in databases;
+ - https://www.jasondavies.com/bloomfilter/ - a data structure used for lookup speedups, among other uses, in databases;
  - http://thesecretlivesofdata.com/raft/ - a demo of RAFT, a consensus algorithm;
  - https://arp242.net/weblog/yaml_probably_not_so_great_after_all.html - YAML: probably not so great after all;
  - https://rock-it.pl/how-to-write-excellent-dockerfiles/ - (somewhat outdated) information about good dockerfile creation (reducing amount of layers by multi-stage build was added after this guide had been written);
@@ -117,7 +117,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://datawhatnow.com/things-you-are-probably-not-using-in-python-3-but-should/ - things you’re probably not using in Python 3, but you should;
  - https://www.youtube.com/watch?v=wf-BqAjZb8M - Raymond Hettinger - Beyond PEP 8;
  - https://www.youtube.com/watch?v=p33CVV29OG8 - Modern Dictionaries by Raymond Hettinger;
- - http://www.laurentluce.com/posts/python-dictionary-implementation/ - how are the Python (pre-3.6?) dictionaries implemented and why it is necessary to add an item to a Python dictionary that was emptied to reduce  memory usage;
+ - http://www.laurentluce.com/posts/python-dictionary-implementation/ - how are the Python (pre-3.6?) dictionaries implemented and why it is necessary to add an item to a Python dictionary that was emptied to reduce memory usage;
  - https://www.youtube.com/watch?v=EiOglTERPEo - Raymond Hettinger - `super()` considered super!;
  - https://pypi.org/project/indexed.py/ - a dictionary that is indexed by insertion order;
  - https://more-itertools.readthedocs.io/en/latest/ - a library of rarely useful itertools functions. It's better to use this than to write it yourself;
@@ -133,10 +133,10 @@ This section is divided into sort filters, sort of. See each section and find ou
 
 Why pathlib is fun:
 
-```py
-Python 3.6.7 (default, Oct 22 2018, 11:32:17) 
-[GCC 8.2.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
+```pycon
+>>> import platform
+>>> platform.system()
+'Darwin'
 >>> from pathlib import Path
 >>> base_path = Path('/usr')
 >>> lib = base_path / 'lib'
@@ -145,9 +145,10 @@ PosixPath('/usr/lib')
 >>> 
 ```
 
-```
-Python 3.6.0 (v3.6.0:41df79263a11, Dec 23 2016, 08:06:12) [MSC v.1900 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
+```pycon
+>>> import platform
+>>> platform.system()
+'Windows'
 >>> from pathlib import Path
 >>> base_path = Path('C:\Windows')
 >>> system = base_path / 'system'
@@ -210,7 +211,7 @@ WindowsPath('C:/Windows/system')
  - https://www.youtube.com/watch?v=RyTQ5-SQYTo - Simon Sinek about millenials, and about the why it is not people that matter but the leaders
  - https://www.youtube.com/watch?v=ReRcHdeUG9Y - Simon Sinek: Why Leaders Eat Last
  - https://www.youtube.com/watch?v=_mG-hhWL_ug - Dan Pink - Drive: The surprising truth about what motivates us
- - https://youtu.be/N2qAHtonLkI - Simon Sinek: A Surprising Habit of Great Leaders  
+ - https://youtu.be/N2qAHtonLkI - Simon Sinek: A Surprising Habit of Great Leaders
  - https://youtu.be/kKj4FA5EY5Q - Simon Sinek: The Problem Does Not Equal the Person
 
 ## Managers
