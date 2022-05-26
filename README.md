@@ -28,12 +28,14 @@ As it turns out, developers are usually overly optimistic in their estimates. Th
 
 This is where project managers come in. They're particularly skilled at risk management, reducing the scope to what is really needed etc. Also, they enjoy talking to clients. Therefore, we let them take responsibility for the deadlines - they take care of developers' availability, risks, scheduling and so on. This way everyone is happier. Just to make it clear, if a developer ever provides an estimate or a deadline, it is considered to be invalid. The clients know this too, so they shouldn't ask and you shouldn't reply - just redirect them to a project manager or tell them you'll contact him/her yourself and produce an accurate estimate as soon as possible.
 
+EDIT after 4 years: this rule served us really well, the only missed deadlines we had were caused by catastrophic unavailability of staff (due to a medical emergency, for example)
+
 
 ## Projects
 
 We avoid fixed-scope projects. The reason why is that we want to focus on the creation of software and not on amending contracts.
 
-We will not accept a project targeted to manipulate people, rip them off or put their savings at risk, such as insurance+retirement funds.
+We will not accept a project targeted to manipulate people, to rip people off or put their savings at risk, such as insurance+retirement funds.
 
 
 ## Workspace safety
@@ -47,6 +49,21 @@ You should already have an email account in the `reef.pl` domain. Only ever use 
 The relatively high security level we keep allows us to work for financial institutions and, in general, institutions that treat their security seriously. Funny story moment: Pawel talked to a bank once, and they wanted him to work on site. Pawel described our security model and when he finished, an engineer from the bank said: "They have more security at their homes than we have at the office!". The manager looked at the engineer and he was not happy. ;)
 
 UPDATE: A fully encrypted laptop of our senior developer has been stolen from his bag while he was on a train, returning from a conference in late 2017. Spooky.
+
+
+## What does "high performance" mean?
+
+Our clients really don't care how fast we type on our keyboards (in fact while on meetings we often don't touch the keyboard for an hour, getting a clean zero keystrokes per hour, delivering not only a very high amount of value per hour, but also infinite value per keystroke ;) ).
+
+We employ several techniques to output a lot of value in a unit of time:
+1. Cut the backlog. Typically on the first meeting with the client 80-85% of the backlog is ~removed~ pushed into a "future" version.
+2. Re-use opensource things rather than write everything from scratch.
+3. Set up a new system with monitoring, error management, dh params, deployment etc in one hour. We don't like that part of the project so we invest in automation to minimize its impact.
+4. Design systems in such a way that they are easy to think about and implement.
+5. Design systems in such a way that they are durable and, whenever possible, self-healing.
+6. We prefer candidates who are not an order of magnitude slower than others. For example a program that reverts a small file can take like a minute to implement, but some of our candidates need more than 10 minutes. Someone might have a problem with this, but we don't hire the slowest developers on the market.
+7. If there is doubt on whether something should be done or not, we stop and ask. This theoretically increases Time To Market, but in practice it only does so on the last task of the iteration (so last task should be low-risk).
+8. We are allergic to waste. This drives many of our actions including good communication with the client who knows what must be done. While some software houses loose ~30% of their performance (due to misscommunications etc), we stay way below 5% (the exact number is hard to measure when the amount of waste is so low).
 
 
 # Time-tracking
@@ -113,40 +130,48 @@ The descriptions tell you where you should bill your RT time on hubstaff.
 
 ### Non-RT projects
 
-If you are working on any external project for the customer, you should bill all your time spent on this project onto it. Knowledge gathering, environment preparation, actual programming, meetings or design. If you need to learn a framework, library or language in order to deliver value for the project, bill the learning to that project as well. If it took you a long time to learn a new skill, please mention it to our PM on that project. It's pretty common to issue a discount to the customer in cases like these, but it is the responsibility of the PM to do that (sometimes the entire contract or milestone may be discounted and it is not necessary to adjust the coefficients every week).
-
-
-### Bugs
-
-Workaround for window resize (most project names are like `RT / somethi...` - it is hard to find your project):
-you click `>>` then you can resize left pane a little bit, then `<<` - repeat several times - now you can read full project names. UPDATE: this seems to have been fixed in 2019.
-
-It tracks time per 10-minute slot per project, so if you log some time in the given 10-minute period, switch to another project and switch back to the first one, it cannot really be distinguished (number and order of such switches is not recorded). UPDATE: this was written in 2017 and is no longer True. Activity is tracked in 10min buckets, but time is tracked accurately (and nobody cares about activity, really).
-
-Another issue is that manually logged time in the given slot cannot co-exist with any application-tracked time, so if you work from 14:01 to 14:02 and then log manual time for 14:05 to 14:10, the manual time entry will eat the tracked time. It's quite difficult to run into this, but it happened at least once to us. UPDATE: this was written in 2017 and that problem seems to have disappeared a long time ago. Inspect your work log after adjusting time, just in case.
+If you are working on any external project for a client, you should bill all your time spent on this project onto it. Knowledge gathering, environment preparation, actual programming, meetings or design. If you need to learn a framework, library or language in order to deliver value for the project, bill the learning to that project as well. If it took you a long time to learn a new skill, please mention it to our PM on that project - depending on the terms of the contract, a client may be eligible for a discount and it is the responsibility of the PM to manage that (but he won't be able to do his job well if you won't ever tell him anything ;) ).
 
 
 ## Why we use a time tracker
 
-### So that we know how much we should charge the client.
+It may seem weird, but actually RT is not the only consulting business out there. Traditionally lawyers bill their clients per hour and nobody blinks an eye :)
 
-You may log some time to `RT / *`, which is paid by the company and not by the client.
+In fact many software houses nowadays bill their clients by the hour. In consequence, the income generated by a staff member is (almost) directly proportional to the amount of hours they spend working on the client projects (ok it's a big simplification because how sales activity is organized, but I don't want to digress here). Now unfortunately in the age of remote work (especially after the pandemic when everyone thinks they can work remotely) it's regrettably clear that some people can concentrate on their work much better than others. What I mean is that while some people can output 35 hours per week of focused work, other people can only output 10-12h. It would not be totally fair to compensate both of those groups equally, right?
 
-### So that we know how much we should charge which client.
+In the end it doesn't matter much - if you get paid by the hour, you do a certain amount of those hours in a year and then it's either divided equally into 12 installments or proportionally to the amount of work done in a given billing cycle. Assuning you earn at least slightly more than you spend and that you have some kind of a financial buffer, at the end of the year you'll end up with the same amount. In 2022Q2 we tried to open a position for a "full time" engagement with a fixed monthly payment model (which would automatically bonus people who perform well to make it fair, sort of like a liquidity pool)... But nobody was really interested and we took the job ad down.
 
-Assuming that you somehow logged zero time to `RT / *`, when you work on multiple projects, we want to know how much time was worked for which client, so that we can bill them for it appropriately. Billing a client inaccurately goes against a foundation of the company ("happy clients", see above).
+### So that we put ourselves in the right mindset
 
-### So that we know how much VAT (value-added tax) we should pay
+Let me tell you a story.
 
-If a client is from the same country as we are, the invoice we give him has a non-zero VAT. Generally, that doesn't seem to ever happen. Otherwise, when the client is from a different country, the invoice has zero VAT. However, the vendors (such as yourself) have taxed invoices, so we (as a company) need to reclaim the VAT in an appropriate amount. We don't want to attempt to reclaim too much or too little, only the right amount. Generally, we don't want to mess with the tax agency and prefer to pay a greater tax when in doubt, but there is too much of VAT to ignore it. One could say that, assuming the company doesn't choose to forfeit the reclaimable VAT, we are required by the EU tax law to accurately track the time into "exported" and "not exported" buckets. The time tracker is just a practical tool to get it done. 
+One of our staff members worked from a room on the top floor of his 3 story house. A few times per day he wanted to get some tea 🍵, but the kitchen was downstairs, so he stopped the time tracker, walked down the squeaky wooden stairs, got to the kitchen, filled up the kettle, prepared a cup and a teabag while waiting for the kettle to boil the water, poured the hot water into the cup and waited for a few minutes for the tea to brew. He then removed the teabag from the cup and slowly walked up 3 flights of stairs. Started the timer and got back to work (well, sort of - that entire activity distracted him, so he needed to reload the task which he was working on to his short term memory before he could do actual development).
 
-### So that we know how much you should be paid.
+Later that day he has taken a look at his time log and realized he spent 15min on a tea break. It was not a very relaxing type of activity (trying not to burn himself with a hot liquid while going up ~stairs~ squeaky wooden stairs was not his favourite hobby) (actually his hobby was board games, but I digress).
 
-We all have hourly rates.
+Now, what's the moral of that story? Later that day he bought a kettle and installed it in his room. We could see it on video calls - he could reach behind his chair and start the kettle without loosing focus. Tea and cup were also there. That's like 30-45min extra more time *per day* spent on building something he loves to build. Python backends. This is why we are here. This is why you are here, am I right? Seriously, if you could choose between RT and a workplace optimized for "walking up squeaky wooden stairs while trying to not burn yourself with a hot liquid", what would you do?
+
+(or maybe it was ☕? I don't remember)
+
+### So that we know how much we should charge the client
+
+Even if you'd only work for one client per billing period, you'd still log some time to `RT / *` and `RTO / *` projects and those are paid by the company and not by the client.
+
+### So that we know how much we should charge which client
+
+When you work on multiple projects, we want to know how much time was worked for which client, so that we can bill them for it appropriately. Billing a client inaccurately goes against a foundation of the company ("happy clients", see above).
+
+### So that we know how much to pay you
+
+After the end of a billing cycle (typically 1st day of a month) we semi-automatically calculate the invoice amounts for everyone. The polish tax system got way more complicated than it used to be in 2022 and lawful accounting of the optimal tax mode requires detailed time logs, which we then help our staff follow with automation.
 
 ### It can save the contract
 
-Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on the project, then it is a good thing. The client doesn't see us work in their office, so if there are no results, it is difficult to say whether someone is working hard but struggling with a challenge, or whether somoene is not trying hard enough. As of writing this, the number of times the tracker was instrumental in preventing a rapid degradation of a relationship with a customer is: **5**.  UPDATE: this counter stopped incrementing in mid 2018, when we changed the target client group. Seems that "better" clients don't really care about the time, but they do care about results. CEO even wanted to disable the screenshot feature of the tracker in early 2020, but others said they use it to inspect their own diary at the end of the day and after a short discussion everyone said they don't really care about it so we just left it as it was. It seems that nobody has reviewed a screenshot since July 2018, except for people reviewing their own thing at the end of the day. Being able to easily recover from a situation where you have accidentally billed a client for doing something private (as you forgot to pause the timer) is nice and in line with the company values.
+Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on the project, then it is a good thing. The client doesn't see us work in their office, so if there are no results, it is difficult to say whether someone is working hard but struggling with a challenge, or whether somoene is not trying hard enough.
+
+As of writing this, the number of times the tracker was instrumental in preventing a rapid degradation of a relationship with a customer is: **5**.
+
+UPDATE: this counter stopped incrementing in mid 2018, when we changed the target client group. It seems that "better" clients don't really care about the time, but they do care about results. CEO even wanted to disable the screenshot feature of the tracker in early 2020, but others said they use it to inspect their own diary at the end of the day and after a short discussion everyone said they don't really care about it so we just left it as it was. It seems that nobody has reviewed a screenshot since July 2018, except for people reviewing their own thing at the end of the day. Being able to easily recover from a situation where you have accidentally billed a client for doing something private (as you forgot to pause the timer) is nice and in line with the company values.
 
 
 # Configuring the environment
@@ -243,7 +268,7 @@ Add your user to the `docker` group:
 $ sudo gpasswd -a $USER docker
 ```
 
-*Note: For ease of use, an alias ** dc ** for docker-compose is added to the .bashrc file. Instead of typing a full name, you can use the shortened version.*
+*Note: For ease of use, an alias ** dc ** for docker-compose is added to the `.bashrc` file. Instead of typing a full name, you can use the shortened version.*
 
 Example:
 
@@ -298,7 +323,7 @@ We use simple hand signals during video calls to communicate more efficiently.
 |hand with palm up|vote "protest"|S3 decision making|
 |:wave:|ready to disconnect the call|call coming to an end|
 
-When we're trying to make a decision or closing the call, everyone holds their sign until everyone shows a sign of their choice. This way, the situation is clear at a glance. In the past, we used to show signs for a moment, but then the quick responders hid their signals before the slow ones started signing, and the situation was not clear. Now we all hold the sign until we're sure of the consent.
+When we're trying to make a decision or closing the call, everyone holds their sign until everyone shows a sign of their choice. This way, the situation is clear at a glance. In the past, we used to show signs for a moment, but then the quick responders hid their signals before the slow ones started signing and the situation was not clear. Now we all hold the sign until we're sure of the consent.
 
 ### 6.2 Communication channels
 
@@ -316,9 +341,9 @@ For business communications, we use Slack and [Zoom](zoom.us). You may use them 
 
 In your company e-mail inbox,  you will find a message with an invitation to the Slack team reeftechnologies.slack.com. Right after signing in, remember to fill out the phone number field in your account settings. Remember to **add your country-specific prefix number**, e.g., Poland uses `+48`. It's essential, as our members come from many different countries. Also, remember to place your chosen sequence under your picture: "phone -> SMS" or "SMS -> phone".
 
-If you want to acknowledge a Slack message, you can use `ctrl+shift+\, 1, enter` to quickly reply with a :+1: reaction. It is better than writing "ok", especially when there are many acknowledgers - reactions prevent half of the conversation from being filled with meaningless messages like "ok" / "right" / "I see".
+Replying with a :+1: reaction is better than writing "ok" (especially when there are many acknowledgers on the channel!) - reactions prevent half of the conversation from being filled with meaningless messages like "ok" / "right" / "I see". If you want to quickly acknowledge a Slack message, you can use `ctrl+shift+\, 1, enter`.
 
-Using the desktop Slack application has a benefit of marking you as "available" on all the Slack servers. If you use a browser, you are only shown as available on the tab that you currently have open on your screen. Therefore, you should use the desktop application, not the browser.
+Using the desktop Slack application has a benefit of marking you as "available" on all the Slack servers. If you use a browser, you are only shown as available on the tab that you currently have open on your screen. Therefore, you should use the desktop application, not the browser. This may impact on how the client percives availability of the team (if he never sees us online, it's not so good).
 
 
 Channels:
@@ -359,7 +384,6 @@ Here are some miscellaneous rules to follow that were hard to put in some other 
 - Try to avoid task switching, especially project switching. Generally, we do our best to switch only on "breakpoints", which are the moments when you lose concentration on the task at hand, such as the end of the working day, going away for lunch, the end of a task. Thus, if a new task appears on a high priority project, we do not expect you to switch to it immediately, but rather after you finish what you are doing, or first thing next day, etc. Usually, you should have at most one project switch per day.
 - Avoid `ssh -A`, also called `ForwardAgent` (except for jb). If we use it on a server owned by a client and it gets hacked, someone could potentially set a trap for us and authorize using our key. The better way is to use deployment keys on the client server to access the repository.
 - Do not use the company email for RSS, out of work stuff etc. That is to minimize distractions, which is pretty important for us.
-- Try to use Pomodoro, pair programming, or another time organization method.
 - If you issue an invoice to the company, please prefix the name of the file with your surname. This makes things much easier to find for the staff members who are dealing with a few dozen invoices every month.
 - If your changes are not ready to be submitted at the end of your work day, make a dirty branch, commit all of your changes to it (typically `git commit -am'WIP'`) and push it to a remote. This way if your HDD is damaged or something, you will never lose more than a day of work.
 
@@ -400,18 +424,11 @@ See also: https://github.com/reef-technologies/python-review-zoo/
 Whenever you're taking some days off, it's important to let other team members know, so that work can be 
 planned and client expectations managed. 
 * You should mark days when you won't be working in GSheet ['Work planning'](https://docs.google.com/spreadsheets/d/12nQKdskWDwFHhQ01BMjfllabqJTZo4tMdCsWx6NJaL4/edit?usp=sharing) as soon as you know about it. 
-* If you need time off urgently because of something unexpected, please let others know in Slack in #annoucements
-channel right away. 
-* If it's some time you're planning to take off in the future, 
-please mention that on Friday status call. 
+* If you need time off urgently because of something unexpected, please let others know in Slack in `#annoucements` channel right away, but ignore it completely if it's a life-and-death situation. Don't worry, we'll manage. Family first 👪
+* If it's some time you're planning to take off in the future, please mention that on a status call.
 
 
 ## 8. Tools
-
-### Pomodoro timer
-
-[Marinara: Pomodoro Timer](https://chrome.google.com/webstore/detail/marinara-pomodoro-timer/lojgmehidjdhhbmpjfamhpkpodfcodef)
-
 
 ### Secure delete
 
@@ -439,8 +456,8 @@ To remove the docker containers created while working on a project, please use t
 ##### _What's a virtual assistant?_
 &nbsp;&nbsp;&nbsp; It's like an office manager for a company that doesn't have an office.
 
-##### _Do we have CI?_
-&nbsp;&nbsp;&nbsp; So far, we have used wercker because it is free for github private, but we are scheduled to try to switch over to GitLab.
+##### _Do we have CI/CD?_
+&nbsp;&nbsp;&nbsp; Typically github actions.
 
 ##### _How to re-bill my time to a different project?_
 &nbsp;&nbsp;&nbsp; In case you ever bill the time worked to the wrong project, [here](docs/Hubstaff.md) is a step-by-step guide on how to fix it.
@@ -448,11 +465,11 @@ To remove the docker containers created while working on a project, please use t
 ##### _Why is all communication (except 1to1) in English?_
 &nbsp;&nbsp;&nbsp; Pawel: Let me tell you a story. There was a Python office in Warsaw where most employees were from Poland, but eventually, the company started hiring foreigners, too. They could not understand the kitchen conversations, which was awkward for both sides, so a new rule was introduced. Everyone was supposed to switch to English as soon as a foreigner entered the room.
 
-One day, a foreigner walked through the corridor and overheard laughter in the kitchen. As soon as he entered the room, however, everyone went silent. Turns out that switching the language mid-conversation is not an effortless task. In that company, foreigners suffered discrimination every day. They were excluded from gossip, and whenever they entered the room, any conversation was likely to come to a halt.
+One day, a foreigner walked through the corridor and overheard laughter in the kitchen. As soon as he entered the room, however, everyone went silent. Turns out that switching the language mid-conversation is not an effortless task. In that company, foreigners suffered from discrimination every day. They were excluded from gossip, and whenever they entered the room, any conversation was likely to come to a halt.
 
 The first time we had a foreigner join us for a few days, we switched to English and just haven't switched back. If we did, the next foreigner joining the company could be a source of resentment. There would also be a problem with chat history. One of the things we proudly offer to our staff members is respect. I like to think that by keeping communications in English, we show respect to the person that will join the company at some time in the future. We want as little friction as possible.
 
-UPDATE: We now have several staff members who don't know a word of Polish, so the story above is no longer relevant for explaining why we communicate in English... but I am leaving it here because it shows a part of our culture: it's ok for all of us to be slightly inconvenienced to make sure that we properly respect another staff member, even when he or she does not exist yet.
+UPDATE: We now have several staff members who don't know a word of Polish, so the story above is no longer relevant for explaining why we communicate in English... but I am leaving it here because it shows a part of our culture: it's ok for all of us to be slightly inconvenienced to make sure that we properly respect another staff member (even when he or she does not exist yet). I wish I snapped a photo of our CFO when I told her why we logged the time for internal activities in quite a lot of detail for the last 5 years. We knew a day will come when someone will try to analyze how internal company operations evolved over time. It was for her.
 
 
 # Handbook document improvement
