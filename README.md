@@ -335,7 +335,7 @@ We don't really use email for communications, as some people don't check it too 
 
 ### 6.3 Instant messengers
 
-For business communications, we use Slack and [Zoom](zoom.us). You may use them in your browser, but they are usually installed on **the host computer** for convenience.
+For business communications, we use Slack and [Zoom](zoom.us). You may use them in your browser, but they are usually installed on **the host computer** for convenience. Zoom usually doesn't work from an encrypted VM (no audio or video) - perhaps it's possible to perform some extra setup steps to make it work, but it's not worth it.
 
 #### Slack
 
