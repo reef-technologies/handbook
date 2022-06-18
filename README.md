@@ -132,6 +132,15 @@ The descriptions tell you where you should bill your RT time on hubstaff.
 
 If you are working on any external project for a client, you should bill all your time spent on this project onto it. Knowledge gathering, environment preparation, actual programming, meetings or design. If you need to learn a framework, library or language in order to deliver value for the project, bill the learning to that project as well. If it took you a long time to learn a new skill, please mention it to our PM on that project - depending on the terms of the contract, a client may be eligible for a discount and it is the responsibility of the PM to manage that (but he won't be able to do his job well if you won't ever tell him anything ;) ).
 
+#### TODOs
+
+Using Hubstaff TODOs only takes seconds to get right and there are a few reasons why we use it:
+1. On longer contracts sometimes the client would like to get an understanding of the cost of a particular feature when building another one in the future. Specifying which feature we are working on allows for easy aggregation of the time spent on its development and that allows the client to plan the future of their products to maximize the value
+2. One time we had a client who replaced us a vendor with us and he did not charge the user of the system for fixing the errors made by the previous vendor. Fair billing between our client and the user of the system was only possible because we logged the time appropriately.
+3. Sometimes we make a deal with a client to buy our a module we've built for them and opensource it, so that we can use it in the future. Ideally we'd predict that a module will be reusable before starting to work on it, but sometimes that comes as a hindsight.
+4. Sometimes a client decides to start a new company after something we've built becomes a success and in order to properly settle the development costs between the old client company and the new client company, we need to be able to make a report out of it.
+5. In Poland in some tax accounting modes there are different rates for development phase such as design, implementation, sysadmin work and coordination. Billing a feature and its development phase allows you to pay the proper taxes properly.
+
 
 ## Why we use a time tracker
 
