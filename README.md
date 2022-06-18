@@ -111,21 +111,21 @@ UPDATE after 2 years or so: nobody seems to actually track it, but now that we h
 Below you can find the list of RT projects alongside with their descriptions.
 The descriptions tell you where you should bill your RT time on hubstaff.
 
-| Project                                          | Description                                                                                                                                           |
-| -----------------------------------------------  | ----------------------------------------------------------------------------------------------------------------------------------------------------  |
-| RT / content marketing                     | writing articles or blog posts under company name; presenting the company to the outside world;                                                           |
-| RT / django cookiecutter template          | modifying our internal django template;                                                                                                                                                                                              |
-| RT&nbsp;/&nbsp;internal&nbsp;infrastructure&nbsp;management    | anything related to getting your workspace ready; creating encrypted partitions, installing vms or any software needed to work and **not connected to any specific project**; if it's related to any internal or external project then please bill the time on said project;|
-| RT / management                            | a project reserved for company management;                                                                                                             |
-| RT / non-project meeting                   | phone calls and Slack conversations that are related to your work but not directly project-related;                                                     |
-| RT / virtual assistant                           | things related to organizing the equipment needed in the company (like laptops or any necessary office stuff or hardware);                                       |
-| RT / other internal development            | spending time on improving internal infrastructure like onboarding, training or any other company related stuff that might be helpful for others;    |
-| RT / pre-sales                             | any pre-work needed to be done before the contract is signed with the customer; usually asked by @ppolewicz;                                          |
-| RT / recruitment                           | time spent on actively recruiting other people;                                                                                                       |
+| Project                                    | Description |
+| -----------------------------------------  | ----------------------------------------------------------------------------------------------------------------------------------------------------  |
+| RT / content marketing                     | writing articles or blog posts under company name; presenting the company to the outside world |
+| RT / django cookiecutter template          | modifying our internal django template |
+| RT&nbsp;/&nbsp;internal&nbsp;infrastructure&nbsp;management    | anything related to getting your workspace ready; creating encrypted partitions, installing vms or any software needed to work and **not connected to any specific project**. If it's related to any internal or external project then please bill the time on that project |
+| RT / management                            | a project reserved for company management |
+| RT / non-project meeting                   | phone calls and Slack conversations that are related to your work but not directly project-related |
+| RT / virtual assistant                     | things related to organizing the equipment needed in the company (like laptops or any necessary office stuff or hardware) |
+| RT / other internal development            | spending time on improving internal infrastructure like onboarding, training or any other company related stuff that might be helpful for others |
+| RT / pre-sales                             | any pre-work needed to be done **before** the contract is signed with the customer |
+| RT / recruitment                           | time spent on actively recruiting other people |
 | RT / sociocracy                            | for s3 meetings, but also for chatting on the channel and for tuners |
 | RT / special assignment from CEO           | bill like this only when specifically asked to |
-| RT / onboarding                            | only during onboarding phase (going through [training](training.md) materials); |
-| OTHER / just-in-case                             | this is in case you need to work on a project before you are assigned to it; in such case raise the problem to the management and re-bill that time later to the proper project;|
+| RT / onboarding                            | only during onboarding phase (going through [training](training.md) materials) |
+| OTHER / just-in-case                       | this is in case you need to work on a project before you are assigned to it; in such case raise the problem to the management immediately and re-bill that time later to the proper project |
 
 
 ### Non-RT projects
@@ -368,7 +368,7 @@ The remaining channels are client- or project-specific. Only the people involved
 
 [Slack's 2-step authorization setup](https://reeftechnologies.slack.com/account/settings)
 
-Do not forget to say hello to us on #random. :)
+Do not forget to say hello to us on `#random` :)
 
 
 ## 7. Rules
