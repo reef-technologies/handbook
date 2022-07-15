@@ -29,6 +29,7 @@
    - if the pilot suddenly enables the seatbelt sign, this could mean he has seen something big and unavoidable on the weather radar and you now have less than 30 seconds to hit turbulence
  - be extremely nice to cabin crew. This never hurts.
  - the charge power from a USB socket is usually terrible, think 3 watt... But many airplanes, including economy, have standard wall sockets in the seat in front of you or int he arm rest. If you connect a "fast charging" charger, you can easily get 18 watt
+ - https://youtube.com/shorts/yGDkiUAwxRs - in case you think lithium-ion batteries are safe for air travel in the cargo hold
 
 #### Boarding in a group
 
