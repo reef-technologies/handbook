@@ -108,6 +108,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://www.citusdata.com/blog/2016/03/30/five-ways-to-paginate/ - Five ways to paginate in Postgres, from the basic to the exotic;
  - https://hoytech.com/vmtouch/ - Portable file system cache diagnostics and control tool
  - https://github.com/hankhank10/false-positive-malware-reporting - How to stop anti virus software flagging your Python application as malware
+ - https://www.crunchydata.com/blog/postgres-indexing-when-does-brin-win - Postgres Indexing: When Does BRIN Win?
 
 ### all python developers
 
