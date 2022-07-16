@@ -109,6 +109,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://hoytech.com/vmtouch/ - Portable file system cache diagnostics and control tool
  - https://github.com/hankhank10/false-positive-malware-reporting - How to stop anti virus software flagging your Python application as malware
  - https://www.crunchydata.com/blog/postgres-indexing-when-does-brin-win - Postgres Indexing: When Does BRIN Win?
+ - https://www.cybertec-postgresql.com/en/column-order-in-postgresql-does-matter/ - Column order in PostgreSQL does matter
 
 ### all python developers
 
