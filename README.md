@@ -414,7 +414,15 @@ Please follow these guidelines when copying code:
 - Please mention the license of the source code which is copied 
 
 
-### 7.3 Conventions
+### 7.3 Django cookiecutter template
+
+We use an internally-developed [cookiecutter template](https://github.com/reef-technologies/cookiecutter-rt-django/) for our Django projects. When we start a new project, the template empowers us to immediately focus on the core of the business problems instead of spending time on set-up tasks. It also provides a common base of libraries, dev-ops tools and conventions that Reef developers get familiar with. Over time, we improve the template - we update dependencies, add new features, fix issues. Therefore, it is important not only to start new projects using the template but also to port template updates to existing projects. This leads to two rules that we follow:
+
+- New Django projects must use the template. Any exceptions must be discussed with the team beforehand.
+- When we make a change to any of our template-based projects, we also update them to follow the newest version of the template.
+
+
+### 7.4 Conventions
 
 We _typically_ follow the conventions listed below. Not always. The list seems long, but it really isn't.
 
@@ -484,7 +492,7 @@ https://sipb.mit.edu/doc/safe-shell/
 
 See the next section
 
-### 7.4 Restricted patterns
+### 7.5 Restricted patterns
 
 Whenever someone would like to use a pattern listed below, we have decided that they will get an opinion from a design reviewer __before__ writing the code. The restricted technologies are:
 1. Django GFK (generic foreign key)
@@ -498,7 +506,7 @@ The reasoning behind this is that we usually prefer for the code to be structure
 
 See also: https://github.com/reef-technologies/python-review-zoo/
 
-### 7.5 Holidays (days off)
+### 7.6 Holidays (days off)
 
 Whenever you're taking some days off, it's important to let other team members know, so that work can be 
 planned and client expectations managed. 
