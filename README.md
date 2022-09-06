@@ -421,6 +421,7 @@ We use an internally-developed [cookiecutter template](https://github.com/reef-t
 - New Django projects must use the template. Any exceptions must be discussed with the team beforehand.
 - When we make a change to any of our template-based projects, we also update them to follow the newest version of the template.
 
+This is important because we sometimes fix bugs in the template or we workaround an issue with deployment or with one of the dependencies and then we forget about it. If someone comes in two years later, learns the template and adjusts an old project without updating the template, he might run into one of those old problems that have been fixed a year ago - but it'd be hard to know if any such issue might affect the system in question and checking this is an expensive and a bit pointless process. It's easier to just update the template in a side effect of adding a feature/fixing a bug.
 
 ### 7.4 Conventions
 
