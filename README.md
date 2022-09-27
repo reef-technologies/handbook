@@ -229,10 +229,6 @@ $ sudo apt install \
 	direnv
 ```
 
-```bash
-$ sudo pip3 install virtualenvwrapper
-```
-
 ## 4. Initial configuration (bash, git, ssh)
 
 ### SSH
