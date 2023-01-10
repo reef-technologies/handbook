@@ -219,7 +219,7 @@ WindowsPath('C:/Windows/system')
 
  - https://youtu.be/yIPbE7BssOs - Randall Koutnik: Rethinking the Developer Career Path (25 min video);
  - https://medium.com/better-programming/the-differences-between-a-junior-mid-level-and-senior-developer-bb2cb2eb000d - a perspective on junior vs senior developer level
- - https://dev9.com/blog-posts/2015/1/the-myth-of-developer-productivity - comprehensive look on the subject of measuring developer productivity
+ - https://nortal.com/blog/the-myth-of-developer-productivity/ - comprehensive look on the subject of measuring developer productivity
  - www.crisp.se/henrik.kniberg/How-we-got-rid-of-time-reports.pdf - inspiring story of Henrik Kniberg fighting bureaucracy with success
  - https://youtu.be/N8KXxfF4dtg - Jurgen Appelo - Keynote: Managing for Happiness (53 min video);
  - https://youtu.be/lvs7VEsQzKY - Dan North: Patterns of Effective Teams (51 min video);
