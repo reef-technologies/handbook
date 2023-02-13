@@ -24,7 +24,7 @@ The description is vague by design – we need someone to deal with both repetit
 **What do we bring to the table?**
 
 - You can expect lots of **independence**. You don’t need to commute anywhere, and we don’t have a dress code. This job is 100% remote. We mostly work asynchronously. While some tasks may need to be done at a certain time or you may need to arrange a call with someone at a set hour, in general, you will not need to work “9 to 5”. 
-- Your availability is up to you. We require availability of **no fewer than 80 hours calculated by a time tracker per month**, but there is no upper limit. You can work with us on a full-time basis.
+- Your availability is up to you. We require availability of **no fewer than 80 hours calculated by a time tracker per month**, but there is no upper limit. You can work with us on a full-time basis. A frequently asked question about this point is whether this job can be combined with some other employment? Unfortunately experience shows that while it would be acceptable on the trial period, it's not really sustainable in the long term.
 - We are offering **a stable, long-term collaboration** via a contract of mandate or B2B contract.
 - You can **learn a lot**. You can be sure to gain a lot of experience by dealing with various private and business administrative tasks. 
 - **Your voice counts**. The company is small, and everyone hates bureaucracy at an equal level. You will enjoy a close working relationship with the CEO, and you are more than allowed to bring up your concerns or come up with new ways to improve the way we do things.
