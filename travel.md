@@ -5,6 +5,7 @@
 ### Uncategorized
 
  - in EU your national id card needs to be valid for at least 3 months after you plan to come back (EU has a weird way of interpreting "valid until" date)
+ - some countries want your passport to be valid at least for 6 more months before they issue a visa etc
 
 ### Behavior
 
