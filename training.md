@@ -131,6 +131,7 @@ This section is divided into sort filters, sort of. See each section and find ou
  - https://blog.heroku.com/python37-dataclasses-async-await - well written summary of what's new in python-3.7;
  - https://realpython.com/python38-new-features/ - cool new features in Python 3.8;
  - https://realpython.com/python39-new-features/ - cool new features in Python 3.9;
+ - https://pypi.org/project/django-test-migrations/ - handling migration testing in Django (don't write it yourself, don't repeat my mistake);
 
 Why pathlib is fun:
 
