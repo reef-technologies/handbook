@@ -113,42 +113,66 @@ It is not allowed to use audio or video processing in company Zoom calls. The on
 
 ## Hardware co-funding
 
-All senior staff members of Reef Technologies may receive co-funding for hardware, up to 50% of the value of the hardware and up to $1024 per two years. The 50% of company ownership passes to the staff member after two years of full-time work, with full-time defined as 30 hours per week.
+All staff members of Reef Technologies have the right to request co-funding for up to 50% of the value of hardware deemed necessary for work, such as a laptop, a headset, a monitor, a mouse, a keyboard, etc.
 
-Two years of full-time work is equivalent to 2568 hours according to the following assumptions:
-- 250 days is the average amount of working days per year.
-- 26 days is the average amount of vacation days.
-- 10 days is the average amount of unpaid sick days off.
-- 6 hours is the average amount of hours worked per day, so 30 hours per week.
+Co-founding conditions for senior engineers:
+- up to 50% of the value of the hardware up to $1536 net per two years.
 
-2 * (250 – 26 – 10) * 6 hours = 2568 hours
+Co-founding conditions for everyone else:
+- up to 50% of the value of the hardware up to $512 net per two years.
 
-The hardware co-funding policy is explained in more detail below:
-- All senior staff members of Reef Technologies have the right to request co-funding for up to 50% of the value of hardware deemed necessary for work, such as a laptop, a headset, a monitor, a mouse, a keyboard, etc. The maximum amount of co-funding is $1024 net. The amortization is calculated linearly according to the hours worked, rounded to the nearest dollar.
-- The hardware is never returned to Reef Technologies. In all cases, it remains with the individual.
-- All tracked hours count, it doesn’t matter whether the senior staff member logged them to a commercial project or an internal project such as our Sociocracy or Weekly Status calls.
-- The hours are calculated as per the number of hours tracked in the Hubstaff time tracker.
-- The total number of hours worked by all senior staff members may be stored in a GoogleDocs spreadsheet. Senior staff members may request to be informed of their current hour total by a virtual assistant.
-- If a senior staff member on trial period requests hardware assistance, they will be assigned the company hardware that is currently available. After the trial period, the senior staff member is welcome to use the co-funding policy to buy the hardware of their own choice.
-- A Reef Technologies member that requests hardware co-funding will include an appropriate sum in their invoice the same month they make the request – for example by $1024 if the hardware cost $2048. That amount will then undergo amortization, see example situations.
+The reason for this difference is that software engineering generally requires significantly more computing power than other types of tasks.
+
+Two years of full-time work is equivalent to 2568 hours.
+
+All tracked hours count, it doesn’t matter whether the staff member logged them to a commercial project or an internal project such as our Sociocracy or Weekly Status calls.
+
+The hours are calculated as per the number of hours tracked in the Hubstaff time tracker.
+Staff members may request to be informed of their current hour total by a virtual assistant.
+
+A Reef Technologies member who requests co-funding for hardware they need to perform their work will be sent the equipment by the company.
+
+The hardware is bought by Reef Technologies and belongs to the company until its value has decreased either by 50% or by the maximum co-founding value ($1536 or $512).
+
+In reality, the benefit of using this policy amounts to more than 50% of the hardware's original value. By the time you purchase it from Reef Technologies, you will be charging a higher hourly rate and inflation will have likely further devalued the amount you need to pay for the hardware. All that after getting to use some nice gear at no immediate cost in the meantime.
+
+After the value of the hardware meets one of the two conditions, the staff member gains ownership by purchasing the hardware from Reef Technologies at its current price (50% of the initial price or initial price less maximum co-founding value).
+
+The hardware is never returned to Reef Technologies. In all cases, it remains with the individual.
+
+If a staff member on trial period requests hardware assistance, they will be assigned the company hardware that is currently available. After the trial period, the staff member is welcome to use the co-funding policy to buy the hardware of their own choice.
+
+The hardware will belong to Reef Technologies until its value has decreased either by 50% or by the maximum co-founding value ($1536 or $512).
 
 ### Example situation 1:
 
-So far, John has tracked 264 hours working for Reef Technologies. When he first joined the company, he requested the largest possible amount of co-funding and bought hardware for $2048, which means he received an additional $1024 net on his first invoice.
+John works for Reef Technologies as a Senior Python Engineer. When he first joined the company, he requested to be supplied with a laptop that cost $3000. Reef Technologies purchased it and had it delivered to John.
 
-Now, John decides to terminate his contract with Reef Technologies. Given the above information, John’s last invoice will be reduced by the following amount:
-(2568 hours – 264 hours ) / 2568 hours * $1024 = 0.897 * $1024 = $918.53, rounded up to $919
+After about two years, the assistant tasked with tracking the value of Reef Technologies hardware noticed that the average value of a two-year-old used laptop that John has been using has fallen to $1500 – 50% of the initial price of $3000.
+
+At this point, John was issued an invoice by Reef Technologies to pay $1500 in order to purchase the laptop. John paid the $1500 and the ownership of the laptop passed on to him.
 
 ### Example situation 2:
 
-Mary has tracked 264 hours working for Reef Technologies and she plans to continue working for the company. She wonders how much of hardware co-funding is already amortized in her case – or, in other words, how much money she can spend on hardware that will already be 100% hers.
+Patrick works for Reef Technologies as a Remote Executive Assistant. When he first joined the company, he requested to be supplied with a laptop that cost $800. Reef Technologies purchased it and had it delivered to Patrick.
 
-Given the number of hours that she has tracked so far:
-264 hours / 2568 hours * $1024 = 0.103 * $1024 = $105.47, rounded up to $105.
+A few months in, Patrick realized he also needed a vertical mouse and requested for Reef Technologies to get him one at the cost of $100.
 
-Given that the company refunds up to 50% of the hardware cost, Mary may now buy hardware worth up to $210. She will receive up to $105 co-funding from the company. The hardware will instantly belong to her 100%. The cost has already been amortized by the hours she had tracked for Reef Technologies.
+Patrick could do that because:
+- the co-founding value for a laptop that costs $800 is $400
+- the maximum co-founding value that a Remote Executive Assistant can receive is $512 per two years
+- Patrick still has $112 of co-founding value available at this point in time
+- the co-founding value of a mouse that costs $100 is $50, which is less than $112
 
-As a senior Reef Technologies staff member, you are eligible to use the services of a personal assistant. The assistant may do the necessary research, make a list of top hardware models for you to choose from, find a good online shop that is available in your country and have the appropriate equipment delivered to your address.
+After about a year, the assistant tasked with tracking the value of Reef Technologies hardware noticed that the average value of a one-year-old used laptop that Patrick has been using has fallen to $400 – 50% of the initial price of $800.
+
+At this point, Patrick was issued an invoice by Reef Technologies to pay $400 in order to purchase the laptop. Patrick paid the $400 and the ownership of the laptop passed on to him.
+
+A year later, the value of the mouse was down to $50, so Patrick was issued an invoice by Reef Technologies to pay $50 in order to purchase the mouse as well. Patrick paid the $50 and became the owner of the mouse.
+
+Two years already passed since Patrick had first requested to get a laptop. Thus, his available co-founding value returned to the original value of $512.
+
+As a senior Reef Technologies engineer, you are eligible to use the services of a personal assistant. The assistant may do the necessary research, make a list of top hardware models for you to choose from, find a good online shop that is available in your country and have the appropriate equipment delivered to your address.
 
 ## Training and upskilling
 
@@ -169,3 +193,29 @@ When a staff member needs to learn a new skill for a specific project, they need
 We have all agreed that it would be artificial and stifling to have a fixed, Hubstaff-tracked time budget for regular upskilling. When a staff member wants to learn a new technology out of their own interest, they should inform Paweł about it. He can then take it into account when looking for new projects and try to create an opportunity to learn the requested skill while working for a client.
 
 We all love what we do and enjoy upskilling and self-development, so staff members are also encouraged to expand their knowledge in their free time. That effort is also compensated, but indirectly – through periodic hourly rate adjustments, which currently happen in November.
+
+## Establishing $1024/monthly/staff member budget for operational mistakes
+
+### a. If operational mistakes made by staff member:
+- cost the company less than 1024 USD in the given month AND,
+- our CFO confirms that it was not fraud,
+- if it is the first mistake of the given type made by that staff member,
+CEO will have a "please do not make the same mistake again" conversation with the staff member and the company absorbs the cost.
+
+### b. If operational mistakes made by staff member:
+- cost the company more than 1024 USD in the given month OR,
+- CFO cannot confirm if it was fraud or not OR,
+- if it is another mistake of the same type made by the same staff member,
+we will decide how to proceed during S3 in a separate decision.
+
+If a mistake is not due to an accident, but negligence (like violating NDA, fraud, Working Agreement or other established procedure that we have), then the policy above does not apply (because customers can sue the company for damages and usually some legal agreement defines the way we handle such cases).
+
+## Immediate need to buy something
+If you need some things to continue work and they are <= $64, for example a domain, a temporary server, cloudflare paid account or some SaaS, just buy it, tell CFO and put that cost on the invoice at the end of the month. Even if CEO will be against the expense, he'll absorb the cost rather than see you block on some silly thing.
+
+## Company's time tracker agreement
+Reef Technologies pays only for the time which is tracked by company's time tracker.
+
+## Referral fee $2048 for Senior Python Developer
+"If you as the staff member has contacted us with a potential candidate who passed the trial period and tracked at least 168h work later, referral fee will be paid for you - $2048".
+
