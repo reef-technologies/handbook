@@ -164,7 +164,7 @@ WindowsPath('C:/Windows/system')
 
  - https://github.com/reef-technologies/python-review-zoo/ - here we collect common/interesting review findings
  - https://treyhunner.com/2019/05/python-builtins-worth-learning/ - a friendly description of python builtin functions
- - https://write.as/chobeat/python-project-tooling-explained - a list of tools commonly used in development of python-based projects
+ - https://write.as/simone-robutti/python-project-tooling-explained - a list of tools commonly used in development of python-based projects
 
 ### intermediate python developers
 
