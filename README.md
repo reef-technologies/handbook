@@ -489,7 +489,7 @@ https://sipb.mit.edu/doc/safe-shell/
 
 See the next section
 
-### 7.4 Restricted patterns
+### 7.4 Restricted patterns / forbidden technologies
 
 Whenever someone would like to use a pattern listed below, we have decided that they will get an opinion from a design reviewer __before__ writing the code. The restricted technologies are:
 1. Django GFK (generic foreign key)
