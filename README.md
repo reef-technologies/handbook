@@ -130,23 +130,24 @@ RT generally means "investment", RTO generally means "operations".
 
 | Project                                    | Description |
 | -----------------------------------------  | ----------------------------------------------------------------------------------------------------------------------------------------------------  |
-| RT / content marketing                     | writing articles or blog posts under Company name; presenting the Company to the outside world |
-| RT / django cookiecutter template          | developing our internal django template |
-| RTO&nbsp;/&nbsp;internal&nbsp;infrastructure&nbsp;management    | anything related to getting your workspace ready; creating encrypted partitions, installing vms or any software needed to work and **not connected to any specific project**. If it's related to any internal or external project then please bill the time on that project |
-| RT / non-project meeting                   | phone calls and Slack conversations that are related to your work but not directly project-related. These are very rare, almost non-existent. |
-| RTO / virtual assistant                    | things related to organizing the equipment needed in the company (like laptops or any necessary office stuff or hardware) or other VA tasks |
-| RT / other internal development            | spending time on improving internal infrastructure like onboarding, training or any other company related activities that might be helpful for others |
-| RT / security training                     | when you join at some point you'll get a security training that takes an hour or so - we have all staff complete it (and staff of our clients too) to harden ourselves against fraud, hackers etc |
+| RT / content marketing                     | Write articles or blog posts under the company name and present the company to the outside world. |
+| RT / django cookiecutter template          | Develop our internal Django template. |
+| RTO&nbsp;/&nbsp;internal&nbsp;infrastructure&nbsp;management    | Manage workspace setup, including creating encrypted partitions, installing virtual machines, and installing software **not tied to specific projects**. If it's related to any internal or external project then please bill the time on that project. |
+| RT / non-project meeting                   | Participate in phone calls and Slack conversations related to work but not directly project-related. These are very rare, almost non-existent. |
+| RTO / virtual assistant                    | Organize and procure equipment and supplies needed in the company, including laptops and office supplies, or perform other virtual assistant tasks. |
+| RT / other internal development            | Improve internal infrastructure, such as onboarding, training, or other company-related activities that might benefit others. |
+| RT / security training                     | Complete mandatory security training for all staff (and client staff too) to harden against fraud and hackers. |
 | RTO / sales                                | any pre-work needed to be done **before** the contract is signed with a client |
-| RTO / nurturing client relationship        | this is similar to sales, but for (brief) discussing an upcoming project of a client with an existing contract OR theoretically after-sales support on a fixed price project (we haven't had any since like 2019 and the guarantee expired already on these) |
-| RTO / recruitment                          | time spent on actively recruiting other people |
-| RT / recruitment                           | time spent on improving the recruitment process |
-| RTO / sociocracy meeting                   | for s3 meetings, but also for chatting on the channel |
-| RT / sociocracy development                | for s3 tuners |
-| RTO / status call                          | for weekly RT status calls |
-| RT / special assignment from CEO           | bill like this only when specifically asked to. Extremely rare. Typically used to do something that must be done where we don't want to create a new project for a one-time thing. |
-| RTO / onboarding                           | only during onboarding phase (going through [training](training.md) materials) |
-| OTHER / just-in-case                       | this is in case you need to work on a project before you are assigned to it; in such case raise the problem to the management immediately and re-bill that time later to the proper project |
+| RTO / nurturing client relationship        | Discuss upcoming projects with existing clients OR, theoretically, after-sales support on a fixed price project (we haven't had any since like 2019 and the guarantee expired already on these). |
+| RTO / recruitment                          | Actively recruit other people. |
+| RT / recruitment                           | Improve the recruitment process. |
+| RTO / sociocracy meeting                   | Participate in sociocracy meetings and engage in related discussions on the channel. |
+| RT / sociocracy development                | Contribute to sociocracy development as a tuner. |
+| RTO / status call                          | Attend weekly RT status calls. |
+| RT / special assignment from CEO           | Work on special assignments from the CEO as specifically requested. Extremely rare. Typically used to do something that must be done where we don't want to create a new project for a one-time thing. |
+| RTO / onboarding                           | Go through training materials during the onboarding phase ([training](training.md)). |
+| OTHER / just-in-case                       | Work on a project before being officially assigned to it (if needed). Notify management to re-bill the time later to the appropriate project.
+ |
 
 
 ### Non-RT projects
