@@ -81,9 +81,9 @@ We employ several techniques to output a lot of value in a unit of time:
 5. Design systems in such a way that they are durable and, whenever possible, self-healing.
 6. We prefer candidates who are not an order of magnitude slower than others. For example a program that reverts a small file can take like a minute to implement, but some of our candidates need more than 10 minutes. Someone might have a problem with this, but we just don't hire the slowest developers on the market.
 7. If there is doubt on whether something should be done or not, we stop and ask. This theoretically increases Time To Market, but in practice it only does so on the last task of the iteration (so a hint for planning is that the last task in the iteration should be low-risk).
-8. We are allergic to waste. This drives many of our actions including good communication with the client who knows what must be done. While some software houses loose ~30% of their performance (due to miscommunications etc.), we stay way below 1% (the exact number is hard to measure when the amount of waste is so low).
+8. We are allergic to waste. This drives many of our actions including good communication with the client who knows what must be done. While some software houses lose ~30% of their performance (due to miscommunications etc.), we stay way below 1% (the exact number is hard to measure when the amount of waste is so low).
 9. Use modern IDEs.
-10. Use LLMs.
+10. Use LLMs (ChatGPT, Github Copilot, Amazon CodeWhisperer etc).
 
 # Time-tracking
 
@@ -381,10 +381,10 @@ Channels:
 - `#random` - all topics not directly related to work. If you read something interesting, don't hesitate to share it with us.
 - `#sales` - sales team sends notifications there about high quality leads, signed/terminated contracts etc.
 - `#security` - for things like [heartbleed](http://heartbleed.com/), [shellshock](https://www.symantec.com/outbreak/?id=shellshock), [krack](https://www.krackattacks.com/), [poodle](https://www.us-cert.gov/ncas/alerts/TA14-290A), [venom](http://venom.crowdstrike.com/), [ghost](https://blog.qualys.com/laws-of-vulnerabilities/2015/01/27/the-ghost-vulnerability), [meltdown/spectre](https://meltdownattack.com/)
-- `sociocracy` - the channel where sociocracy is coordinated
-- `recruitment` - to discuss recruitment, trial candidate progress etc
-- `staff` - internal staff channel - the only practical difference between a trial candidate and a staff member. The channel is practically dead because we don't want to have any part of the culture that is not available to the trial candiates.
-- `va_for_rt` - for delegating things to Virtual Assistants
+- `#sociocracy` - the channel where sociocracy is coordinated
+- `#recruitment` - to discuss recruitment, trial candidate progress etc
+- `#staff` - internal staff channel - the only practical difference between a trial candidate and a staff member. The channel is practically dead because we don't want to have any part of the culture that is not available to the trial candiates.
+- `#va_for_rt` - for delegating things to Virtual Assistants
 - `#website` - discussion about our company website and its development
 
 (private channel names don't start with a `#`)
@@ -657,7 +657,7 @@ if __name__ == '__main__':
         Benefit('private assistant'),
         Benefit('budget for tools'),
         Benefit('sociocracy', 'we make decisions together'),
-        Benefit('no calls on Mondays'),
+        Benefit('no calls on Wednesdays'),
     ]
 
     PROJECTS = [
