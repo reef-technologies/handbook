@@ -38,22 +38,40 @@ We avoid fixed-scope projects. The reason why is that we want to focus on the cr
 We will not accept a project targeted to manipulate people, to rip people off or put their savings at risk, such as insurance+retirement funds.
 
 
-## Workspace safety
+## Workspace safety / security
 
-All data related to the company **must** be stored on encrypted media (usually in a virtual machine which has its image stored on an encrypted volume, but dual boot with full disk encryption is also allowed). This practice prevents potential data leaks, i.e. if your computer get stolen. There are a couple exceptions, you will read about them later on.
-
-You should already have an email account in the `reef.pl` domain. Only ever use this email address (and the associated accounts) on secure environment (VM/dual boot) - this way your private and work accounts will never mix access or customer data.
-
-2FA is mandatory everywhere it is possible to use it (more explanation below). We recommend Twilio's [Authy](https://authy.com/) because it has a pin code and e2e encrypted cloud backup.
-
-The relatively high security level we keep allows us to work for financial institutions and, in general, institutions that treat their security seriously. Funny story moment: Pawel talked to a bank once, and they wanted him to work on site. Pawel described our security model and when he finished, an engineer from the bank said: "They have more security at their homes than we have at the office!". The manager looked at the engineer and he was not happy. ;)
+The relatively high security level we keep allows us to work for financial institutions and, in general, institutions that treat their security seriously. Funny story: Pawel talked to a bank once about a potential contract and they wanted him to work on site due to security concerns, so Pawel described our security model and when he finished, an engineer from the bank said: "They have more security at their homes than we have at the office!". The manager looked at the engineer and he was not happy. ;)
 
 UPDATE: A fully encrypted laptop of our senior developer has been stolen from his bag while he was on a train, returning from a conference in late 2017. Spooky.
 
+### Encryption
+
+All data related to the company and clients **must** be either stored in the cloud (Google drive/docs/sheets in company domain) or on encrypted media (encrypted volume or drive), unless the data in question is worthless or public.
+
+EDIT: We are getting a lot of questions about who this applies to, so lets make it clear: everyone except:
+- software developers in the first phase of the trial period (where they work on fake/mock data)
+- software developers who work exclusively on opensource projects (that only happened twice though)
+
+So all staff including virtual assistants must have encrypted devices. Now that might sound scary, but these days setting up encryption is not that hard - in fact instructions are provided in this document.
+
+Typically source code is inside of a virtual machine which has its image stored on an encrypted volume, but dual boot with full disk encryption is also allowed. This practice prevents potential data leaks, i.e. if your computer get stolen.
+
+You should already have an email account in the `reef.pl` domain. If you qualify for encryption, only ever use this email address (and the associated accounts) on secure environment (VM/dual boot) - this way your private and work accounts will never mix access or customer data. Docker containers containing code of the client won't be reachable from the system you use privately.
+
+### 2FA
+
+2FA is mandatory everywhere it is possible to use it (more explanation below). We recommend Twilio's [Authy](https://authy.com/) because it has a pin code and e2e encrypted cloud backup.
+
+Frequently asked questions time:
+Q: Who does the 2FA rule this apply to?
+A: Everyone. It's in the contract BTW.
+
+Q: Will the client pay for the time spent on configuring 2FA?
+A: Happily.
 
 ## What does "high performance" mean?
 
-Our clients really don't care how fast we type on our keyboards (in fact while on meetings we often don't touch the keyboard for an hour, getting a clean zero keystrokes per hour, delivering not only a very high amount of value per hour, but also infinite value per keystroke ;) ).
+Our clients really don't care how fast we type on our keyboards (in fact while on meetings we often don't touch the keyboard for a long time, getting a clean zero keystrokes per hour, delivering not only a very high amount of value per hour, but also infinite value per keystroke! ;) ).
 
 We employ several techniques to output a lot of value in a unit of time:
 1. Cut the backlog. Typically on the first meeting with the client 80-85% of the backlog is ~removed~ pushed into a "future" version.
@@ -61,16 +79,17 @@ We employ several techniques to output a lot of value in a unit of time:
 3. Set up a new system with monitoring, error management, dh params, deployment etc in one hour. We don't like that part of the project so we invest in automation to minimize its impact.
 4. Design systems in such a way that they are easy to think about and implement.
 5. Design systems in such a way that they are durable and, whenever possible, self-healing.
-6. We prefer candidates who are not an order of magnitude slower than others. For example a program that reverts a small file can take like a minute to implement, but some of our candidates need more than 10 minutes. Someone might have a problem with this, but we don't hire the slowest developers on the market.
-7. If there is doubt on whether something should be done or not, we stop and ask. This theoretically increases Time To Market, but in practice it only does so on the last task of the iteration (so last task should be low-risk).
-8. We are allergic to waste. This drives many of our actions including good communication with the client who knows what must be done. While some software houses loose ~30% of their performance (due to miscommunications etc.), we stay way below 5% (the exact number is hard to measure when the amount of waste is so low).
-
+6. We prefer candidates who are not an order of magnitude slower than others. For example a program that reverts a small file can take like a minute to implement, but some of our candidates need more than 10 minutes. Someone might have a problem with this, but we just don't hire the slowest developers on the market.
+7. If there is doubt on whether something should be done or not, we stop and ask. This theoretically increases Time To Market, but in practice it only does so on the last task of the iteration (so a hint for planning is that the last task in the iteration should be low-risk).
+8. We are allergic to waste. This drives many of our actions including good communication with the client who knows what must be done. While some software houses lose ~30% of their performance (due to miscommunications etc.), we stay way below 1% (the exact number is hard to measure when the amount of waste is so low).
+9. Use modern IDEs.
+10. Use LLMs (ChatGPT, Github Copilot, Amazon CodeWhisperer etc).
 
 # Time-tracking
 
 This guide will show how to set up a time tracking app.
 
-It is not needed for recruitment assignments.
+It is not needed for recruitment assignments, unless specified otherwise.
 
 It is needed for trial period assignments.
 
@@ -81,11 +100,11 @@ The first step you need to take is to sign in to your new Google account at `ree
 
 **Caution!**
 
-You should sign in for the first time from the host computer, as it is necessary to install the time-tracking application. This is the one and only situation when you are allowed to log in from your host machine.
+If you qualify for an encrypted VM, you should sign in for the first time from the host computer, as it is necessary to install the time-tracking application. This is the one and only situation when you are allowed to log in from your host machine.
 
 **Caution, again!**
 
-You have to set up 2-factor authentication within 24 hours from the first successful login, or the security policy will cut you off. It's best to set it up right after you perform the initial login.
+You have to set up 2-factor authentication within 24 hours from the first successful login, or the security policy will cut you off. It's best to set it up right after you perform the initial login. If you forget to do it, we'll need to ask the domain admin to disable 2FA enforcement on the whole organization for a couple of days. Please do not forget :)
 
 ## Time tracking app
 
@@ -104,7 +123,7 @@ Here you can find [time-tracking rules which were co-created by company staff me
 
 As it turns out, people usually find this document before they sign a contract with us and before their tracker account is created. Then they decide to work on their environment even before they have access to the tracker. If you are one of those people, please, track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can compensate you for this time as soon as you get access to the official company tracker. For example, you can use the free [toptracker](https://www.toptal.com/tracker/). We really, really don't like it when people work for us but are not getting paid for it. 
 
-UPDATE after 2 years or so: nobody seems to actually track it, but now that we have more data, we know it takes approximately 90 minutes to set everything up, so in worst case we can compensate based on that value.
+UPDATE after 2 years or so: nobody seems to actually track it, but now that we have more data, we know it takes approximately 90 minutes to set everything up, so in worst case we can compensate them based on that average value.
 
 ### RT / RTO projects
 
@@ -149,7 +168,7 @@ Using Hubstaff TODOs only takes seconds to get right and there are a few reasons
 
 ## Why we use a time tracker
 
-It may seem weird, but actually RT is not the only consulting business out there. Traditionally lawyers bill their clients per hour and nobody blinks an eye :)
+It may seem weird, but actually RT is not the only consulting business out there. Traditionally lawyers bill their clients per hour and nobody blinks an eye :) Also a language teacher, therapist and nanny often bills like that.
 
 In fact many software houses nowadays bill their clients by the hour. In consequence, the income generated by a staff member is (almost) directly proportional to the amount of hours they spend working on the client projects (ok it's a big simplification because how sales activity is organized, but I don't want to digress here). Now unfortunately in the age of remote work (especially after the pandemic when everyone thinks they can work remotely) it's regrettably clear that some people can concentrate on their work much better than others. What I mean is that while some people can output 35 hours per week of focused work, other people can only output 10-12h. It would not be totally fair to compensate both of those groups equally, right?
 
@@ -196,8 +215,7 @@ This guide will show how to set up a standard, secure environment for software d
 
 It is not needed for recruitment assignments.
 
-It may be needed for later trial period assignments. Usually, it is mandatory, unless the trial period assignment is an open-source project and there is nothing to hide. If in doubt, ask the person who is giving you the task.
-
+It is needed for 2nd stage trial period assignments.
 
 ## 1. Create an encrypted volume (host machine)	
 
@@ -305,7 +323,7 @@ To improve the security of our accounts, we require you to enable 2-step verific
 
 Create a new account on GitHub. The suggested username is the first letter of your first name and your full last name, and the suffix `-reef`, eg. `jkowalski-reef` or `asmith-reef`.
 
-2-step authorization should be enabled as well. If you don't enable it (or if you disable it - which is crazy, but technically possible), a periodic audit will catch you and you will make the auditor very sad.
+2-step authorization should be enabled as well. If you don't enable it (or if you disable it - which is crazy, but technically possible), a periodic audit will catch you and you will make the auditor very sad 😭.
 
 [GitHub's 2-step authorization setup](https://github.com/settings/two_factor_authentication/configure)
 
@@ -317,7 +335,7 @@ Go [here](https://github.com/reef-technologies/handbook/subscription) and select
 
 ### Avatars
 
-Please add your photo (one that shows your face clearly without sunglasses etc) to all services that we use: Slack, GitHub, time tracker, Trello, Atlassian account etc. It is recommended to add it to [gravatar](https://gravatar.com), then It will load up automatically to many services. Avatars are important, especially on non-small teams, but also everywhere in context of communication with the client (or ourselves), where we want to be recognized as human beings rather than lines of text. Cultural differences, timezones and language barriers make communication a challenge - lets make it at least slightly easier by showing a smiling face to the client and his team.
+Please add your photo (one that shows your face clearly without sunglasses etc) to all services that we use: Slack, GitHub, time tracker, Trello, Atlassian account etc. It is recommended to add it to [gravatar](https://gravatar.com), then it will load up automatically to many services. Avatars are important, especially on non-small teams, but also everywhere in context of communication with the client (or ourselves), where we want to be recognized as human beings rather than lines of text. Cultural differences, timezones and language barriers make communication a challenge - lets make it at least slightly easier by showing a smiling face to the client and his team.
 
 Why no sunglasses? Please imagine the company in a few years, where almost every avatar on slack looks the same: either a sunglassed person or a 10-pixel high character on the top or bottom of a mountain. That won't work. Therefore we should all use clear pictures from the beginning.
 
@@ -357,23 +375,21 @@ In your company e-mail inbox,  you will find a message with an invitation to the
 
 Replying with a :+1: reaction is better than writing "ok" (especially when there are many acknowledgers on the channel!) - reactions prevent half of the conversation from being filled with meaningless messages like "ok" / "right" / "I see". If you want to quickly acknowledge a Slack message, you can use `ctrl+shift+\, 1, enter`.
 
-Using the desktop Slack application has a benefit of marking you as "available" on all the Slack servers. If you use a browser, you are only shown as available on the tab that you currently have open on your screen. Therefore, you should use the desktop application, not the browser. This may impact on how the client perceives availability of the team (if he never sees us online, it's not so good).
+Using the desktop Slack application has a benefit of marking you as "available" on all the Slack servers. If you use a browser, you are only shown as available on the tab that you currently have open on your screen. Therefore, you should use the desktop application, not the browser. To some extent the client perceives availability of the team by those indicators (if he never sees us online, it's not so good).
 
 
 Channels:
 
 - `#announcements` - the general announcement channel, where we mostly welcome new people and announce our vacation periods to others
 - `#default` - the default channel (if there is no dedicated channel for something, we use this one)
-- `management` - senior non-technical management discussions (hiring etc)
-- `#opensource-candidates` - for discussions on what the open-source budget should go to
-- `#opensource-operations` - the channel for open-source project development
 - `#python` - where we sometimes discuss things such as the usage of walrus operator (`:=`) or if it is better to use `raise` or `raise e` (as not everyone speaks Python on #default)
 - `#random` - all topics not directly related to work. If you read something interesting, don't hesitate to share it with us.
 - `#sales` - sales team sends notifications there about high quality leads, signed/terminated contracts etc.
 - `#security` - for things like [heartbleed](http://heartbleed.com/), [shellshock](https://www.symantec.com/outbreak/?id=shellshock), [krack](https://www.krackattacks.com/), [poodle](https://www.us-cert.gov/ncas/alerts/TA14-290A), [venom](http://venom.crowdstrike.com/), [ghost](https://blog.qualys.com/laws-of-vulnerabilities/2015/01/27/the-ghost-vulnerability), [meltdown/spectre](https://meltdownattack.com/)
-- `sociocracy` - the channel where sociocracy is coordinated (TODO: link to our S3 resources)
-- `staff` - internal staff channel
-- `va` - for delegating things to Virtual Assistants
+- `#sociocracy` - the channel where sociocracy is coordinated
+- `#recruitment` - to discuss recruitment, trial candidate progress etc
+- `#staff` - internal staff channel - the only practical difference between a trial candidate and a staff member. The channel is practically dead because we don't want to have any part of the culture that is not available to the trial candiates.
+- `#va_for_rt` - for delegating things to Virtual Assistants
 - `#website` - discussion about our company website and its development
 
 (private channel names don't start with a `#`)
@@ -382,10 +398,10 @@ The remaining channels are client- or project-specific. Only the people involved
 
 [Slack's 2-step authorization setup](https://reeftechnologies.slack.com/account/settings)
 
-Do not forget to say hello to us on `#random` :)
+Do not forget to say hello to us on `#announcements` :)
 
 
-## 7. Rules
+## 7. Miscellaneous rules
 
 Here are some miscellaneous rules to follow that were hard to put in some other categories, so they were all collected here:
 
@@ -396,8 +412,8 @@ Here are some miscellaneous rules to follow that were hard to put in some other 
 - It is forbidden to transfer any client data through a non-encrypted channel. Use https and ssh tunnels when necessary.
 - It is forbidden to store client data on a non-encrypted device. Use fully encrypted systems (or virtual machines with images stored on encrypted partitions, where the host machine has a disabled swap file, or where swap is encrypted).
 - Try to avoid task switching, especially project switching. Generally, we do our best to switch only on "breakpoints", which are the moments when you lose concentration on the task at hand, such as the end of the working day, going away for lunch, the end of a task. Thus, if a new task appears on a high priority project, we do not expect you to switch to it immediately, but rather after you finish what you are doing, or first thing next day, etc. Usually, you should have at most one project switch per day.
-- Avoid `ssh -A`, also called `ForwardAgent` (except for jb). If we use it on a server owned by a client and it gets hacked, someone could potentially set a trap for us and authorize using our key. The better way is to use deployment keys on the client server to access the repository.
-- Do not use the company email for RSS, out of work stuff etc. That is to minimize distractions, which is pretty important for us.
+- Avoid `ssh -A`, also called `ForwardAgent` (except for jb). If we use it on a server owned by a client and it gets hacked, someone could potentially set a trap for us and authorize using our key. The correct way is to use deployment keys on the client server to access the repository.
+- Do not use the company email for RSS, out of work stuff etc. Minimize distractions.
 - If you issue an invoice to the company, please prefix the name of the file with your surname. This makes things much easier to find for the staff members who are dealing with a few dozen invoices every month.
 - If your changes are not ready to be submitted at the end of your work day, make a dirty branch, commit all of your changes to it (typically `git commit -am'WIP'`) and push it to a remote. This way if your HDD is damaged or something, you will never lose more than a day of work.
 
@@ -407,10 +423,11 @@ If any of the above is not clear, not optimal, or you are curious about the rati
 ### 7.1 Conferences
 
 If there is a conference that you'd like to attend, and we agree that your attendance would be valuable for the company:
-- The company will fund your conference ticket;
-- The company will fund your train/bus/airplane ticket;
-- The company will fund your stay if the price is reasonable (AirBnB seems to lead here, but we often use a booking.com bed&breakfast option);
-- The company will not pay for the time spent at the conference.
+- The company will fund your conference ticket
+- The company will fund your train/bus/airplane ticket
+- The company will fund your stay if the price is reasonable (we use a booking.com bed&breakfast option, but AirBnB might be ok too)
+- The company will not pay for the time spent at the conference, at the afterparty etc
+- ... unless you are actually going there to sell
 
 
 ### 7.2 Copying Code
@@ -505,8 +522,7 @@ See also: https://github.com/reef-technologies/python-review-zoo/
 
 ### 7.5 Holidays (days off)
 
-Whenever you're taking some days off, it's important to let other team members know, so that work can be 
-planned and client expectations managed. 
+Whenever you're taking some days off, it's important to let other team members know, so that work can be planned and client expectations managed. 
 * You should mark days when you won't be working in GSheet ['Work planning'](https://docs.google.com/spreadsheets/d/12nQKdskWDwFHhQ01BMjfllabqJTZo4tMdCsWx6NJaL4/edit?usp=sharing) as soon as you know about it. 
 * If you need time off urgently because of something unexpected, please let others know in Slack in `#annoucements` channel right away, but ignore it completely if it's a life-and-death situation. Don't worry, we'll manage. Family first 👪
 * If it's some time you're planning to take off in the future, please mention that on a status call.
@@ -529,7 +545,7 @@ srm -fllz -r -v <directory>
 
 (you can skip `-r` for single file or `-v` if you don't care about verbosity - `-fllz` is the fastest possible way to run `srm` and it is safe due to encrypted drive and also modern ways of storing data in hard drives - default full *Gutmann method* is not needed)
 
-To remove the docker containers created while working on a project, please use the following command (get "dockerkill.sh" from the bin directory of this repo):
+To remove the docker containers created while working on a project, please use the following command (get `dockerkill.sh` from the bin directory of this repo):
 
 ```bash
 ./dockerkill.sh <container-name>
@@ -646,7 +662,7 @@ if __name__ == '__main__':
         Benefit('private assistant'),
         Benefit('budget for tools'),
         Benefit('sociocracy', 'we make decisions together'),
-        Benefit('no calls on Mondays'),
+        Benefit('no calls on Wednesdays'),
     ]
 
     PROJECTS = [
