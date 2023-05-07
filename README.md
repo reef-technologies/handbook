@@ -37,31 +37,32 @@ We will not accept a project targeted to manipulate people, to rip people off, o
 
 ## Workspace safety / security
 
-The relatively high security level we keep allows us to work for financial institutions and, in general, institutions that treat their security seriously. Funny story: Pawel talked to a bank once about a potential contract and they wanted him to work on site due to security concerns, so Pawel described our security model and when he finished, an engineer from the bank said: "They have more security at their homes than we have at the office!". The manager looked at the engineer and he was not happy. ;)
+The relatively high security level we maintain allows us to work for financial institutions and, in general, institutions that treat their security seriously. Funny story: Pawel talked to a bank once about a potential contract, and they wanted him to work on-site due to security concerns. So, Pawel described our security model, and when he finished, an engineer from the bank said, "They have more security at their homes than we have at the office!" The manager looked at the engineer and was not happy. ;)
 
 UPDATE: A fully encrypted laptop of our senior developer has been stolen from his bag while he was on a train, returning from a conference in late 2017. Spooky.
 
 ### Encryption
 
-All data related to the company and clients **must** be either stored in the cloud (Google drive/docs/sheets in company domain) or on encrypted media (encrypted volume or drive), unless the data in question is worthless or public.
+All data related to the company and clients must be either stored in the cloud (Google Drive/Docs/Sheets in the company domain) or on encrypted media (encrypted volume or drive), unless the data in question is worthless or public.
 
-EDIT: We are getting a lot of questions about who this applies to, so lets make it clear: everyone except:
+EDIT: We are getting a lot of questions about who this applies to, so let's make it clear: everyone except:
+
 - software developers in the first phase of the trial period (where they work on fake/mock data)
-- software developers who work exclusively on opensource projects (that only happened twice though)
+- software developers who work exclusively on open-source projects (that only happened twice, though)
 
-So all staff including virtual assistants must have encrypted devices. Now that might sound scary, but these days setting up encryption is not that hard - in fact instructions are provided in this document.
+So all staff, including virtual assistants, must have encrypted devices. Now that might sound scary, but these days setting up encryption is not that hard - in fact, instructions are provided in this document.
 
-Typically source code is inside of a virtual machine which has its image stored on an encrypted volume, but dual boot with full disk encryption is also allowed. This practice prevents potential data leaks, i.e. if your computer get stolen.
+Typically, source code is inside a virtual machine which has its image stored on an encrypted volume, but dual boot with full disk encryption is also allowed. This practice prevents potential data leaks, i.e., if your computer gets stolen.
 
-You should already have an email account in the `reef.pl` domain. If you qualify for encryption, only ever use this email address (and the associated accounts) on secure environment (VM/dual boot) - this way your private and work accounts will never mix access or customer data. Docker containers containing code of the client won't be reachable from the system you use privately.
+You should already have an email account in the reef.pl domain. If you qualify for encryption, only ever use this email address (and the associated accounts) on a secure environment (VM/dual boot) - this way, your private and work accounts will never mix access or customer data. Docker containers containing client code won't be reachable from the system you use privately.
 
 ### 2FA
 
-2FA is mandatory everywhere it is possible to use it (more explanation below). We recommend Twilio's [Authy](https://authy.com/) because it has a pin code and e2e encrypted cloud backup.
+2FA is mandatory everywhere it is possible to use it (more explanation below). We recommend Twilio's Authy because it has a PIN code and end-to-end encrypted cloud backup.
 
 Frequently asked questions time:
-Q: Who does the 2FA rule this apply to?
-A: Everyone. It's in the contract BTW.
+Q: Who does the 2FA rule apply to?
+A: Everyone. It's in the contract, BTW.
 
 Q: Will the client pay for the time spent on configuring 2FA?
 A: Happily.
@@ -76,11 +77,11 @@ We employ several techniques to output a lot of value in a unit of time:
 3. Set up a new system with monitoring, error management, dh params, deployment, etc., in one hour. We don't like that part of the project, so we invest in automation to minimize its impact.
 4. Design systems in such a way that they are easy to think about and implement.
 5. Design systems in such a way that they are durable and, whenever possible, self-healing.
-6. We prefer candidates who are not an order of magnitude slower than others. For example a program that reverts a small file can take like a minute to implement, but some of our candidates need more than 10 minutes. Someone might have a problem with this, but we just don't hire the slowest developers on the market.
-7. If there is doubt on whether something should be done or not, we stop and ask. This theoretically increases Time To Market, but in practice it only does so on the last task of the iteration (so a hint for planning is that the last task in the iteration should be low-risk).
-8. We are allergic to waste. This drives many of our actions including good communication with the client who knows what must be done. While some software houses lose ~30% of their performance (due to miscommunications etc.), we stay way below 1% (the exact number is hard to measure when the amount of waste is so low).
+6. We prefer candidates who are not an order of magnitude slower than others. For example, a program that reverts a small file can take a minute to implement, but some of our candidates need more than 10 minutes. Someone might have a problem with this, but we just don't hire the slowest developers on the market.
+7. If there is doubt on whether something should be done or not, we stop and ask. This theoretically increases Time To Market, but in practice, it only does so for the last task of the iteration (so a hint for planning is that the last task in the iteration should be low-risk).
+8. We are allergic to waste. This drives many of our actions, including good communication with the client who knows what must be done. While some software houses lose ~30% of their performance (due to miscommunications, etc.), we stay way below 1% (the exact number is hard to measure when the amount of waste is so low).
 9. Use modern IDEs.
-10. Use LLMs (ChatGPT, Github Copilot, Amazon CodeWhisperer etc).
+10. Use LLMs (ChatGPT, GitHub Copilot, Amazon CodeWhisperer, etc.).
 
 # Time-tracking
 
@@ -335,7 +336,7 @@ Go [here](https://github.com/reef-technologies/handbook/subscription) and select
 
 ### Avatars
 
-Please add your photo (one that shows your face clearly without sunglasses etc) to all services that we use: Slack, GitHub, time tracker, Trello, Atlassian account etc. It is recommended to add it to [gravatar](https://gravatar.com), then it will load up automatically to many services. Avatars are important, especially on non-small teams, but also everywhere in context of communication with the client (or ourselves), where we want to be recognized as human beings rather than lines of text. Cultural differences, timezones and language barriers make communication a challenge - lets make it at least slightly easier by showing a smiling face to the client and his team.
+Please add your photo (one that shows your face clearly without sunglasses, etc.) to all services that we use: Slack, GitHub, time tracker, Trello, Atlassian account, etc. It is recommended to add it to [Gravatar](https://gravatar.com), as it will then load up automatically to many services. Avatars are important, especially on non-small teams, but also everywhere in the context of communication with the client (or ourselves), where we want to be recognized as human beings rather than lines of text. Cultural differences, time zones, and language barriers make communication a challenge - let's make it at least slightly easier by showing a smiling face to the client and their team.
 
 Why no sunglasses? Please imagine the company in a few years, where almost every avatar on Slack looks the same: either a sunglassed person or a 10-pixel high character on the top or bottom of a mountain. That won't work. Therefore, we should all use clear pictures from the beginning.
 
@@ -424,11 +425,11 @@ If any of the above is not clear, not optimal, or you are curious about the rati
 ### 7.1 Conferences
 
 If there is a conference that you'd like to attend, and we agree that your attendance would be valuable for the company:
-- The company will fund your conference ticket
-- The company will fund your train/bus/airplane ticket
-- The company will fund your stay if the price is reasonable (we use a booking.com bed&breakfast option, but AirBnB might be ok too)
-- The company will not pay for the time spent at the conference, at the afterparty etc
-- ... unless you are actually going there to sell
+- The company will fund your conference ticket.
+- The company will fund your train/bus/airplane ticket.
+- The company will fund your stay if the price is reasonable (we use a booking.com bed&breakfast option, but AirBnB might be ok too).
+- The company will not pay for the time spent at the conference, at the afterparty, etc.
+- ... unless you are actually going there to sell.
 
 
 ### 7.2 Copying Code
