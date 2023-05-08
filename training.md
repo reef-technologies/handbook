@@ -4,9 +4,12 @@ When you join the company (after successfully completing trial period), we need 
 
 You don't need to see all of it in one go. You're free to adjust your pace to the speed of your initial transition into the project. If the transition is quick (you do lots of coding on your first day), slow it down and watch some training material every day. If the transition is slow due to questions, timezones, environment issues, and other blocking problems, then report those and watch some training material.
 
-You are expected to watch or read everything that matches your position within two weeks from starting the work with the company.
+You are expected to watch or read everything that matches your position within two weeks from starting the work with the company (after trial period is finished completely).
 
 # Trial candidates
+
+This section is for the trial candidates in the second of three stages of the trial (after 567 and IoT db design have been checked and the paper version of the legal agreement has started to be processed). The rest of the sections are meant for after-trial staff.
+
  - https://youtu.be/ZQUxL4Jm1Lo - What is imposter syndrome and how can you combat it? (5 min video);
  - https://asana.com/pl/resources/impostor-syndrome - Turn impostor syndrome into confidence: 15 tips for managers and individuals (11 min read);
  - https://hbr.org/1999/11/management-time-whos-got-the-monkey - "Management Time: Who’s Got the Monkey?" by William Oncken, Jr.Donald L. Wass (1974) (11 min read);
