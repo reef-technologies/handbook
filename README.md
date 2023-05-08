@@ -58,7 +58,7 @@ You should already have an email account in the reef.pl domain. If you qualify f
 
 ### 2FA
 
-2FA is mandatory everywhere it is possible to use it (more explanation below). We recommend Twilio's Authy because it has a PIN code and end-to-end encrypted cloud backup.
+2FA is mandatory everywhere it is possible to use it (more explanation below). We recommend Twilio's [Authy](https://authy.com/) because it has a PIN code and end-to-end encrypted cloud backup.
 
 Frequently asked questions time:
 Q: Who does the 2FA rule apply to?
