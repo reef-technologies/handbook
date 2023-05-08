@@ -1,32 +1,29 @@
 # Introduction
 
-Welcome onboard. This document will help you prepare your development environment step-by-step.
-
+Welcome onboard! This document will help you prepare your development environment step-by-step.
 
 # Foundation rules of the company
 
 This should have been covered during your interview, but it is very important, so here is a reminder.
 
-
 ## Core values
 
- - happy clients
- - high-quality code in the repository
+- Happy clients
+- High-quality code in the repository
 
 That's it. It may be surprising that there is no "happy employees" entry on the list. That is because we don't assume that we know what makes people happy.
 
-We use the Sociocracy 3.0 decision making process to give control over the environment to the company staff. They might choose, which sometimes they do, to use that power to change how the company works. That, in turn, might increase their happiness. This mechanism works surprisingly well.
+We use the Sociocracy 3.0 decision-making process to give control over the environment to the company staff. They might choose, which sometimes they do, to use that power to change how the company works. That, in turn, might increase their happiness. This mechanism works surprisingly well.
 
-Here you can find list of [active agreements](agreements.md).
-
+Here you can find a list of [active agreements](agreements.md).
 
 ## Deadlines and estimates
 
 A developer working on a project **must never** discuss deadlines or give estimates (even rough) to a client. We have project managers for that. Why?
 
-As it turns out, developers are usually overly optimistic in their estimates. They are also good people, at least the ones that we hire, so when a client politely asks if a developer can help him, the developer will usually agree. Delivering on such a promise is problematic and often stressful for everyone involved.
+As it turns out, developers are usually overly optimistic in their estimates. They are also good people, at least the ones that we hire, so when a client politely asks if a developer can help them, the developer will usually agree. Delivering on such a promise is problematic and often stressful for everyone involved.
 
-This is where project managers come in. They're particularly skilled at risk management, reducing the scope to what is really needed etc. Also, they enjoy talking to clients. Therefore, we let them take responsibility for the deadlines - they take care of developers' availability, risks, scheduling and so on. This way everyone is happier. Just to make it clear, if a developer ever provides an estimate or a deadline, it is considered to be invalid. The clients know this too, so they shouldn't ask and you shouldn't reply - just redirect them to a project manager or tell them you'll contact him/her yourself and produce an accurate estimate as soon as possible.
+This is where project managers come in. They're particularly skilled at risk management, reducing the scope to what is really needed, etc. Also, they enjoy talking to clients. Therefore, we let them take responsibility for the deadlines - they take care of developers' availability, risks, scheduling, and so on. This way everyone is happier. Just to make it clear, if a developer ever provides an estimate or a deadline, it is considered to be invalid. The clients know this too, so they shouldn't ask and you shouldn't reply - just redirect them to a project manager or tell them you'll contact the project manager yourself and produce an accurate estimate as soon as possible.
 
 EDIT after 4 years: this rule served us really well, the only missed deadlines we had were caused by catastrophic unavailability of staff (due to a medical emergency, for example)
 
@@ -35,36 +32,37 @@ EDIT after 4 years: this rule served us really well, the only missed deadlines w
 
 We avoid fixed-scope projects. The reason why is that we want to focus on the creation of software and not on amending contracts.
 
-We will not accept a project targeted to manipulate people, to rip people off or put their savings at risk, such as insurance+retirement funds.
+We will not accept a project targeted to manipulate people, to rip people off, or put their savings at risk, such as insurance+retirement funds.
 
 
 ## Workspace safety / security
 
-The relatively high security level we keep allows us to work for financial institutions and, in general, institutions that treat their security seriously. Funny story: Pawel talked to a bank once about a potential contract and they wanted him to work on site due to security concerns, so Pawel described our security model and when he finished, an engineer from the bank said: "They have more security at their homes than we have at the office!". The manager looked at the engineer and he was not happy. ;)
+The relatively high security level we maintain allows us to work for financial institutions and, in general, institutions that treat their security seriously. Funny story: Pawel talked to a bank once about a potential contract, and they wanted him to work on-site due to security concerns. So, Pawel described our security model, and when he finished, an engineer from the bank said, "They have more security at their homes than we have at the office!" The manager looked at the engineer and was not happy. ;)
 
 UPDATE: A fully encrypted laptop of our senior developer has been stolen from his bag while he was on a train, returning from a conference in late 2017. Spooky.
 
 ### Encryption
 
-All data related to the company and clients **must** be either stored in the cloud (Google drive/docs/sheets in company domain) or on encrypted media (encrypted volume or drive), unless the data in question is worthless or public.
+All data related to the company and clients must be either stored in the cloud (Google Drive/Docs/Sheets in the company domain) or on encrypted media (encrypted volume or drive), unless the data in question is worthless or public.
 
-EDIT: We are getting a lot of questions about who this applies to, so lets make it clear: everyone except:
+EDIT: We are getting a lot of questions about who this applies to, so let's make it clear: everyone except:
+
 - software developers in the first phase of the trial period (where they work on fake/mock data)
-- software developers who work exclusively on opensource projects (that only happened twice though)
+- software developers who work exclusively on open-source projects (that only happened twice, though)
 
-So all staff including virtual assistants must have encrypted devices. Now that might sound scary, but these days setting up encryption is not that hard - in fact instructions are provided in this document.
+So all staff, including virtual assistants, must have encrypted devices. Now that might sound scary, but these days setting up encryption is not that hard - in fact, instructions are provided in this document.
 
-Typically source code is inside of a virtual machine which has its image stored on an encrypted volume, but dual boot with full disk encryption is also allowed. This practice prevents potential data leaks, i.e. if your computer get stolen.
+Typically, source code is inside a virtual machine which has its image stored on an encrypted volume, but dual boot with full disk encryption is also allowed. This practice prevents potential data leaks, i.e., if your computer gets stolen.
 
-You should already have an email account in the `reef.pl` domain. If you qualify for encryption, only ever use this email address (and the associated accounts) on secure environment (VM/dual boot) - this way your private and work accounts will never mix access or customer data. Docker containers containing code of the client won't be reachable from the system you use privately.
+You should already have an email account in the reef.pl domain. If you qualify for encryption, only ever use this email address (and the associated accounts) on a secure environment (VM/dual boot) - this way, your private and work accounts will never mix access or customer data. Docker containers containing client code won't be reachable from the system you use privately.
 
 ### 2FA
 
-2FA is mandatory everywhere it is possible to use it (more explanation below). We recommend Twilio's [Authy](https://authy.com/) because it has a pin code and e2e encrypted cloud backup.
+2FA is mandatory everywhere it is possible to use it (more explanation below). We recommend Twilio's [Authy](https://authy.com/) because it has a PIN code and end-to-end encrypted cloud backup.
 
 Frequently asked questions time:
-Q: Who does the 2FA rule this apply to?
-A: Everyone. It's in the contract BTW.
+Q: Who does the 2FA rule apply to?
+A: Everyone. It's in the contract, BTW.
 
 Q: Will the client pay for the time spent on configuring 2FA?
 A: Happily.
@@ -74,16 +72,16 @@ A: Happily.
 Our clients really don't care how fast we type on our keyboards (in fact while on meetings we often don't touch the keyboard for a long time, getting a clean zero keystrokes per hour, delivering not only a very high amount of value per hour, but also infinite value per keystroke! ;) ).
 
 We employ several techniques to output a lot of value in a unit of time:
-1. Cut the backlog. Typically on the first meeting with the client 80-85% of the backlog is ~removed~ pushed into a "future" version.
-2. Re-use opensource things rather than write everything from scratch.
-3. Set up a new system with monitoring, error management, dh params, deployment etc in one hour. We don't like that part of the project so we invest in automation to minimize its impact.
+1. Cut the backlog. Typically on the first meeting with the client, 80-85% of the backlog is ~removed~ pushed into a "future" version.
+2. Re-use open-source things rather than write everything from scratch.
+3. Set up a new system with monitoring, error management, dh params, deployment, etc., in one hour. We don't like that part of the project, so we invest in automation to minimize its impact.
 4. Design systems in such a way that they are easy to think about and implement.
 5. Design systems in such a way that they are durable and, whenever possible, self-healing.
-6. We prefer candidates who are not an order of magnitude slower than others. For example a program that reverts a small file can take like a minute to implement, but some of our candidates need more than 10 minutes. Someone might have a problem with this, but we just don't hire the slowest developers on the market.
-7. If there is doubt on whether something should be done or not, we stop and ask. This theoretically increases Time To Market, but in practice it only does so on the last task of the iteration (so a hint for planning is that the last task in the iteration should be low-risk).
-8. We are allergic to waste. This drives many of our actions including good communication with the client who knows what must be done. While some software houses lose ~30% of their performance (due to miscommunications etc.), we stay way below 1% (the exact number is hard to measure when the amount of waste is so low).
+6. We prefer candidates who are not an order of magnitude slower than others. For example, a program that reverts a small file can take a minute to implement, but some of our candidates need more than 10 minutes. Someone might have a problem with this, but we just don't hire the slowest developers on the market.
+7. If there is doubt on whether something should be done or not, we stop and ask. This theoretically increases Time To Market, but in practice, it only does so for the last task of the iteration (so a hint for planning is that the last task in the iteration should be low-risk).
+8. We are allergic to waste. This drives many of our actions, including good communication with the client who knows what must be done. While some software houses lose ~30% of their performance (due to miscommunications, etc.), we stay way below 1% (the exact number is hard to measure when the amount of waste is so low).
 9. Use modern IDEs.
-10. Use LLMs (ChatGPT, Github Copilot, Amazon CodeWhisperer etc).
+10. Use LLMs (ChatGPT, GitHub Copilot, Amazon CodeWhisperer, etc.).
 
 # Time-tracking
 
@@ -108,7 +106,7 @@ You have to set up 2-factor authentication within 24 hours from the first succes
 
 ## Time tracking app
 
-We use an application that measures the time your spend at work and takes regular screenshots. The first step in preparing your work environment is to install it.
+We use an application that measures the time you spend at work and takes regular screenshots. The first step in preparing your work environment is to install it.
 
 To avoid any issues with screenshot-grabbing and keep consistency across users, please install the tracker on your ***host*** machine.
 Please install it and then accept the invitation that you received on your email address.
@@ -121,7 +119,7 @@ Here you can find [time-tracking rules which were co-created by company staff me
 
 ### I CAN SEE YOU
 
-As it turns out, people usually find this document before they sign a contract with us and before their tracker account is created. Then they decide to work on their environment even before they have access to the tracker. If you are one of those people, please, track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can compensate you for this time as soon as you get access to the official company tracker. For example, you can use the free [toptracker](https://www.toptal.com/tracker/). We really, really don't like it when people work for us but are not getting paid for it. 
+As it turns out, people usually find this document before they sign a contract with us and before their tracker account is created. Then they decide to work on their environment even before they have access to the tracker. If you are one of those people, please, track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can compensate you for this time as soon as you get access to the official company tracker. For example, you can use the free [toptracker](https://www.toptal.com/tracker/). We really, really don't like it when people work for us but are not getting paid for it.
 
 UPDATE after 2 years or so: nobody seems to actually track it, but now that we have more data, we know it takes approximately 90 minutes to set everything up, so in worst case we can compensate them based on that average value.
 
@@ -133,54 +131,55 @@ RT generally means "investment", RTO generally means "operations".
 
 | Project                                    | Description |
 | -----------------------------------------  | ----------------------------------------------------------------------------------------------------------------------------------------------------  |
-| RT / content marketing                     | writing articles or blog posts under Company name; presenting the Company to the outside world |
-| RT / django cookiecutter template          | developing our internal django template |
-| RTO&nbsp;/&nbsp;internal&nbsp;infrastructure&nbsp;management    | anything related to getting your workspace ready; creating encrypted partitions, installing vms or any software needed to work and **not connected to any specific project**. If it's related to any internal or external project then please bill the time on that project |
-| RT / non-project meeting                   | phone calls and Slack conversations that are related to your work but not directly project-related. These are very rare, almost non-existent. |
-| RTO / virtual assistant                    | things related to organizing the equipment needed in the company (like laptops or any necessary office stuff or hardware) or other VA tasks |
-| RT / other internal development            | spending time on improving internal infrastructure like onboarding, training or any other company related activities that might be helpful for others |
-| RT / security training                     | when you join at some point you'll get a security training that takes an hour or so - we have all staff complete it (and staff of our clients too) to harden ourselves against fraud, hackers etc |
+| RT / content marketing                     | Write articles or blog posts under the company name and present the company to the outside world. |
+| RT / django cookiecutter template          | Develop our internal Django template. |
+| RTO&nbsp;/&nbsp;internal&nbsp;infrastructure&nbsp;management    | Manage workspace setup, including creating encrypted partitions, installing virtual machines, and installing software **not tied to specific projects**. If it's related to any internal or external project then please bill the time on that project. |
+| RT / non-project meeting                   | Participate in phone calls and Slack conversations related to work but not directly project-related. These are very rare, almost non-existent. |
+| RTO / virtual assistant                    | Organize and procure equipment and supplies needed in the company, including laptops and office supplies, or perform other virtual assistant tasks. |
+| RT / other internal development            | Improve internal infrastructure, such as onboarding, training, or other company-related activities that might benefit others. |
+| RT / security training                     | Complete mandatory security training for all staff (and client staff too) to harden against fraud and hackers. |
 | RTO / sales                                | any pre-work needed to be done **before** the contract is signed with a client |
-| RTO / nurturing client relationship        | this is similar to sales, but for (brief) discussing an upcoming project of a client with an existing contract OR theoretically after-sales support on a fixed price project (we haven't had any since like 2019 and the guarantee expired already on these) |
-| RTO / recruitment                          | time spent on actively recruiting other people |
-| RT / recruitment                           | time spent on improving the recruitment process |
-| RTO / sociocracy meeting                   | for s3 meetings, but also for chatting on the channel |
-| RT / sociocracy development                | for s3 tuners |
-| RTO / status call                          | for weekly RT status calls |
-| RT / special assignment from CEO           | bill like this only when specifically asked to. Extremely rare. Typically used to do something that must be done where we don't want to create a new project for a one-time thing. |
-| RTO / onboarding                           | only during onboarding phase (going through [training](training.md) materials) |
-| OTHER / just-in-case                       | this is in case you need to work on a project before you are assigned to it; in such case raise the problem to the management immediately and re-bill that time later to the proper project |
+| RTO / nurturing client relationship        | Discuss upcoming projects with existing clients OR, theoretically, after-sales support on a fixed price project (we haven't had any since like 2019 and the guarantee expired already on these). |
+| RTO / recruitment                          | Actively recruit other people. |
+| RT / recruitment                           | Improve the recruitment process. |
+| RTO / sociocracy meeting                   | Participate in sociocracy meetings and engage in related discussions on the channel. |
+| RT / sociocracy development                | Contribute to sociocracy development as a tuner. |
+| RTO / status call                          | Attend weekly RT status calls. |
+| RT / special assignment from CEO           | Work on special assignments from the CEO as specifically requested. Extremely rare. Typically used to do something that must be done where we don't want to create a new project for a one-time thing. |
+| RTO / onboarding                           | Go through training materials during the onboarding phase ([training](training.md)). |
+| OTHER / just-in-case                       | Work on a project before being officially assigned to it (if needed). Notify management to re-bill the time later to the appropriate project.
+ |
 
 
 ### Non-RT projects
 
-If you are working on any external project for a client, you should bill all your time spent on this project onto it. Knowledge gathering, environment preparation, actual programming, meetings or design. If you need to learn a framework, library or language in order to deliver value for the project, bill the learning to that project as well. If it took you a long time to learn a new skill, please mention it to our PM on that project - depending on the terms of the contract, a client may be eligible for a discount and it is the responsibility of the PM to manage that (but he won't be able to do his job well if you won't ever tell him anything ;) ).
+If you are working on any external project for a client, you should bill all your time spent on this project onto it. Knowledge gathering, environment preparation, actual programming, meetings or design. If you need to learn a framework, library or language in order to deliver value for the project, bill the learning to that project as well. If it took you a long time to learn a new skill, please mention it to our PM on that project - depending on the terms of the contract, a client may be eligible for a discount and it is the responsibility of the PM to manage that (but they won't be able to do their job well if you won't ever tell them anything ;) ).
 
 #### TODOs
 
-Using Hubstaff TODOs only takes seconds to get right and there are a few reasons why we use it:
-1. On longer contracts sometimes the client would like to get an understanding of the cost of a particular feature when building another one in the future. Specifying which feature we are working on allows for easy aggregation of the time spent on its development and that allows the client to plan the future of their products to maximize the value
-2. One time we had a client who replaced a vendor with us and he did not charge the user of the system for fixing the errors made by the previous vendor. Fair billing between our client and the user of the system was only possible because we logged the time appropriately.
-3. Sometimes we make a deal with a client to buy a module we've built for them and opensource it, so that we can use it in the future. Ideally we'd predict that a module will be reusable before starting to work on it, but sometimes that comes as a hindsight.
-4. Sometimes a client decides to start a new company after something we've built becomes a success and in order to properly settle the development costs between the old client company and the new client company, we need to be able to make a report out of it.
-5. In Poland in some tax accounting modes there are different rates for development phase such as design, implementation, sysadmin work and coordination. Billing a feature and its development phase allows you to pay the proper taxes properly.
+Using Hubstaff TODOs only takes seconds to get right, and there are a few reasons why we use it:
+1. On longer contracts, sometimes the client would like to get an understanding of the cost of a particular feature when building another one in the future. Specifying which feature we are working on allows for easy aggregation of the time spent on its development, and that allows the client to plan the future of their products to maximize the value.
+2. One time, we had a client who replaced a vendor with us, and they did not charge the user of the system for fixing the errors made by the previous vendor. Fair billing between our client and the user of the system was only possible because we logged the time appropriately.
+3. Sometimes we make a deal with a client to buy a module we've built for them and open-source it, so that we can use it in the future. Ideally, we'd predict that a module will be reusable before starting to work on it, but sometimes that comes as a hindsight.
+4. Sometimes a client decides to start a new company after something we've built becomes a success, and in order to properly settle the development costs between the old client company and the new client company, we need to be able to make a report out of it.
+5. In Poland, in some tax accounting modes, there are different rates for development phases such as design, implementation, sysadmin work, and coordination. Billing a feature and its development phase allows you to pay the proper taxes properly.
 
 
 ## Why we use a time tracker
 
 It may seem weird, but actually RT is not the only consulting business out there. Traditionally lawyers bill their clients per hour and nobody blinks an eye :) Also a language teacher, therapist and nanny often bills like that.
 
-In fact many software houses nowadays bill their clients by the hour. In consequence, the income generated by a staff member is (almost) directly proportional to the amount of hours they spend working on the client projects (ok it's a big simplification because how sales activity is organized, but I don't want to digress here). Now unfortunately in the age of remote work (especially after the pandemic when everyone thinks they can work remotely) it's regrettably clear that some people can concentrate on their work much better than others. What I mean is that while some people can output 35 hours per week of focused work, other people can only output 10-12h. It would not be totally fair to compensate both of those groups equally, right?
+In fact, many software houses nowadays bill their clients by the hour. In consequence, the income generated by a staff member is (almost) directly proportional to the amount of hours they spend working on the client projects (ok it's a big simplification because how sales activity is organized, but I don't want to digress here). Now unfortunately in the age of remote work (especially after the pandemic when everyone thinks they can work remotely) it's regrettably clear that some people can concentrate on their work much better than others. What I mean is that while some people can output 35 hours per week of focused work, other people can only output 10-12h. It would not be totally fair to compensate both of those groups equally, right?
 
-In the end it doesn't matter much - if you get paid by the hour, you do a certain amount of those hours in a year and then it's either divided equally into 12 installments or proportionally to the amount of work done in a given billing cycle. Assuming you earn at least slightly more than you spend and that you have some kind of a financial buffer, at the end of the year you'll end up with the same amount. In 2022Q2 we tried to open a position for a "full time" engagement with a fixed monthly payment model (which would automatically bonus people who perform well to make it fair, sort of like a liquidity pool)... But nobody was really interested, so we took the job ad down.
+In the end, it doesn't matter much - if you get paid by the hour, you do a certain amount of those hours in a year, and then it's either divided equally into 12 installments or proportionally to the amount of work done in a given billing cycle. Assuming you earn at least slightly more than you spend and that you have some kind of a financial buffer, at the end of the year, you'll end up with the same amount. In 2022Q2 we tried to open a position for a "full-time" engagement with a fixed monthly payment model (which would automatically bonus people who perform well to make it fair, sort of like a liquidity pool)... But nobody was really interested, so we took the job ad down.
 
 ### So that we put ourselves in the right mindset
 
 Let me tell you a story.
 
-One of our staff members worked from a room on the top floor of his 3 story house. A few times per day he wanted to get some tea 🍵, but the kitchen was downstairs, so he stopped the time tracker, walked down the squeaky wooden stairs, got to the kitchen, filled up the kettle, prepared a cup and a teabag while waiting for the kettle to boil the water, poured the hot water into the cup and waited for a few minutes for the tea to brew. He then removed the teabag from the cup and slowly walked up 3 flights of stairs. Started the timer and got back to work (well, sort of - that entire activity distracted him, so he needed to reload the task which he was working on to his short term memory before he could do actual development).
+One of our staff members worked from a room on the top floor of his 3 story house. A few times per day he wanted to get some tea 🍵, but the kitchen was downstairs, so he stopped the time tracker, walked down the squeaky wooden stairs, got to the kitchen, filled up the kettle, prepared a cup and a teabag while waiting for the kettle to boil the water, poured the hot water into the cup and waited for a few minutes for the tea to brew. He then removed the teabag from the cup and slowly walked up 3 flights of stairs. Started the timer and got back to work (well, sort of - that entire activity distracted him, so he needed to reload the task which he was working on to his short-term memory before he could do actual development).
 
-Later that day he has taken a look at his time log and realized he spent 15min on a tea break. It was not a very relaxing type of activity (trying not to burn himself with a hot liquid while going up ~stairs~ squeaky wooden stairs was not his favourite hobby) (actually his hobby was board games, but I digress).
+Later that day he has taken a look at his time log and realized he spent 15min on a tea break. It was not a very relaxing type of activity (trying not to burn himself with a hot liquid while going up ~stairs~ squeaky wooden stairs was not his favourite hobby) (actually, his hobby was board games, but I digress).
 
 Now, what's the moral of that story? Later that day he bought a kettle and installed it in his room. We could see it on video calls - he could reach behind his chair and start the kettle without loosing focus. Tea and cup were also there. That's like 30-45min extra more time *per day* spent on building something he loves to build. Python backends. This is why we are here. This is why you are here, am I right? Seriously, if you could choose between RT and a workplace optimized for "walking up squeaky wooden stairs while trying to not burn yourself with a hot liquid", what would you do?
 
@@ -188,7 +187,7 @@ Now, what's the moral of that story? Later that day he bought a kettle and insta
 
 ### So that we know how much we should charge the client
 
-Even if you'd only work for one client per billing period, you'd still log some time to `RT / *` and `RTO / *` projects and those are paid by the company and not by the client.
+Even if you'd only work for one client per billing period, you'd still log some time to `RT / *` and `RTO / *` projects, and those are paid by the company and not by the client.
 
 ### So that we know how much we should charge which client
 
@@ -196,16 +195,16 @@ When you work on multiple projects, we want to know how much time was worked for
 
 ### So that we know how much to pay you
 
-After the end of a billing cycle (typically 1st day of a month) we semi-automatically calculate the invoice amounts for everyone. The polish tax system got way more complicated than it used to be in 2022 and lawful accounting of the optimal tax mode requires detailed time logs, which we then help our staff follow with automation.
+After the end of a billing cycle (typically the 1st day of a month), we semi-automatically calculate the invoice amounts for everyone. The Polish tax system got way more complicated than it used to be in 2022, and lawful accounting of the optimal tax mode requires detailed time logs, which we then help our staff follow with automation.
+
 
 ### It can save the contract
 
-Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on the project, then it is a good thing. The client doesn't see us work in their office, so if there are no results, it is difficult to say whether someone is working hard but struggling with a challenge, or whether someone is not trying hard enough.
+Sometimes the work doesn't go as well as it should for an amount of time that cannot be ignored. If you have logs from the tracker that clearly show you've been working on the project, then it is a good thing. The client doesn't see us work in their office, so if there are no results, it is difficult to say whether someone is working hard but struggling with a challenge or whether someone is not trying hard enough.
 
 As of writing this, the number of times the tracker was instrumental in preventing a rapid degradation of a relationship with a customer is: **5**.
 
-UPDATE: this counter stopped incrementing in mid 2018, when we changed the target client group. It seems that "better" clients don't really care about the time, but they do care about results. CEO even wanted to disable the screenshot feature of the tracker in early 2020, but others said they use it to inspect their own diary at the end of the day and after a short discussion everyone said they don't really care about it, so we just left it as it was. It seems that nobody has reviewed a screenshot since July 2018, except for people reviewing their own thing at the end of the day. Being able to easily recover from a situation where you have accidentally billed a client for doing something private (as you forgot to pause the timer) is nice and in line with the company values.
-
+UPDATE: this counter stopped incrementing in mid-2018 when we changed the target client group. It seems that "better" clients don't really care about the time, but they do care about results. The CEO even wanted to disable the screenshot feature of the tracker in early 2020, but others said they use it to inspect their own diary at the end of the day, and after a short discussion, everyone said they don't really care about it, so we just left it as it was. It seems that nobody has reviewed a screenshot since July 2018, except for people reviewing their own thing at the end of the day. Being able to easily recover from a situation where you have accidentally billed a client for doing something private (as you forgot to pause the timer) is nice and in line with the company values.
 
 # Configuring the environment
 
@@ -217,15 +216,17 @@ It is not needed for recruitment assignments.
 
 It is needed for 2nd stage trial period assignments.
 
-## 1. Create an encrypted volume (host machine)	
 
-Due to the variety of operating systems used by our team, we do not impose a specific solution. It depends on what software you use. For Linux systems it can be LUKS. For macOS you can use built-in FileVault encryption.
+## 1. Create an encrypted volume (host machine)
+
+Due to the variety of operating systems used by our team, we do not impose a specific solution. It depends on what software you use. For Linux systems, it can be LUKS. For macOS, you can use built-in FileVault encryption.
 
 Due to the large space utilization of our projects, the minimum partition size is **50 GB** (recommended size: **100 GB**).
 
 In case you have no preferences, we recommend using [VeraCrypt](https://www.veracrypt.fr/en/Home.html). A step-by-step instruction for the installation process can be found [here](docs/VeraCrypt.md).
 
-It is allowed to use a non-virtual machine for work purposes (via dual boot or separate physical machine). This is not very common and if you are considering setting it up, you probably don't need detailed instructions, so the rest of the guide will show how to build a VM environment.
+It is allowed to use a non-virtual machine for work purposes (via dual boot or separate physical machine). This is not very common, and if you are considering setting it up, you probably don't need detailed instructions, so the rest of the guide will show how to build a VM environment.
+
 
 
 ## 2. Virtual machine (host machine)
@@ -335,9 +336,9 @@ Go [here](https://github.com/reef-technologies/handbook/subscription) and select
 
 ### Avatars
 
-Please add your photo (one that shows your face clearly without sunglasses etc) to all services that we use: Slack, GitHub, time tracker, Trello, Atlassian account etc. It is recommended to add it to [gravatar](https://gravatar.com), then it will load up automatically to many services. Avatars are important, especially on non-small teams, but also everywhere in context of communication with the client (or ourselves), where we want to be recognized as human beings rather than lines of text. Cultural differences, timezones and language barriers make communication a challenge - lets make it at least slightly easier by showing a smiling face to the client and his team.
+Please add your photo (one that shows your face clearly without sunglasses, etc.) to all services that we use: Slack, GitHub, time tracker, Trello, Atlassian account, etc. It is recommended to add it to [Gravatar](https://gravatar.com), as it will then load up automatically to many services. Avatars are important, especially on non-small teams, but also everywhere in the context of communication with the client (or ourselves), where we want to be recognized as human beings rather than lines of text. Cultural differences, time zones, and language barriers make communication a challenge - let's make it at least slightly easier by showing a smiling face to the client and their team.
 
-Why no sunglasses? Please imagine the company in a few years, where almost every avatar on slack looks the same: either a sunglassed person or a 10-pixel high character on the top or bottom of a mountain. That won't work. Therefore we should all use clear pictures from the beginning.
+Why no sunglasses? Please imagine the company in a few years, where almost every avatar on Slack looks the same: either a sunglassed person or a 10-pixel high character on the top or bottom of a mountain. That won't work. Therefore, we should all use clear pictures from the beginning.
 
 
 ## 6. Communication
@@ -371,11 +372,12 @@ For business communications, we use Slack and [Zoom](zoom.us). You may use them 
 
 #### Slack
 
-In your company e-mail inbox,  you will find a message with an invitation to the Slack team reeftechnologies.slack.com. Right after signing in, remember to fill out the phone number field in your account settings. Remember to **add your country-specific prefix number**, e.g., Poland uses `+48`. It's essential, as our members come from many different countries. Also, remember to place your chosen sequence under your picture: "phone -> SMS" or "SMS -> phone".
+In your company e-mail inbox, you will find a message with an invitation to the Slack team reeftechnologies.slack.com. Right after signing in, remember to fill out the phone number field in your account settings. Remember to **add your country-specific prefix number**, e.g., Poland uses `+48`. It's essential, as our members come from many different countries. Also, remember to place your chosen sequence under your picture: "phone -> SMS" or "SMS -> phone".
 
 Replying with a :+1: reaction is better than writing "ok" (especially when there are many acknowledgers on the channel!) - reactions prevent half of the conversation from being filled with meaningless messages like "ok" / "right" / "I see". If you want to quickly acknowledge a Slack message, you can use `ctrl+shift+\, 1, enter`.
 
 Using the desktop Slack application has a benefit of marking you as "available" on all the Slack servers. If you use a browser, you are only shown as available on the tab that you currently have open on your screen. Therefore, you should use the desktop application, not the browser. To some extent the client perceives availability of the team by those indicators (if he never sees us online, it's not so good).
+
 
 
 Channels:
@@ -403,10 +405,10 @@ Do not forget to say hello to us on `#announcements` :)
 
 ## 7. Miscellaneous rules
 
-Here are some miscellaneous rules to follow that were hard to put in some other categories, so they were all collected here:
+Here are some miscellaneous rules to follow that were hard to put in other categories, so they were all collected here:
 
 - When a meeting starts, decide where to bill it.
-- If you are a junior and you get stuck - ask for help. Really, really, really do. Do not spend two days trying to solve something a senior peer could help you go through in 10 minutes. Ask on the project Slack and if that's not possible, use our `#default` channel. 
+- If you are a junior and you get stuck - ask for help. Really, really, really do. Do not spend two days trying to solve something a senior peer could help you go through in 10 minutes. Ask on the project Slack and if that's not possible, use our `#default` channel.
 - If you are a developer, always perform basic functional testing (manually!) of your code and self-review your PR before you give it to a peer for review.
 - If there is ever a time when you are working, but for some reason, you are not able to bill it, escalate it immediately. We want to avoid such incidents.
 - It is forbidden to transfer any client data through a non-encrypted channel. Use https and ssh tunnels when necessary.
@@ -423,11 +425,11 @@ If any of the above is not clear, not optimal, or you are curious about the rati
 ### 7.1 Conferences
 
 If there is a conference that you'd like to attend, and we agree that your attendance would be valuable for the company:
-- The company will fund your conference ticket
-- The company will fund your train/bus/airplane ticket
-- The company will fund your stay if the price is reasonable (we use a booking.com bed&breakfast option, but AirBnB might be ok too)
-- The company will not pay for the time spent at the conference, at the afterparty etc
-- ... unless you are actually going there to sell
+- The company will fund your conference ticket.
+- The company will fund your train/bus/airplane ticket.
+- The company will fund your stay if the price is reasonable (we use a booking.com bed&breakfast option, but AirBnB might be ok too).
+- The company will not pay for the time spent at the conference, at the afterparty, etc.
+- ... unless you are actually going there to sell.
 
 
 ### 7.2 Copying Code
