@@ -504,6 +504,10 @@ https://keepachangelog.com/
 
 https://sipb.mit.edu/doc/safe-shell/
 
+#### Semantic Line Breaks
+
+[Semantic Line Breaks](https://sembr.org/) in its more pragmatic implementation as described [here](https://bobheadxi.dev/semantic-line-breaks/).
+
 #### not using stuff from forbidden technology list without prior discussion
 
 See the next section
