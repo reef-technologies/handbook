@@ -504,9 +504,9 @@ https://keepachangelog.com/
 
 https://sipb.mit.edu/doc/safe-shell/
 
-#### Semantic Line Breaks
+#### SemBr
 
-[Semantic Line Breaks](https://sembr.org/) in its more pragmatic implementation as described [here](https://bobheadxi.dev/semantic-line-breaks/).
+Use [Semantic Line Breaks](https://sembr.org/) whenever line breaks do not influence rendered document.
 
 #### not using stuff from forbidden technology list without prior discussion
 
