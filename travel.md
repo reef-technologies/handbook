@@ -21,7 +21,7 @@
  - https://www.youtube.com/watch?v=gYpuPZYrd2M - why one should wear a seatbelt while in a car (WARNING: it's a drastic, but very effective explanation)
  - some taxi drivers in many countries, are, unfortunately, malicious: try to use an Uber-like app to avoid being scammed
 
-### Airplane ✈️
+#### Airplane ✈️
 
  - store your larger devices during taxi, landing and takeoff. Most landings are smooth, but you really don't want to be hit in the face with a laptop if the landing happens to be a little bit more rough than usually
  - if airplane engine malfunctions during takeoff, it often ends with a fire. You have like 94 seconds between ignition and an explosion, so during evacuation make sure you do everything in your power to get away from the airplane by the time this happens. It is good to have your phone, credit card and passport in your pockets when you are running (you can prepare that during taxi) as you cannot take any luggage with you in such situation (don't worry, it is insured)
@@ -29,7 +29,7 @@
  - during flight, try to maximize the time you have your seatbelt fastened due to possibility of an unexpected clear air turbulence
    - if the pilot suddenly enables the seatbelt sign, this could mean he has seen something big and unavoidable on the weather radar and you now have less than 30 seconds to hit turbulence
  - be extremely nice to cabin crew. This never hurts.
- - the charge power from a USB socket is usually terrible, think 3 watt... But many airplanes, including economy, have standard wall sockets in the seat in front of you or int he arm rest. If you connect a "fast charging" charger, you can easily get 18 watt
+ - the charge power from a USB socket is usually terrible, think 3 watt... But many airplanes, including economy, have standard wall sockets in the seat in front of you or in the arm rest. If you connect a "fast charging" charger, you can easily get 18 watt
  - https://youtube.com/shorts/yGDkiUAwxRs - in case you think lithium-ion batteries are safe for air travel in the cargo hold
 
 #### Boarding in a group
@@ -45,7 +45,7 @@
 ### Accommodation 🏨
 
  - choose a Bed & Breakfast place close to the target venue
- - for multi-day conferences the target venue itself (often a hotel) is usually a best option (reduces logistics a lot etc). Book it early because it sells faster than the conference tickets do.
+ - for multi-day conferences the target venue itself (often a hotel) is usually the best option (reduces logistics a lot etc). Book it early because it sells faster than the conference tickets do.
 
 ### Organization
 
@@ -86,15 +86,15 @@ abgh
  - recommended surge protector is https://www.belkin.com/de/chargers/surge-protectors/surgecube-1-outlet-surge-protector-with-2-x-2-4a-shared-usb-charging/p/p-bsv103/ or https://www.belkin.com/fr/chargers/surge-protectors/surgecube-1-outlet-surge-protector-with-2-x-2-4a-shared-usb-charging/p/p-bsv103/ + grounded(!) converter from the local (usually US) wall plug
 
 ### Serbia
- - they only accept local currency there. You can get some at the airport ATM provided that you request something that is divisible by 500 dinar. Consider using a revolut card
- - no running in Serbia. If you try to run, some random person on the street will tackle you - apparently the only people who run there are thiefs immediately after committing a crime
+ - they only accept local currency there. You can get some at the airport ATM provided that you request something that is divisible by 500 dinar. Consider using a Revolut card
+ - no running in Serbia. If you try to run, some random person on the street will tackle you - apparently the only people who run there are thieves immediately after committing a crime
  - we ate a small Pleskavica in GASTROTEKA, Belgrade, everyone enjoyed it, it's recommended
  - when you exit the customs at the airport, turn right and backwards (so you are walking away from the ATM), you can buy a local sim card with plenty of data for ~3 euro
  - do not use local taxis, use a Car:go mobile application to keep the costs reasonable. UPDATE: government has made it illegal...
 
 ### Thailand
  - bring USD cash (watch per-person limit of transfer without declaration in origin, destination and transit countries!), exchange it in Yellow Bank (Kungsri) for best rate
- - get a car, not a motorbike. On Ko Samui use `ID car and scooter Rental`, the guy's name is Ian, he is legit while other rentals may want to hold your passport (illegaly) etc
+ - get a car, not a motorbike. On Ko Samui use `ID car and scooter Rental`, the guy's name is Ian, he is legit while other rentals may want to hold your passport (illegally) etc
  - on roundabout it's the car on it that goes first (but on Ko Samui nobody, even taxis, know this)
  - drive on the LEFT side of the road. On unmarked intersection the car which goes straight on the bigger road has the right of way (it's not left vs right)
  - get revolut Metal, exchange currency on the week days

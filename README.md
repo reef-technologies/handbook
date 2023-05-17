@@ -60,11 +60,12 @@ You should already have an email account in the reef.pl domain. If you qualify f
 
 2FA is mandatory everywhere it is possible to use it (more explanation below). We recommend Twilio's [Authy](https://authy.com/) because it has a PIN code and end-to-end encrypted cloud backup.
 
-Frequently asked questions time:
-Q: Who does the 2FA rule apply to?
+Frequently Asked Questions:
+
+Q: Who does the 2FA rule apply to?\
 A: Everyone. It's in the contract, BTW.
 
-Q: Will the client pay for the time spent on configuring 2FA?
+Q: Will the client pay for the time spent on configuring 2FA?\
 A: Happily.
 
 ## What does "high performance" mean?
@@ -92,9 +93,9 @@ It is not needed for recruitment assignments, unless specified otherwise.
 It is needed for trial period assignments.
 
 
-## Sign in to your new e-mail account
+## Sign in to your new email account
 
-The first step you need to take is to sign in to your new Google account at `reef.pl`. All the necessary information, including credentials, have been sent to your personal e-mail address.
+The first step you need to take is to sign in to your new Google account at `reef.pl`. All the necessary information, including credentials, have been sent to your personal email address.
 
 **Caution!**
 
@@ -125,8 +126,8 @@ UPDATE after 2 years or so: nobody seems to actually track it, but now that we h
 
 ### RT / RTO projects
 
-Below you can find the list of RT projects alongside with their descriptions.
-The descriptions tell you where you should bill your RT time on hubstaff.
+Below you can find the list of RT (Reef Technologies) projects alongside with their descriptions.
+The descriptions tell you where you should bill your RT time on Hubstaff.
 RT generally means "investment", RTO generally means "operations".
 
 | Project                                    | Description |
@@ -147,8 +148,7 @@ RT generally means "investment", RTO generally means "operations".
 | RTO / status call                          | Attend weekly RT status calls. |
 | RT / special assignment from CEO           | Work on special assignments from the CEO as specifically requested. Extremely rare. Typically used to do something that must be done where we don't want to create a new project for a one-time thing. |
 | RTO / onboarding                           | Go through training materials during the onboarding phase ([training](training.md)). |
-| OTHER / just-in-case                       | Work on a project before being officially assigned to it (if needed). Notify management to re-bill the time later to the appropriate project.
- |
+| OTHER / just-in-case                       | Work on a project before being officially assigned to it (if needed). Notify management to re-bill the time later to the appropriate project.|
 
 
 ### Non-RT projects
@@ -181,7 +181,7 @@ One of our staff members worked from a room on the top floor of his 3 story hous
 
 Later that day he has taken a look at his time log and realized he spent 15min on a tea break. It was not a very relaxing type of activity (trying not to burn himself with a hot liquid while going up ~stairs~ squeaky wooden stairs was not his favourite hobby) (actually, his hobby was board games, but I digress).
 
-Now, what's the moral of that story? Later that day he bought a kettle and installed it in his room. We could see it on video calls - he could reach behind his chair and start the kettle without loosing focus. Tea and cup were also there. That's like 30-45min extra more time *per day* spent on building something he loves to build. Python backends. This is why we are here. This is why you are here, am I right? Seriously, if you could choose between RT and a workplace optimized for "walking up squeaky wooden stairs while trying to not burn yourself with a hot liquid", what would you do?
+Now, what's the moral of that story? Later that day he bought a kettle and installed it in his room. We could see it on video calls - he could reach behind his chair and start the kettle without losing focus. Tea and cup were also there. That's like 30-45min extra more time *per day* spent on building something he loves to build. Python backends. This is why we are here. This is why you are here, am I right? Seriously, if you could choose between RT and a workplace optimized for "walking up squeaky wooden stairs while trying to not burn yourself with a hot liquid", what would you do?
 
 (or maybe it was ☕? I don't remember)
 
@@ -285,7 +285,7 @@ $ git config --global user.email name.surname@reef.pl
 
 ### Bash
 
-Copy the .bashrc file into your home directory.
+Copy the `.bashrc` file into your home directory.
 
 ```bash
 $ cp .bashrc ~/
@@ -350,7 +350,7 @@ We use simple hand signals during video calls to communicate more efficiently.
 | sign | meaning | context |
 |--- | --- | --- |
 | :fist: | pass (no comment) | moderated discussion |
-| :point_up: | request voice | moderated discussion | 
+| :point_up: | request voice | moderated discussion |
 |:thumbsup:|vote "consent"|S3 decision making|
 |hand with palm down|vote "concern"|S3 decision making|
 |hand with palm up|vote "protest"|S3 decision making|
@@ -368,11 +368,11 @@ We don't really use email for communications, as some people don't check it too 
 
 ### 6.3 Instant messengers
 
-For business communications, we use Slack and [Zoom](zoom.us). You may use them in your browser, but they are usually installed on **the host computer** for convenience. Zoom usually doesn't work from an encrypted VM (no audio or video) - perhaps it's possible to perform some extra setup steps to make it work, but it's not worth it.
+For business communications, we use Slack and [Zoom](https://zoom.us). You may use them in your browser, but they are usually installed on **the host computer** for convenience. Zoom usually doesn't work from an encrypted VM (no audio or video) - perhaps it's possible to perform some extra setup steps to make it work, but it's not worth it.
 
 #### Slack
 
-In your company e-mail inbox, you will find a message with an invitation to the Slack team reeftechnologies.slack.com. Right after signing in, remember to fill out the phone number field in your account settings. Remember to **add your country-specific prefix number**, e.g., Poland uses `+48`. It's essential, as our members come from many different countries. Also, remember to place your chosen sequence under your picture: "phone -> SMS" or "SMS -> phone".
+In your company email inbox, you will find a message with an invitation to the Slack team reeftechnologies.slack.com. Right after signing in, remember to fill out the phone number field in your account settings. Remember to **add your country-specific prefix number**, e.g., Poland uses `+48`. It's essential, as our members come from many different countries. Also, remember to place your chosen sequence under your picture: "phone -> SMS" or "SMS -> phone".
 
 Replying with a :+1: reaction is better than writing "ok" (especially when there are many acknowledgers on the channel!) - reactions prevent half of the conversation from being filled with meaningless messages like "ok" / "right" / "I see". If you want to quickly acknowledge a Slack message, you can use `ctrl+shift+\, 1, enter`.
 
@@ -384,13 +384,13 @@ Channels:
 
 - `#announcements` - the general announcement channel, where we mostly welcome new people and announce our vacation periods to others
 - `#default` - the default channel (if there is no dedicated channel for something, we use this one)
-- `#python` - where we sometimes discuss things such as the usage of walrus operator (`:=`) or if it is better to use `raise` or `raise e` (as not everyone speaks Python on #default)
+- `#python` - where we sometimes discuss things such as the usage of walrus operator (`:=`) or if it is better to use `raise` or `raise e` (as not everyone speaks Python on `#default`)
 - `#random` - all topics not directly related to work. If you read something interesting, don't hesitate to share it with us.
 - `#sales` - sales team sends notifications there about high quality leads, signed/terminated contracts etc.
 - `#security` - for things like [heartbleed](http://heartbleed.com/), [shellshock](https://www.symantec.com/outbreak/?id=shellshock), [krack](https://www.krackattacks.com/), [poodle](https://www.us-cert.gov/ncas/alerts/TA14-290A), [venom](http://venom.crowdstrike.com/), [ghost](https://blog.qualys.com/laws-of-vulnerabilities/2015/01/27/the-ghost-vulnerability), [meltdown/spectre](https://meltdownattack.com/)
 - `#sociocracy` - the channel where sociocracy is coordinated
 - `#recruitment` - to discuss recruitment, trial candidate progress etc
-- `#staff` - internal staff channel - the only practical difference between a trial candidate and a staff member. The channel is practically dead because we don't want to have any part of the culture that is not available to the trial candiates.
+- `#staff` - internal staff channel - the only practical difference between a trial candidate and a staff member. The channel is practically dead because we don't want to have any part of the culture that is not available to the trial candidates.
 - `#va_for_rt` - for delegating things to Virtual Assistants
 - `#website` - discussion about our company website and its development
 
@@ -464,11 +464,11 @@ Described [here](https://dannorth.net/2022/02/10/cupid-for-joyful-coding/). Not 
 
 Described [here](https://chris.beams.io/posts/git-commit/). There are many such conventions, but this is the one we use. It's pretty straightforward.
 
-#### making things resilient to failures in general
+#### Making things resilient to failures in general
 
 https://blog.cloudflare.com/pipefail-how-a-missing-shell-option-slowed-cloudflare-down/
 
-#### no 3.10+ only syntax for the time being
+#### No 3.10+ only syntax for the time being
 
 Because we want an option to switch to 3.9-nogil. This can be dropped very easily, but please mention it beforehand.
 
@@ -480,11 +480,11 @@ Described [here](https://semver.org/spec/v2.0.0.html)
 
 Described [here](https://pycqa.github.io/isort/docs/configuration/custom_sections_and_ordering.html)
 
-#### type hints
+#### Type hints
 
 Described [here](https://docs.python.org/3/library/typing.html). We try to use it at least for all new public functions.
 
-#### docstrings for everything public
+#### Docstrings for everything public
 
 As above - it should be possible to use stuff without reading its code.
 
@@ -492,7 +492,7 @@ As above - it should be possible to use stuff without reading its code.
 
 https://peps.python.org/pep-0008/
 
-#### trailing commas on multiline statements
+#### Trailing commas on multiline statements
 
 See [here](https://stackoverflow.com/a/17492103/1935381). We skip it after `**kwargs` as no argument will ever follow it.
 
@@ -504,7 +504,7 @@ https://keepachangelog.com/
 
 https://sipb.mit.edu/doc/safe-shell/
 
-#### not using stuff from forbidden technology list without prior discussion
+#### Not using stuff from forbidden technology list without prior discussion
 
 See the next section
 
@@ -559,7 +559,7 @@ To remove the docker containers created while working on a project, please use t
 &nbsp;&nbsp;&nbsp; It's like an office manager for a company that doesn't have an office.
 
 ##### _Do we have CI/CD?_
-&nbsp;&nbsp;&nbsp; Typically github actions.
+&nbsp;&nbsp;&nbsp; Typically Github Actions.
 
 ##### _How to re-bill my time to a different project?_
 &nbsp;&nbsp;&nbsp; In case you ever bill the time worked to the wrong project, [here](docs/Hubstaff.md) is a step-by-step guide on how to fix it.

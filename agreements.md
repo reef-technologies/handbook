@@ -23,17 +23,17 @@ All staff members must respect the preferences of their colleagues.
 
 ## Review channel
 
-The #review channel on Slack is where we request code reviews and perform them for other developers whenever needed.
+The `#review` channel on Slack is where we request code reviews and perform them for other developers whenever needed.
 
 We use the following procedure for the code review process:
 
-1. The developer who needs their code to be reviewed posts a `@here` mark, the project name as shown on Hubstaff, a todo name, and a link to the PR on the #review channel.
+1. The developer who needs their code to be reviewed posts a `@here` mark, the project name as shown on Hubstaff, a todo name, and a link to the PR on the `#review` channel.
 
 The general structure of the review request is:
 
-@here https://github.pr.link `Hubstaff project name` :: `Todo name`
+> @here https://github.pr.link `Hubstaff project name` :: `Todo name`
 
-If a developer spots a review request not following this structure (usualy missing some information), they should reply with `Please follow the review request structure` and react with ❌ (`:x:`). This is an agreed upon gentle reminder, that carries no criticism or hard feelings.
+If a developer spots a review request not following this structure (usually missing some information), they should reply with `Please follow the review request structure` and react with ❌ (`:x:`). This is an agreed upon gentle reminder, that carries no criticism or hard feelings.
 
 2. Other team members may react to the message in the following ways:
 - 👎 (`:thumbsdown:`) downvote emoji – “I am busy and cannot help you right now”,
@@ -44,8 +44,8 @@ If a developer spots a review request not following this structure (usualy missi
 Developers should also take into consideration the following rules:
 
 - Code reviews for other staff members are seen as important, and, in most cases, they should be prioritized above other duties. A developer should only ignore a code review request if engaged in a highest-priority task such as a critical bug fix or finishing up a project for an upcoming deadline.
-- The reviewer should track the time it took them to do the review on the project and todo indicated in the review request
-- Only one developer should perform a code review for each code snippet posted to the #review channel. Therefore, if someone has already posted the eyes emoji, other staff members should ignore the post and carry on with their work.
+- The reviewer should track the time it took them to do the review on the project and todo indicated in the review request.
+- Only one developer should perform a code review for each code snippet posted to the `#review` channel. Therefore, if someone has already posted the eyes emoji, other staff members should ignore the post and carry on with their work.
 - Any team member may review any post – there is no preference as to who should do that.
 - Each post is a separate review round, so any developer may respond, even if they did not review the previous iterations. 
 - It is recommendable for different developers to look at the subsequent iterations of the same code, as it may help catch bugs or look at the code differently.
@@ -88,7 +88,7 @@ As you can see, it might be tricky to figure out which path is right for any giv
 
 At Reef Technologies, we mostly make decisions in our weekly Sociocracy meetings. The standard Sociocracy framework for proposing changes is a useful tool, but we admit that it can be time-consuming. Additionally, in some cases, a staff member may not want to wait for the Sociocracy call.
 
-The fast-track approach for decision-making allows staff members to propose “small changes”, such as minor operational improvements on the #sociocracy channel on Slack. Everyone is invited to cast their votes through upvoting (:thumbsup:) or downvoting (:thumbsdown:)  the message.  If no one objects to the proposal within 24 hours, it becomes a new active agreement.
+The fast-track approach for decision-making allows staff members to propose “small changes”, such as minor operational improvements on the `#sociocracy` channel on Slack. Everyone is invited to cast their votes through upvoting (:thumbsup:) or downvoting (:thumbsdown:)  the message.  If no one objects to the proposal within 24 hours, it becomes a new active agreement.
 
 
 ## 24h format
@@ -115,10 +115,10 @@ It is not allowed to use audio or video processing in company Zoom calls. The on
 
 All staff members of Reef Technologies have the right to request co-funding for up to 50% of the value of hardware deemed necessary for work, such as a laptop, a headset, a monitor, a mouse, a keyboard, etc.
 
-Co-founding conditions for senior engineers:
+Co-funding conditions for senior engineers:
 - up to 50% of the value of the hardware up to $1536 net per two years.
 
-Co-founding conditions for everyone else:
+Co-funding conditions for everyone else:
 - up to 50% of the value of the hardware up to $512 net per two years.
 
 The reason for this difference is that software engineering generally requires significantly more computing power than other types of tasks.
@@ -132,17 +132,17 @@ Staff members may request to be informed of their current hour total by a virtua
 
 A Reef Technologies member who requests co-funding for hardware they need to perform their work will be sent the equipment by the company.
 
-The hardware is bought by Reef Technologies and belongs to the company until its value has decreased either by 50% or by the maximum co-founding value ($1536 or $512).
+The hardware is bought by Reef Technologies and belongs to the company until its value has decreased either by 50% or by the maximum co-funding value ($1536 or $512).
 
 In reality, the benefit of using this policy amounts to more than 50% of the hardware's original value. By the time you purchase it from Reef Technologies, you will be charging a higher hourly rate and inflation will have likely further devalued the amount you need to pay for the hardware. All that after getting to use some nice gear at no immediate cost in the meantime.
 
-After the value of the hardware meets one of the two conditions, the staff member gains ownership by purchasing the hardware from Reef Technologies at its current price (50% of the initial price or initial price less maximum co-founding value).
+After the value of the hardware meets one of the two conditions, the staff member gains ownership by purchasing the hardware from Reef Technologies at its current price (50% of the initial price or initial price less maximum co-funding value).
 
 The hardware is never returned to Reef Technologies. In all cases, it remains with the individual.
 
 If a staff member on trial period requests hardware assistance, they will be assigned the company hardware that is currently available. After the trial period, the staff member is welcome to use the co-funding policy to buy the hardware of their own choice.
 
-The hardware will belong to Reef Technologies until its value has decreased either by 50% or by the maximum co-founding value ($1536 or $512).
+The hardware will belong to Reef Technologies until its value has decreased either by 50% or by the maximum co-funding value ($1536 or $512).
 
 ### Example situation 1:
 
