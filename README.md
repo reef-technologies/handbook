@@ -504,6 +504,10 @@ https://keepachangelog.com/
 
 https://sipb.mit.edu/doc/safe-shell/
 
+#### SemBr
+
+Use [Semantic Line Breaks](https://sembr.org/) whenever line breaks do not influence rendered document.
+
 #### Not using stuff from forbidden technology list without prior discussion
 
 See the next section
