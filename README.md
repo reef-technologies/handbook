@@ -418,6 +418,7 @@ Here are some miscellaneous rules to follow that were hard to put in other categ
 - Do not use the company email for RSS, out of work stuff etc. Minimize distractions.
 - If you issue an invoice to the company, please prefix the name of the file with your surname. This makes things much easier to find for the staff members who are dealing with a few dozen invoices every month.
 - If your changes are not ready to be submitted at the end of your work day, make a dirty branch, commit all of your changes to it (typically `git commit -am'WIP'`) and push it to a remote. This way if your HDD is damaged or something, you will never lose more than a day of work.
+- While various skin color options are available for emojis, we limit ourselves to use the default yellow emojis.
 
 If any of the above is not clear, not optimal, or you are curious about the rationale behind a rule, speak up on `#default`.
 
