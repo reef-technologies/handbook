@@ -498,6 +498,10 @@ reaction is better than writing "ok" (especially when there are many acknowledge
 \- reactions prevent half of the conversation from being filled with meaningless messages like "ok" / "right" / "I see".
 If you want to quickly acknowledge a Slack message, you can use `ctrl+shift+\, 1, enter`.
 
+We use some reactions in a specific way:
+- 👀 to indicate "I'm looking at this" (for example on a code review request)
+- ✔️ it's DONE (as done as it possibly can be for the foreseeable future)
+
 Using the desktop Slack application has a benefit of marking you as "available" on all the Slack servers.
 If you use a browser, you are only shown as available on the tab that you currently have open on your screen.
 Therefore, you should use the desktop application, not the browser.
