@@ -290,8 +290,10 @@ Being able to easily recover from a situation where you have accidentally billed
 Once you have installed the time-tracking app, it's time to prepare your environment.
 
 This guide will show how to set up a standard, secure environment for software development.
+The handbook is written with Ubuntu-based distros (e.g. [Linux Mint](https://www.linuxmint.com/download.php)) in mind.
+Using such will help save time, but in the end, it is individual's responsibility to maintain a productive working environment.
 
-It is not needed for recruitment assignments.
+**Fully secured environment as described by this document is not needed for recruitment assignments.**
 
 It is needed for 2nd stage trial period assignments.
 
@@ -315,12 +317,10 @@ This is not very common, and if you are considering setting it up, you probably 
 
 As with encryption software, we do not have specific requirements for what kind of solution you will use.
 The only requirement is the license.
-- We generally recommend [VirtualBox](https://www.virtualbox.org/).
-- Apple Silicon hardware support in VirtualBox is dire, so the recommended virtualization solution is currently (Q2 2023) QEMU-based, eg. [UTM](https://getutm.app/) (+ [guest system installation tutorial](https://www.youtube.com/watch?v=O19mv1pe76M))
 
-To maintain consistency across all virtual machines, we use the [Linux Mint](https://www.linuxmint.com/download.php) distribution.
-We would like you to work on this system, too.
-This will help us save time in the future.
+We generally recommend [VirtualBox](https://www.virtualbox.org/).
+Apple Silicon hardware support in VirtualBox is dire, so the recommended virtualization solution is currently (Q2 2023) QEMU-based, eg.
+[UTM](https://getutm.app/) (+ [guest system installation tutorial](https://www.youtube.com/watch?v=O19mv1pe76M))
 
 A step-by-step guide to creating a virtual machine can be found [here](docs/VirtualBox.md).
 
