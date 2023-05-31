@@ -19,8 +19,8 @@ if CI:
     nox.options.force_venv_backend = 'none'
 
 
-@nox.session(python=PYTHON_DEFAULT_VERSION)
-def format(session):
+@nox.session(name='format', python=PYTHON_DEFAULT_VERSION)
+def format_(session):
     session.run(
         'docker',
         'run',
