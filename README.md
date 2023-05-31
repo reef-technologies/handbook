@@ -315,7 +315,8 @@ This is not very common, and if you are considering setting it up, you probably 
 
 As with encryption software, we do not have specific requirements for what kind of solution you will use.
 The only requirement is the license.
-We recommend [VirtualBox](https://www.virtualbox.org/).
+- We generally recommend [VirtualBox](https://www.virtualbox.org/).
+- Apple Silicon hardware support in VirtualBox is dire, so the recommended virtualization solution is currently (Q2 2023) QEMU-based, eg. [UTM](https://getutm.app/) (+ [guest system installation tutorial](https://www.youtube.com/watch?v=O19mv1pe76M))
 
 To maintain consistency across all virtual machines, we use the [Linux Mint](https://www.linuxmint.com/download.php) distribution.
 We would like you to work on this system, too.
