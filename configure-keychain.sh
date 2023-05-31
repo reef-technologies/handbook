@@ -1,4 +1,6 @@
 #!/bin/bash
+set -exuo pipefail
+
 sudo apt-get remove gnome-keyring
 sudo apt-get install keychain
 
