@@ -453,7 +453,7 @@ We use simple hand signals during video calls to communicate more efficiently.
 | sign                | meaning                      | context               |
 | ------------------- | ---------------------------- | --------------------- |
 | :fist:              | pass (no comment)            | moderated discussion  |
-| :point_up:          | request voice                | moderated discussion  |
+| :point\_up:         | request voice                | moderated discussion  |
 | :thumbsup:          | vote "consent"               | S3 decision making    |
 | hand with palm down | vote "concern"               | S3 decision making    |
 | hand with palm up   | vote "protest"               | S3 decision making    |
@@ -500,6 +500,7 @@ reaction is better than writing "ok" (especially when there are many acknowledge
 If you want to quickly acknowledge a Slack message, you can use `ctrl+shift+\, 1, enter`.
 
 We use some reactions in a specific way:
+
 - 👀 to indicate "I'm looking at this" (for example on a code review request)
 - ✔️ it's DONE (as done as it possibly can be for the foreseeable future)
 
@@ -727,19 +728,19 @@ To remove the docker containers created while working on a project, please use t
 
 ##### *What's a virtual assistant?*
 
- It's like an office manager for a company that doesn't have an office.
+It's like an office manager for a company that doesn't have an office.
 
 ##### *Do we have CI/CD?*
 
- Typically Github Actions.
+Typically Github Actions.
 
 ##### *How to re-bill my time to a different project?*
 
- In case you ever bill the time worked to the wrong project, [here](docs/Hubstaff.md) is a step-by-step guide on how to fix it.
+In case you ever bill the time worked to the wrong project, [here](docs/Hubstaff.md) is a step-by-step guide on how to fix it.
 
 ##### *Why is all communication (except 1to1) in English?*
 
- Pawel: Let me tell you a story.
+Pawel: Let me tell you a story.
 There was a Python office in Warsaw where most employees were from Poland, but eventually, the company started hiring foreigners, too.
 They could not understand the kitchen conversations, which was awkward for both sides, so a new rule was introduced.
 Everyone was supposed to switch to English as soon as a foreigner entered the room.
