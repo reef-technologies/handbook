@@ -446,7 +446,28 @@ Therefore, we should all use clear pictures from the beginning.
 
 ## 6. Communication
 
-### 6.1 Video hand signal protocol
+### 6.1 Weekly video calls
+
+Every week, we hold two internal calls:
+Status call and a Sociocracy call.
+These two meetings are exceptions to our asynchronicity.
+Depending on the project and the client you work for, additional calls may be needed, but we try to keep them to a minimum.
+
+The purpose of these two calls, briefly speaking, is:
+
+- Status call - share achievements and other significant developments from previous week and make plans for next one.
+- Sociocracy call - facilitate Sociocracy 3.0 decision processes giving everyone an opportunity to influence the shape of the company.
+
+There is a second purpose of these two internal calls, and that is team building.
+These calls perform the role of a water cooler or a coffee machine in a regular office.
+That is, we make them a bit loose, with time to make jokes, add personal stories, divert from the main topic etc.
+We are a fully remote team with some members that not ever met one another in person.
+Therefor it is even more important for us to invest that extra time (and therefore money).
+All that we can get to know each other better, build trust, have fun and acknowledge that we more than "just" excellent problem solvers.
+
+During your Trial period you will be invited to attend and participate at least once in these calls.
+
+### 6.2 Video hand signal protocol
 
 We use simple hand signals during video calls to communicate more efficiently.
 
@@ -464,7 +485,7 @@ This way, the situation is clear at a glance.
 In the past, we used to show signs for a moment, but then the quick responders hid their signals before the slow ones started signing and the situation was not clear.
 Now we all hold the sign until we're sure of the consent.
 
-### 6.2 Communication channels
+### 6.3 Communication channels
 
 When you need to contact one of your Reef teammates, you have three channels to choose from:
 Slack, text message, and phone call.
@@ -479,7 +500,7 @@ We expect you to respect our contact preferences too.
 We don't really use email for communications, as some people don't check it too often.
 If you need to be sure that someone sees your email, ping them on Slack.
 
-### 6.3 Instant messengers
+### 6.4 Instant messengers
 
 For business communications, we use Slack and [Zoom](https://zoom.us).
 You may use them in your browser, but they are usually installed on **the host computer** for convenience.
