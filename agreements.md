@@ -149,6 +149,10 @@ Fortunately, so far, there have been no such situations.
 It is not allowed to use audio or video processing in company Zoom calls.
 The only exception to this rule is the active noise cancellation function, which staff members may use freely.
 
+The reason we decided to make this policy was that it was distracting for some people.
+We also noticed that poor video processing without green screen and with loose hair causes flickering and it often hides half of someones face behind the virtual background.
+This also happens with blur.
+
 ## Hardware co-funding
 
 All staff members of Reef Technologies have the right to request co-funding for up to 50% of the value of hardware deemed necessary for work, such as a laptop, a headset, a monitor, a mouse, a keyboard, etc.
