@@ -66,8 +66,8 @@ UPDATE: A fully encrypted laptop of our senior developer has been stolen from hi
 All data associated with the company and its clients must either be stored in the cloud (Google Drive/Docs/Sheets within the company domain) or on encrypted media (encrypted volume or drive). This does not apply to data deemed valueless or classified as public.
 
 For clarity, the requirement for encryption is universal, with the following exceptions:
-- Software developers in the first phase of the trial period, working exclusively on mock data.
-- Software developers committed solely to open-source projects, an infrequent occurrence.
+- software developers in the first phase of the trial period, working exclusively on mock data.
+- software developers committed solely to open-source projects, an infrequent occurrence.
 
 All staff, including virtual assistants, are required to utilize encrypted devices. While this may seem challenging at first, setting up encryption has been made straightforward. Our recommended method is Full Disk Encryption (FDE), which offers comprehensive protection by encrypting the entire disk. FDE can be implemented during the native OS installation or with a virtual OS installation. Tools for achieving FDE on various systems are as follows:
 
