@@ -63,23 +63,23 @@ UPDATE: A fully encrypted laptop of our senior developer has been stolen from hi
 
 ### Encryption
 
-All data related to the company and clients must be either stored in the cloud (Google Drive/Docs/Sheets in the company domain) or on encrypted media (encrypted volume or drive), unless the data in question is worthless or public.
+All data associated with the company and its clients must either be stored in the cloud (Google Drive/Docs/Sheets within the company domain) or on encrypted media (encrypted volume or drive). This does not apply to data deemed valueless or classified as public.
 
-EDIT: We are getting a lot of questions about who this applies to, so let's make it clear:
-everyone except:
+For clarity, the requirement for encryption is universal, with the following exceptions:
+- Software developers in the first phase of the trial period, working exclusively on mock data.
+- Software developers committed solely to open-source projects, an infrequent occurrence.
 
-- software developers in the first phase of the trial period (where they work on fake/mock data)
-- software developers who work exclusively on open-source projects (that only happened twice, though)
+All staff, including virtual assistants, are required to utilize encrypted devices. While this may seem challenging at first, setting up encryption has been made straightforward. Our recommended method is Full Disk Encryption (FDE), which offers comprehensive protection by encrypting the entire disk. FDE can be implemented during the native OS installation or with a virtual OS installation. Tools for achieving FDE on various systems are as follows:
 
-So all staff, including virtual assistants, must have encrypted devices.
-Now that might sound scary, but these days setting up encryption is not that hard - in fact, instructions are provided in this document.
+- Windows: BitLocker, when used with a Trusted Platform Module (TPM), provides inbuilt FDE.
+- MacOS: FileVault 2, Apple's inbuilt disk encryption program, utilizes XTS-AES-128 encryption with a 256-bit key to prevent unauthorized access to the startup disk.
+- Linux: Linux Unified Key Setup (LUKS) is the standard for Linux disk encryption. The `cryptsetup` utility can create and manage LUKS-encrypted volumes. LUKS can also be used with Logical Volume Management (LVM) for a more flexible approach to encrypted volumes.
 
-Typically, source code is inside a virtual machine which has its image stored on an encrypted volume, but dual boot with full disk encryption is also allowed.
-This practice prevents potential data leaks, i.e., if your computer gets stolen.
+In situations where FDE is not possible or practical, VeraCrypt is our preferred tool for encrypting individual files, folders, or volumes. It offers a high level of security and can be used for creating encrypted file containers or encrypting non-system partitions and drives. A simple tutorial on VeraCrypt can be found at [VeraCrypt Tutorial](https://github.com/reef-technologies/handbook/blob/master/docs/VeraCrypt.md).
 
-You should already have an email account in the reef.pl domain.
-If you qualify for encryption, only ever use this email address (and the associated accounts) on a secure environment (VM/dual boot) - this way, your private and work accounts will never mix access or customer data.
-Docker containers containing client code won't be reachable from the system you use privately.
+We favor FDE because it enables secure storage of Docker images, which may contain client code, outside of your home directory. However, note that on Linux systems, the boot partition may not always be encrypted, but this is considered acceptable.
+
+You should already have an email account within the reef.pl domain. If you qualify for encryption, you should only use this email address (and related accounts) within a secure environment (VM/dual boot). By doing so, you ensure that your private and work accounts do not intermingle access or customer data. Furthermore, Docker containers housing client code will not be accessible from your privately used system.
 
 ### 2FA
 
