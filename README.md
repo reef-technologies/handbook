@@ -76,6 +76,11 @@ This might initially appear daunting, but rest assured that setting up encryptio
 Our top recommendation is Full Disk Encryption (FDE), a method that encrypts the entire disk for comprehensive protection.
 FDE can be facilitated during native OS installation or within a virtual OS installation.
 
+It's crucial to note that merely encrypting your home directory, i.e., your personal files, is not sufficient nor typically feasible.
+Practical issues, such as system performance, backup difficulties, and user experience implications often hinder this approach. 
+More importantly, Docker images, which may contain client code,  are typically stored outside of the home directory. 
+Solely encrypting the home directory would leave these sensitive data vulnerable. 
+
 The tools to achieve FDE on various systems include:
 - Windows: Use BitLocker in conjunction with a Trusted Platform Module (TPM) for built-in FDE.
 - MacOS: FileVault 2, Apple's built-in disk encryption program, uses XTS-AES-128 encryption with a 256-bit key to deter unauthorized access to the startup disk.
