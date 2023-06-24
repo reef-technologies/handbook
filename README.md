@@ -102,7 +102,7 @@ This ensures a clear segregation between your professional and personal digital 
 Note that accessing your personal digital spaces (such as private Gmail, Facebook, etc.) is permissible when done from a fully encrypted system,
 but this should be done responsibly and without compromising work-related security protocols.
 
-Lastly, Docker containers, which store and run client code, are to be considered secure work environments.
+Lastly, Docker containers, which store and run client code, are to be considered secret.
 Accessing these containers from personal systems or environments is prohibited to maintain a robust security structure,
 preventing any potential cross-access and preserving the integrity of our client's data.
 
