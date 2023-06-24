@@ -63,25 +63,43 @@ UPDATE: A fully encrypted laptop of our senior developer has been stolen from hi
 
 ### Encryption
 
-All data pertaining to the company and its clients must be either stored in the cloud (specifically, Google Drive/Docs/Sheets within the company domain) or on encrypted media (an encrypted volume or drive). This excludes data categorized as being of no value or already publicly available.
+All data pertaining to the company and its clients must be either stored in the cloud (specifically, Google Drive/Docs/Sheets within the company domain)
+or on encrypted media (an encrypted volume or drive).
+This excludes data categorized as being of no value or already publicly available.
 
 This encryption mandate applies to all, except:
 - software developers in the first phase of their trial period who work solely with mock data
 - software developers who are solely dedicated to open-source projects, which happens infrequently
 
-Every staff member, including virtual assistants, is required to use encrypted devices. This might initially appear daunting, but rest assured that setting up encryption is a straightforward process. Our top recommendation is Full Disk Encryption (FDE), a method that encrypts the entire disk for comprehensive protection. FDE can be facilitated during native OS installation or within a virtual OS installation. The tools to achieve FDE on various systems include:
+Every staff member, including virtual assistants, is required to use encrypted devices.
+This might initially appear daunting, but rest assured that setting up encryption is a straightforward process.
+Our top recommendation is Full Disk Encryption (FDE), a method that encrypts the entire disk for comprehensive protection.
+FDE can be facilitated during native OS installation or within a virtual OS installation.
 
+The tools to achieve FDE on various systems include:
 - Windows: Use BitLocker in conjunction with a Trusted Platform Module (TPM) for built-in FDE.
 - MacOS: FileVault 2, Apple's built-in disk encryption program, uses XTS-AES-128 encryption with a 256-bit key to deter unauthorized access to the startup disk.
-- Linux: Linux Unified Key Setup (LUKS) is the Linux standard for disk encryption. The `cryptsetup` utility allows creation and management of LUKS-encrypted volumes. LUKS can be combined with Logical Volume Management (LVM) to create flexible encrypted volumes.
+- Linux: Linux Unified Key Setup (LUKS) is the Linux standard for disk encryption.
+The `cryptsetup` utility allows creation and management of LUKS-encrypted volumes.
+LUKS can be combined with Logical Volume Management (LVM) to create flexible encrypted volumes.
 
-In situations where FDE isn't feasible or practical, VeraCrypt serves as our preferred tool for encrypting individual files, folders, or volumes. It's ideal for creating encrypted file containers or encrypting non-system partitions and drives. A simple tutorial on VeraCrypt can be accessed [here](https://github.com/reef-technologies/handbook/blob/master/docs/VeraCrypt.md).
+In situations where FDE isn't feasible or practical, VeraCrypt serves as our preferred tool for encrypting individual files, folders, or volumes.
+It's ideal for creating encrypted file containers or encrypting non-system partitions and drives.
+A simple tutorial on VeraCrypt can be accessed [here](https://github.com/reef-technologies/handbook/blob/master/docs/VeraCrypt.md).
 
-Our preference for FDE arises from its ability to securely store Docker images, potentially containing client code, outside your home directory. Please note, on Linux systems, the boot partition might not always be encrypted, but this is considered acceptable.
+Our preference for FDE arises from its ability to securely store Docker images, potentially containing client code, outside your home directory.
+Please note, on Linux systems, the boot partition might not always be encrypted, but this is considered acceptable.
 
-You should have an email account within the reef.pl domain. If your role involves dealing with encrypted data, this email address and any associated accounts must be used exclusively within a secure environment, such as a virtual machine or dual-boot system. This ensures a clear segregation between your professional and personal digital spaces, preventing accidental cross-access or data leaks involving customer data. Note that accessing your personal digital spaces (such as private Gmail, Facebook, etc.) is permissible when done from a fully encrypted system, but this should be done responsibly and without compromising work-related security protocols.
+You should have an email account within the reef.pl domain.
+If your role involves dealing with encrypted data, this email address and any associated accounts must be used exclusively within a secure environment, such as a virtual machine or dual-boot system.
+This ensures a clear segregation between your professional and personal digital spaces, preventing accidental cross-access or data leaks involving customer data.
 
-Lastly, Docker containers, which store and run client code, are to be considered secure work environments. Accessing these containers from personal systems or environments is prohibited to maintain a robust security structure, preventing any potential cross-access and preserving the integrity of our client's data.
+Note that accessing your personal digital spaces (such as private Gmail, Facebook, etc.) is permissible when done from a fully encrypted system,
+but this should be done responsibly and without compromising work-related security protocols.
+
+Lastly, Docker containers, which store and run client code, are to be considered secure work environments.
+Accessing these containers from personal systems or environments is prohibited to maintain a robust security structure,
+preventing any potential cross-access and preserving the integrity of our client's data.
 
 ### 2FA
 
