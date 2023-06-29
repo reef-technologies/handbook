@@ -640,10 +640,10 @@ Described [here](https://chris.beams.io/posts/git-commit/).
 There are many such conventions, but this is the one we use.
 It's pretty straightforward.
 
-#### git rebase
+#### git rebase and editing commit history
 
-Best to rebase to current master before creating PR, and then you CAN rebase to master after CR is finished.
-When using GitHub you MUST not rebase your PRs before getting final Code Review approval, as it will force reviewer to start from scratch during next CR round.
+Best to rebase to current master before creating PR, and then you CAN rebase to master only **after CR** is finished.
+When using GitHub you MUST NOT force push commits your PRs before getting final Code Review approval, as it will force reviewer to start from scratch during next CR round.
 
 #### Making things resilient to failures in general
 
