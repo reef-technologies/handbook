@@ -645,6 +645,8 @@ It's pretty straightforward.
 Best to rebase to current master before creating PR, and then you CAN rebase to master only **after CR** is finished.
 When using GitHub you MUST NOT force push commits your PRs before getting final Code Review approval, as it will force reviewer to start from scratch during next CR round.
 
+Since we allow rebasing, before you branch someone's feature branch, you need first confirm with them that they are not going to any more edits to git history.
+
 #### Making things resilient to failures in general
 
 <https://blog.cloudflare.com/pipefail-how-a-missing-shell-option-slowed-cloudflare-down/>
