@@ -1,0 +1,108 @@
+# Developer Environment Setup
+
+This guide will show how to set up a standard, secure work environment for software development.
+
+## Ensure you have a Secure Work Environment
+
+For Secure Work Environment we recommend a Virtual Machine or dual-boot with [Full Disk Encryption](Storage_Encryption.md#full-disk-encryption) enabled.
+This ensures a clear segregation between your professional and personal digital spaces, preventing accidental cross-access or data leaks involving customer data.
+It also helps with focus and productivity, and as you may have noticed we strive to be the best Developer we can be :)
+
+If you have previously used your reef.pl email address (or any associated) on a personal environment, make sure to remove it from all devices and accounts.
+Only exception being mobile devices.
+
+Our preference for FDE arises from its ability to securely store Docker images, potentially containing client code, which often can land outside your home directory.
+Solely encrypting the home directory would leave these sensitive data vulnerable.
+
+Lastly, Docker containers, which store and run client code, are to be considered secret.
+Accessing these containers from personal environments is prohibited to maintain a robust security structure, preventing any potential cross-access and preserving the integrity of our client's data.
+
+As for personal/work separation, we recommend using a separate machine or dual-booting.
+You may be tempted to use multi-user environments, but this is not recommended, as it is hard to prevent personal accounts, with for example, `docker` access from accessing ANY other account on the system.
+
+While it is your responsibility to maintain a secure work environment, we also need to ensure that you are not exposed to any unnecessary risks, so please discuss with other staff if you want to setup non-standard Secure Work Environment.
+
+# System setup
+
+If you are undecided, by default we recommend going with Virtual Machine setup.
+It is not preferred, but allowed to use a non-virtual machine for work purposes (via dual boot or separate physical machine).
+
+As for the work environment Operating System, we recommend using a Linux-based system.
+Guide itself is written with Ubuntu-based distros (e.g. [Linux Mint](https://www.linuxmint.com/download.php)) in mind.
+Using such will help save time, but in the end, it is individual's responsibility to maintain a productive working environment.
+
+## 1. Virtual Machine setup
+
+> **Note:** Skip if you are using separate work physical machine or dual-booting.
+
+We generally recommend [VirtualBox](https://www.virtualbox.org/).
+A step-by-step guide to creating a virtual machine can be found [here](docs/VirtualBox.md).
+
+Apple hardware support in VirtualBox is dire, so the recommended virtualization solution is currently QEMU-based, eg.
+[UTM](https://getutm.app/) (+ [guest system installation tutorial](https://www.youtube.com/watch?v=O19mv1pe76M))
+
+## 2. Installing the necessary packages in your work environment
+
+You will need the following packages to work:
+
+```bash
+$ sudo apt install \
+	docker.io \
+	docker-compose \
+	git \
+	python3-pip \
+	python3-setuptools \
+	python3-virtualenv \
+	direnv
+```
+
+```bash
+$ sudo pip3 install virtualenvwrapper
+```
+
+## 3. Initial configuration (bash, git, ssh)
+
+### SSH
+
+First, generate an SSH key.
+We use Ed25519 which is more secure than the default RSA key.
+We provided a simple script that will do all the work for you.
+
+Just download it from this repository and run it:
+
+```bash
+$ ./configure-keychain.sh
+```
+
+### Git
+
+Copy the `.gitconfig` file included in this repository into your home directory:
+
+```bash
+$ cp .gitconfig ~/
+```
+
+Complete username and email:
+
+```bash
+$ git config --global user.name "Name Surname"
+$ git config --global user.email name.surname@reef.pl
+```
+
+### Bash
+
+Copy the `.bashrc` file into your home directory.
+
+```bash
+$ cp .bashrc ~/
+```
+
+In order for this to take effect, relog your shell or run `. .bashrc`
+
+### Docker
+
+Add your user to the `docker` group:
+
+```bash
+$ sudo gpasswd -a $USER docker
+```

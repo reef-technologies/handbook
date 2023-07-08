@@ -61,50 +61,28 @@ The manager looked at the engineer and was not happy.
 
 UPDATE: A fully encrypted laptop of our senior developer has been stolen from his bag while he was on a train, returning from a conference in late 2017. Spooky.
 
-### Encryption
+### Storage Encryption and Secure Work Environment
 
-All data pertaining to the company and its clients must be either stored in the cloud (specifically, Google Drive/Docs/Sheets within the company domain)
-or on encrypted media (an encrypted volume or drive).
+All data pertaining to the company and its clients must be either stored in the cloud (specifically, Google Drive/Docs/Sheets within the company domain) or on encrypted media (an encrypted volume or drive).
 This excludes data categorized as being of no value or already publicly available.
 
-This encryption mandate applies to all, except:
-- software developers in the first phase of their trial period who work solely with mock data
-- software developers who are solely dedicated to open-source projects, which happens infrequently
+In addition, Developers roles (after 1nd stage of Trial period i.e. finishing Trial task#3) are required to set up a Secure Work Environment on their workstations.
+This is both for additional security and improved focus.
 
-Every staff member, including virtual assistants, is required to use encrypted devices.
-This might initially appear daunting, but rest assured that setting up encryption is a straightforward process.
+Setting up Storage Encryption might initially appear daunting, but rest assured that it is fairly straightforward process.
 Our top recommendation is Full Disk Encryption (FDE), a method that encrypts the entire disk for comprehensive protection.
-FDE can be facilitated during native OS installation or within a virtual OS installation.
+Our second recommendation is Volume Encryption, a method that encrypts only the volume (/folder) where sensitive data is stored.
+Due to its ease of use, we recommend VeraCrypt by default, for which a simple tutorial can be found [here](https://github.com/reef-technologies/handbook/blob/master/docs/VeraCrypt.md).
+If you want to learn more about available options, please refer to the [Storage Encryption](docs/Storage_Encryption.md) document.
 
-It's crucial to note that merely encrypting your home directory, i.e., your personal files, is not sufficient nor typically feasible.
-Practical issues, such as system performance, backup difficulties, and user experience implications often hinder this approach. 
-More importantly, Docker images, which may contain client code,  are typically stored outside of the home directory. 
-Solely encrypting the home directory would leave these sensitive data vulnerable. 
+If you plan to connect your mobile device to any work-related accounts, first make sure that you will be able to provide a documentation that your device is encrypted and is actively supported (i.e. receives regular security updates).
+Most modern Apple and Android devices support encryption, but older devices or ones without configured passcode might not.
 
-The tools to achieve FDE on various systems include:
-- Windows: Use BitLocker in conjunction with a Trusted Platform Module (TPM) for built-in FDE.
-- MacOS: FileVault 2, Apple's built-in disk encryption program, uses XTS-AES-128 encryption with a 256-bit key to deter unauthorized access to the startup disk.
-- Linux: Linux Unified Key Setup (LUKS) is the Linux standard for disk encryption.
-The `cryptsetup` utility allows creation and management of LUKS-encrypted volumes.
-LUKS can be combined with Logical Volume Management (LVM) to create flexible encrypted volumes.
+So to sum it up:
 
-In situations where FDE isn't feasible or practical, VeraCrypt serves as our preferred tool for encrypting individual files, folders, or volumes.
-It's ideal for creating encrypted file containers or encrypting non-system partitions and drives.
-A simple tutorial on VeraCrypt can be accessed [here](https://github.com/reef-technologies/handbook/blob/master/docs/VeraCrypt.md).
-
-Our preference for FDE arises from its ability to securely store Docker images, potentially containing client code, outside your home directory.
-Please note, on Linux systems, the boot partition might not always be encrypted, but this is considered acceptable.
-
-You should have an email account within the reef.pl domain.
-If your role involves dealing with encrypted data, this email address and any associated accounts must be used exclusively within a secure environment, such as a virtual machine or dual-boot system.
-This ensures a clear segregation between your professional and personal digital spaces, preventing accidental cross-access or data leaks involving customer data.
-
-Note that accessing your personal digital spaces (such as private Gmail, Facebook, etc.) is permissible when done from a fully encrypted system,
-but this should be done responsibly and without compromising work-related security protocols.
-
-Lastly, Docker containers, which store and run client code, are to be considered secret.
-Accessing these containers from personal systems or environments is prohibited to maintain a robust security structure,
-preventing any potential cross-access and preserving the integrity of our client's data.
+- Software Developers during their 1st stage of Trial period are not required to set up Storage Encryption nor Secure Work Environment.
+- Software Developers **after** completing 1st stage of Trial period are required to set up a Secure Work Environment on their workstations.
+- All other roles (e.g. Virtual Assistants) are required to use Storage Encryption (go to [Storage Encryption](docs/Storage_Encryption.md) for more details).
 
 ### 2FA
 
@@ -150,9 +128,7 @@ We employ several techniques to output a lot of value in a unit of time:
 
 This guide will show how to set up a time tracking app.
 
-It is not needed for recruitment assignments, unless specified otherwise.
-
-It is needed for trial period assignments.
+It is needed for Trial period assignments.
 
 ## Sign in to your new email account
 
@@ -160,11 +136,6 @@ The first step you need to take is to sign in to your new Google account at `ree
 All the necessary information, including credentials, have been sent to your personal email address.
 
 **Caution!**
-
-If you qualify for an encrypted VM, you should sign in for the first time from the host computer, as it is necessary to install the time-tracking application.
-This is the one and only situation when you are allowed to log in from your host machine.
-
-**Caution, again!**
 
 You have to set up 2-factor authentication within 24 hours from the first successful login, or the security policy will cut you off.
 It's best to set it up right after you perform the initial login.
@@ -176,7 +147,6 @@ Please do not forget :)
 We use an application that measures the time you spend at work and takes regular screenshots.
 The first step in preparing your work environment is to install it.
 
-To avoid any issues with screenshot-grabbing and keep consistency across users, please install the tracker on your ***host*** machine.
 Please install it and then accept the invitation that you received on your email address.
 
 You can download the application here:
@@ -318,111 +288,21 @@ This guide will show how to set up a standard, secure environment for software d
 The handbook is written with Ubuntu-based distros (e.g. [Linux Mint](https://www.linuxmint.com/download.php)) in mind.
 Using such will help save time, but in the end, it is individual's responsibility to maintain a productive working environment.
 
-**Fully secured environment as described by this document is not needed for recruitment assignments.**
-
-It is needed for 2nd stage trial period assignments.
-
-## 1. Create an encrypted volume (host machine)
+## Encryption
 
 Due to the variety of operating systems used by our team, we do not impose a specific solution.
 It depends on what software you use.
 For Linux systems, it can be LUKS.
 For macOS, you can use built-in FileVault encryption.
 
-Due to the large space utilization of our projects, the minimum partition size is **50 GB** (recommended size:
-**100 GB**).
-
 In case you have no preferences, we recommend using [VeraCrypt](https://www.veracrypt.fr/en/Home.html).
 A step-by-step instruction for the installation process can be found [here](docs/VeraCrypt.md).
 
-It is allowed to use a non-virtual machine for work purposes (via dual boot or separate physical machine).
-This is not very common, and if you are considering setting it up, you probably don't need detailed instructions, so the rest of the guide will show how to build a VM environment.
+## 3. Configuring your development environment
 
-## 2. Virtual machine (host machine)
+> **Note** This section applies only to Software Developer positions after the 1st stage of the Trial Period.
 
-As with encryption software, we do not have specific requirements for what kind of solution you will use.
-The only requirement is the license.
-
-We generally recommend [VirtualBox](https://www.virtualbox.org/).
-Apple Silicon hardware support in VirtualBox is dire, so the recommended virtualization solution is currently (Q2 2023) QEMU-based, eg.
-[UTM](https://getutm.app/) (+ [guest system installation tutorial](https://www.youtube.com/watch?v=O19mv1pe76M))
-
-A step-by-step guide to creating a virtual machine can be found [here](docs/VirtualBox.md).
-
-## 3. Installing the necessary packages (virtual machine)
-
-You will need the following packages to work:
-
-```bash
-$ sudo apt install \
-	docker.io \
-	docker-compose \
-	git \
-	python3-pip \
-	python3-setuptools \
-	python3-virtualenv \
-	direnv
-```
-
-```bash
-$ sudo pip3 install virtualenvwrapper
-```
-
-## 4. Initial configuration (bash, git, ssh)
-
-### SSH
-
-First, generate an SSH key.
-We use Ed25519 which is more secure than the default RSA key.
-We provided a simple script that will do all the work for you.
-
-Just download it from this repository and run it:
-
-```bash
-$ ./configure-keychain.sh
-```
-
-### Git
-
-Copy the `.gitconfig` file included in this repository into your home directory:
-
-```bash
-$ cp .gitconfig ~/
-```
-
-Complete username and email:
-
-```bash
-$ git config --global user.name "Name Surname"
-$ git config --global user.email name.surname@reef.pl
-```
-
-### Bash
-
-Copy the `.bashrc` file into your home directory.
-
-```bash
-$ cp .bashrc ~/
-```
-
-In order for this to take effect, relog your shell or run `. .bashrc`
-
-### Docker
-
-Add your user to the `docker` group:
-
-```bash
-$ sudo gpasswd -a $USER docker
-```
-
-*Note: For ease of use, an alias \*\* dc \*\* for docker-compose is added to the `.bashrc` file.
-Instead of typing a full name, you can use the shortened version.*
-
-Example:
-
-```bash
-$ dc up
-```
+Follow the instructions laid out in [Development environment setup](docs/Developer_environment_setup.md).
 
 ## 5. Configure your Google Account and GitHub
 
