@@ -722,10 +722,14 @@ See also:
 Whenever you're taking some days off, it's important to let other team members know, so that work can be planned and client expectations managed.
 
 - You should mark days when you won't be working in GSheet ['Work planning'](https://docs.google.com/spreadsheets/d/12nQKdskWDwFHhQ01BMjfllabqJTZo4tMdCsWx6NJaL4/edit?usp=sharing) as soon as you know about it.
-- If you need time off urgently because of something unexpected, please let others know in Slack in `#annoucements` channel right away, but ignore it completely if it's a life-and-death situation.
+- Announce it on Slack in `#annoucements` channel beforehand.
+- If you need time off urgently because of something unexpected, please let the affected (people you had planned meetings with / or that need to pick up the task from you) know through Slack right away.
+  Use `#annoucements` if you are really in a hurry.
+  Ignore whole announcing thing in a life-and-death situations.
   Don't worry, we'll manage.
   Family first 👪
 - If it's some time you're planning to take off in the future, please mention that on a status call.
+- We work asynchronously, so unless someone is waiting for you, you don't need to announce it whenever you leave for 2 hours or so.
 
 ## 8. Tools
 
