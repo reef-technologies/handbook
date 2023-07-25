@@ -5,7 +5,7 @@ on:
     branches: [master, main]
 
 env:
-  PYTHON_DEFAULT_VERSION: "3.9"
+  PYTHON_DEFAULT_VERSION: "3.11"
 
 jobs:
   linter:

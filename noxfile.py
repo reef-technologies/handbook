@@ -7,7 +7,7 @@ import nox
 CI = os.environ.get('CI') is not None
 
 ROOT = Path('.')
-PYTHON_VERSIONS = ['3.9']
+PYTHON_VERSIONS = ['3.11']
 PYTHON_DEFAULT_VERSION = PYTHON_VERSIONS[-1]
 
 nox.options.default_venv_backend = 'venv'
