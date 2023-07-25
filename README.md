@@ -119,7 +119,7 @@ We employ several techniques to output a lot of value in a unit of time:
    This drives many of our actions, including good communication with the client who knows what must be done.
    While some software houses lose \~30% of their performance (due to miscommunications, etc.), we stay way below 1% (the exact number is hard to measure when the amount of waste is so low).
 9. Use modern IDEs.
-10. Use LLMs (ChatGPT, GitHub Copilot, Amazon CodeWhisperer, etc.).
+10. Use LLMs (ChatGPT, GitHub Copilot, etc.).
 
 # Time-tracking
 

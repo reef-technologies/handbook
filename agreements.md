@@ -230,6 +230,17 @@ Thus, his available co-founding value returned to the original value of $512.
 As a senior Reef Technologies engineer, you are eligible to use the services of a personal assistant.
 The assistant may do the necessary research, make a list of top hardware models for you to choose from, find a good online shop that is available in your country and have the appropriate equipment delivered to your address.
 
+## LLM tool use & funding
+
+Each Reef Technologies senior staff member is eligible to receive company-funded LLM service subscription (e.g. GitHub Copilot, ChatGPT Plus).
+The subscription is paid by Reef Technologies for entire time it is being used it for any tasks related to Reef Technologies projects.
+Please make sure the subscription is terminated if you don't need it anymore to prevent license waste.
+
+Please note, while our default contract with clients allows use of LLMs, make sure to check with a project manager before using LLM on any particular project.
+As of mid 2023 every client has approved LLMs except one that is still considering it.
+As for work done for Reef Technologies internal projects, you are free to use LLMs as you see fit.
+In all cases you are responsible for quality of your work, regardless if LLM was used to produce it or not.
+
 ## Training and upskilling
 
 At Reef Technologies, we support the development of our staff members in the following areas:
