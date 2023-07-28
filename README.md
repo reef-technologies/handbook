@@ -652,11 +652,6 @@ Since we allow rebasing, before you branch someone's feature branch, you need fi
 
 <https://blog.cloudflare.com/pipefail-how-a-missing-shell-option-slowed-cloudflare-down/>
 
-#### No 3.10+ only syntax for the time being
-
-Because we want an option to switch to 3.9-nogil.
-This can be dropped very easily, but please mention it beforehand.
-
 #### SemVer 2
 
 Described [here](https://semver.org/spec/v2.0.0.html)
