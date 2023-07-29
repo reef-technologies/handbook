@@ -220,6 +220,8 @@ Using Hubstaff TODOs only takes seconds to get right, and there are a few reason
 5. In Poland, in some tax accounting modes, there are different rates for development phases such as design, implementation, sysadmin work, and coordination.
    Billing a feature and its development phase allows you to pay the proper taxes properly.
 
+When working on a Jira issue, prefix the TODO with the Jira issue key. The issue key should be in ALL CAPS. For example, if the Jira issue key is `RT-12`, then the TODO becomes: `RT-12 some text describing the TODO`.
+
 ## Why we use a time tracker
 
 It may seem weird, but actually RT is not the only consulting business out there.
