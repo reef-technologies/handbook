@@ -83,7 +83,7 @@ At any organization, sensitive and critical HR decisions sometimes need to be ma
 The HR Circle is endowed with specific authorities:
 
 - **Termination of Staff Members**: The HR Circle has the authority to terminate any staff member at its sole discretion, with the exception of the Sociocracy Circle members, unless special conditions apply.
-- **Termination of Sociocracy Circle Members**: The HR Circle may also terminate a Sociocracy Circle member, but only in urgent situations, such as sabotage. The decision must be explained to the Sociocracy Circle afterward.
+- **Termination of Sociocracy Circle Members**: The HR Circle may also terminate a Sociocracy Circle member, but only in urgent situations, such as sabotage, theft, gross violation of the terms of legal agreement etc. The decision must be explained to the Sociocracy Circle afterward.
 
 ### Notes:
 
