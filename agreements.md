@@ -88,7 +88,7 @@ The HR Circle is endowed with specific authorities:
 ### Notes:
 
 - While the Sociocracy Circle does not need to be involved in the decision-making process for terminating a staff member, the HR Circle may consult with them if there is uncertainty or concern about potential reactions.
-- If a Sociocracy Circle member's termination is being considered, they are allowed to be present in the discussion.
+- If a Sociocracy Circle member's (non-urgent) termination is being considered, they are allowed to be present in the discussion.
 
 ## Bug zoo
 
