@@ -80,7 +80,7 @@ The cycle continues, and we all gain a better understanding of the values we wan
 
 At any organization, sensitive and critical HR decisions sometimes need to be made with privacy, care, and discretion. To handle these complex matters in Reef Technologies, we have established a HR Circle - a sub-group within the wider "root" Sociocracy circle, staffed by those few of us who have the necessary level of experience to not just do the right thing, but to do it the right way.
 
-The HR Circle is a small, specialized group within the company, endowed with specific authorities:
+The HR Circle is endowed with specific authorities:
 
 - **Termination of Staff Members**: The HR Circle has the authority to terminate any staff member at its sole discretion, with the exception of the Sociocracy Circle members.
 - **Termination of Sociocracy Circle Members**: The HR Circle may also terminate a Sociocracy Circle member, but only in urgent situations, such as sabotage. The decision must be explained to the Sociocracy Circle afterward.
