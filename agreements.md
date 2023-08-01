@@ -76,6 +76,20 @@ how we deal with challenges, solve problems, and make decisions.
 As new members spend more time at the company, they may come up with their own stories to tell… which will be read by a yet newer member in the future.
 The cycle continues, and we all gain a better understanding of the values we want this company to present.
 
+## HR Circle
+
+At Reef Technologies, sensitive and critical HR decisions sometimes need to be made with privacy, care, and discretion. To handle these complex matters, we have established a HR Circle, that is a small group within the wider Sociocracy Circle.
+
+The HR Circle is a small, specialized group within the company, endowed with specific authorities:
+
+- **Termination of Staff Members**: The HR Circle has the authority to terminate any staff member at its sole discretion, with the exception of the Sociocracy Circle members.
+- **Termination of Sociocracy Circle Members**: The HR Circle may also terminate a Sociocracy Circle member, but only in urgent situations, such as sabotage. The decision must be explained to the Sociocracy Circle afterward.
+
+### Notes:
+
+- While the Sociocracy Circle does not need to be involved in the decision-making process for terminating a staff member, the HR Circle may consult with them if there is uncertainty or concern about potential reactions.
+- If a Sociocracy Circle member's termination is being considered, they are allowed to be present in the discussion.
+
 ## Bug zoo
 
 There is no way to prevent bugs altogether, but we’d rather avoid repeatedly coming across the same ones.
