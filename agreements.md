@@ -78,7 +78,7 @@ The cycle continues, and we all gain a better understanding of the values we wan
 
 ## HR Circle
 
-At Reef Technologies, sensitive and critical HR decisions sometimes need to be made with privacy, care, and discretion. To handle these complex matters, we have established a HR Circle, that is a small group within the wider Sociocracy Circle.
+At any organization, sensitive and critical HR decisions sometimes need to be made with privacy, care, and discretion. To handle these complex matters in Reef Technologies, we have established a HR Circle - a sub-group within the wider "root" Sociocracy circle, staffed by those few of us who have the necessary level of experience to not just do the right thing, but to do it the right way.
 
 The HR Circle is a small, specialized group within the company, endowed with specific authorities:
 
