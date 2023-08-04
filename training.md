@@ -247,6 +247,7 @@ WindowsPath('C:/Windows/system')
 - ijson.backends.yajl2\_c - iterative json parser capable of going through a 0.5TB json, maybe use cython to run it quickly.
 - <https://www.dabeaz.com/python/UnderstandingGIL.pdf> - GIL War
 - <https://tenthousandmeters.com/blog/python-behind-the-scenes-13-the-gil-and-its-effects-on-python-multithreading/> - state of the GIL in 2021
+- <https://www.linkedin.com/posts/danilovmy_euro-python-2023-ended-today-i-had-a-great-activity-7088241937048047616-4VJ-/> - generators look nice but decrease performance due to context switching
 
 ### junior quality assurance engineers
 
