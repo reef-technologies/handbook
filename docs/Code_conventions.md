@@ -80,6 +80,11 @@ We skip it after `**kwargs` as no argument will ever follow it.
 
 Use [Semantic Line Breaks](https://sembr.org/) whenever line breaks do not influence rendered document.
 
+### TODOs should be linked to Issue Tracker
+
+Each comment containing todo note should start with Jira issue key (or GitHub `#123` equivalent), e.g. `# TODD JIRA-123 move this to Settings class`.
+TODOs without issue key are not allowed to be merged into main branch.
+
 ### Copying Code
 
 Always mention the license of the source code which is copied.
