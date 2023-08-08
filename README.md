@@ -288,6 +288,10 @@ This guide will show how to set up a standard, secure environment for software d
 The handbook is written with Ubuntu-based distros (e.g. [Linux Mint](https://www.linuxmint.com/download.php)) in mind.
 Using such will help save time, but in the end, it is individual's responsibility to maintain a productive working environment.
 
+**Fully secured environment as described by this document is not needed for initial Trial tasks.**
+
+It is needed beyond 2nd stage of Trial, i.e. when you start working on clients' tasks.
+
 ## Encryption
 
 Due to the variety of operating systems used by our team, we do not impose a specific solution.
@@ -298,15 +302,13 @@ For macOS, you can use built-in FileVault encryption.
 In case you have no preferences, we recommend using [VeraCrypt](https://www.veracrypt.fr/en/Home.html).
 A step-by-step instruction for the installation process can be found [here](docs/VeraCrypt.md).
 
-## 3. Configuring your development environment
+## Configuring your development environment
 
 > **Note** This section applies only to Software Developer positions after the 1st stage of the Trial Period.
 
 Follow the instructions laid out in [Development environment setup](docs/Developer_environment_setup.md).
 
-## 5. Configure your Google Account and GitHub
-
-Since you've already configured your virtual machine, any logon to company accounts is done through the VM.
+## Configure your Google Account and GitHub
 
 ### Enable 2-step authorization for your Google Account
 

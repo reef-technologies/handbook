@@ -14,7 +14,7 @@ You are expected to watch or read everything that matches your position within t
 
 # Trial candidates
 
-This section is for the trial candidates in the second of three stages of the trial (after 567 and IoT db design have been checked and the paper version of the legal agreement has started to be processed).
+This section is for the trial candidates in the 2nd stage of the Trial period (after Trial tasks 1-3).
 The rest of the sections are meant for after-trial staff.
 
 - <https://youtu.be/ZQUxL4Jm1Lo> - What is imposter syndrome and how can you combat it?
