@@ -76,7 +76,7 @@ Due to its ease of use, we recommend VeraCrypt by default, for which a simple tu
 If you want to learn more about available options, please refer to the [Storage Encryption](docs/Storage_Encryption.md) document.
 
 If you plan to connect your mobile device to any work-related accounts, first make sure that you will be able to provide a documentation that your device is encrypted and is actively supported (i.e. receives regular security updates).
-Most modern Apple and Android devices support encryption, but older devices or ones without configured passcode might not.
+Most modern Apple and Android 10+ devices support encryption, but older devices or ones without configured passcode might not.
 
 So to sum it up:
 
