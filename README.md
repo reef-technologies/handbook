@@ -75,14 +75,18 @@ Our second recommendation is Volume Encryption, a method that encrypts only the 
 Due to its ease of use, we recommend VeraCrypt by default, for which a simple tutorial can be found [here](https://github.com/reef-technologies/handbook/blob/master/docs/VeraCrypt.md).
 If you want to learn more about available options, please refer to the [Storage Encryption](docs/Storage_Encryption.md) document.
 
-If you plan to connect your mobile device to any work-related accounts, first make sure that you will be able to provide a documentation that your device is encrypted and is actively supported (i.e. receives regular security updates).
-Most modern Apple and Android 10+ devices support encryption, but older devices or ones without configured passcode might not.
-
 So to sum it up:
 
-- Software Developers during their 1st stage of Trial period are not required to set up Storage Encryption nor Secure Work Environment.
-- Software Developers **after** completing 1st stage of Trial period are required to set up a Secure Work Environment on their workstations.
-- All other roles (e.g. Virtual Assistants) are required to use Storage Encryption (go to [Storage Encryption](docs/Storage_Encryption.md) for more details).
+- Software Developers **after** completing 2nd stage of Trial period (i.e. are about to work with Clients' code) are required to set up [Secure Work Environment](docs/Developer_environment_setup.md#ensure-you-have-a-secure-work-environment) on their workstations.
+- All other roles (e.g. Virtual Assistants) are required to use [Storage Encryption](docs/Storage_Encryption.md).
+
+### Mobile devices
+
+If you plan to connect your mobile device to any work-related accounts, first make sure:
+
+- your device is password-protected - i.e. has a passcode or a biometric lock
+- is encrypted - modern Apple and Android 10+ devices support encryption, but older devices or ones without configured passcode might not
+- is actively supported - i.e. receive regular security updates (check last update date in system settings and with your device provider)
 
 ### 2FA
 
