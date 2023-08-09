@@ -222,7 +222,8 @@ Using Hubstaff TODOs only takes seconds to get right, and there are a few reason
 
 When working on a Jira issue, prefix the TODO with the Jira issue key.
 The issue key should be in ALL CAPS.
-For example, if the Jira issue key is `RT-12`, then the TODO becomes: `RT-12 some text describing the TODO`.
+For example, if the Jira issue key is `RT-12`, then the TODO becomes:
+`RT-12 some text describing the TODO`.
 
 ## Why we use a time tracker
 
@@ -472,18 +473,18 @@ During your Trial period you will be invited to attend and participate at least 
 
 ### 6.2 Daily Stand-ups
 
-Every day, our developers come together to synchronize on project progress and potential challenges. 
+Every day, our developers come together to synchronize on project progress and potential challenges.
 This daily stand-up follows a structured format where each participant addresses three key questions:
 
 1. What did they accomplish yesterday?
 2. What is on their agenda for today?
 3. Are there any obstacles in their way?
 
-Each team member is allocated 2 minutes to succinctly cover these three points. 
-To maintain the efficiency of the stand-up, we strive to keep open discussions to a minimum. 
+Each team member is allocated 2 minutes to succinctly cover these three points.
+To maintain the efficiency of the stand-up, we strive to keep open discussions to a minimum.
 Any topic necessitating a longer conversation is earmarked for a separate follow-up meeting.
 
-If, for any reason, you cannot attend the daily stand-up, please notify the team in the #staff channel on Slack. 
+If, for any reason, you cannot attend the daily stand-up, please notify the team in the #staff channel on Slack.
 Additionally, post your updates there so everyone stays informed.
 
 ### 6.3 Video hand signal protocol
