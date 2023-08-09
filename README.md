@@ -66,7 +66,7 @@ UPDATE: A fully encrypted laptop of our senior developer has been stolen from hi
 All data pertaining to the company and its clients must be either stored in the cloud (specifically, Google Drive/Docs/Sheets within the company domain) or on encrypted media (an encrypted volume or drive).
 This excludes data categorized as being of no value or already publicly available.
 
-In addition, Developers roles (after 1nd stage of Trial period i.e. finishing Trial task#3) are required to set up a Secure Work Environment on their workstations.
+In addition, developers (after 2nd stage of Trial period i.e. that are about to start working on our clients' code base) are required to set up a Secure Work Environment on their workstations.
 This is both for additional security and improved focus.
 
 Setting up Storage Encryption might initially appear daunting, but rest assured that it is fairly straightforward process.
