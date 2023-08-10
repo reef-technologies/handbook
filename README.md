@@ -480,7 +480,7 @@ This daily stand-up follows a structured format where each participant addresses
 2. What is on their agenda for today?
 3. Are there any obstacles in their way?
 
-Each team member is allocated 2 minutes to succinctly cover these three points.
+Each team member is allocated 3 minutes to succinctly cover these three points.
 To maintain the efficiency of the stand-up, we strive to keep open discussions to a minimum.
 Any topic necessitating a longer conversation is earmarked for a separate follow-up meeting.
 
