@@ -222,7 +222,8 @@ Using Hubstaff TODOs only takes seconds to get right, and there are a few reason
 
 When working on a Jira issue, prefix the TODO with the Jira issue key.
 The issue key should be in ALL CAPS.
-For example, if the Jira issue key is `RT-12`, then the TODO becomes: `RT-12 some text describing the TODO`.
+For example, if the Jira issue key is `RT-12`, then the TODO becomes:
+`RT-12 some text describing the TODO`.
 
 ## Why we use a time tracker
 
@@ -455,8 +456,6 @@ Therefore, we should all use clear pictures from the beginning.
 
 Every week, we hold two internal calls:
 Status call and a Sociocracy call.
-These two meetings are exceptions to our asynchronicity.
-Depending on the project and the client you work for, additional calls may be needed, but we try to keep them to a minimum.
 
 The purpose of these two calls, briefly speaking, is:
 
@@ -472,7 +471,23 @@ All that we can get to know each other better, build trust, have fun and acknowl
 
 During your Trial period you will be invited to attend and participate at least once in these calls.
 
-### 6.2 Video hand signal protocol
+### 6.2 Daily Stand-ups
+
+Every day, our developers come together to synchronize on project progress and potential challenges.
+This daily stand-up follows a structured format where each participant addresses three key questions:
+
+1. What did they accomplish yesterday?
+2. What is on their agenda for today?
+3. Are there any obstacles in their way?
+
+Each team member is allocated 3 minutes to succinctly cover these three points.
+To maintain the efficiency of the stand-up, we strive to keep open discussions to a minimum.
+Any topic necessitating a longer conversation is earmarked for a separate follow-up meeting.
+
+If, for any reason, you cannot attend the daily stand-up, please notify the team in the #staff channel on Slack.
+Additionally, post your updates there so everyone stays informed.
+
+### 6.3 Video hand signal protocol
 
 We use simple hand signals during video calls to communicate more efficiently.
 
@@ -490,7 +505,7 @@ This way, the situation is clear at a glance.
 In the past, we used to show signs for a moment, but then the quick responders hid their signals before the slow ones started signing and the situation was not clear.
 Now we all hold the sign until we're sure of the consent.
 
-### 6.3 Communication channels
+### 6.4 Communication channels
 
 When you need to contact one of your Reef teammates, you have three channels to choose from:
 Slack, text message, and phone call.
@@ -505,7 +520,7 @@ We expect you to respect our contact preferences too.
 We don't really use email for communications, as some people don't check it too often.
 If you need to be sure that someone sees your email, ping them on Slack.
 
-### 6.4 Instant messengers
+### 6.5 Instant messengers
 
 For business communications, we use Slack and [Zoom](https://zoom.us).
 You may use them in your browser, but they are usually installed on **the host computer** for convenience.
