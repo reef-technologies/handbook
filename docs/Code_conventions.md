@@ -63,6 +63,10 @@ As above - it should be possible to use stuff without reading its code.
 
 <https://peps.python.org/pep-0008/>
 
+### PEP257 for docstrings
+
+<https://peps.python.org/pep-0257/>
+
 ### Trailing commas on multiline statements
 
 See [here](https://stackoverflow.com/a/17492103/1935381).
