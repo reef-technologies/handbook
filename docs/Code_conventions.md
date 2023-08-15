@@ -58,6 +58,7 @@ We try to use it at least for all new public functions.
 ### Docstrings for everything public
 
 As above - it should be possible to use stuff without reading its code.
+We follow [PEP257](https://peps.python.org/pep-0257/) for docstring conventions.
 
 ### PEP8
 
