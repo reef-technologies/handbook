@@ -18,7 +18,6 @@ Accessing these containers from personal environments is prohibited to maintain 
 
 As for personal/work separation, we recommend using a separate machine (Virtual or physical) or dual-booting.
 It is not recommended, but you may use multi-user setup to isolate personal and work-related applications, but take special care as it is hard to prevent personal accounts, with for example, `docker` access from accessing ANY other account on the system.
-Setups where root-level access is shared between personal and work accounts are strictly prohibited.
 
 # System setup
 
