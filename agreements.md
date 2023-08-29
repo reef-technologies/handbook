@@ -45,7 +45,7 @@ This is an agreed upon gentle reminder, that carries no criticism or hard feelin
 
 2. Other team members may react to the message in the following ways:
 
-- 👎 (`:thumbsdown:`) downvote emoji – “I am busy and cannot help you right now”,
+- ⌛ (`:hourglass:`) – “I am busy and cannot help you right now – but I'll come back as soon as possible”,
 - 👀 (`:eyes:`) – “I am reviewing your code now”,
 - ✅ (`:white_check_mark:`) – “I have reviewed your code”,
 - 🔒 (`:lock:`) – “I don't have permission to access this project”.
@@ -58,6 +58,7 @@ Developers should also take into consideration the following rules:
 - Only one developer should perform a code review for each code snippet posted to the `#review` channel.
   Therefore, if someone has already posted the eyes emoji, other staff members should ignore the post and carry on with their work.
 - Any team member may review any post – there is no preference as to who should do that.
+- If your PR wasn't reviewed before the daily standup – either someone should volunteer or volunteered.
 - Each post is a separate review round, so any developer may respond, even if they did not review the previous iterations.
 - It is recommendable for different developers to look at the subsequent iterations of the same code, as it may help catch bugs or look at the code differently.
 - If a staff member realizes that everyone has refused to review a post, they should escalate the issue and discuss it with the team.
