@@ -58,7 +58,7 @@ Developers should also take into consideration the following rules:
 - Only one developer should perform a code review for each code snippet posted to the `#review` channel.
   Therefore, if someone has already posted the eyes emoji, other staff members should ignore the post and carry on with their work.
 - Any team member may review any post – there is no preference as to who should do that.
-- If your PR wasn't reviewed before the daily standup – either someone should volunteer or volunteered.
+- If your PR wasn't reviewed before the daily standup – either someone should volunteer or be picked for the PR.
 - Each post is a separate review round, so any developer may respond, even if they did not review the previous iterations.
 - It is recommendable for different developers to look at the subsequent iterations of the same code, as it may help catch bugs or look at the code differently.
 - If a staff member realizes that everyone has refused to review a post, they should escalate the issue and discuss it with the team.
@@ -79,12 +79,16 @@ The cycle continues, and we all gain a better understanding of the values we wan
 
 ## HR Circle
 
-At any organization, sensitive and critical HR decisions sometimes need to be made with privacy, care, and discretion. To handle these complex matters in Reef Technologies, we have established a HR Circle - a sub-group within the wider "root" Sociocracy circle, staffed by those few of us who have the necessary level of experience to not just do the right thing, but to do it the right way.
+At any organization, sensitive and critical HR decisions sometimes need to be made with privacy, care, and discretion.
+To handle these complex matters in Reef Technologies, we have established a HR Circle - a sub-group within the wider "root" Sociocracy circle, staffed by those few of us who have the necessary level of experience to not just do the right thing, but to do it the right way.
 
 The HR Circle is endowed with specific authorities:
 
-- **Termination of Staff Members**: The HR Circle has the authority to terminate any staff member at its sole discretion, with the exception of the Sociocracy Circle members, unless special conditions apply.
-- **Termination of Sociocracy Circle Members**: The HR Circle may also terminate a Sociocracy Circle member, but only in urgent situations, such as sabotage, theft, gross violation of the terms of legal agreement etc. The decision must be explained to the Sociocracy Circle afterward.
+- **Termination of Staff Members**:
+  The HR Circle has the authority to terminate any staff member at its sole discretion, with the exception of the Sociocracy Circle members, unless special conditions apply.
+- **Termination of Sociocracy Circle Members**:
+  The HR Circle may also terminate a Sociocracy Circle member, but only in urgent situations, such as sabotage, theft, gross violation of the terms of legal agreement etc.
+  The decision must be explained to the Sociocracy Circle afterward.
 
 ### Notes:
 
