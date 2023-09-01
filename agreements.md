@@ -45,7 +45,7 @@ This is an agreed upon gentle reminder, that carries no criticism or hard feelin
 
 2. Other team members may react to the message in the following ways:
 
-- ⌛ (`:hourglass:`) – “I am busy and cannot help you right now – but I'll come back as soon as possible”,
+- 👋 (`:wave:`) – “I  cannot help you right now”,
 - 👀 (`:eyes:`) – “I am reviewing your code now”,
 - ✅ (`:white_check_mark:`) – “I have reviewed your code”,
 - 🔒 (`:lock:`) – “I don't have permission to access this project”.
