@@ -58,7 +58,7 @@ Developers should also take into consideration the following rules:
 - Only one developer should perform a code review for each code snippet posted to the `#review` channel.
   Therefore, if someone has already posted the eyes emoji, other staff members should ignore the post and carry on with their work.
 - Any team member may review any post – there is no preference as to who should do that.
-- If your PR wasn't reviewed before the daily standup – either someone should volunteer or be picked for the PR.
+- If your PR wasn't marked with 👀 or ✅ before daily standup you must pick Code Reviewer during the daily.
 - Each post is a separate review round, so any developer may respond, even if they did not review the previous iterations.
 - It is recommendable for different developers to look at the subsequent iterations of the same code, as it may help catch bugs or look at the code differently.
 - If a staff member realizes that everyone has refused to review a post, they should escalate the issue and discuss it with the team.
