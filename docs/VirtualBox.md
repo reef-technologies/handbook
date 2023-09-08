@@ -24,10 +24,12 @@ Note that the virtual machine disk file should reside on the encrypted volume!
 
 ![](images/virtualbox_06.png)
 
-Depending on your computer hardware, it is recommended to increase the number of cores used by the virtual machine and memory for graphics:
+Depending on your computer hardware, it is recommended to increase the number of cores used by the virtual machine and memory for graphics. Default of 16MB only allows for 1080p and if you try to go above that, you'll get a black screen. 32MB is enough to display more, but 128MB is recommended. PAE/NX might be disabled by default - make sure it's enabled (impacts performance).
 
 ![](images/virtualbox_07.png)
 
 ![](images/virtualbox_08.png)
 
 Guide on resizing linux partitions in case you'd need to grow the device can be found [here](https://www.vultr.com/docs/block-storage#:~:text=Resize%20the%20filesystem%20-%20Linux)
+
+VirtualBox guest additions from the "CD" that comes with VirtualBox works better than what you can get fromm `apt`.
