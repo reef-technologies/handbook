@@ -35,4 +35,4 @@ PAE/NX might be disabled by default - make sure it's enabled (impacts performanc
 
 Guide on resizing linux partitions in case you'd need to grow the device can be found [here](https://www.vultr.com/docs/block-storage#:~:text=Resize%20the%20filesystem%20-%20Linux)
 
-VirtualBox guest additions from the "CD" that comes with VirtualBox works better than what you can get fromm `apt`.
+VirtualBox guest additions from the "CD" that comes with VirtualBox works better than what you can get from `apt`.
