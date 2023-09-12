@@ -1,6 +1,6 @@
 # What is this about?
 
-When you join the company (after successfully completing trial period), we need to bring you up to our level, or maybe you need to bring us to your level.
+When you join the company (after successfully completing evaluation period), we need to bring you up to our level, or maybe you need to bring us to your level.
 ;) We believe that the best way to make sure we're on the same page is to show you some videos and articles, so here they are.
 Bill the time spent doing this to `RT / onboarding`.
 Please put the title of the video or article into the work subject note.
@@ -10,12 +10,12 @@ You're free to adjust your pace to the speed of your initial transition into the
 If the transition is quick (you do lots of coding on your first day), slow it down and watch some training material every day.
 If the transition is slow due to questions, timezones, environment issues, and other blocking problems, then report those and watch some training material.
 
-You are expected to watch or read everything that matches your position within two weeks from starting the work with the company (after trial period is finished completely).
+You are expected to watch or read everything that matches your position within two weeks from starting the work with the company (after evaluation period is finished completely).
 
-# Trial candidates
+# Evaluation period candidates
 
-This section is for the trial candidates in the 2nd stage of the Trial period (after Trial tasks 1-3).
-The rest of the sections are meant for after-trial staff.
+This section is for the evaluation period candidates in the 2nd stage of the Evaluation period (after Evaluation tasks 1-3).
+The rest of the sections are meant for after-evaluation staff.
 
 - <https://youtu.be/ZQUxL4Jm1Lo> - What is imposter syndrome and how can you combat it?
   (5 min video);

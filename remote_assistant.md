@@ -42,7 +42,7 @@ If getting paid for learning new things every day sounds fun... You'll also enjo
   Both early birds and night owls will feel comfortable, and you can do the job from whichever timezone
 - We work full-time or 6h/day.
   There is plenty of work and a healthy demand for our services on the market, but we protect our staff from overload
-- Combining this job with other employment is fine, but only temporarily, during the trial period.
+- Combining this job with other employment is fine, but only temporarily, during the evaluation period.
   We've found it to be unsustainable in the long term
 - There are no common office hours for everyone.
   We work at the time of our choosing, tracking our hours using a tool called Hubstaff

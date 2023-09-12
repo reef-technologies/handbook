@@ -206,8 +206,8 @@ After the value of the hardware meets one of the two conditions, the staff membe
 The hardware is never returned to Reef Technologies.
 In all cases, it remains with the individual.
 
-If a staff member on trial period requests hardware assistance, they will be assigned the company hardware that is currently available.
-After the trial period, the staff member is welcome to use the co-funding policy to buy the hardware of their own choice.
+If a staff member on evaluation period requests hardware assistance, they will be assigned the company hardware that is currently available.
+After the evaluation period, the staff member is welcome to use the co-funding policy to buy the hardware of their own choice.
 
 The hardware will belong to Reef Technologies until its value has decreased either by 50% or by the maximum co-funding value ($1536 or $512).
 
@@ -315,4 +315,4 @@ Reef Technologies pays only for the time which is tracked by company's time trac
 
 ## Referral fee $2048 for Senior Python Developer
 
-"If you as the staff member has contacted us with a potential candidate who passed the trial period and tracked at least 168h work later, referral fee will be paid for you - $2048".
+"If you as the staff member has contacted us with a potential candidate who passed the evaluation period and tracked at least 168h work later, referral fee will be paid for you - $2048".
