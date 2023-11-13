@@ -66,7 +66,8 @@ UPDATE: A fully encrypted laptop of our senior developer has been stolen from hi
 All data pertaining to the company and its clients must be either stored in the cloud (specifically, Google Drive/Docs/Sheets within the company domain) or on encrypted media (an encrypted volume or drive).
 This excludes data categorized as being of no value or already publicly available.
 
-In addition, developers (after 2nd stage of Trial period i.e. that are about to start working on our clients' code base) are required to set up a Secure Work Environment on their workstations.
+In addition, developers (after 2nd stage of Evaluation period i.e. before working on our clients' code base) are required to set up a Secure Work Environment on their workstations.
+As not to slow down 1st stage of Evaluation period, please refrain from setting it up before you get clear signal, that your next task will require you to work with private Client data.
 This is both for additional security and improved focus.
 
 Setting up Storage Encryption might initially appear daunting, but rest assured that it is fairly straightforward process.
@@ -77,7 +78,7 @@ If you want to learn more about available options, please refer to the [Storage 
 
 So to sum it up:
 
-- Software Developers **after** completing 2nd stage of Trial period (i.e. are about to work with Clients' code) are required to set up [Secure Work Environment](docs/Developer_environment_setup.md#ensure-you-have-a-secure-work-environment) on their workstations.
+- Software Developers **after** completing 2nd stage of Evaluation period (i.e. are about to work with Clients' code) are required to set up [Secure Work Environment](docs/Developer_environment_setup.md#ensure-you-have-a-secure-work-environment) on their workstations.
 - All other roles (e.g. Virtual Assistants) are required to use [Storage Encryption](docs/Storage_Encryption.md).
 
 ### Mobile devices
@@ -132,7 +133,7 @@ We employ several techniques to output a lot of value in a unit of time:
 
 This guide will show how to set up a time tracking app.
 
-It is needed for Trial period assignments.
+It is needed for Evaluation period assignments.
 
 ## Sign in to your new email account
 
@@ -178,7 +179,7 @@ The descriptions tell you where you should bill your RT time on Hubstaff.
 RT generally means "investment", RTO generally means "operations".
 
 | Project                                  | Description                                                                                                                                                                                                                                             |
-| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RT / content marketing                   | Write articles or blog posts under the company name and present the company to the outside world.                                                                                                                                                       |
 | RT / django cookiecutter template        | Develop our internal Django template.                                                                                                                                                                                                                   |
 | RTO / internal infrastructure management | Manage workspace setup, including creating encrypted partitions, installing virtual machines, and installing software **not tied to specific projects**. If it's related to any internal or external project then please bill the time on that project. |
@@ -189,7 +190,7 @@ RT generally means "investment", RTO generally means "operations".
 | RTO / sales                              | any pre-work needed to be done **before** the contract is signed with a client                                                                                                                                                                          |
 | RTO / nurturing client relationship      | Discuss upcoming projects with existing clients OR, theoretically, after-sales support on a fixed price project (we haven't had any since like 2019 and the guarantee expired already on these).                                                        |
 | RTO / recruitment                        | Actively recruit other people.                                                                                                                                                                                                                          |
-| RTO / trial period                       | First stage of the trial period, including status call and S3 participation, but not including internal development in second stage and real client tasks in third stage.                                                                               |
+| RTO / trial period                       | First stage of the Evaluation period, including status call and S3 participation, but not including internal development in second stage and real client tasks in third stage.                                                                          |
 | RT / recruitment                         | Improve the recruitment process.                                                                                                                                                                                                                        |
 | RTO / sociocracy meeting                 | Participate in sociocracy meetings and engage in related discussions on the channel.                                                                                                                                                                    |
 | RT / sociocracy development              | Contribute to sociocracy development as a tuner.                                                                                                                                                                                                        |
@@ -314,7 +315,7 @@ A step-by-step instruction for the installation process can be found [here](docs
 
 ## Configuring your development environment
 
-> **Note** This section applies only to Software Developer positions after the 1st stage of the Trial Period.
+> **Note** This section applies only to Software Developer positions after the 1st stage of the Evaluation period.
 
 Follow the instructions laid out in [Development environment setup](docs/Developer_environment_setup.md).
 
@@ -380,7 +381,7 @@ We are a fully remote team with some members that not ever met one another in pe
 Therefor it is even more important for us to invest that extra time (and therefore money).
 All that we can get to know each other better, build trust, have fun and acknowledge that we more than "just" excellent problem solvers.
 
-During your Trial period you will be invited to attend and participate at least once in these calls.
+During your Evaluation period you will be invited to attend and participate at least once in these calls.
 
 ### 6.2 Daily Stand-ups
 
