@@ -569,10 +569,10 @@ srm -fllz -r -v <directory>
 
 (you can skip `-r` for single file or `-v` if you don't care about verbosity - `-fllz` is the fastest possible way to run `srm` and it is safe due to encrypted drive and also modern ways of storing data in hard drives - default full *Gutmann method* is not needed)
 
-To remove the docker containers created while working on a project, please use the following command (get `dockerkill.sh` from the bin directory of this repo):
+To remove the docker resources created while working on a project, please use:
 
-```bash
-./dockerkill.sh <container-name>
+```
+docker-compose down --rmi all --remove-orphans -v
 ```
 
 # FAQ - Frequently Asked Questions
