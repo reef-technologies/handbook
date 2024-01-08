@@ -550,6 +550,14 @@ Whenever you're taking some days off, it's important to let other team members k
 - If it's some time you're planning to take off in the future, please mention that on a status call.
 - We work asynchronously, so unless someone is waiting for you, you don't need to announce it whenever you leave for 2 hours or so.
 
+### 7.4 Client and project specific documentation
+
+You won't find any client-specific documentation in this handbook.
+In general, we try to keep the client-specific documentation in the client's repository.
+The basic idea is that if a client decides to switch to another vendor, they should have all the documentation they need to do so.
+To reduce bus-factor, we keep references to these repositories in https://github.com/reef-technologies/internal-handbook .
+This repository should be first thing you look at when you are assigned to new project.
+
 ## 8. Tools
 
 ### Secure delete
