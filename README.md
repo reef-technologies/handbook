@@ -555,7 +555,7 @@ Whenever you're taking some days off, it's important to let other team members k
 You won't find any client-specific documentation in this handbook.
 In general, we try to keep the client-specific documentation in the client's repository.
 The basic idea is that if a client decides to switch to another vendor, they should have all the documentation they need to do so.
-To reduce bus-factor, we keep references to these repositories in https://github.com/reef-technologies/internal-handbook .
+To reduce bus-factor, we keep references to these repositories along with whom to contact to get access etc in https://github.com/reef-technologies/internal-handbook .
 This repository should be first thing you look at when you are assigned to new project.
 
 ## 8. Tools
