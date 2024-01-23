@@ -65,6 +65,7 @@ The rest of the sections are meant for after-evaluation staff.
 - <https://youtu.be/502ILHjX9EE> - Henrik Kniberg - Agile Product Ownership in a Nutshell (16 min video);
 - <https://threader.app/thread/1376985854229504007> - This is a story about how I lost $10,000,000 by doing something stupid
 - <https://hbr-org.cdn.ampproject.org/c/s/hbr.org/amp/2016/12/if-your-boss-could-do-your-job-youre-more-likely-to-be-happy-at-work> - If Your Boss Could Do Your Job, You’re More Likely to Be Happy at Work
+- <https://youtube.com/watch?v=I2G3OftfsfA> - Developer vs Engineer mindset
 
 ## Business travel
 
