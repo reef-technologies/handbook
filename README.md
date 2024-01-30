@@ -288,11 +288,11 @@ As of writing this, the number of times the tracker was instrumental in preventi
 UPDATE: this counter stopped incrementing in mid-2018 when we changed the target client group.
 It seems that "better" clients don't really care about the time, but they do care about results.
 The CEO even wanted to disable the screenshot feature of the tracker in early 2020, but others said they use it to inspect their own diary at the end of the day, and after a short discussion, everyone said they don't really care about it, so we just left it as it was.
+
 It seems that nobody has reviewed a screenshot since July 2018, except for people reviewing their own thing at the end of the day.
 Being able to easily recover from a situation where you have accidentally billed a client for doing something private (as you forgot to pause the timer) is nice and in line with the company values.
 
-However, we have noticed that some candidates feel uncomfortable with a 3rd party application collecting screenshots.
-After a discussion in 2024 January, we decided that if a fitting candidate is unhappy with the current setup, we'll invest time into creating a custom solution, one that would keep the employee in control of the screenshots. This could be done using encryption with employee's key or uploading to private buckets - the exact details will be decided once (and if) we need it.
+Some candidates feel uncomfortable with a 3rd party application collecting screenshots, and we are willing to accommodate that. If a fitting candidate is unhappy with the current setup, we'll invest time into creating a custom solution that would keep the employee in control of the screenshots. This could be done using encryption with the employee's key or uploading to private buckets - the exact details will be decided once (and if) we need it.d
 
 # Configuring the environment
 
