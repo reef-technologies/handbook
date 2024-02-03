@@ -292,7 +292,9 @@ The CEO even wanted to disable the screenshot feature of the tracker in early 20
 It seems that nobody has reviewed a screenshot since July 2018, except for people reviewing their own thing at the end of the day.
 Being able to easily recover from a situation where you have accidentally billed a client for doing something private (as you forgot to pause the timer) is nice and in line with the company values.
 
-Some candidates feel uncomfortable with a 3rd party application collecting screenshots, and we are willing to accommodate that. If a fitting candidate is unhappy with the current setup, we'll invest time into creating a custom solution that would keep the employee in control of the screenshots. This could be done using encryption with the employee's key or uploading to private buckets - the exact details will be decided once (and if) we need it.
+Some candidates feel uncomfortable with a 3rd party application collecting screenshots, and we are willing to accommodate that.
+If a fitting candidate is unhappy with the current setup, we'll invest time into creating a custom solution that would keep the employee in control of the screenshots.
+This could be done using encryption with the employee's key or uploading to private buckets - the exact details will be decided once (and if) we need it.
 
 # Configuring the environment
 
