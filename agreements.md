@@ -65,23 +65,16 @@ Developers should also take into consideration the following rules:
 
 ## Alerts channels
 
-The various "alerts" channels receive issue messages from running deployments. Each channel has an assignee who is responsible for monitoring messages that arrive on that channel.
+The various "alerts" channels receive issue messages from running deployments.
+In order to prevent alert blidness, each time new alert message appears it should be responded to. 
+Each channel has assigned people resposible for checking alerts appearing in them at least once per their workday.
 
-Similarly to the code review channel, the person responsible for a channel must properly annotate messages that indicate an issue using a proper reaction:
+Similarly to the code review channel, when reviewing an alert please following emoji reactions:
 - 👀 (`:eyes:`) – “I am looking at this right now”,
 - ✅ (`:white_check_mark:`) – “Issue resolved”,
-- 💤 (`:zzz:`) - “This doesn't require attention” / “This is already reported and will be addressed later”
 
-For a series of messages that arrive around the same time and are clearly related, it is enough to only react to the last message in the series.
-
-In order to allow us to take the alerts more seriously and make them less likely to be ignored, we must keep the alerts channels free from noise. Ideally, all messages that arrive on alerts channels should be actionable.
-
-**Staff members are encouraged to periodically skim through the alerts channels and do a quick checkup** on their state. It should be very easy to spot channels that are neglected:
-- No reactions at all
-- Lots of 💤 (issues being pushed back, too much noise)
-- 👀, but no resolution
-
-Discussions on specific issues may take place in a thread related to the discussed issue.
+Staff members should to periodically skim through the alerts channels and do a quick checkup on their state.
+It should be easy to spot channels that are neglected, i.e. without any reactions or just 👀, but no resolutions
 
 ## Maintaining organizational culture
 
