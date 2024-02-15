@@ -66,8 +66,8 @@ Developers should also take into consideration the following rules:
 ## Alerts channels
 
 The various "alerts" channels receive issue messages from running deployments.
-In order to prevent alert blidness, each time new alert message appears it should be responded to. 
-Each channel has assigned people resposible for checking alerts appearing in them at least once per their workday.
+In order to prevent alert blidness, each time new alert message appears it should be reacted to, i.e. resolved or silenced. 
+Each channel has assigned people (in the monkey registry) resposible for checking alerts appearing in them at least once per their workday. 
 
 Similarly to the code review channel, when reviewing an alert please following emoji reactions:
 - 👀 (`:eyes:`) – “I am looking at this right now”,
