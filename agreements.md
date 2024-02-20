@@ -63,6 +63,19 @@ Developers should also take into consideration the following rules:
 - It is recommendable for different developers to look at the subsequent iterations of the same code, as it may help catch bugs or look at the code differently.
 - If a staff member realizes that everyone has refused to review a post, they should escalate the issue and discuss it with the team.
 
+## Alerts channels
+
+The various "alerts" channels receive issue messages from running deployments.
+In order to prevent alert blidness, each time new alert message appears it should be reacted to, i.e. resolved or silenced. 
+Each channel has assigned people (in the monkey registry) resposible for checking alerts appearing in them at least once per their workday. 
+
+Similarly to the code review channel, when reviewing an alert please following emoji reactions:
+- 👀 (`:eyes:`) – “I am looking at this right now”,
+- ✅ (`:white_check_mark:`) – “Issue resolved”,
+
+Staff members should to periodically skim through the alerts channels and do a quick checkup on their state.
+It should be easy to spot channels that are neglected, i.e. without any reactions or just 👀, but no resolutions.
+
 ## Maintaining organizational culture
 
 The Reef Technologies Culture Book is a shared journal where we document company life, recording the most interesting events, challenges, solutions and decisions.
