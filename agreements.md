@@ -74,7 +74,7 @@ Similarly to the code review channel, when reviewing an alert please following e
 - ✅ (`:white_check_mark:`) – “Issue resolved”,
 
 Staff members should to periodically skim through the alerts channels and do a quick checkup on their state.
-It should be easy to spot channels that are neglected, i.e. without any reactions or just 👀, but no resolutions
+It should be easy to spot channels that are neglected, i.e. without any reactions or just 👀, but no resolutions.
 
 ## Maintaining organizational culture
 
