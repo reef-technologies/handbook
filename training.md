@@ -277,8 +277,6 @@ WindowsPath('C:/Windows/system')
 - <https://youtu.be/kKj4FA5EY5Q> - Simon Sinek:
   The Problem Does Not Equal the Person (3 min video);
 
-(3 min video);
-
 ## Managers
 
 - <https://youtu.be/yIPbE7BssOs> - Randall Koutnik:
