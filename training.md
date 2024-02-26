@@ -34,23 +34,21 @@ The rest of the sections are meant for after-evaluation staff.
 
 - <https://www.datadriveninvestor.com/2018/05/17/5-things-every-developer-must-know-about-intellectual-property-rights/#> - 5 Things Every Developer Must Know about Intellectual Property Rights (2 min read);
 
-- <https://management30.com/practice/celebration-grids/> - Celebration grid - Celebrate Learnings with Management 3.0 (6 min video);
-
-- <https://medium.com/@tadeumarinho/identifying-learning-from-problems-and-successes-with-celebration-grid-3b38244f07e9> - Celebration grid (5 min read);
-
 # All staff
 
-- <https://youtu.be/n7wH2XdOWpM> - AgileByExample 2016:
-  Henrik Kniberg - Keynote - Focus (or Stop Starting, Start Finishing) (44 min video);
-- <https://hbr.org/1999/11/management-time-whos-got-the-monkey> - "Management Time:
-  Who’s Got the Monkey?"
-  by William Oncken, Jr.Donald L. Wass (1974) (11 min read);
+For all staff _except_ those on evaluation / trial / training period.
+
+All of the items from "Evaluation period candidates" section, plus:
+
 - <http://randsinrepose.com/archives/be-unfailingly-kind/> - a 100% effective guide on how to work efficiently with people when you have no power over them (6 min read);
 - <https://youtu.be/eYMz-VOw4r8> - James Priest - Agile, decentralized Learning Organizations With Sociocracy 3.0 (BTW when he mentions the startup sitting at the front, that actually was our team, taking most of the front row) (30 min video);
 - <https://www.linkedin.com/pulse/77-elements-sociocracy-30-ewa-koprowska/> - Ewa Koprowska - 77 Elements of Sociocracy 3.0;
 - <https://www.ted.com/talks/derek_sivers_how_to_start_a_movement> - Derek Sivers - How to start a movement (3 min video);
 - <https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are> - this explains what cortisol is (21 min video);
 - <https://risk-engineering.org/concept/Rasmussen-practical-drift> - this explains a fairly critical viewpoint on the erosion of procedures;
+
+- <https://management30.com/practice/celebration-grids/> - Celebration grid - Celebrate Learnings with Management 3.0 (6 min video);
+- <https://medium.com/@tadeumarinho/identifying-learning-from-problems-and-successes-with-celebration-grid-3b38244f07e9> - Celebration grid (5 min read);
 
 # All staff that has anything to do with software development
 
