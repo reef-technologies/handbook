@@ -56,7 +56,5 @@
     aliases = !git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /'
 [push]
 	default = upstream
-[blame]
-    ignoreRevsFile = .git-blame-ignore-revs
 #[commit]
 #   gpgsign = true
