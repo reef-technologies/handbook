@@ -1,4 +1,6 @@
-#!/bin/bash -ux
+#!/bin/bash
+set -ux
+
 killall VBoxClient
 sleep 1
 /usr/bin/VBoxClient --clipboard
