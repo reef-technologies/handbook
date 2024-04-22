@@ -104,12 +104,14 @@ The restricted technologies are:
 
 1. Django GFK (generic foreign key)
 2. Django signals (please note that `transaction.on_commit()` hook is NOT a signal)
-3. Writing to `self.__class__`
+3. Writing to `self.__class__`.
+   As with any global state modification, it makes code hard to follow.
 4. `atexit.register()` (use `try: ... finally: ...` instead)
 5. Defaults for environment variables in `settings.py` (all defaults should be defined in `dev/.env.template` and `prod/.env.template`)
-6. By default, one should always use `BIGINT` for primary key field, unless there are special reasons to use other type.
+   This prevents misspells, as application will simply error out on start with simple to debug error.
+   This also means, we won't have different default values (one in settings.py, one in `env.template`) which would make things more confusing.
+6. Always use `BIGINT` for primary key field, for performance and scalability reasons.
 
-The reasoning behind this is that we usually prefer for the code to be structured differently and it's better to discuss this before implementation and not after.
 All of those technologies have their uses in good cases, but what we found is that often the alternative is more elegant, so in order to limit the amount of rewritten code, in those cases we choose to review the design before implementation.
 Design review is generally welcome and can save a lot of time, but in this case we have unanimously agreed it will be mandatory.
 
