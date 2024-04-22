@@ -77,6 +77,9 @@ We skip it after `**kwargs` as no argument will ever follow it.
 
 <https://sipb.mit.edu/doc/safe-shell/>
 
+Shell options should be set with explicit `set` (or, `shopt`) built-in command, not in the shebang, to ensure they are always set.
+When options are set in the shebang of a script, they are ignored when the script is directly invoked (like `bash script.sh`).
+
 ### SemBr
 
 Use [Semantic Line Breaks](https://sembr.org/) whenever line breaks do not influence rendered document.
