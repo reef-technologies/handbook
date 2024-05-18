@@ -184,6 +184,7 @@ If it does, watch it all.
 - <https://realpython.com/python38-new-features/> - cool new features in Python 3.8;
 - <https://realpython.com/python39-new-features/> - cool new features in Python 3.9;
 - <https://pypi.org/project/django-test-migrations/> - handling migration testing in Django (don't write it yourself);
+- <https://jcristharif.com/msgspec/benchmarks.html> - how to do json encoding/decoding but quickly
 
 Why pathlib is fun:
 
