@@ -52,7 +52,8 @@ We will not accept a project targeted to manipulate people, to rip people off, o
 
 ## Hourly Commitment and Core Staff Membership
 
-Core staff membership is optional and conditioned on meeting committed work hours. Membership is required to participate in the weekly status calls, S3 meetings, and Sociocracy sessions.
+Core staff membership is optional and conditioned on meeting committed work hours.
+Membership is required to participate in the weekly status calls, S3 meetings, and Sociocracy sessions.
 
 ### Daily and Weekly Commitments
 
