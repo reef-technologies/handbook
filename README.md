@@ -60,7 +60,10 @@ Membership is required to participate in the weekly status calls, S3 meetings, a
 - **Expected Daily Commitment**: 6 hours per working day, on average (excluding days off).
 - **Weekly Commitment**: To maintain core staff membership, you must work at least 90% of your weekly committed hours.
 
-If you fail to meet 90% of your weekly committed hours for two consecutive weeks, you will lose your core staff membership until you recover. Losing core staff membership does not remove you from Slack channels. If you lose core staff membership, you can still participate in S3 meetings by bringing a driver. You may also attend without a driver if necessary.
+If you fail to meet 90% of your weekly committed hours for two consecutive weeks, you will lose your core staff membership until you recover.
+Losing core staff membership does not remove you from Slack channels.
+If you lose core staff membership, you can still participate in S3 meetings by bringing a driver.
+You may also attend without a driver if necessary.
 
 Maintaining these commitments ensures that all team members contribute consistently, fostering a reliable and productive work environment.
 
