@@ -52,20 +52,18 @@ We will not accept a project targeted to manipulate people, to rip people off, o
 
 ## Hourly Commitment and Core Staff Membership
 
-Core staff membership is optional and conditioned on meeting committed work hours.
+We trust our core staff to self-organize their work hours, in a way fostering a reliable and productive work environment that enables us to consistently meet our obligations to our clients.
+To ensure this, the core staff membership is considered optional and conditioned on meeting committed work hours.
 Membership is required to participate in the weekly status calls, S3 meetings, and Sociocracy sessions.
 
 ### Daily and Weekly Commitments
 
-- **Expected Daily Commitment**: 6 hours per working day, on average (excluding days off).
+- **Expected Daily Commitment**: a minimum of 6 hours per working day, on average (excluding days off).
 - **Weekly Commitment**: To maintain core staff membership, you must work at least 90% of your weekly committed hours.
 
-If you fail to meet 90% of your weekly committed hours for two consecutive weeks, you will lose your core staff membership until you recover.
+Failing Weekly Commitment for two consecutive weeks, you will lose your core staff membership until you meet your Weekly Commitment.
 Losing core staff membership does not remove you from Slack channels.
 If you lose core staff membership, you can still participate in S3 meetings by bringing a driver.
-You may also attend without a driver if necessary.
-
-Maintaining these commitments ensures that all team members contribute consistently, fostering a reliable and productive work environment.
 
 ## Workspace safety / security
 
