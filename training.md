@@ -96,8 +96,9 @@ If it does, watch it all.
   \- The Testivus Answer;
 - <http://www.leanessays.com/2019/04/what-if-your-team-wrote-code-for-737.html?m=1> - on the difference between coders/programmers and developers/engineers
 - <https://blog.ploeh.dk/2020/10/05/fortunately-i-dont-squash-my-commits/> - good reason to not squash commits
-- <https://www.divio.com/blog/documentation/> basic knowledge of software documentation structure
-
+- <https://www.divio.com/blog/documentation/> - basic knowledge of software documentation structure
+- <https://bessey.dev/blog/2024/05/24/why-im-over-graphql/> - why not graphql
+- 
 #### all junior developers
 
 - <https://git-scm.com/book/> - how to git;
