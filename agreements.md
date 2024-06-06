@@ -47,7 +47,7 @@ This is an agreed upon gentle reminder, that carries no criticism or hard feelin
 
 - 👋 (`:wave:`) – “I cannot help you right now”,
 - 👀 (`:eyes:`) – “I am reviewing your code now”,
-- ✅ (`:white_check_mark:`) – “I have reviewed your code”,
+- ✅ (`:white_check_mark:`) – “I have reviewed your code” (warning: it only means "review is ready to be read" and NOT "ready to be merged"),
 - 🔒 (`:lock:`) – “I don't have permission to access this project”.
 
 Developers should also take into consideration the following rules:
@@ -62,6 +62,8 @@ Developers should also take into consideration the following rules:
 - Each post is a separate review round, so any developer may respond, even if they did not review the previous iterations.
 - It is recommendable for different developers to look at the subsequent iterations of the same code, as it may help catch bugs or look at the code differently.
 - If a staff member realizes that everyone has refused to review a post, they should escalate the issue and discuss it with the team.
+- The Author of the PR must take all Code Review comments into consideration, but as a Senior Engineer, they are expected to make a decision on how to address them. 
+- Reviewer MAY use https://conventionalcomments.org/ for clarity which comments are blocking or should be treated differently.
 
 ## Alerts channels
 
