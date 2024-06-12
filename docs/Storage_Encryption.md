@@ -32,3 +32,18 @@ Please note, the boot partition might not get actually be encrypted, but this is
 ## Volume Encryption
 
 Due to its ease of use, we recommend **VeraCrypt**, for which a simple tutorial can be found [here](https://github.com/reef-technologies/handbook/blob/master/docs/VeraCrypt.md).
+
+Or if you **already use** ZFS - it's as simple as:
+```bash
+    doas zfs create -o encryption=aes-256-gcm -o keyformat=passphrase -o keylocation=prompt -o mountpoint=legacy tank/work  
+    # enter password twice
+```
+
+and then you can use a helper script like so:
+```bash
+cat << EOF > ~/mount-work-volume
+doas zfs load-key tank/work
+doas mount -t zfs tank/work ~/Work
+EOF
+chmod +x ~/mount-work-volume
+```
