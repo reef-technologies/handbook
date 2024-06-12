@@ -350,8 +350,8 @@ To improve the security of our accounts, we require you to enable 2-step verific
 ### Create an account on GitHub
 
 Create a new account on GitHub.
-The suggested username is the first letter of your first name and your full last name, and the suffix `-reef`, eg.
-`jkowalski-reef` or `asmith-reef`.
+The suggested username is the same as one used in your reef email (replace dots with hyphens) with added -reef suffix, eg.
+`jan-kowalski-reef` or `adam-smith-reef`.
 
 2-step authorization should be enabled as well.
 If you don't enable it (or if you disable it - which is crazy, but technically possible), a periodic audit will catch you and you will make the auditor very sad 😭.
