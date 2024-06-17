@@ -176,14 +176,16 @@ This solution is meant to allow the team to auto-calibrate and recognize what co
 If the offensive comment is seen as severe and above the grade of this agreement, it will be raised to the HR circle to decide on further steps.
 Fortunately, so far, there have been no such situations.
 
-## Audio/video processing in Zoom calls
+## Audio/Video processing in Zoom calls
 
-It is not allowed to use audio or video processing in company Zoom calls.
-The only exception to this rule is the active noise cancellation function, which staff members may use freely.
+Using audio or video processing in company Zoom calls is generally not allowed,
+with the following exceptions:
 
-The reason we decided to make this policy was that it was distracting for some people.
-We also noticed that poor video processing without green screen and with loose hair causes flickering and it often hides half of someones face behind the virtual background.
-This also happens with blur.
+1. Active noise cancellation.
+2. Blurred backgrounds.
+
+This policy aims to minimize distractions during calls.
+We've observed that certain video effects, especially those used without a green screen or with loose hair, can cause flickering and partially obscure participants' faces.
 
 ## Hardware co-funding
 
