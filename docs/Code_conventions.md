@@ -93,6 +93,11 @@ TODOs without issue key are not allowed to be merged into main branch.
 
 Always mention the license of the source code which is copied.
 
+### Package naming (package, repository, etc.)
+
+For consistency, use exactly the same package name, written using `kebab-case`, everywhere (e.g. github repo name, PyPI dist name).
+Use exactly same name, but with `_` instead of `-` for package name in Python code and other place where `-` is not allowed.
+
 ### Don't use stuff from forbidden technology list without prior discussion
 
 See the next section
