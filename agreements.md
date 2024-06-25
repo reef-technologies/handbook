@@ -185,7 +185,6 @@ To manage situations where feedback may seem nonconstructive, we will use the fo
   “Could you please rephrase your concern in a more constructive way?”
 - The person who provided the feedback should then respond with:
   “Sorry” and rephrase their feedback in a more constructive manner.
-- No further comments or defenses should be made by others present.
 - We take a brief moment to reflect on the request and response, then continue with the discussion.
 
 ### Example 1
