@@ -179,9 +179,9 @@ Fortunately, so far, there have been no such situations.
 ## Constructive feedback
 
 We aim to maintain a positive work environment where feedback is given constructively to promote growth and improvement.
-To manage situations where feedback might come across as negative or aggressive, we will use the following procedure:
+To manage situations where feedback may seem nonconstructive, we will use the following procedure:
 
-- If someone feels that feedback is too negative or aggressive towards any staff member, they should say:
+- If someone feels that feedback is overly negative or aggressive towards any staff member, they should say:
   “Could you please rephrase your concern in a more constructive way?”
 - The person who provided the feedback should then respond with:
   “Sorry” and rephrase their feedback in a more constructive manner.
