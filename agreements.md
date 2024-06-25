@@ -178,7 +178,7 @@ Fortunately, so far, there have been no such situations.
 
 ## Constructive feedback
 
-We aim to maintain a positive work environment where feedback is given constructively to promote growth and improvement.
+We aim to maintain a positive work environment where feedback is given constructively to promote improvement.
 To manage situations where feedback may seem nonconstructive, we will use the following procedure:
 
 - If someone feels that feedback is overly negative or aggressive towards any staff member, they should say:
