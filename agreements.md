@@ -190,15 +190,15 @@ To manage situations where feedback might come across as negative or aggressive,
 
 ### Example 1
 
-- Person A: "This solution is crap. I can break it in one day!"
-- Person B: "I don't understand. Could you please rephrase your concern in a more constructive way?"
-- Person A: "Sorry. I am worried this design has some vulnerabilities that someone could exploit. How can we make sure that this does not happen?"
+- Person A: “This solution is crap. I can break it in one day!”
+- Person B: “I don't understand. Could you please rephrase your concern in a more constructive way?”
+- Person A: “Sorry. I am worried this design has some vulnerabilities that someone could exploit. How can we make sure that this does not happen?”
 
 ### Example 2
 
-- Person A: "This is obvious. Anybody above the age of 6 knows this!"
-- Person C: "Hey, Person B put some work into this. Could you rephrase your feedback in a more constructive way?"
-- Person A: "Sorry. My concern here is that we should write only things that are not obvious and not generic. Otherwise, this won't provide much value."
+- Person A: “This is obvious. Anybody above the age of 6 knows this!”
+- Person C: “Hey, Person B put some work into this. Could you rephrase your feedback in a more constructive way?”
+- Person A: “Sorry. My concern here is that we should write only things that are not obvious and not generic. Otherwise, this won't provide much value.”
 
 This method allows us to quickly adjust our communication and ensure feedback is always delivered constructively.
 
