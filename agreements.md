@@ -184,7 +184,7 @@ To manage situations where feedback might come across as negative or aggressive,
 - If someone feels that feedback is too negative or aggressive towards any staff member, they should say:
   “Could you please rephrase your concern in a more constructive way?”
 - The person who provided the feedback should then respond with:
-  “Sorry,” and rephrase their feedback in a more constructive manner.
+  “Sorry” and rephrase their feedback in a more constructive manner.
 - No further comments or defenses should be made by others present.
 - We take a brief moment to reflect on the request and response, then continue with the discussion.
 
