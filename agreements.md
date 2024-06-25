@@ -176,6 +176,32 @@ This solution is meant to allow the team to auto-calibrate and recognize what co
 If the offensive comment is seen as severe and above the grade of this agreement, it will be raised to the HR circle to decide on further steps.
 Fortunately, so far, there have been no such situations.
 
+## Constructive feedback
+
+We aim to maintain a positive work environment where feedback is given constructively to promote growth and improvement.
+To manage situations where feedback might come across as negative or aggressive, we will use the following procedure:
+
+- If someone feels that feedback is too negative or aggressive towards any staff member, they should say:
+  “Could you please rephrase your concern in a more constructive way?”
+- The person who provided the feedback should then respond with:
+  “Sorry,” and rephrase their feedback in a more constructive manner.
+- No further comments or defenses should be made by others present.
+- We take a brief moment to reflect on the request and response, then continue with the discussion.
+
+### Example 1
+
+- Person A: "This solution is crap. I can break it in one day!"
+- Person B: "I don't understand. Could you please rephrase your concern in a more constructive way?"
+- Person A: "Sorry. I am worried this design has some vulnerabilities that someone could exploit. How can we make sure that this does not happen?"
+
+### Example 2
+
+- Person A: "This is obvious. Anybody above the age of 6 knows this!"
+- Person C: "Hey, Person B put some work into this. Could you rephrase your feedback in a more constructive way?"
+- Person A: "Sorry. My concern here is that we should write only things that are not obvious and not generic. Otherwise, this won't provide much value."
+
+This method allows us to quickly adjust our communication and ensure feedback is always delivered constructively.
+
 ## Audio/video processing in Zoom calls
 
 It is not allowed to use audio or video processing in company Zoom calls.
