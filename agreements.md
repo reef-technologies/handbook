@@ -200,8 +200,6 @@ To manage situations where feedback might come across as negative or aggressive,
 - Person C: “Hey, Person B put some work into this. Could you rephrase your feedback in a more constructive way?”
 - Person A: “Sorry. My concern here is that we should write only things that are not obvious and not generic. Otherwise, this won't provide much value.”
 
-This method allows us to quickly adjust our communication and ensure feedback is always delivered constructively.
-
 ## Audio/video processing in Zoom calls
 
 It is not allowed to use audio or video processing in company Zoom calls.
