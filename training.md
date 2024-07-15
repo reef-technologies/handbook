@@ -9,6 +9,7 @@ You don't need to see all of it in one go.
 You're free to adjust your pace to the speed of your initial transition into the project.
 If the transition is quick (you do lots of coding on your first day), slow it down and watch some training material every day.
 If the transition is slow due to questions, timezones, environment issues, and other blocking problems, then report those and watch some training material.
+Each link is followed by rough estimate of how much time read/watch takes to help with planning minimum time required for consuming particular learning material.
 
 You are expected to watch or read everything that matches your position within two weeks from starting the work with the company (after evaluation period is finished completely).
 
