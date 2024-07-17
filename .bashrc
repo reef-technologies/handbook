@@ -131,8 +131,8 @@ if [ -x /usr/bin/mint-fortune ]; then
 fi
 
 # Virtualenv
-export VIRTUALENV_PYTHON=/usr/bin/python3
-export VIRTUALENVWRAPPER_PYTHON="$VIRTUALENV_PYTHON"
+# export VIRTUALENV_PYTHON=/usr/bin/python3
+# export VIRTUALENVWRAPPER_PYTHON="$VIRTUALENV_PYTHON"
 
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/projects
