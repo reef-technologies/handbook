@@ -9,6 +9,7 @@ You don't need to see all of it in one go.
 You're free to adjust your pace to the speed of your initial transition into the project.
 If the transition is quick (you do lots of coding on your first day), slow it down and watch some training material every day.
 If the transition is slow due to questions, timezones, environment issues, and other blocking problems, then report those and watch some training material.
+Each link is followed by rough estimate of how much time read/watch takes to help with planning minimum time required for consuming particular learning material.
 
 You are expected to watch or read everything that matches your position within two weeks from starting the work with the company (after evaluation period is finished completely).
 
@@ -96,8 +97,9 @@ If it does, watch it all.
   \- The Testivus Answer;
 - <http://www.leanessays.com/2019/04/what-if-your-team-wrote-code-for-737.html?m=1> - on the difference between coders/programmers and developers/engineers
 - <https://blog.ploeh.dk/2020/10/05/fortunately-i-dont-squash-my-commits/> - good reason to not squash commits
-- <https://www.divio.com/blog/documentation/> basic knowledge of software documentation structure
-
+- <https://www.divio.com/blog/documentation/> - basic knowledge of software documentation structure
+- <https://bessey.dev/blog/2024/05/24/why-im-over-graphql/> - why not graphql
+- 
 #### all junior developers
 
 - <https://git-scm.com/book/> - how to git;
@@ -184,6 +186,7 @@ If it does, watch it all.
 - <https://realpython.com/python38-new-features/> - cool new features in Python 3.8;
 - <https://realpython.com/python39-new-features/> - cool new features in Python 3.9;
 - <https://pypi.org/project/django-test-migrations/> - handling migration testing in Django (don't write it yourself);
+- <https://jcristharif.com/msgspec/benchmarks.html> - how to do json encoding/decoding but quickly
 
 Why pathlib is fun:
 

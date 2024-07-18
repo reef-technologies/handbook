@@ -47,7 +47,7 @@ This is an agreed upon gentle reminder, that carries no criticism or hard feelin
 
 - 👋 (`:wave:`) – “I cannot help you right now”,
 - 👀 (`:eyes:`) – “I am reviewing your code now”,
-- ✅ (`:white_check_mark:`) – “I have reviewed your code”,
+- ✅ (`:white_check_mark:`) – “I have reviewed your code” (warning: it only means "review is ready to be read" and NOT "ready to be merged"),
 - 🔒 (`:lock:`) – “I don't have permission to access this project”.
 
 Developers should also take into consideration the following rules:
@@ -62,6 +62,8 @@ Developers should also take into consideration the following rules:
 - Each post is a separate review round, so any developer may respond, even if they did not review the previous iterations.
 - It is recommendable for different developers to look at the subsequent iterations of the same code, as it may help catch bugs or look at the code differently.
 - If a staff member realizes that everyone has refused to review a post, they should escalate the issue and discuss it with the team.
+- The Author of the PR must take all Code Review comments into consideration, but as a Senior Engineer, they are expected to make a decision on how to address them. 
+- Reviewer MAY use https://conventionalcomments.org/ for clarity which comments are blocking or should be treated differently.
 
 ## Alerts channels
 
@@ -176,7 +178,30 @@ This solution is meant to allow the team to auto-calibrate and recognize what co
 If the offensive comment is seen as severe and above the grade of this agreement, it will be raised to the HR circle to decide on further steps.
 Fortunately, so far, there have been no such situations.
 
-## Audio/Video processing in Zoom calls
+## Constructive feedback
+
+We aim to maintain a positive work environment where feedback is given constructively to promote improvement.
+To manage situations where feedback may seem nonconstructive, we will use the following procedure:
+
+- If someone feels that feedback is overly negative or aggressive towards any staff member, they should say:
+  “Could you please rephrase your concern in a more constructive way?”
+- The person who provided the feedback should then respond with:
+  “Sorry” and rephrase their feedback in a more constructive manner.
+- We take a brief moment to reflect on the request and response, then continue with the discussion.
+
+### Example 1
+
+- Person A: “This solution is crap. I can break it in one day!”
+- Person B: “I don't understand. Could you please rephrase your concern in a more constructive way?”
+- Person A: “Sorry. I am worried this design has some vulnerabilities that someone could exploit. How can we make sure that this does not happen?”
+
+### Example 2
+
+- Person A: “This is obvious. Anybody above the age of 6 knows this!”
+- Person C: “Hey, Person B put some work into this. Could you rephrase your feedback in a more constructive way?”
+- Person A: “Sorry. My concern here is that we should write only things that are not obvious and not generic. Otherwise, this won't provide much value.”
+
+## Audio/video processing in Zoom calls
 
 Using audio or video processing in company Zoom calls is generally not allowed,
 with the following exceptions:
