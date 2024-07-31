@@ -307,6 +307,7 @@ WindowsPath('C:/Windows/system')
 - <http://randsinrepose.com/archives/technicality/> - Michael Lopp - Technicality
 - <https://richmironov.medium.com/the-risks-of-replatforming-dbdc1de3a69d> - Rich Mironov:
   The Risks of Replatforming
+- <https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756> - Patrick M. Lencion - The Five Dysfunctions of a Team
 
 ## Lean project managers
 
