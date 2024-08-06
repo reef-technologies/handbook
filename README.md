@@ -738,11 +738,12 @@ if __name__ == '__main__':
     ]
 
     PROJECTS = [
-        Project('sales data analysis tool for a fintech company', 'Chicago, IL'),
-        Project('paper product level tracker for toilet cleaners', 'Canada'),
-        Project('AI video content analyzer/searcher for drone pilots', 'Detroit, MI'),
-        Project('two e-commerce applications for a customer', 'Washington, DC'),
-        Project('hydrant certification report generator', 'Australian plumbers'),
+        Project('decentralized compute infrastructure layer facilitating AI-based digital commodity creation'),
+        Project('sdk for accessing a cloud storage leveraging ApiVer for long-term maintainability'),
+        Project('cost-effective solution for backing up video from thousands of live camera streams'),
+        Project('cost optimization system in telco domain'),
+        Project('a large scale scrape/search system tracking >100 million objects with 200+ fields each'),
+        ...,
     ]
 
     reef_technologies = Company(
