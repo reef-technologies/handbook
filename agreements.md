@@ -355,7 +355,8 @@ Reef Technologies pays only for the time which is tracked by company's time trac
 
 ## Billable online team-building activities
 
-We recognize the importance of team building, especially in a remote work environment. To foster stronger connections among our staff, we've implemented the following policy:
+We recognize the importance of team building, especially in a remote work environment.
+To foster stronger connections among our staff, we've implemented the following policy:
 
 - Each staff member can bill up to 4 hours of company time for online team-building activities each month.
 - These include online games, learning together or other non-work-related team activities.
