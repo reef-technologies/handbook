@@ -358,7 +358,7 @@ Reef Technologies pays only for the time which is tracked by company's time trac
 We recognize the importance of team building, especially in a remote work environment.
 To foster stronger connections among our staff, we've implemented the following policy:
 
-- Each staff member can bill up to 4 hours of company time for online team-building activities each month.
+- Each staff member can bill up to 4 hours of billable time for online team-building activities each month.
 - These include online games, learning together or other non-work-related team activities.
 - The time needs to be tracked via Hubstaff under the `BAC / remote team building` project.
 
