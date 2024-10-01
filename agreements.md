@@ -353,6 +353,16 @@ Even if CEO will be against the expense, he'll absorb the cost rather than see y
 
 Reef Technologies pays only for the time which is tracked by company's time tracker.
 
+## Billable online team-building activities
+
+We recognize the importance of team building, especially in a remote work environment. To foster stronger connections among our staff, we've implemented the following policy:
+
+- Each staff member can bill up to 4 hours of company time for online team-building activities each month.
+- These include online games, learning together or other non-work-related team activities.
+- The time needs to be tracked via Hubstaff under the `BAC / remote team building` project.
+
+This policy aims to create opportunities for informal interaction and relationship-building among team members, which we believe contributes to a better work environment.
+
 ## Referral fee $2048 for Senior Python Developer
 
 "If you as the staff member has contacted us with a potential candidate who passed the evaluation period and tracked at least 168h work later, referral fee will be paid for you - $2048".
