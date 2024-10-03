@@ -353,6 +353,13 @@ Even if CEO will be against the expense, he'll absorb the cost rather than see y
 
 Reef Technologies pays only for the time which is tracked by company's time tracker.
 
+## Absence notice periods
+
+We empower our staff to manage their working schedule and allow flexibility.
+With great power comes great responsibility.
+If you want to take some time off, please remember that it is very important respect others and give them a reasonable notice period to manage any hand-offs.
+The sooner you inform others about any planned absence the better for the team.
+
 ## Referral fee $2048 for Senior Python Developer
 
 "If you as the staff member has contacted us with a potential candidate who passed the evaluation period and tracked at least 168h work later, referral fee will be paid for you - $2048".
