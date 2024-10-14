@@ -676,13 +676,13 @@ class Benefit:
 
 @dataclass
 class Project:
-    __slots__ = ('brief_description', 'location')
-
     brief_description: str
-    location: str
+    location: Optional[str] = None
 
     def __str__(self) -> str:
-        return f'{self.brief_description} from {self.location}'
+        if self.location:
+           return f'{self.brief_description} from {self.location}'
+        return self.brief_description
 
 
 @dataclass
@@ -743,7 +743,6 @@ if __name__ == '__main__':
         Project('cost-effective solution for backing up video from thousands of live camera streams'),
         Project('cost optimization system in telco domain'),
         Project('a large scale scrape/search system tracking >100 million objects with 200+ fields each'),
-        ...,
     ]
 
     reef_technologies = Company(
