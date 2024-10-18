@@ -1,7 +1,29 @@
 # Introduction
 
-Welcome onboard!
-This document will help you prepare your development environment step-by-step.
+Welcome aboard!
+This document will help you prepare to work with us step-by-step.
+
+# Newcomer timeline
+
+After being invited to the Evaluation period, you will go through the following stages:
+
+1. **Account Setup**: You will receive an invitation to set up your new Google account.
+   Make sure to note the time when you begin the Google account setup.
+   You will find invitations to Hubstaff, Jira, and further instructions in your inbox.
+   After setting up Hubstaff, continue tracking the account setup time under "RT / internal infrastructure management" in a new to-do labeled "setting up services".
+   Adjust the start time to reflect when you actually started.
+2. **Reading the Handbook**: Read the main page and any relevant linked pages.
+   Log this time under "RTO / onboarding" in a to-do labeled "handbook".
+   Do not set up your encrypted environment yet.
+4. **Evaluation Tasks - Part 1**: You will receive emails regarding your tasks.
+   Read all of them before starting so you can plan ahead. Then, complete the tasks.
+5. **Encrypted Environment Setup**: After receiving confirmation to proceed, set up your machine as specified in the section below.
+6. **Evaluation Tasks - Part 2**: You will be assigned additional tasks and receive email notifications.
+   In the meantime, read [Training - Evaluation period candidates](training.md#evaluation-period-candidates).
+   You will also be invited to attend at least one of our Sociocracy meetings. After completing all tasks, the Evaluation period will be over.
+7. **Onboarding**: Congratulations! You are now a full-fledged Reef Engineer :)  
+   Make sure you go through the [training materials](training.md) within two weeks to get up to speed.
+   We trust you'll take ownership of your learning and be proactive in navigating any challenges that arise. Welcome aboard!
 
 # Foundation rules of the company
 
@@ -197,7 +219,7 @@ RT generally means "investment", RTO generally means "operations".
 | ---------------------------------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RT / content marketing                   | Write articles or blog posts under the company name and present the company to the outside world.                                                                                                                                                       |
 | RT / django cookiecutter template        | Develop our internal Django template.                                                                                                                                                                                                                   |
-| RTO / internal infrastructure management | Manage workspace setup, including creating encrypted partitions, installing virtual machines, and installing software **not tied to specific projects**. If it's related to any internal or external project then please bill the time on that project. |
+| RT / internal infrastructure management | Manage workspace setup, including creating encrypted partitions, installing virtual machines, and installing software **not tied to specific projects**. If it's related to any internal or external project then please bill the time on that project. |
 | RT / non-project meeting                 | Participate in phone calls and Slack conversations related to work but not directly project-related. These are very rare, almost non-existent.                                                                                                          |
 | RTO / virtual assistant                  | Organize and procure equipment and supplies needed in the company, including laptops and office supplies, or perform other virtual assistant tasks.                                                                                                     |
 | RT / other internal development          | Improve internal infrastructure, such as onboarding, training, or other company-related activities that might benefit others.                                                                                                                           |
