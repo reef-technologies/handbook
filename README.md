@@ -21,7 +21,7 @@ After being invited to the Evaluation period, you will go through the following 
 6. **Evaluation Tasks - Part 2**: You will be assigned additional tasks and receive email notifications.
    In the meantime, read [Training - Evaluation period candidates](training.md#evaluation-period-candidates).
    You will also be invited to attend at least one of our Sociocracy meetings. After completing all tasks, the Evaluation period will be over.
-7. **Onboarding**: Congratulations! You are now a full-fledged Reef Engineer :)  
+7. **Onboarding**: Congratulations! You are now a full-fledged Reef Engineer :)
    Make sure you go through the [training materials](training.md) within two weeks to get up to speed.
    We trust you'll take ownership of your learning and be proactive in navigating any challenges that arise. Welcome aboard!
 
