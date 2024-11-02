@@ -160,7 +160,8 @@ If it does, watch it all.
 - <https://github.com/hankhank10/false-positive-malware-reporting> - How to stop antivirus software flagging your Python application as malware
 - <https://www.crunchydata.com/blog/postgres-indexing-when-does-brin-win> - Postgres Indexing:
   When Does BRIN Win?
-- <https://www.cybertec-postgresql.com/en/column-order-in-postgresql-does-matter/> - Column order in PostgreSQL does matter
+- <https://www.cybertec-postgresql.com/en/column-order-in-postgresql-does-matter/> - Column order in PostgreSQL does impact reading speed
+- <https://r.ena.to/blog/optimizing-postgres-table-layout-for-maximum-efficiency/> - Column order in PostgreSQL impacts table size, index size and performance
 
 ### all python developers
 
