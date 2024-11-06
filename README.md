@@ -311,6 +311,45 @@ Some candidates feel uncomfortable with a 3rd party application collecting scree
 If a fitting candidate is unhappy with the current setup, we'll invest time into creating a custom solution that would keep the employee in control of the screenshots.
 This could be done using encryption with the employee's key or uploading to private buckets - the exact details will be decided once (and if) we need it.
 
+# Time management system (TiMaS)
+
+TIMAS is a tool that supports monitoring work efficiency and the mood and attitude of employees. Here are the main functions of this tool:
+
+## Workday Evaluation
+
+TIMAS integrates with Hubstaff, a time tracking tool, gathering information about time spent on tasks and breaks. It assesses work efficiency based on collected data, marking it green when the work is effective (uninterrupted, long-lasting) or yellow when it is ineffective (short, with long breaks).
+
+Each employee determines their planned availability and expected working hours in Jira (e.g. 6 hours daily). TIMAS evaluates the effectiveness of the day, marking it as green when a minimum of 70% of the planned working time has been worked per day. If you finish your work after midnight, TIMAS counts as the same day, as long as you finish before 3am.
+
+For the entire month to be green, a minimum of 75% of working days should be effective. That means you can still get a green month, even with about 5 red days. Days off, holidays, and non-working weekends are excluded from the calculation.
+
+We use this tool to observe our work focus - it helps us improve :)
+
+## Mood Evaluation
+TIMAS is also used to assess the daily well-being of employees. In the upper right corner, there are three 5-star scales where the employee evaluates their subjective feelings regarding:
+
+💻 Work Mood - How do you rate your working day? How was your work experience? If your work mood was extremely low today, mark the red star. Conversely, if it was positive, select the green star.
+
+🏠 Personal Life Mood - How did you feel about your private life today? Was anything affecting your mood?  If you had an extremely challenging day personally, mark the red star. If you're feeling great, like a star, choose the green one. 🙂
+
+😖 Pressure - Reflect on how you feel about your tasks. If you're feeling extremely overwhelmed, mark the red star on the right. If you're bored and feel your tasks aren’t challenging, mark the star on the left. If the amount of your tasks feels just right, the default green star in the middle is your go-to.
+
+Text box - add a comment if there is something you want to share (optional).
+
+When marking the stars, be honest! Both green, yellow and red marks are valuable information for the company about the condition of its employees.  Our goal is to observe and detect problems quickly enough and help you return to well-being.
+
+## Where is TIMAS?
+
+Visit the [website](https://timas.reef.pl), and you'll first see an almost white page. Log in with your Gmail account and enter “timas.reef.pl” into the search bar again to access your TIMAS account. Save TIMAS in your browser bookmarks and visit the site daily to note your mood and observe the work focus time.
+
+After registering on TIMAS website, you will also be able to install Slack TIMAS app - just click "Add apps" in left panel's "Apps" section and select "Timas". It will allow you to mark your mood directly from Slack, but only for current day.
+
+## What if I forget to mark stars?
+
+Scroll down on the website and you will see the “Your mood in the past” section. Here you can mark missing stars. Changes are saved automatically.
+
+If Mood Evaluation is not filled in for a whole week during which you worked you will be invited on a video call to check if everything is okay.
+
 # Configuring the environment
 
 Once you have installed the time-tracking app, it's time to prepare your environment.
