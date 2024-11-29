@@ -62,6 +62,11 @@
 - for multi-day conferences the target venue itself (often a hotel) is usually the best option (reduces logistics a lot etc).
   Book it early because it sells faster than the conference tickets do.
 
+### Fire safety 🔥
+
+- never ignore a fire alarm and get out as quickly as possible. Fire spreads extremely quickly, every second counts:
+  - <https://www.youtube.com/watch?v=piofZLySsNc> - A small fire completely engulfs a room in 2 min 30 sec
+
 ### Organization
 
 - if going with other people from the team (not necessarily the company), try to book everyone into the same hotel, it has a few advantages:
