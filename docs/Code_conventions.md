@@ -80,6 +80,12 @@ We skip it after `**kwargs` as no argument will ever follow it.
 Shell options should be set with explicit `set` (or, `shopt`) built-in command, not in the shebang, to ensure they are always set.
 When options are set in the shebang of a script, they are ignored when the script is directly invoked (like `bash script.sh`).
 
+### Celery
+
+https://blog.gitguardian.com/celery-tasks-retries-errors/
+
+We use [Celery](https://docs.celeryq.dev/) in most of our projects. The article above describes how to make Celery tasks more resilient with best practices to prevent workflow interruptions and handle various failure scenarios.
+
 ### SemBr
 
 Use [Semantic Line Breaks](https://sembr.org/) whenever line breaks do not influence rendered document.
