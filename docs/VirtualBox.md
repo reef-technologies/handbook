@@ -4,7 +4,7 @@
 
 ![](images/hyperv_windows/hyperv_windows_01.png)
 
-Make sure that **Hyper-V is NOT checked**, so deselect it if it's selected like below.
+Make sure that **Hyper-V is NOT checked**, so deselect it if it's selected like below. Also deselect **Virtual Machine Platform**, **Windows Hypervisor Platform** and **Windows Sandbox**.
 
 ![](images/hyperv_windows/hyperv_windows_02.png)
 
@@ -36,3 +36,8 @@ PAE/NX might be disabled by default - make sure it's enabled (impacts performanc
 Guide on resizing linux partitions in case you'd need to grow the device can be found [here](https://www.vultr.com/docs/block-storage#:~:text=Resize%20the%20filesystem%20-%20Linux)
 
 VirtualBox guest additions from the "CD" that comes with VirtualBox works better than what you can get from `apt`.
+
+If performance is weak here are some tips to try for increasing it:
+ * Change power plan to high performance - for host and guest machine.
+ * Run VirtualBox as administrator.
+ * Do not use too many processors (4 should be enough).
