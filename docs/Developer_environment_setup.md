@@ -32,7 +32,7 @@ Using such will help save time, but in the end, it is individual's responsibilit
 > **Note:** Skip if you are using separate work physical machine or dual-booting.
 
 We generally recommend [VirtualBox](https://www.virtualbox.org/).
-A step-by-step guide to creating a virtual machine can be found [here](docs/VirtualBox.md).
+A step-by-step guide to creating a virtual machine can be found [here](VirtualBox.md).
 
 Apple hardware support in VirtualBox is dire, so the recommended virtualization solution is currently QEMU-based, eg.
 [UTM](https://getutm.app/) (+ [guest system installation tutorial](https://www.youtube.com/watch?v=O19mv1pe76M))

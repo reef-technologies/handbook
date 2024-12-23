@@ -455,7 +455,7 @@ Each team member is allocated 3 minutes to succinctly cover these three points.
 To maintain the efficiency of the stand-up, we strive to keep open discussions to a minimum.
 Any topic necessitating a longer conversation is earmarked for a separate follow-up meeting.
 
-If, for any reason, you cannot attend the daily stand-up, please notify the team in the #staff channel on Slack.
+If, for any reason, you cannot attend the daily stand-up, please notify the team in the #announcements channel on Slack.
 Additionally, post your updates there so everyone stays informed.
 
 ### 6.3 Video hand signal protocol
