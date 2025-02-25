@@ -2,6 +2,7 @@
 
 As an **internal staff member** you can request the purchase of equipment you’ll use for work such as a laptop, headset, webcam, monitor, mouse, keyboard, desk, an office chair, etc. provided you agree to the conditions below.
 
+See also [implementation details in the internal handbook](https://github.com/reef-technologies/internal-handbook/blob/master/equipment_policy_logistics.md)
 
 ## Earned Value and Budget
 
