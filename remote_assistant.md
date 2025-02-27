@@ -1,32 +1,88 @@
-## Job Offer: Remote Assistant
+## Remote Executive Assistants Wanted
 
-Reef Technologies is a fully remote software house that works with clients from many different countries, including the US, the UK, and Canada. The demand for our work is extremely high, and we are constantly expanding our operations.
+Are you a natural when it comes to coordinating schedules, managing tasks, and researching information?
+Do your friends count on you to keep their lives in order (and organize the coolest parties)?
+Then you may be just who we're looking for!
 
-**Due to the increasing operational workload, we are now looking for a remote assistant to join the company and perform a variety of tasks to support our Chief Executive Officer**. Managing a software house entails many different responsibilities. Some of them are absolutely necessary, but too time-consuming for the CEO to deal with them himself. And that is where you come in. We need someone to maintain close contact with our CEO, Paweł, and take care of mainly personal but also professional tasks that he needs to be taken care of.
+As a fully remote Executive Assistant, you'll use your skills to assist elite clients like CEOs, Executives, and highly skilled professionals with a variety of responsibilities.
 
-We are **100% remote**, and that applies to you, too. You’ll be free to work from wherever you want to, as long as it doesn’t interfere with your work duties.
+You can expect every day to let you explore an entirely new subject and expand your knowledge.
 
-**Some of your main obligations would be to:**
-- Assist the CEO and his family in personal matters such as performing research, ordering products, organizing family holidays or making appointments.
-- Assist the CEO through performing basic technical, logistic & administrative tasks.
+In the simplest terms, your job will consist of helping high-level clients make decisions – from small, everyday choices to major business dilemmas.
+To make it happen, you'll be researching information, coordinating events, and creating clear, concise summaries of the results of your work.
 
-The description is vague by design – we need someone to deal with both repetitive tasks and ad-hoc solutions. The work responsibilities are diverse, but mostly basic.
+You’ll quickly become an expert in areas you didn’t even know existed and gain a unique insight into both private and professional lives of exceptionally successful people.
+Before you start handling tasks on your own, you will get all the necessary support and resources to learn how to provide the exceptional quality of services we are proud to be known for.
 
-**We are looking for someone who satisfies the following requirements:**
+**What kind of requests might you actually get on the job?**
 
-- **Fluent English (B2 level) is indispensable** – we use English to communicate with pretty much all of our clients. Our staff members are international, and apart from one-on-one conversations with other Polish speakers, (mostly written) English is our everyday language. You will mostly use Polish when communicating with the CEO and his family, of course, but sometimes you may be required to contact someone in English. However, **we do not require Polish language skills**. All the communication may be in English.
-- **A smart, respectful, and concise communicator** – we work remotely, so precise communication is of great importance.
-- **A responsible and independent worker** – we respect each other’s time and keep our commitments, and we expect you to do the same. You should know how to self-regulate your work in a remote environment. We are looking for someone whose presence will bring order and not chaos. Everyone makes mistakes, but we expect you to focus and make sure not to repeat them.
-- **A resourceful and active learner** – you’ll need to use many different tools, and Google will be one of the most important. You need to be an efficient researcher and enjoy getting to know new things. We appreciate people who are always looking for methods to improve the way they work, and even the way the whole company works.
-- **Not afraid of basic digital tools** – you will definitely need to use Excel/Google Sheets, Google Docs, Slack, Trello, Hubstaff, and probably many other websites and applications. We don’t expect you to be a fluent user of all programs that we happen to use at the company, but we’re looking for someone who’s not afraid to learn new tools and simply Google things when not sure what to click.
+- Recommending a high-quality digital camera with advanced features like 4K video recording and image stabilization
+- Organizing a photoshoot with a local photographer in Thailand
+- Evaluating multi-currency debit card providers with invoice tracking capabilities for streamlined expense management at a mid-sized company
+- Arranging the production of a custom-made baseball cap that can have different logos attached to it with velcro depending on the occasion
+- Managing a CEO’s calendar during a business trip, or so-called Calendar Tetris (organizing meetings, locations, conference rooms, flights, visas, airport transfers, hotels, meals, power socket adapters…)
+- Complex organization of a trip for a family with children to Asia (handling flights, house rentals, international school contracts, and all sorts of formalities)
+- Organizing a two-day retreat for a fully remote company with employees spread over different countries
 
+If getting paid for learning new things every day sounds fun... You'll also enjoy learning more practical details about this opening to join us as a **Remote Executive Assistant** :)
 
-**What do we bring to the table?**
+**What do you need to join us?**
 
-- You can expect lots of **independence**. You don’t need to commute anywhere, and we don’t have a dress code. This job is 100% remote. We mostly work asynchronously. While some tasks may need to be done at a certain time or you may need to arrange a call with someone at a set hour, in general, you will not need to work “9 to 5”. 
-- Your availability is up to you. We require availability of **no fewer than 40 hours calculated by a time tracker per month**, but there is no upper limit. You can work with us on a full-time basis.
-- We are offering **a stable, long-term collaboration** via a contract of mandate or B2B contract.
-- You can **learn a lot**. You can be sure to gain a lot of experience by dealing with various private and business administrative tasks. Our CEO currently lives in Thailand so you will have the opportunity to learn a lot about the country.
-- **Your voice counts**. The company is small, and everyone hates bureaucracy at an equal level. You will enjoy a close working relationship with the CEO, and you are more than allowed to bring up your concerns or come up with new ways to improve the way we do things.
+- Good command of English and excellent communication skills
+- Basic familiarity with Google Spreadsheets
+- Openness to learning new things
+- Proactive approach
+- Empathy and persistence
+- Reliability and attention to detail
 
-You don’t need to send us your CV – it’s enough if you fill out our [survey](https://forms.gle/Cxw6B3ZPknvJfJHz9) and tell us a little about yourself.
+**How do we work?**
+
+- We are 100% remote
+- We work asynchronously and don't have fixed working hours.
+  Both early birds and night owls will feel comfortable, and you can do the job from whichever timezone
+- We work full-time or 6h/day.
+  There is plenty of work and a healthy demand for our services on the market, but we protect our staff from overload
+- Combining this job with other employment is fine, but only temporarily, during the evaluation period.
+  We've found it to be unsustainable in the long term
+- There are no common office hours for everyone.
+  We work at the time of our choosing, tracking our hours using a tool called Hubstaff
+- We collaborate on the basis of a B2B contract or a contract of mandate (for residents of Poland)
+- So far, most of our team members are Polish, but our work and resources are in English
+
+For the most part we work independently, but we can always count on our teammates to brainstorm ideas together or bounce our research results off each other. On the other hand, we carry out many projects together, combining our strengths, preferences and talents for the best possible results. We discuss emerging difficulties with each other on an ongoing basis and share our experiences.
+
+Every quarter, we all have an online "Bring Your Own Something" meeting where we talk about current projects and plans, as well as share our ideas and inspirations. Thanks to the group decision-making framework, each team member can be sure that his or her opinion will be heard and valued.
+
+**How much can you earn?**
+
+We generally pay **40-65 PLN** (Intermediate rate) per hour and **65-85 PLN** (Senior rate) per hour (plus VAT if necessary), but we're happy to talk even if your rate is higher than that.
+Please share your expectations with us in the [application form](https://forms.gle/Cxw6B3ZPknvJfJHz9) and let's see if we can work something out.
+
+We usually adjust the hourly rates once a year.
+
+**Who are we and would you enjoy working with us?**
+
+We're always doing our best to not only improve our clients' lives, but also make sure we're continuously creating a healthy and enjoyable work environment.
+
+We see work-life balance as essential... and we really like working in good company.
+Our team is currently powered almost exclusively by women (84.6%), but everyone is welcome.
+
+We all have different passions and love sharing them with each other.
+Some of our most represented interests include travel, pets, collecting LEGO, horse riding, ice skating, dancing and pilates.
+We also have major plant growers and film fans among us.
+;)
+
+We are beautifully and respectfully different from each other and know how to talk about these differences in a peaceful way.
+We work with a human-centered approach - we see each other as important and cultivate a culture of speaking up, giving (wanted) feedback, and building an atmosphere without unnecessary tension.
+
+There’s one thing we all agree on:
+the client's satisfaction is at the core of our work.
+We genuinely want to take a major burden off their shoulders, and we are constantly striving to do it even better.
+So far, we've been getting great feedback.
+It feels really nice when someone trusts you with a major part of their life.
+
+**Let’s do this!**
+
+So, what do you say?
+Once again, here is our [application form](https://forms.gle/Cxw6B3ZPknvJfJHz9).
+If this doesn't feel like the right fit, but you know someone who might be interested, please send them a link to this ad!

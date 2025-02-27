@@ -53,6 +53,7 @@
     # show-branch
     pushr = push origin HEAD:refs/for/master
     edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; vim `f`"
+    cleanup = "!git branch --merged | egrep -v '(\\*|master|main|prod|deploy|staging)' | xargs -n 1 -r git branch -d"
     aliases = !git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /'
 [push]
 	default = upstream
