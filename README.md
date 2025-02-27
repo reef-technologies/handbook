@@ -599,7 +599,7 @@ They may seem obvious, and RT developers tend to follow them subconsciously, but
 
 Whenever you're taking some days off, it's important to let other team members know, so that work can be planned and client expectations managed.
 
-- You should mark days when you won't be working in GSheet ['Work planning'](https://docs.google.com/spreadsheets/d/12nQKdskWDwFHhQ01BMjfllabqJTZo4tMdCsWx6NJaL4/edit?usp=sharing) as soon as you know about it.
+- You should mark days when you won't be working in the ['Staff Availability project'](https://reeftechnologies.atlassian.net/jira/core/projects/SA) in our Jira as soon as you know about it.
 - Announce it on Slack in `#annoucements` channel beforehand.
 - If you need time off urgently because of something unexpected, please let the affected (people you had planned meetings with / or that need to pick up the task from you) know through Slack right away.
   Use `#annoucements` if you are really in a hurry.
