@@ -1,7 +1,7 @@
 # Introduction
 
-Welcome onboard!
-This document will help you prepare your development environment step-by-step.
+Welcome aboard!
+This document will help you prepare to work with us step-by-step.
 
 # Foundation rules of the company
 
@@ -197,7 +197,7 @@ RT generally means "investment", RTO generally means "operations".
 | ---------------------------------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RT / content marketing                   | Write articles or blog posts under the company name and present the company to the outside world.                                                                                                                                                       |
 | RT / django cookiecutter template        | Develop our internal Django template.                                                                                                                                                                                                                   |
-| RTO / internal infrastructure management | Manage workspace setup, including creating encrypted partitions, installing virtual machines, and installing software **not tied to specific projects**. If it's related to any internal or external project then please bill the time on that project. |
+| RT / internal infrastructure management | Manage workspace setup, including creating encrypted partitions, installing virtual machines, and installing software **not tied to specific projects**. If it's related to any internal or external project then please bill the time on that project. |
 | RT / non-project meeting                 | Participate in phone calls and Slack conversations related to work but not directly project-related. These are very rare, almost non-existent.                                                                                                          |
 | RTO / virtual assistant                  | Organize and procure equipment and supplies needed in the company, including laptops and office supplies, or perform other virtual assistant tasks.                                                                                                     |
 | RT / other internal development          | Improve internal infrastructure, such as onboarding, training, or other company-related activities that might benefit others.                                                                                                                           |
