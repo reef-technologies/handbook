@@ -78,6 +78,28 @@ Similarly to the code review channel, when reviewing an alert please following e
 Staff members should to periodically skim through the alerts channels and do a quick checkup on their state.
 It should be easy to spot channels that are neglected, i.e. without any reactions or just 👀, but no resolutions.
 
+## Trying to solve a problem
+
+Even experienced engineers find it difficult to know when to stop trying to solve a problem – but **knowing when to stop is a vital skill for Reef developers** for a simple reason.
+
+Our goal is to **save money for our Clients**, which means that we cannot waste it by banging our heads against the wall and billing hours without getting results or by working incessantly on unnecessary elements of a feature.
+
+In many cases, there are **better approaches** than attempting the same thing over and over:
+- Taking a break and returning to the problem with a clear head. You may switch to another project for a while or just go for a walk.
+- Reaching out to your colleagues to discuss the problem, find inspiration, or get a confirmation for the way you see the project priorities. You can use #python for that.
+- Trying out a suggestion that you personally don’t like, but which may be the right choice.
+- Reaching out to the software / tool / library provider and asking for support or a bug fix.
+
+How can you know that you’re stuck and the time has come to try an alternative approach?
+
+It’s impossible to create an algorithm for when to stop working on a problem or to define a maximum amount of time allowed per problem. After all, every project is different.
+
+Knowing when to stop making useless efforts or when to back out from an idea is a tacit skill that we all need to develop and foster. This **self-awareness is an important part of the reason why our Clients trust us** to deliver great software at a fair price.
+
+Currently, there are two things we can do to reinforce this skill in Reef Technologies developers:
+- We should all try to maintain an awareness of our working process. If you’re starting to feel frustrated, or if you find yourself trying the same thing as before and expecting different results, refer to this agreement. Give it a short read to remind yourself of the value Reef Technologies brings to our Clients by saving their money. Ask yourself if the way you’re working right now still fits the Reef way. If it is, well, happy coding. If you’re in doubt, maybe you should try one of the methods that you can find in the bullet points above.
+- We want to build a culture where backing out of a dead end is not something to be embarrassed about – it’s something to be proud of, and it’s a skill that earns us more satisfied Clients. That is why in every status call, we spend some time discussing instances when we felt stuck or annoyed by a problem and methods we used to fix those situations.
+
 ## Maintaining organizational culture
 
 The Reef Technologies Culture Book is a shared journal where we document company life, recording the most interesting events, challenges, solutions and decisions.
