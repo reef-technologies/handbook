@@ -320,6 +320,7 @@ WindowsPath('C:/Windows/system')
   How Multi Step Landing Pages Will Explode Your Conversion Rates
 - <https://martinfowler.com/articles/is-quality-worth-cost.html> - Is High Quality Software Worth the Cost?
 - <https://www.saastr.com/what-your-first-100-hires-will-look-like/> - What Your First 100 Hires Will Look Like
+- <https://handbook.duolingo.com/> - Duolingo handbook
 
 # bonus material
 
