@@ -252,6 +252,7 @@ WindowsPath('C:/Windows/system')
 - <https://www.dabeaz.com/python/UnderstandingGIL.pdf> - GIL War
 - <https://tenthousandmeters.com/blog/python-behind-the-scenes-13-the-gil-and-its-effects-on-python-multithreading/> - state of the GIL in 2021
 - <https://www.linkedin.com/posts/danilovmy_euro-python-2023-ended-today-i-had-a-great-activity-7088241937048047616-4VJ-/> - generators look nice but decrease performance due to context switching
+- <https://tonybaloney.github.io/posts/sub-interpreter-web-workers.html> - Threads vs Multiprocessing vs Subinterpreters
 
 ### junior quality assurance engineers
 
