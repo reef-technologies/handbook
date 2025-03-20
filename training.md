@@ -18,6 +18,9 @@ You are expected to watch or read everything that matches your position within t
 This section is for the evaluation period candidates in the 2nd stage of the Evaluation period (after Evaluation tasks 1-3).
 The rest of the sections are meant for after-evaluation staff.
 
+- <https://youtu.be/A3IQj0LCocA> - Why Every Dev Has Imposter Syndrome
+  (2 min video);
+
 - <https://youtu.be/ZQUxL4Jm1Lo> - What is imposter syndrome and how can you combat it?
   (5 min video);
 
