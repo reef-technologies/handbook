@@ -1,6 +1,6 @@
 # Equipment Funding Policy
 
-As an **internal staff member** you can request the purchase of equipment you’ll use for work such as a laptop, headset, webcam, monitor, mouse, keyboard, desk, an office chair, etc. provided you agree to the conditions below.
+As an **internal/core staff member** you can request the purchase of equipment you’ll use for work such as a laptop, headset, webcam, monitor, mouse, keyboard, desk, an office chair, etc. provided you agree to the conditions below.
 
 See also [implementation details in the internal handbook](https://github.com/reef-technologies/internal-handbook/blob/master/equipment_policy_logistics.md)
 
@@ -29,6 +29,12 @@ If the remaining value reaches zero the company will **transfer ownership** of t
 The hardware is **never returned**. In all cases, it remains with you. If the equipment contains sensitive company data you’re responsible for disposing of it securely.
 
 You are responsible for any tax implications of acquiring the equipment according to your local tax laws.
+
+## Former internal/core team members who are now external contributors
+
+Former internal/core team members who are currently external contributors can request equipment up to their Earned Value. Reef will invoice them for the excess immediately.
+
+All worked hours count towards Earned Value, regardless of internal/core team member vs. external contributor status at the time.
 
 ## Transition
 
