@@ -144,6 +144,12 @@ We employ several techniques to output a lot of value in a unit of time:
 9. Use modern IDEs.
 10. Use LLMs (ChatGPT, GitHub Copilot, etc.).
 
+# Code Review
+
+At Reef we do code review for almost all pull requests.
+We treat this like friendly help, with the reviewer offering suggestions on how to improve the given code.
+It is intuitive to most people, but not for everyone. [This document](docs/Code_Review.md) explains in detail how we approach reviews and why.
+
 # Time-tracking
 
 This guide will show how to set up a time tracking app.
