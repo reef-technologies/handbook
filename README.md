@@ -148,7 +148,7 @@ We employ several techniques to output a lot of value in a unit of time:
 
 At Reef we do code review for almost all pull requests.
 We treat this like friendly help, with the reviewer offering suggestions on how to improve the given code.
-This document covers the rules that we follow to ensure the process goes smoothly: [Code Review](docs/Code_Review.md).
+It is intuitive to most people, but not for everyone. [This document](docs/Code_Review.md) explains in detail how we approach reviews and why.
 
 # Time-tracking
 

@@ -3,7 +3,7 @@
 This document covers the rules of code review at Reef Technologies.
 
 <details>
-<summary>Why is this document so long, so many rules?</summary>
+<summary>Why is this document so long, so many rules? (click here to see more details)</summary>
 We had our way of doing things which didn’t need to be described for us, but in early 2025 we noticed that new engineers
 joining our team tend to bring in code review habits from their previous workplace. When we put it like that,
 it doesn’t sound so bad, but it caused some friction and has shown us really terrible ways in which some companies
