@@ -25,7 +25,7 @@ and the governance process, operating in front of you and with you, will decide 
    pull request to the message.
 3. Sometimes it doesn’t make sense to request reviews for trivial changes – if you think no one would have anything
    useful to comment on, just merge it.
-4. If no one has started reviewing your code before the daily standup, you must ask for a reviewer during the daily.
+4. If no one has started reviewing your code before the daily standup, you should ask for a reviewer during the daily.
 5. When using GitHub and someone has already started reviewing your PR, don’t force push commits to your PRs before
    getting final approval, as it will force the reviewer to start from scratch during the next review round. Create new
    commits instead, like “Fix XYZ”, “Add tests”. <details><summary>Note.</summary>This is a limitation of GitHub and a
