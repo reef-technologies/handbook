@@ -119,6 +119,10 @@ Q: Will the client pay for the time spent on configuring 2FA?
 \
 A: Happily.
 
+### External LLMs
+
+Most clients explictly agreed to the use of non-local LLMs. If you're unsure check your specific project.
+
 ## What does "high performance" mean?
 
 Our clients really don't care how fast we type on our keyboards (in fact while on meetings we often don't touch the keyboard for a long time, getting a clean zero keystrokes per hour, delivering not only a very high amount of value per hour, but also infinite value per keystroke!
