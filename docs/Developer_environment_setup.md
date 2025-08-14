@@ -1,10 +1,11 @@
 # Developer Environment Setup
 
 This guide will show how to set up a standard, secure work environment for software development.
+This is very important as we want to prevent unauthorized access to our data (the code, secret keys, customers' sensitive information) in case of theft or loss of hardware. With that in mind, it is required to have some form of access protection and to never leave the computer unattended without locking it.
 
 ## Ensure you have a Secure Work Environment
 
-For Secure Work Environment we require a Virtual Machine or dual-boot with [Full Disk Encryption](Storage_Encryption.md#full-disk-encryption) enabled.
+For Secure Work Environment we require either a Virtual Machine or a multi-user setup, with [Full Disk Encryption](Storage_Encryption.md#full-disk-encryption) enabled in both cases.
 This ensures a clear segregation between your professional and personal digital spaces, preventing accidental cross-access or data leaks involving customer data.
 
 If you have previously used your reef.pl email address (or any associated) on a personal environment, make sure to remove it from all devices and accounts.
@@ -16,9 +17,6 @@ Solely encrypting the home directory would leave these sensitive data vulnerable
 Lastly, Docker containers, which store and run client code, are to be considered secret.
 Accessing these containers from personal environments is prohibited to maintain a robust security structure, preventing any potential cross-access and preserving the integrity of our client's data.
 
-As for personal/work separation, we require using a separate machine (Virtual or physical) or dual-booting.
-It is not recommended, but you may use multi-user setup to isolate personal and work-related applications, but take special care as it is hard to prevent personal accounts, with for example, `docker` access from accessing ANY other account on the system.
-
 # System setup
 
 If you are undecided, by default we recommend going with Virtual Machine setup.
@@ -26,6 +24,7 @@ If you are undecided, by default we recommend going with Virtual Machine setup.
 As for the work environment Operating System, we recommend using a Linux-based system.
 Guide itself is written with Ubuntu-based distros (e.g. [Linux Mint](https://www.linuxmint.com/download.php)) in mind.
 Using such will help save time, but in the end, it is individual's responsibility to maintain a productive working environment.
+For Windows users, Microsoft Defender Antivirus must be enabled.
 
 ## 1. Virtual Machine setup
 

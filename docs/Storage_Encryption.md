@@ -13,7 +13,7 @@ Due to the large space utilization of our projects, the minimum storage size is 
 
 ### Virtual machine
 
-In any Virtual Machine, you can achieve FDE-like setup by putting the VM image on an Encrypted Volume created using [VeraCrypt or similar software](#volume-encryption).
+In any Virtual Machine, you can achieve FDE-like setup by putting the VM image on an Encrypted Volume created using [VeraCrypt or similar software](#volume-encryption) or directly in VirtualBox by using the [VirtualBox Extension Pack](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/AdvancedTopics.html#diskencryption).
 
 ### Windows
 
