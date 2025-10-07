@@ -407,6 +407,13 @@ Create a new account on GitHub.
 The suggested username is the same as one used in your reef email (replace dots with hyphens) with added -reef suffix, eg.
 `jan-kowalski-reef` or `adam-smith-reef`.
 
+Handles must be clearly identifiable — at minimum, your last name must be present.
+This makes it easy to scan the org members list and confirm no unnecessary accounts are present.
+External collaborators with non-identifiable handles are allowed, 
+but they must be listed on our [internal Notion](https://www.notion.so/GitHub-27fb63b4ef1e804095a9c8caaddff673?source=copy_link#27fb63b4ef1e8053aa13e77b7e1dd604)
+page for the same reason.
+
+
 2-step authorization should be enabled as well.
 If you don't enable it (or if you disable it - which is crazy, but technically possible), a periodic audit will catch you and you will make the auditor very sad 😭.
 
