@@ -99,7 +99,8 @@ If it does, watch it all.
 - <https://blog.ploeh.dk/2020/10/05/fortunately-i-dont-squash-my-commits/> - good reason to not squash commits
 - <https://www.divio.com/blog/documentation/> - basic knowledge of software documentation structure
 - <https://bessey.dev/blog/2024/05/24/why-im-over-graphql/> - why not graphql
-- 
+- [Correct parameters values for AWS RDS Postgres databases](docs/aws_rds_params.md)
+
 #### all junior developers
 
 - <https://git-scm.com/book/> - how to git;
