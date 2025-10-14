@@ -18,6 +18,9 @@ You are expected to watch or read everything that matches your position within t
 This section is for the evaluation period candidates in the 2nd stage of the Evaluation period (after Evaluation tasks 1-3).
 The rest of the sections are meant for after-evaluation staff.
 
+- <https://youtu.be/A3IQj0LCocA> - Why Every Dev Has Imposter Syndrome
+  (2 min video);
+
 - <https://youtu.be/ZQUxL4Jm1Lo> - What is imposter syndrome and how can you combat it?
   (5 min video);
 
@@ -100,6 +103,7 @@ If it does, watch it all.
 - <https://www.divio.com/blog/documentation/> - basic knowledge of software documentation structure
 - <https://bessey.dev/blog/2024/05/24/why-im-over-graphql/> - why not graphql
 - [Correct parameters values for AWS RDS Postgres databases](docs/aws_rds_params.md)
+- <https://blog.gitbutler.com/how-git-core-devs-configure-git/> - showcase of common git options 
 
 #### all junior developers
 
@@ -252,6 +256,7 @@ WindowsPath('C:/Windows/system')
 - <https://www.dabeaz.com/python/UnderstandingGIL.pdf> - GIL War
 - <https://tenthousandmeters.com/blog/python-behind-the-scenes-13-the-gil-and-its-effects-on-python-multithreading/> - state of the GIL in 2021
 - <https://www.linkedin.com/posts/danilovmy_euro-python-2023-ended-today-i-had-a-great-activity-7088241937048047616-4VJ-/> - generators look nice but decrease performance due to context switching
+- <https://tonybaloney.github.io/posts/sub-interpreter-web-workers.html> - Threads vs Multiprocessing vs Subinterpreters
 
 ### junior quality assurance engineers
 
@@ -320,6 +325,7 @@ WindowsPath('C:/Windows/system')
   How Multi Step Landing Pages Will Explode Your Conversion Rates
 - <https://martinfowler.com/articles/is-quality-worth-cost.html> - Is High Quality Software Worth the Cost?
 - <https://www.saastr.com/what-your-first-100-hires-will-look-like/> - What Your First 100 Hires Will Look Like
+- <https://handbook.duolingo.com/> - Duolingo handbook
 
 # bonus material
 

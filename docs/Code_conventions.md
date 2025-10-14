@@ -3,6 +3,20 @@
 This document describes the conventions we follow when writing code.
 We don't follow them blindly, but we do follow them unless there's a very good reason not to.
 
+### 7 Django cookiecutter template
+
+New Django projects must use the template. Any exceptions must be discussed with the team beforehand.
+
+We use an internally-developed [cookiecutter template](https://github.com/reef-technologies/cookiecutter-rt-django/) for our Django projects. When we start a new project, the template empowers us to immediately focus on the core of the business problems instead of spending time on set-up tasks. It also provides a common base of libraries, dev-ops tools and conventions that Reef developers are familiar with. Over time, we improve the template - we update dependencies, add new features, fix issues. Therefore, it is important not only to start new projects using the template but also to port template updates to existing projects.
+
+#### Cookiecutter template for packages
+
+We also have a template for packages: [cookiecutter-rt-pkg](https://github.com/reef-technologies/cookiecutter-rt-pkg)
+
+#### Automatic-updates of the cookiecutter template
+
+When the template changes - for example to fix a bug - we use Github Actions and cruft to automatically create pull-requests to update projects based on the template. See the [cookiecutter-rt-django](https://github.com/reef-technologies/cookiecutter-rt-django/) repo for more information.
+
 ## Code Conventions
 
 ### 1NF

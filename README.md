@@ -1,7 +1,7 @@
 # Introduction
 
-Welcome onboard!
-This document will help you prepare your development environment step-by-step.
+Welcome aboard!
+This document will help you prepare to work with us step-by-step.
 
 # Foundation rules of the company
 
@@ -119,6 +119,14 @@ Q: Will the client pay for the time spent on configuring 2FA?
 \
 A: Happily.
 
+Q: Do I still need to set up service-specific 2FA if I use Google SSO?
+\
+A: No. Google SSO (with 2FA enabled on your Google account) already covers this.
+
+### External LLMs
+
+Most clients explictly agreed to the use of non-local LLMs. Ask a lead developer on the given project what tools you can use for which type of work - there are a couple of modules which should never be shown as context for an external LLM.
+
 ## What does "high performance" mean?
 
 Our clients really don't care how fast we type on our keyboards (in fact while on meetings we often don't touch the keyboard for a long time, getting a clean zero keystrokes per hour, delivering not only a very high amount of value per hour, but also infinite value per keystroke!
@@ -134,15 +142,22 @@ We employ several techniques to output a lot of value in a unit of time:
 4. Design systems in such a way that they are easy to think about and implement.
 5. Design systems in such a way that they are durable and, whenever possible, self-healing.
 6. We prefer candidates who are not an order of magnitude slower than others.
-   For example, a program that reverts a small file can take a minute to implement, but some of our candidates need more than 10 minutes.
+   For example, a program that reverts a small file can take less than a minute to implement, but some candidates need more than 10 minutes.
    Someone might have a problem with this, but we just don't hire the slowest developers on the market.
 7. If there is doubt on whether something should be done or not, we stop and ask.
    This theoretically increases Time To Market, but in practice, it only does so for the last task of the iteration (so a hint for planning is that the last task in the iteration should be low-risk).
 8. We are allergic to waste.
    This drives many of our actions, including good communication with the client who knows what must be done.
    While some software houses lose \~30% of their performance (due to miscommunications, etc.), we stay way below 1% (the exact number is hard to measure when the amount of waste is so low).
-9. Use modern IDEs.
-10. Use LLMs (ChatGPT, GitHub Copilot, etc.).
+   As mentioned above, we tend to pause work on a ticket when we are not sure, choosing a small delay on a particular task over potentially having to discard work due to a bad assumption. Our clients prefer it this way.
+10. Use modern IDEs. Pycharm, Cursor, Windsurf or VisualStudio with a LLM plugin. Some people are trying to use VIM with plugins for LLMs, but nowadays it's mostly Cursor/Windsurf/Pycharm.
+11. Use LLMs (ChatGPT, GitHub Copilot, Claude etc) to speed up the work on the code, though watch every single byte of the diff like it's been written by a party you shouldn't trust.
+
+# Code Review
+
+At Reef we do code review for almost all pull requests.
+We treat this like friendly help, with the reviewer offering suggestions on how to improve the given code.
+It is intuitive to most people, but not for everyone. [This document](docs/Code_Review.md) explains in detail how we approach reviews and why.
 
 # Time-tracking
 
@@ -197,7 +212,7 @@ RT generally means "investment", RTO generally means "operations".
 | ---------------------------------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | RT / content marketing                   | Write articles or blog posts under the company name and present the company to the outside world.                                                                                                                                                       |
 | RT / django cookiecutter template        | Develop our internal Django template.                                                                                                                                                                                                                   |
-| RTO / internal infrastructure management | Manage workspace setup, including creating encrypted partitions, installing virtual machines, and installing software **not tied to specific projects**. If it's related to any internal or external project then please bill the time on that project. |
+| RT / internal infrastructure management | Manage workspace setup, including creating encrypted partitions, installing virtual machines, and installing software **not tied to specific projects**. If it's related to any internal or external project then please bill the time on that project. |
 | RT / non-project meeting                 | Participate in phone calls and Slack conversations related to work but not directly project-related. These are very rare, almost non-existent.                                                                                                          |
 | RTO / virtual assistant                  | Organize and procure equipment and supplies needed in the company, including laptops and office supplies, or perform other virtual assistant tasks.                                                                                                     |
 | RT / other internal development          | Improve internal infrastructure, such as onboarding, training, or other company-related activities that might benefit others.                                                                                                                           |
@@ -392,6 +407,13 @@ Create a new account on GitHub.
 The suggested username is the same as one used in your reef email (replace dots with hyphens) with added -reef suffix, eg.
 `jan-kowalski-reef` or `adam-smith-reef`.
 
+Handles must be clearly identifiable — at minimum, your last name must be present.
+This makes it easy to scan the org members list and confirm no unnecessary accounts are present.
+External collaborators with non-identifiable handles are allowed, 
+but they must be listed on our [internal Notion](https://www.notion.so/GitHub-27fb63b4ef1e804095a9c8caaddff673?source=copy_link#27fb63b4ef1e8053aa13e77b7e1dd604)
+page for the same reason.
+
+
 2-step authorization should be enabled as well.
 If you don't enable it (or if you disable it - which is crazy, but technically possible), a periodic audit will catch you and you will make the auditor very sad 😭.
 
@@ -455,7 +477,7 @@ Each team member is allocated 3 minutes to succinctly cover these three points.
 To maintain the efficiency of the stand-up, we strive to keep open discussions to a minimum.
 Any topic necessitating a longer conversation is earmarked for a separate follow-up meeting.
 
-If, for any reason, you cannot attend the daily stand-up, please notify the team in the #staff channel on Slack.
+If, for any reason, you cannot attend the daily stand-up, please notify the team in the #announcements channel on Slack.
 Additionally, post your updates there so everyone stays informed.
 
 ### 6.3 Video hand signal protocol
@@ -599,7 +621,7 @@ They may seem obvious, and RT developers tend to follow them subconsciously, but
 
 Whenever you're taking some days off, it's important to let other team members know, so that work can be planned and client expectations managed.
 
-- You should mark days when you won't be working in GSheet ['Work planning'](https://docs.google.com/spreadsheets/d/12nQKdskWDwFHhQ01BMjfllabqJTZo4tMdCsWx6NJaL4/edit?usp=sharing) as soon as you know about it.
+- You should mark days when you won't be working in the ['Staff Availability project'](https://reeftechnologies.atlassian.net/jira/core/projects/SA) in our Jira as soon as you know about it.
 - Announce it on Slack in `#annoucements` channel beforehand.
 - If you need time off urgently because of something unexpected, please let the affected (people you had planned meetings with / or that need to pick up the task from you) know through Slack right away.
   Use `#annoucements` if you are really in a hurry.

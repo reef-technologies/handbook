@@ -78,6 +78,28 @@ Similarly to the code review channel, when reviewing an alert please following e
 Staff members should to periodically skim through the alerts channels and do a quick checkup on their state.
 It should be easy to spot channels that are neglected, i.e. without any reactions or just 👀, but no resolutions.
 
+## Trying to solve a problem
+
+Even experienced engineers find it difficult to know when to stop trying to solve a problem – but **knowing when to stop is a vital skill for Reef developers** for a simple reason.
+
+Our goal is to **save money for our Clients**, which means that we cannot waste it by banging our heads against the wall and billing hours without getting results or by working incessantly on unnecessary elements of a feature.
+
+In many cases, there are **better approaches** than attempting the same thing over and over:
+- Taking a break and returning to the problem with a clear head. You may switch to another project for a while or just go for a walk.
+- Reaching out to your colleagues to discuss the problem, find inspiration, or get a confirmation for the way you see the project priorities. You can use #python for that.
+- Trying out a suggestion that you personally don’t like, but which may be the right choice.
+- Reaching out to the software / tool / library provider and asking for support or a bug fix.
+
+How can you know that you’re stuck and the time has come to try an alternative approach?
+
+It’s impossible to create an algorithm for when to stop working on a problem or to define a maximum amount of time allowed per problem. After all, every project is different.
+
+Knowing when to stop making useless efforts or when to back out from an idea is a tacit skill that we all need to develop and foster. This **self-awareness is an important part of the reason why our Clients trust us** to deliver great software at a fair price.
+
+Currently, there are two things we can do to reinforce this skill in Reef Technologies developers:
+- We should all try to maintain an awareness of our working process. If you’re starting to feel frustrated, or if you find yourself trying the same thing as before and expecting different results, refer to this agreement. Give it a short read to remind yourself of the value Reef Technologies brings to our Clients by saving their money. Ask yourself if the way you’re working right now still fits the Reef way. If it is, well, happy coding. If you’re in doubt, maybe you should try one of the methods that you can find in the bullet points above.
+- We want to build a culture where backing out of a dead end is not something to be embarrassed about – it’s something to be proud of, and it’s a skill that earns us more satisfied Clients. That is why in every status call, we spend some time discussing instances when we felt stuck or annoyed by a problem and methods we used to fix those situations.
+
 ## Maintaining organizational culture
 
 The Reef Technologies Culture Book is a shared journal where we document company life, recording the most interesting events, challenges, solutions and decisions.
@@ -212,82 +234,9 @@ with the following exceptions:
 This policy aims to minimize distractions during calls.
 We've observed that certain video effects, especially those used without a green screen or with loose hair, can cause flickering and partially obscure participants' faces.
 
-## Hardware co-funding
+## Equipment co-funding
 
-All staff members of Reef Technologies have the right to request co-funding for up to 50% of the value of hardware deemed necessary for work, such as a laptop, a headset, a monitor, a mouse, a keyboard, etc.
-
-Co-funding conditions for senior engineers:
-
-- up to 50% of the value of the hardware up to $1536 net per two years.
-
-Co-funding conditions for everyone else:
-
-- up to 50% of the value of the hardware up to $512 net per two years.
-
-The reason for this difference is that software engineering generally requires significantly more computing power than other types of tasks.
-
-Two years of full-time work is equivalent to 2568 hours.
-
-All tracked hours count, it doesn’t matter whether the staff member logged them to a commercial project or an internal project such as our Sociocracy or Weekly Status calls.
-
-The hours are calculated as per the number of hours tracked in the Hubstaff time tracker.
-Staff members may request to be informed of their current hour total by a virtual assistant.
-
-A Reef Technologies member who requests co-funding for hardware they need to perform their work will be sent the equipment by the company.
-
-The hardware is bought by Reef Technologies and belongs to the company until its value has decreased either by 50% or by the maximum co-funding value ($1536 or $512).
-
-In reality, the benefit of using this policy amounts to more than 50% of the hardware's original value.
-By the time you purchase it from Reef Technologies, you will be charging a higher hourly rate and inflation will have likely further devalued the amount you need to pay for the hardware.
-All that after getting to use some nice gear at no immediate cost in the meantime.
-
-After the value of the hardware meets one of the two conditions, the staff member gains ownership by purchasing the hardware from Reef Technologies at its current price (50% of the initial price or initial price less maximum co-funding value).
-
-The hardware is never returned to Reef Technologies.
-In all cases, it remains with the individual.
-
-If a staff member on evaluation period requests hardware assistance, they will be assigned the company hardware that is currently available.
-After the evaluation period, the staff member is welcome to use the co-funding policy to buy the hardware of their own choice.
-
-The hardware will belong to Reef Technologies until its value has decreased either by 50% or by the maximum co-funding value ($1536 or $512).
-
-### Example situation 1:
-
-John works for Reef Technologies as a Senior Python Engineer.
-When he first joined the company, he requested to be supplied with a laptop that cost $3000. Reef Technologies purchased it and had it delivered to John.
-
-After about two years, the assistant tasked with tracking the value of Reef Technologies hardware noticed that the average value of a two-year-old used laptop that John has been using has fallen to $1500 – 50% of the initial price of $3000.
-
-At this point, John was issued an invoice by Reef Technologies to pay $1500 in order to purchase the laptop.
-John paid the $1500 and the ownership of the laptop passed on to him.
-
-### Example situation 2:
-
-Patrick works for Reef Technologies as a Remote Executive Assistant.
-When he first joined the company, he requested to be supplied with a laptop that cost $800. Reef Technologies purchased it and had it delivered to Patrick.
-
-A few months in, Patrick realized he also needed a vertical mouse and requested for Reef Technologies to get him one at the cost of $100.
-
-Patrick could do that because:
-
-- the co-founding value for a laptop that costs $800 is $400
-- the maximum co-founding value that a Remote Executive Assistant can receive is $512 per two years
-- Patrick still has $112 of co-founding value available at this point in time
-- the co-founding value of a mouse that costs $100 is $50, which is less than $112
-
-After about a year, the assistant tasked with tracking the value of Reef Technologies hardware noticed that the average value of a one-year-old used laptop that Patrick has been using has fallen to $400 – 50% of the initial price of $800.
-
-At this point, Patrick was issued an invoice by Reef Technologies to pay $400 in order to purchase the laptop.
-Patrick paid the $400 and the ownership of the laptop passed on to him.
-
-A year later, the value of the mouse was down to $50, so Patrick was issued an invoice by Reef Technologies to pay $50 in order to purchase the mouse as well.
-Patrick paid the $50 and became the owner of the mouse.
-
-Two years already passed since Patrick had first requested to get a laptop.
-Thus, his available co-founding value returned to the original value of $512.
-
-As a senior Reef Technologies engineer, you are eligible to use the services of a personal assistant.
-The assistant may do the necessary research, make a list of top hardware models for you to choose from, find a good online shop that is available in your country and have the appropriate equipment delivered to your address.
+See the new [Equipment Funding Policy](https://github.com/reef-technologies/handbook/blob/master/equipment_funding.md)
 
 ## LLM tool use & funding
 

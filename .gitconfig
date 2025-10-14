@@ -1,6 +1,6 @@
 [core]
     editor = vim
-	#pager = diff-so-fancy | less --tabs=4 -RFX
+    #pager = diff-so-fancy | less --tabs=4 -RFX
 
 [color]
     ui = always
@@ -26,15 +26,28 @@
     untracked = cyan
 [diff]
     compactionHeuristic = true # >= 2.9.0
+    algorithm = histogram
+    colorMoved = plain
+    mnemonicPrefix = true
+    renames = true
+[push]
+    autoSetupRemote = true
+    default = upstream
+[fetch]
+    prune = true
+    pruneTags = true
+    all = true
 
 [rebase]
-	autosquash = true
+    autosquash = true
+    rebaseMerges = true
 [rerere]
     enabled = true
+    autoupdate = true
 [merge]
     ff = false
     log = true
-    conflictstyle = diff3
+    conflictstyle = zdiff3
 [alias]
     st = status
     ci = commit
@@ -51,11 +64,16 @@
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
     lga = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
     # show-branch
-    pushr = push origin HEAD:refs/for/master
     edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; vim `f`"
-    cleanup = "!git branch --merged | egrep -v '(\\*|master|main|prod|deploy|staging)' | xargs -n 1 -r git branch -d"
     aliases = !git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /'
 [push]
-	default = upstream
-#[commit]
+    default = upstream
+[branch]
+    sort = -committerdate
+[tag]
+    sort = version:refname
+[init]
+    defaultBranch = master
+[commit]
 #   gpgsign = true
+    verbose = true
