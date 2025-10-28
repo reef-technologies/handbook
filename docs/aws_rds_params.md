@@ -1,7 +1,7 @@
 # Correct values for parameters for Postgres AWS RDS database instances
 
 Default values for Postgres DB instances in AWS RDS are not optimal, so when you're creating a new instance, please use
-the values below (shared_buffers and effective_cache_size defaults are currently well set, but this 2 settings are so
+the values below (shared_buffers and effective_cache_size defaults are currently well set, but these two settings are so
 crucial, that at least they should be verified and/or set manually, because defaults can change some day).
 They have huge impact on DB performance, so also on the bill paid to AWS.
 
