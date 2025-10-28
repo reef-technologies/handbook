@@ -19,3 +19,7 @@ They have huge impact on DB performance, so also on the bill paid to AWS.
   many DB connections doing simultaneous queries it is easy to cause OOM. So this value should be set with caution, and
   individually for each database, but the default value is too low for most use cases while 1/64 is a good compromise between
   performance and safety.
+
+Additional notes:
+ * for large analytical queries -> scale up, mostly work_mem
+ * for small instances (e.g. <2GB RAM) -> scale down, especially for burstable classes (db.t)
