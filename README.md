@@ -121,7 +121,7 @@ A: Happily.
 
 Q: Do I still need to set up service-specific 2FA if I use Google SSO?
 \
-A: No. Google SSO (with 2FA enabled on your Google account) already covers this.
+A: No. Google SSO (with 2FA enabled on your Google account) already covers this, as long as password-based login is disabled.
 
 ### External LLMs
 
