@@ -127,6 +127,8 @@ A: No. Google SSO (with 2FA enabled on your Google account) already covers this,
 
 Most clients explictly agreed to the use of non-local LLMs. Ask a lead developer on the given project what tools you can use for which type of work - there are a couple of modules which should never be shown as context for an external LLM.
 
+We pay for the AI tools used by our staff members. See [AI tool funding agreement](agreements.md#ai-tool-use--funding) for more details.
+
 ## What does "high performance" mean?
 
 Our clients really don't care how fast we type on our keyboards (in fact while on meetings we often don't touch the keyboard for a long time, getting a clean zero keystrokes per hour, delivering not only a very high amount of value per hour, but also infinite value per keystroke!
