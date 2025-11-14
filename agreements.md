@@ -241,7 +241,7 @@ See the new [Equipment Funding Policy](https://github.com/reef-technologies/hand
 ## AI tool use & funding
 
 Each Reef Technologies senior staff member is eligible to receive company-funded AI service subscriptions (e.g. GitHub Copilot, ChatGPT Plus, Claude Code).
-The subscription is paid by Reef Technologies for the entire time it is being used it for any tasks related to Reef Technologies projects.
+The subscription is paid by Reef Technologies for the entire time it is being used for any tasks related to Reef Technologies projects.
 Please make sure the subscription is terminated if you don't need it anymore to prevent license waste.
 
 You can get:
