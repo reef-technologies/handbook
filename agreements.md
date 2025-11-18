@@ -267,6 +267,7 @@ In all cases you are responsible for quality of your work, regardless if LLM was
 
 To pay for a subscription, use a company card.
 You can get one by contacting our HR manager.
+Make sure you put in the company name, tax ID etc in the subscription details for invoicing and forward the invoices to the same address to which you send all the other invoices.
 
 ## Training and upskilling
 
