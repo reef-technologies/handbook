@@ -76,56 +76,7 @@ The manager looked at the engineer and was not happy.
 
 UPDATE: A fully encrypted laptop of our senior developer has been stolen from his bag while he was on a train, returning from a conference in late 2017. Spooky.
 
-### Storage Encryption and Secure Work Environment
-
-All data pertaining to the company and its clients must be either stored in the cloud (specifically, Google Drive/Docs/Sheets within the company domain) or on encrypted media (an encrypted volume or drive).
-This excludes data categorized as being of no value or already publicly available.
-
-In addition, developers (after 2nd stage of Evaluation period i.e. before working on our clients' code base) are required to set up a Secure Work Environment on their workstations.
-As not to slow down 1st stage of Evaluation period, please refrain from setting it up before you get clear signal, that your next task will require you to work with private Client data.
-This is both for additional security and improved focus.
-
-Setting up Storage Encryption might initially appear daunting, but rest assured that it is fairly straightforward process.
-Our top recommendation is Full Disk Encryption (FDE), a method that encrypts the entire disk for comprehensive protection.
-Our second recommendation is Volume Encryption, a method that encrypts only the volume (/folder) where sensitive data is stored.
-Due to its ease of use, we recommend VeraCrypt by default, for which a simple tutorial can be found [here](https://github.com/reef-technologies/handbook/blob/master/docs/VeraCrypt.md).
-If you want to learn more about available options, please refer to the [Storage Encryption](docs/Storage_Encryption.md) document.
-
-So to sum it up:
-
-- Software Developers **after** completing 2nd stage of Evaluation period (i.e. are about to work with Clients' code) are required to set up [Secure Work Environment](docs/Developer_environment_setup.md#ensure-you-have-a-secure-work-environment) on their workstations.
-- All other roles (e.g. Virtual Assistants) are required to use [Storage Encryption](docs/Storage_Encryption.md).
-
-### Mobile devices
-
-If you plan to connect your mobile device to any work-related accounts, first make sure:
-
-- your device is password-protected - i.e. has a passcode or a biometric lock
-- is encrypted - modern Apple and Android 10+ devices support encryption, but older devices or ones without configured passcode might not
-- is actively supported - i.e. receive regular security updates (check last update date in system settings and with your device provider)
-
-### 2FA
-
-2FA is mandatory everywhere it is possible to use it (more explanation below).
-We recommend Twilio's [Authy](https://authy.com/) because it has a PIN code and end-to-end encrypted cloud backup.
-
-Frequently Asked Questions:
-
-Q: Who does the 2FA rule apply to?
-\
-A: Everyone. It's in the contract, BTW.
-
-Q: Will the client pay for the time spent on configuring 2FA?
-\
-A: Happily.
-
-Q: Do I still need to set up service-specific 2FA if I use Google SSO?
-\
-A: No. Google SSO (with 2FA enabled on your Google account) already covers this, as long as password-based login is disabled.
-
-### External LLMs
-
-Most clients explictly agreed to the use of non-local LLMs. Ask a lead developer on the given project what tools you can use for which type of work - there are a couple of modules which should never be shown as context for an external LLM.
+Please familiarize yourself with our [security rules](docs/security-rules.md).
 
 ## What does "high performance" mean?
 

@@ -2,9 +2,13 @@
 
 There are two ways to encrypt the storage of your application.
 The first is to encrypt the entire storage, and the second is to encrypt only encrypt sensitive data.
-We recommend them in that order, but we understand that sometimes it is not possible to encrypt the entire storage, so feel free to fallback to [Volume Encryption](#volume-encryption).
 
-If you role requires a Secure Work Environment, you are required to use [Full Disk Encryption](#full-disk-encryption).
+If you are a developer, you are required to use [Full Disk Encryption](#full-disk-encryption).
+Otherwise, you may fallback to [Volume Encryption](#volume-encryption), but we recommend using [Full Disk Encryption](#full-disk-encryption) anyway.
+
+Our requirement for FDE for developers arises from its ability to securely store Docker images, potentially containing client code, 
+which often can land outside your home directory.
+Solely encrypting the home directory would leave these sensitive data vulnerable.
 
 Due to the large space utilization of our projects, the minimum storage size is **50 GB** (recommended size:
 **100 GB**).
@@ -31,4 +35,4 @@ Please note, the boot partition might not get actually be encrypted, but this is
 
 ## Volume Encryption
 
-Due to its ease of use, we recommend **VeraCrypt**, for which a simple tutorial can be found [here](https://github.com/reef-technologies/handbook/blob/master/docs/VeraCrypt.md).
+Due to its ease of use, we recommend **VeraCrypt**, for which a simple tutorial can be found [here](VeraCrypt.md).

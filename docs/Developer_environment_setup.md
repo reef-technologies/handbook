@@ -2,26 +2,7 @@
 
 This guide will show how to set up a standard, secure work environment for software development.
 
-## Ensure you have a Secure Work Environment
-
-For Secure Work Environment we recommend a Virtual Machine or dual-boot with [Full Disk Encryption](Storage_Encryption.md#full-disk-encryption) enabled.
-This ensures a clear segregation between your professional and personal digital spaces, preventing accidental cross-access or data leaks involving customer data.
-
-If you have previously used your reef.pl email address (or any associated) on a personal environment, make sure to remove it from all devices and accounts.
-Only exception being [secure mobile devices](../README.md#storage-encryption-and-secure-work-environment).
-
-Our preference for FDE arises from its ability to securely store Docker images, potentially containing client code, which often can land outside your home directory.
-Solely encrypting the home directory would leave these sensitive data vulnerable.
-
-Lastly, Docker containers, which store and run client code, are to be considered secret.
-Accessing these containers from personal environments is prohibited to maintain a robust security structure, preventing any potential cross-access and preserving the integrity of our client's data.
-
-As for personal/work separation, we recommend using a separate machine (Virtual or physical) or dual-booting.
-It is not recommended, but you may use multi-user setup to isolate personal and work-related applications, but take special care as it is hard to prevent personal accounts, with for example, `docker` access from accessing ANY other account on the system.
-
 # System setup
-
-If you are undecided, by default we recommend going with Virtual Machine setup.
 
 As for the work environment Operating System, we recommend using a Linux-based system.
 Guide itself is written with Ubuntu-based distros (e.g. [Linux Mint](https://www.linuxmint.com/download.php)) in mind.
