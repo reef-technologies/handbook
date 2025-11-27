@@ -4,7 +4,7 @@ There are two ways to encrypt the storage of your application.
 The first is to encrypt the entire storage, and the second is to encrypt only encrypt sensitive data.
 
 If you are a developer, you are required to use [Full Disk Encryption](#full-disk-encryption).
-Otherwise, you may fallback to [Volume Encryption](#volume-encryption), but we recommend using [Full Disk Encryption](#full-disk-encryption) anyway.
+Otherwise, you may fallback to [Volume Encryption](#volume-encryption), but we strongly recommend using [Full Disk Encryption](#full-disk-encryption) anyway.
 
 Our requirement for FDE for developers arises from its ability to securely store Docker images, potentially containing client code, 
 which often can land outside your home directory.

@@ -24,7 +24,7 @@ Only exception being [secure mobile devices](security-rules.md#mobile-devices).
 The goal of the secure work environment is to maintain clean separation between your personal data and the company
 data. Thus, you should refrain from: 
 
-* performing any personal tasks like shopping, using social media... 
+* performing any personal tasks like shopping, using social media, opening emails... 
 * using personal keys, GitHub accounts etc. (we don't want them to mix up don't we?)
 
 You may though use your personal accounts to use private IDE licences, login into music streaming platforms or use

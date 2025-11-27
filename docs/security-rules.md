@@ -8,6 +8,11 @@ If you are a developer, follow [Secure work environment setup for developers](wo
 
 All other roles are just required to use [Storage Encryption](Storage_Encryption.md).
 
+Use of company accounts and services outside the secure work environment is prohibited, with 2 exceptions:
+
+* [Mobile devices](#mobile-devices) if they are [properly secured](#mobile-devices)
+* Gather is consider safe, using one-time email code to log in.
+
 ## Company data storage
 
 All data pertaining to the company must be either stored in the cloud 
