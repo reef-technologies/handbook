@@ -108,6 +108,7 @@ If you plan to connect your mobile device to any work-related accounts, first ma
 
 2FA is mandatory everywhere it is possible to use it (more explanation below).
 We recommend Twilio's [Authy](https://authy.com/) because it has a PIN code and end-to-end encrypted cloud backup.
+We require using an Authenticator App - email-based 2FA is forbidden.
 
 Frequently Asked Questions:
 
