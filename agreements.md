@@ -166,6 +166,37 @@ That's one of the reasons we have someone in that role for every project.
 This also allows for other solutions such as, for example, splitting the cost of a fix between two clients, discounts etc - something you couldn't do on your own.
 Fortunately, with a dedicated client contact person, you don't have to!
 
+## LLM-Assisted Coding
+
+Motivation
+
+- LLMs let us move faster (including during reviews), but cumulative low-quality changes can erode long-term maintainability — one of our trademarks.
+- Responsibility remains human: both the author and the reviewer own the quality of what ships, regardless of tooling.
+- We may intentionally accept slightly lower quality for one‑shot, low‑risk changes to gain speed, but we do so when it is clearly safe and we document the prompt/spec.
+- There’s a trade‑off: more features with less quality vs fewer features with higher quality. Over time, lower quality makes teams ship fewer features due to maintenance drag; we optimize for sustained maintainability while using one‑shots to keep speed where risk is minimal.
+- Practical observation: there’s a limit to how much an LLM can safely rewrite in a day without agreed QA.
+
+Scope and rules
+
+- Default path: normal QA and review. One‑shot changes (small, independently judgeable changes) may be merged with relaxed quality and may skip review if all of the following hold:
+  - The change is low‑risk, contained, and has minimal blast radius; the author performs a basic functional check.
+  - The final “prompt/spec” is saved in the repository as markdown and kept up to date when the code changes.
+    - The conversation history may be condensed into a short “final prompt/summary” rather than stored verbatim.
+  - PR/commit mentions that the change is LLM‑assisted and links to the prompt/spec.
+- Larger/core contributions done with LLM assistance require a case‑by‑case, agreed QA/release plan. If we must merge a larger LLM change before full QA, do it consciously with that plan in place. Do not merge low‑quality core code without such agreement.
+- Use case‑by‑case judgement for one‑shots; if uncertain, take the normal QA/review path.
+
+Author responsibilities
+
+- Read every byte of generated code, functionally test it, and prepare the change for regular review (structure the diff, write tests/docs where applicable).
+- Include a link to the prompt/spec in the PR or commit description. Do not include secrets or client‑sensitive data in prompts.
+
+Review expectations
+
+- Normal review applies; the reviewer may use or not use LLM tooling.
+- Verify that the prompt/spec exists, is up to date, and meaningfully reflects the change.
+- Confirm maintainability isn’t degraded (structure, naming, tests, docs), and that no secrets are stored in prompts/specs.
+
 ## Fast track decisions via Slack instead of standard Sociocracy approach
 
 At Reef Technologies, we mostly make decisions in our weekly Sociocracy meetings.

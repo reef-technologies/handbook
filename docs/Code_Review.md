@@ -12,6 +12,9 @@ As with every policy, if something is bad and you care about it enough, feel fre
 and the governance process, operating in front of you and with you, will decide whether to change (most likely yes).
 </details>
 
+Responsibility remains with humans: authors and reviewers are accountable for code quality whether or not LLMs were used. See the [LLM‑Assisted Coding agreement](../agreements.md#llm-assisted-coding).
+Tiny, low‑risk one‑shot LLM changes may skip review if they meet the agreement’s conditions (prompt/spec saved, low blast radius, basic functional check). Otherwise, request review as usual.
+
 ## When/how to request a code review
 
 1. If you are a developer, always perform basic functional testing (manually!) of your code and self-review your PR
@@ -31,6 +34,7 @@ and the governance process, operating in front of you and with you, will decide 
    commits instead, like “Fix XYZ”, “Add tests”. <details><summary>Note.</summary>This is a limitation of GitHub and a
    primary motivator to consider moving development off to gitlab / gerrit, though as of writing this document we have
    not decided to switch.</details>
+6. Follow the [LLM‑Assisted Coding agreement](../agreements.md#llm-assisted-coding) and link to the saved prompt/spec. If you’re using the LLM one‑shot relaxation, say so explicitly; those relaxed changes should stand alone, not be tucked into larger PRs. Authors must read and functionally verify all generated code before requesting review; if merging without review under the one‑shot rule, mention “llm‑one‑shotted” and the prompt/spec path in the commit message instead.
 
 ## How to review
 
@@ -101,6 +105,8 @@ Note: not all of these apply to all PRs, of course.
 12. Performance / memory considerations. Will it OOM in a corner case after the change?
 13. Self-healing. If a (network, HDD) device or a part of the system breaks temporarily, will the rest of the system
     recover automatically or will it require manual intervention?
+14. For LLM‑assisted changes: is the prompt/spec saved, linked in the PR, and kept up to date?
+15. Maintainability not degraded (structure, naming, tests, docs); no secrets in prompt/specs.
 
 ## How to resolve the reviewer’s comments
 
