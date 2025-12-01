@@ -12,8 +12,10 @@ As with every policy, if something is bad and you care about it enough, feel fre
 and the governance process, operating in front of you and with you, will decide whether to change (most likely yes).
 </details>
 
-Responsibility remains with humans: authors and reviewers are accountable for code quality whether or not LLMs were used. See the [LLM‑Assisted Coding agreement](../agreements.md#llm-assisted-coding).
-Tiny, low‑risk one‑shot LLM changes may skip review if they meet the agreement’s conditions (prompt/spec saved, low blast radius, basic functional check). Otherwise, request review as usual.
+Responsibility remains with humans: authors and reviewers are accountable for code quality whether or not LLMs were
+used. See the [LLM‑Assisted Coding agreement](../agreements.md#llm-assisted-coding).
+Tiny, low‑risk one‑shot LLM changes may skip review if they meet the agreement’s conditions (prompt/spec saved, low
+blast radius, basic functional check). Otherwise, request review as usual.
 
 ## When/how to request a code review
 
@@ -34,7 +36,11 @@ Tiny, low‑risk one‑shot LLM changes may skip review if they meet the agreeme
    commits instead, like “Fix XYZ”, “Add tests”. <details><summary>Note.</summary>This is a limitation of GitHub and a
    primary motivator to consider moving development off to gitlab / gerrit, though as of writing this document we have
    not decided to switch.</details>
-6. Follow the [LLM‑Assisted Coding agreement](../agreements.md#llm-assisted-coding) and link to the saved prompt/spec. If you’re using the LLM one‑shot relaxation, say so explicitly; those relaxed changes should stand alone, not be tucked into larger PRs. Authors must read and functionally verify all generated code before requesting review; if merging without review under the one‑shot rule, mention “llm‑one‑shotted” and the prompt/spec path in the commit message instead.
+6. Follow the [LLM‑Assisted Coding agreement](../agreements.md#llm-assisted-coding) and link to the saved prompt/spec.
+   If you’re using the LLM one‑shot relaxation, say so explicitly; those relaxed changes should stand alone, not be
+   tucked into larger PRs. Authors must read and functionally verify all generated code before requesting review; if
+   merging without review under the one‑shot rule, mention “llm‑one‑shotted” and the prompt/spec path in the commit
+   message instead.
 
 ## How to review
 

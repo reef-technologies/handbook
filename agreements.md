@@ -170,32 +170,42 @@ Fortunately, with a dedicated client contact person, you don't have to!
 
 Motivation
 
-- LLMs let us move faster (including during reviews), but cumulative low-quality changes can erode long-term maintainability — one of our trademarks.
+- LLMs let us move faster (including during reviews), but cumulative low-quality changes can erode long-term
+  maintainability — one of our trademarks.
 - Responsibility remains human: both the author and the reviewer own the quality of what ships, regardless of tooling.
-- We may intentionally accept slightly lower quality for one‑shot, low‑risk changes to gain speed, but we do so when it is clearly safe and we document the prompt/spec.
-- There’s a trade‑off: more features with less quality vs fewer features with higher quality. Over time, lower quality makes teams ship fewer features due to maintenance drag; we optimize for sustained maintainability while using one‑shots to keep speed where risk is minimal.
+- We may intentionally accept slightly lower quality for one‑shot, low‑risk changes to gain speed, but we do so when it is
+  clearly safe and we document the prompt/spec.
+- There’s a trade‑off: more features with less quality vs fewer features with higher quality. Over time, lower quality
+  makes teams ship fewer features due to maintenance drag; we optimize for sustained maintainability while using
+  one‑shots to keep speed where risk is minimal.
 - Practical observation: there’s a limit to how much an LLM can safely rewrite in a day without agreed QA.
 
 Scope and rules
 
-- Default path: normal QA and review. One‑shot changes (small, independently judgeable changes) may be merged with relaxed quality and may skip review if all of the following hold:
+- Default path: normal QA and review. One‑shot changes (small, independently judgeable changes) may be merged with
+  relaxed quality and may skip review if all of the following hold:
   - The change is low‑risk, contained, and has minimal blast radius; the author performs a basic functional check.
   - The final “prompt/spec” is saved in the repository as markdown and kept up to date when the code changes.
     - The conversation history may be condensed into a short “final prompt/summary” rather than stored verbatim.
   - PR/commit mentions that the change is LLM‑assisted and links to the prompt/spec.
-- Larger/core contributions done with LLM assistance require a case‑by‑case, agreed QA/release plan. If we must merge a larger LLM change before full QA, do it consciously with that plan in place. Do not merge low‑quality core code without such agreement.
+- Larger/core contributions done with LLM assistance require a case‑by‑case, agreed QA/release plan. If we must merge a
+  larger LLM change before full QA, do it consciously with that plan in place. Do not merge low‑quality core code
+  without such agreement.
 - Use case‑by‑case judgement for one‑shots; if uncertain, take the normal QA/review path.
 
 Author responsibilities
 
-- Read every byte of generated code, functionally test it, and prepare the change for regular review (structure the diff, write tests/docs where applicable).
-- Include a link to the prompt/spec in the PR or commit description. Do not include secrets or client‑sensitive data in prompts.
+- Read every byte of generated code, functionally test it, and prepare the change for regular review (structure the diff,
+  write tests/docs where applicable).
+- Include a link to the prompt/spec in the PR or commit description. Do not include secrets or client‑sensitive data in
+  prompts.
 
 Review expectations
 
 - Normal review applies; the reviewer may use or not use LLM tooling.
 - Verify that the prompt/spec exists, is up to date, and meaningfully reflects the change.
-- Confirm maintainability isn’t degraded (structure, naming, tests, docs), and that no secrets are stored in prompts/specs.
+- Confirm maintainability isn’t degraded (structure, naming, tests, docs), and that no secrets are stored in
+  prompts/specs.
 
 ## Fast track decisions via Slack instead of standard Sociocracy approach
 
@@ -271,11 +281,14 @@ See the new [Equipment Funding Policy](https://github.com/reef-technologies/hand
 
 ## LLM tool use & funding
 
-Each Reef Technologies senior staff member is eligible to receive company-funded LLM service subscription (e.g. GitHub Copilot, ChatGPT Plus).
-The subscription is paid by Reef Technologies for entire time it is being used it for any tasks related to Reef Technologies projects.
+Each Reef Technologies senior staff member is eligible to receive company-funded LLM service subscription (e.g. GitHub
+Copilot, ChatGPT Plus).
+The subscription is paid by Reef Technologies for entire time it is being used it for any tasks related to Reef
+Technologies projects.
 Please make sure the subscription is terminated if you don't need it anymore to prevent license waste.
 
-Please note, while our default contract with clients allows use of LLMs, make sure to check with a project manager before using LLM on any particular project.
+Please note, while our default contract with clients allows use of LLMs, make sure to check with a project manager
+before using LLM on any particular project.
 As of mid 2023 every client has approved LLMs except one that is still considering it.
 As for work done for Reef Technologies internal projects, you are free to use LLMs as you see fit.
 In all cases you are responsible for quality of your work, regardless if LLM was used to produce it or not.
