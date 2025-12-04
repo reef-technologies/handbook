@@ -283,19 +283,36 @@ We've observed that certain video effects, especially those used without a green
 
 See the new [Equipment Funding Policy](https://github.com/reef-technologies/handbook/blob/master/equipment_funding.md)
 
-## LLM tool use & funding
+## AI tool use & funding
 
-Each Reef Technologies senior staff member is eligible to receive company-funded LLM service subscription (e.g. GitHub
-Copilot, ChatGPT Plus).
-The subscription is paid by Reef Technologies for entire time it is being used it for any tasks related to Reef
-Technologies projects.
+Each Reef Technologies senior staff member is eligible to receive company-funded AI service subscriptions (e.g. GitHub Copilot, ChatGPT Plus, Claude Code).
+The subscription is paid by Reef Technologies for the entire time it is being used for any tasks related to Reef Technologies projects.
 Please make sure the subscription is terminated if you don't need it anymore to prevent license waste.
 
-Please note, while our default contract with clients allows use of LLMs, make sure to check with a project manager
-before using LLM on any particular project.
+You can get:
+
+1. one big (up to \$250/month) and one small (up to \$25/month) subscription,
+2. or up to five small subscriptions,
+
+depending on your needs.
+
+Examples:
+
+1. Claude Max and ChatGPT Plus;
+2. Copilot, Codex, Cursor, Claude, Junie; each of these the up to $25/month tier.
+
+The numbers are approximations, the exact price may exceed the limits a bit.
+
+Please note, while our default contract with clients allows use of LLMs, make sure to check with a project manager before using LLM on any particular project.
 As of mid 2023 every client has approved LLMs except one that is still considering it.
 As for work done for Reef Technologies internal projects, you are free to use LLMs as you see fit.
 In all cases you are responsible for quality of your work, regardless if LLM was used to produce it or not.
+
+### Company card
+
+To pay for a subscription, use a company card.
+You can get one by contacting our HR manager.
+Make sure you put in the company name, tax ID etc in the subscription details for invoicing and forward the invoices to the same address to which you send all the other invoices.
 
 ## Training and upskilling
 

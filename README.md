@@ -121,11 +121,13 @@ A: Happily.
 
 Q: Do I still need to set up service-specific 2FA if I use Google SSO?
 \
-A: No. Google SSO (with 2FA enabled on your Google account) already covers this.
+A: No. Google SSO (with 2FA enabled on your Google account) already covers this, as long as password-based login is disabled.
 
 ### External LLMs
 
 Most clients explictly agreed to the use of non-local LLMs. Ask a lead developer on the given project what tools you can use for which type of work - there are a couple of modules which should never be shown as context for an external LLM.
+
+We pay for the AI tools used by our staff members. See [AI tool funding agreement](agreements.md#ai-tool-use--funding) for more details.
 
 ## What does "high performance" mean?
 
