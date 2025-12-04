@@ -184,10 +184,12 @@ Scope and rules
 
 - Default path: normal QA and review. One‑shot changes (small, independently judgeable changes) may be merged with
   relaxed quality and may skip review if all of the following hold:
-  - The change is low‑risk, contained, and has minimal blast radius; the author performs a basic functional check.
-  - The final “prompt/spec” is saved in the repository as markdown and kept up to date when the code changes.
-    - The conversation history may be condensed into a short “final prompt/summary” rather than stored verbatim.
-  - PR/commit mentions that the change is LLM‑assisted and links to the prompt/spec.
+  - The change is low‑risk, contained, and has minimal blast radius.
+  - The author performs a basic functional check.
+  - The “final prompt/spec” is saved in the repo as markdown (distilled ask + key constraints/acceptance criteria; the
+    chat can be condensed to a short summary) and kept up to date when the code changes.
+  - The one‑shot relaxation is mentioned explicitly in the PR/commit.
+  - The change is kept standalone (not tucked into a larger PR).
 - Larger/core contributions done with LLM assistance require a case‑by‑case, agreed QA/release plan. If we must merge a
   larger LLM change before full QA, do it consciously with that plan in place. Do not merge low‑quality core code
   without such agreement.
@@ -197,13 +199,15 @@ Author responsibilities
 
 - Read every byte of generated code, functionally test it, and prepare the change for regular review (structure the diff,
   write tests/docs where applicable).
-- Include a link to the prompt/spec in the PR or commit description. Do not include secrets or client‑sensitive data in
-  prompts.
+- When using the one‑shot relaxation, save the prompt/spec near the change (even if you refactored the generated code).
+  For LLM‑assisted work that goes through normal QA/review, keeping a prompt/spec is optional. Do not include secrets or
+  client‑sensitive data in prompts.
 
 Review expectations
 
 - Normal review applies; the reviewer may use or not use LLM tooling.
-- Verify that the prompt/spec exists, is up to date, and meaningfully reflects the change.
+- If a one‑shot change is being reviewed anyway, verify that the prompt/spec exists, is up to date, and meaningfully
+  reflects the change.
 - Confirm maintainability isn’t degraded (structure, naming, tests, docs), and that no secrets are stored in
   prompts/specs.
 
