@@ -174,11 +174,13 @@ Motivation
   maintainability — one of our trademarks.
 - Responsibility remains human: both the author and the reviewer own the quality of what ships, regardless of tooling.
 - We may intentionally accept slightly lower quality for one‑shot, low‑risk changes to gain speed, but we do so when it is
-  clearly safe and we document the prompt/spec.
+  clearly safe.
 - There’s a trade‑off: more features with less quality vs fewer features with higher quality. Over time, lower quality
   makes teams ship fewer features due to maintenance drag; we optimize for sustained maintainability while using
   one‑shots to keep speed where risk is minimal.
 - Practical observation: there’s a limit to how much an LLM can safely rewrite in a day without agreed QA.
+
+**Never include secrets or client‑sensitive data in prompts or any saved notes.**
 
 Scope and rules
 
@@ -186,9 +188,9 @@ Scope and rules
   relaxed quality and may skip review if all of the following hold:
   - The change is low‑risk, contained, and has minimal blast radius.
   - The author performs a basic functional check.
-  - The “final prompt/spec” is saved in the repo as markdown (distilled ask + key constraints/acceptance criteria; the
-    chat can be condensed to a short summary) and kept up to date when the code changes.
-  - The one‑shot relaxation is mentioned explicitly in the PR/commit.
+  - The change is either self‑explanatory on its own, or (if not obvious) accompanied by a short note capturing the
+    ask/purpose/constraints so the next person can pick it up without guesswork.
+  - The one‑shot relaxation is mentioned explicitly in the PR/commit (e.g. include `llm-one-shot`).
   - The change is kept standalone (not tucked into a larger PR).
 - Larger/core contributions done with LLM assistance require a case‑by‑case, agreed QA/release plan. If we must merge a
   larger LLM change before full QA, do it consciously with that plan in place. Do not merge low‑quality core code
@@ -199,17 +201,16 @@ Author responsibilities
 
 - Read every byte of generated code, functionally test it, and prepare the change for regular review (structure the diff,
   write tests/docs where applicable).
-- When using the one‑shot relaxation, save the prompt/spec near the change (even if you refactored the generated code).
-  For LLM‑assisted work that goes through normal QA/review, keeping a prompt/spec is optional. Do not include secrets or
-  client‑sensitive data in prompts.
+- When using the one‑shot relaxation, make the change pick‑up‑able: if it is not trivial/self‑explanatory, add a short
+  note (or code comment) capturing the ask/purpose/constraints. If it is obvious, no note is needed.
 
 Review expectations
 
 - Normal review applies; the reviewer may use or not use LLM tooling.
-- If a one‑shot change is being reviewed anyway, verify that the prompt/spec exists, is up to date, and meaningfully
-  reflects the change.
-- Confirm maintainability isn’t degraded (structure, naming, tests, docs), and that no secrets are stored in
-  prompts/specs.
+- If a one‑shot change is being reviewed anyway, confirm it is low‑risk/contained and either self‑explanatory or
+  accompanied by a brief note as above.
+- Confirm maintainability isn’t degraded (structure, naming, tests, docs), and that no secrets are stored in any notes or
+  prompts.
 
 ## Fast track decisions via Slack instead of standard Sociocracy approach
 
