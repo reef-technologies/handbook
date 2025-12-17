@@ -601,6 +601,8 @@ Here are some miscellaneous rules to follow that were hard to put in other categ
 - If your changes are not ready to be submitted at the end of your work day, make a dirty branch, commit all of your changes to it (typically `git commit -am'WIP'`) and push it to a remote.
   This way if your HDD is damaged or something, you will never lose more than a day of work.
 - While various skin color options are available for emojis, we limit ourselves to use the default, yellow emojis.
+- Reef Assistants (our virtual assistant team) can help with tasks when they have capacity; usage should stay light (think ~5h/month per developer).
+  Post requests in `#va_for_rt` with clear context and timing.
 
 If any of the above is not clear, not optimal, or you are curious about the rationale behind a rule, speak up on `#default`.
 
