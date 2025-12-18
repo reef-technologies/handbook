@@ -166,6 +166,56 @@ That's one of the reasons we have someone in that role for every project.
 This also allows for other solutions such as, for example, splitting the cost of a fix between two clients, discounts etc - something you couldn't do on your own.
 Fortunately, with a dedicated client contact person, you don't have to!
 
+## LLM-Assisted Coding
+
+Motivation
+
+- LLMs let us move faster (including during reviews), but cumulative low-quality changes can erode long-term
+  maintainability — one of our trademarks.
+- Responsibility remains human: both the author and the reviewer own the quality of what ships, regardless of tooling.
+- We may intentionally accept slightly lower quality for one‑shot, low‑risk changes to gain speed, but we do so when it is
+  clearly safe.
+- There’s a trade‑off: more features with less quality vs fewer features with higher quality. Over time, lower quality
+  makes teams ship fewer features due to maintenance drag; we optimize for sustained maintainability while using
+  one‑shots to keep speed where risk is minimal.
+- Practical observation: there’s a limit to how much an LLM can safely rewrite in a day without agreed QA.
+
+**Never include secrets or client‑sensitive data in prompts or any saved notes.**
+
+Scope and rules
+
+- Default path: normal QA and review.
+- One‑shot changes (small, well‑separated changes with limited implications on the rest of the codebase, independently
+  judgeable, and reasonably redoable within one day) may be merged with relaxed quality and may skip review if all of
+  the following hold:
+  - The change is low‑risk, contained, and has minimal blast radius.
+  - The author performs a basic functional check.
+  - The change is either self‑explanatory on its own, or (if not obvious) accompanied by a short note capturing the
+    ask/purpose/constraints so the next person can pick it up without guesswork. The note must live in the repository
+    (in the code or an accompanying `.md`). A PR/commit message alone is not sufficient.
+  - The one‑shot relaxation is mentioned explicitly in the PR/commit (e.g. include `llm-one-shot`).
+  - The change is kept standalone (not tucked into a larger PR).
+- Larger/core contributions done with LLM assistance require a case‑by‑case, agreed QA/release plan. If we must merge a
+  larger LLM change before full QA, do it consciously with that plan in place. Do not merge low‑quality core code
+  without such agreement.
+- Use case‑by‑case judgement for one‑shots; if uncertain, take the normal QA/review path.
+
+Author responsibilities
+
+- Read every byte of generated code, functionally test it, and prepare the change for regular review (structure the diff,
+  write tests/docs where applicable).
+- When using the one‑shot relaxation, make the change pick‑up‑able: if it is not trivial/self‑explanatory, add a short
+  note capturing the ask/purpose/constraints in the repository (in the code or an accompanying `.md`). If it is obvious,
+  no note is needed. Do not rely on PR/commit messages as the only place the intent is recorded.
+
+Review expectations
+
+- Normal review applies; the reviewer may use or not use LLM tooling.
+- If a one‑shot change is being reviewed anyway, confirm it is low‑risk/contained and either self‑explanatory or
+  accompanied by a brief note in the repository as above (not only in the PR/commit message).
+- Confirm maintainability isn’t degraded (structure, naming, tests, docs), and that no secrets are stored in any notes or
+  prompts.
+
 ## Fast track decisions via Slack instead of standard Sociocracy approach
 
 At Reef Technologies, we mostly make decisions in our weekly Sociocracy meetings.
