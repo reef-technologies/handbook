@@ -15,7 +15,7 @@ and the governance process, operating in front of you and with you, will decide 
 Responsibility remains with humans: authors and reviewers are accountable for code quality whether or not LLMs were
 used. See the [LLM‑Assisted Coding agreement](../agreements.md#llm-assisted-coding).
 Tiny, low‑risk one‑shot LLM changes may skip review if they meet the agreement’s conditions (low blast radius, basic
-functional check, self‑explanatory or briefly noted). Otherwise, request review as usual.
+functional check, self‑explanatory or briefly noted in the repository). Otherwise, request review as usual.
 
 ## When/how to request a code review
 
@@ -38,6 +38,7 @@ functional check, self‑explanatory or briefly noted). Otherwise, request revie
    not decided to switch.</details>
 6. Follow the [LLM‑Assisted Coding agreement](../agreements.md#llm-assisted-coding). If you’re using the LLM one‑shot
    relaxation, keep the change standalone (not tucked into larger PRs), make it self‑explanatory or add a brief note,
+   ensure the note lives in the repository (in the code or an accompanying `.md`, not only in the PR/commit message),
    read/functionally verify all generated code before requesting review or merging, and mention `llm-one-shot` in the
    PR/commit.
 
@@ -110,7 +111,8 @@ Note: not all of these apply to all PRs, of course.
 12. Performance / memory considerations. Will it OOM in a corner case after the change?
 13. Self-healing. If a (network, HDD) device or a part of the system breaks temporarily, will the rest of the system
     recover automatically or will it require manual intervention?
-14. If a one‑shot LLM change is being reviewed: is it low‑risk/contained and either self‑explanatory or briefly noted?
+14. If a one‑shot LLM change is being reviewed: is it low‑risk/contained and either self‑explanatory or briefly noted in
+    the repository?
 15. Maintainability not degraded (structure, naming, tests, docs); no secrets in notes/prompts.
 
 ## How to resolve the reviewer’s comments

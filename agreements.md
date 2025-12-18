@@ -189,7 +189,8 @@ Scope and rules
   - The change is low‑risk, contained, and has minimal blast radius.
   - The author performs a basic functional check.
   - The change is either self‑explanatory on its own, or (if not obvious) accompanied by a short note capturing the
-    ask/purpose/constraints so the next person can pick it up without guesswork.
+    ask/purpose/constraints so the next person can pick it up without guesswork. The note must live in the repository
+    (in the code or an accompanying `.md`). A PR/commit message alone is not sufficient.
   - The one‑shot relaxation is mentioned explicitly in the PR/commit (e.g. include `llm-one-shot`).
   - The change is kept standalone (not tucked into a larger PR).
 - Larger/core contributions done with LLM assistance require a case‑by‑case, agreed QA/release plan. If we must merge a
@@ -202,13 +203,14 @@ Author responsibilities
 - Read every byte of generated code, functionally test it, and prepare the change for regular review (structure the diff,
   write tests/docs where applicable).
 - When using the one‑shot relaxation, make the change pick‑up‑able: if it is not trivial/self‑explanatory, add a short
-  note (or code comment) capturing the ask/purpose/constraints. If it is obvious, no note is needed.
+  note capturing the ask/purpose/constraints in the repository (in the code or an accompanying `.md`). If it is obvious,
+  no note is needed. Do not rely on PR/commit messages as the only place the intent is recorded.
 
 Review expectations
 
 - Normal review applies; the reviewer may use or not use LLM tooling.
 - If a one‑shot change is being reviewed anyway, confirm it is low‑risk/contained and either self‑explanatory or
-  accompanied by a brief note as above.
+  accompanied by a brief note in the repository as above (not only in the PR/commit message).
 - Confirm maintainability isn’t degraded (structure, naming, tests, docs), and that no secrets are stored in any notes or
   prompts.
 

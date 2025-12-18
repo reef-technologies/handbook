@@ -155,7 +155,7 @@ We employ several techniques to output a lot of value in a unit of time:
 10. Use modern IDEs. Pycharm, Cursor, Windsurf or VisualStudio with a LLM plugin. Some people are trying to use VIM with plugins for LLMs, but nowadays it's mostly Cursor/Windsurf/Pycharm.
 11. Use LLMs to speed up coding, but we still own QA: read every byte and aim for our normal quality. For small,
     contained “one‑shot” changes we may relax QA—and even skip review—if the change is low‑risk and self‑explanatory (or
-    briefly noted for future maintainers). See the [LLM‑assisted coding agreement](agreements.md#llm-assisted-coding).
+    briefly noted in the repository for future maintainers). See the [LLM‑assisted coding agreement](agreements.md#llm-assisted-coding).
 
 # Code Review
 
