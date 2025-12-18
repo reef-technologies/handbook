@@ -184,8 +184,10 @@ Motivation
 
 Scope and rules
 
-- Default path: normal QA and review. One‑shot changes (small, independently judgeable changes) may be merged with
-  relaxed quality and may skip review if all of the following hold:
+- Default path: normal QA and review.
+- One‑shot changes (small, well‑separated changes with limited implications on the rest of the codebase, independently
+  judgeable, and reasonably redoable within one day) may be merged with relaxed quality and may skip review if all of
+  the following hold:
   - The change is low‑risk, contained, and has minimal blast radius.
   - The author performs a basic functional check.
   - The change is either self‑explanatory on its own, or (if not obvious) accompanied by a short note capturing the

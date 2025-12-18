@@ -14,8 +14,9 @@ and the governance process, operating in front of you and with you, will decide 
 
 Responsibility remains with humans: authors and reviewers are accountable for code quality whether or not LLMs were
 used. See the [LLM‑Assisted Coding agreement](../agreements.md#llm-assisted-coding).
-Tiny, low‑risk one‑shot LLM changes may skip review if they meet the agreement’s conditions (low blast radius, basic
-functional check, self‑explanatory or briefly noted in the repository). Otherwise, request review as usual.
+Tiny, low‑risk one‑shot LLM changes may skip review if they meet the agreement’s conditions (well‑separated with limited
+implications and low blast radius, basic functional check, self‑explanatory or briefly noted in the repository).
+Otherwise, request review as usual.
 
 ## When/how to request a code review
 
