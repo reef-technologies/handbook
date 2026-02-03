@@ -27,7 +27,7 @@ The rest of the sections are meant for after-evaluation staff.
 - <https://asana.com/pl/resources/impostor-syndrome> - Turn impostor syndrome into confidence:
   15 tips for managers and individuals (11 min read);
 
-- <https://hbr.org/1999/11/management-time-whos-got-the-monkey> - "Management Time:
+- <https://www.med.unc.edu/uncaims/wp-content/uploads/sites/764/2014/03/Oncken-_-Wass-Who_s-Got-the-Monkey.pdf> - "Management Time:
   Who’s Got the Monkey?"
   by William Oncken, Jr.Donald L. Wass (1974) (11 min read);
 
