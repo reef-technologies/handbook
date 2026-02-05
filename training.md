@@ -51,7 +51,7 @@ All of the items from "Evaluation period candidates" section, plus:
 - <https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are> - this explains what cortisol is (21 min video);
 - <https://risk-engineering.org/concept/Rasmussen-practical-drift> - this explains a fairly critical viewpoint on the erosion of procedures;
 
-- <https://management30.com/practice/celebration-grids/> - Celebration grid - Celebrate Learnings with Management 3.0 (6 min video);
+- <https://management30.com/practice/celebration-grids/> - Celebration grid - Celebrate Learnings with Management 3.0 (watch intro - 9 min);
 - <https://medium.com/@tadeumarinho/identifying-learning-from-problems-and-successes-with-celebration-grid-3b38244f07e9> - Celebration grid (5 min read);
 
 # All staff that has anything to do with software development
