@@ -30,7 +30,7 @@
 #### Airplane ✈️
 
 - store your larger devices during taxi, landing and takeoff.
-  Most landings are smooth, but you really don't want to be hit in the face with a laptop if the landing happens to be a little bit more rough than usually
+  Most landings are smooth, but you really don't want to be hit in the face with a laptop if the landing happens to be a little rougher than usual
 - if airplane engine malfunctions during takeoff, it often ends with a fire.
   You have like 94 seconds between ignition and an explosion, so during evacuation make sure you do everything in your power to get away from the airplane by the time this happens.
   It is good to have your phone, credit card and passport in your pockets when you are running (you can prepare that during taxi) as you cannot take any luggage with you in such situation (don't worry, it is insured)
@@ -137,5 +137,5 @@ abgh
 - in California and Nevada you can turn right on red light, unless there is a sign which says "no turn on red"
 - don't leave valuables in your car, in fact you cannot safely leave anything, even a USB cable may get you a smashed Window
 - Avis is decent for car rental
-- southwest airlines are not listed on google flights and they fly a lot on west coast, check on their website directly
+- Southwest Airlines are not listed on Google Flights and they fly a lot on the West Coast, check on their website directly
 - in California it's hot during the day and cold during the night, you need appropriate clothes, come prepared

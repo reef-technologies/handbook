@@ -125,7 +125,7 @@ A: No. Google SSO (with 2FA enabled on your Google account) already covers this,
 
 ### External LLMs
 
-Most clients explictly agreed to the use of non-local LLMs. Ask a lead developer on the given project what tools you can use for which type of work - there are a couple of modules which should never be shown as context for an external LLM.
+Most clients explicitly agreed to the use of non-local LLMs. Ask a lead developer on the given project what tools you can use for which type of work - there are a couple of modules which should never be shown as context for an external LLM.
 
 We pay for the AI tools used by our staff members. See [AI tool funding agreement](agreements.md#ai-tool-use--funding) for more details.
 
@@ -152,8 +152,8 @@ We employ several techniques to output a lot of value in a unit of time:
    This drives many of our actions, including good communication with the client who knows what must be done.
    While some software houses lose \~30% of their performance (due to miscommunications, etc.), we stay way below 1% (the exact number is hard to measure when the amount of waste is so low).
    As mentioned above, we tend to pause work on a ticket when we are not sure, choosing a small delay on a particular task over potentially having to discard work due to a bad assumption. Our clients prefer it this way.
-10. Use modern IDEs. Pycharm, Cursor, Windsurf or VisualStudio with a LLM plugin. Some people are trying to use VIM with plugins for LLMs, but nowadays it's mostly Cursor/Windsurf/Pycharm.
-11. Use LLMs (ChatGPT, GitHub Copilot, Claude etc) to speed up the work on the code, though watch every single byte of the diff like it's been written by a party you shouldn't trust.
+9. Use modern IDEs. PyCharm, Cursor, Windsurf or Visual Studio with a LLM plugin. Some people are trying to use Vim with plugins for LLMs, but nowadays it's mostly Cursor/Windsurf/PyCharm.
+10. Use LLMs (ChatGPT, GitHub Copilot, Claude etc) to speed up the work on the code, though watch every single byte of the diff like it's been written by a party you shouldn't trust.
 
 # Code Review
 
@@ -305,7 +305,7 @@ Some candidates feel uncomfortable with a 3rd party application collecting scree
 If a fitting candidate is unhappy with the current setup, we'll invest time into creating a custom solution that would keep the employee in control of the screenshots.
 This could be done using encryption with the employee's key or uploading to private buckets - the exact details will be decided once (and if) we need it.
 
-# Time management system (TiMaS)
+# Time management system (TIMAS)
 
 TIMAS is a tool that supports monitoring work efficiency and the mood and attitude of employees. Here are the main functions of this tool:
 
@@ -313,7 +313,7 @@ TIMAS is a tool that supports monitoring work efficiency and the mood and attitu
 
 TIMAS integrates with Hubstaff, a time tracking tool, gathering information about time spent on tasks and breaks. It assesses work efficiency based on collected data, marking it green when the work is effective (uninterrupted, long-lasting) or yellow when it is ineffective (short, with long breaks).
 
-Each employee determines their planned availability and expected working hours in Jira (e.g. 6 hours daily). TIMAS evaluates the effectiveness of the day, marking it as green when a minimum of 70% of the planned working time has been worked per day. If you finish your work after midnight, TIMAS counts as the same day, as long as you finish before 3am.
+Each employee determines their planned availability and expected working hours in Jira (e.g. 6 hours daily). TIMAS evaluates the effectiveness of the day, marking it as green when a minimum of 70% of the planned working time has been worked per day. If you finish your work after midnight, TIMAS counts it as the same day, as long as you finish before 3am.
 
 For the entire month to be green, a minimum of 75% of working days should be effective. That means you can still get a green month, even with about 5 red days. Days off, holidays, and non-working weekends are excluded from the calculation.
 
@@ -350,7 +350,7 @@ Once you have installed the time-tracking app, it's time to prepare your environ
 
 This guide will show how to set up a standard, secure environment for software development.
 The handbook is written with Ubuntu-based distros (e.g. [Linux Mint](https://www.linuxmint.com/download.php)) in mind.
-Using such will help save time, but in the end, it is individual's responsibility to maintain a productive working environment.
+Using such will help save time, but in the end, it is the individual's responsibility to maintain a productive working environment.
 
 **Fully secured environment as described by this document is not needed for initial Trial tasks.**
 
@@ -383,7 +383,7 @@ To improve the security of our accounts, we require you to enable 2-step verific
 ### Create an account on GitHub
 
 Create a new account on GitHub.
-The suggested username is the same as one used in your reef email (replace dots with hyphens) with added -reef suffix, eg.
+The suggested username is the same as one used in your reef email (replace dots with hyphens) with added -reef suffix, e.g.
 `jan-kowalski-reef` or `adam-smith-reef`.
 
 Handles must be clearly identifiable — at minimum, your last name must be present.
@@ -436,10 +436,10 @@ The purpose of these two calls, briefly speaking, is:
 
 There is a second purpose of these two internal calls, and that is team building.
 These calls perform the role of a water cooler or a coffee machine in a regular office.
-That is, we make them a bit loose, with time to make jokes, add personal stories, divert from the main topic etc.
-We are a fully remote team with some members that not ever met one another in person.
-Therefor it is even more important for us to invest that extra time (and therefore money).
-All that we can get to know each other better, build trust, have fun and acknowledge that we more than "just" excellent problem solvers.
+That is, we make them a bit loose, with time to make jokes, add personal stories, divert from the main topic, etc.
+We are a fully remote team with some members that have never met one another in person.
+Therefore it is even more important for us to invest that extra time (and therefore money).
+All that so we can get to know each other better, build trust, have fun and acknowledge that we are more than "just" excellent problem solvers.
 
 During your Evaluation period you will be invited to attend and participate at least once in these calls.
 
@@ -601,9 +601,9 @@ They may seem obvious, and RT developers tend to follow them subconsciously, but
 Whenever you're taking some days off, it's important to let other team members know, so that work can be planned and client expectations managed.
 
 - You should mark days when you won't be working in the ['Staff Availability project'](https://reeftechnologies.atlassian.net/jira/core/projects/SA) in our Jira as soon as you know about it.
-- Announce it on Slack in `#annoucements` channel beforehand.
+- Announce it on Slack in `#announcements` channel beforehand.
 - If you need time off urgently because of something unexpected, please let the affected (people you had planned meetings with / or that need to pick up the task from you) know through Slack right away.
-  Use `#annoucements` if you are really in a hurry.
+  Use `#announcements` if you are really in a hurry.
   Ignore whole announcing thing in a life-and-death situations.
   Don't worry, we'll manage.
   Family first 👪
