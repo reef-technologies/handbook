@@ -254,11 +254,11 @@ depending on your needs.
 Examples:
 
 1. Claude Max and ChatGPT Plus;
-2. Copilot, Codex, Cursor, Claude, Junie; each of these the up to $25/month tier.
+2. Copilot, Codex, Cursor, Claude, Junie; each of these in the up to $25/month tier.
 
 The numbers are approximations, the exact price may exceed the limits a bit.
 
-Please note, while our default contract with clients allows use of LLMs, make sure to check with a project manager before using LLM on any particular project.
+Please note, while our default contract with clients allows use of LLMs, make sure to check with a project manager before using an LLM on any particular project.
 As of mid 2023 every client has approved LLMs except one that is still considering it.
 As for work done for Reef Technologies internal projects, you are free to use LLMs as you see fit.
 In all cases you are responsible for quality of your work, regardless if LLM was used to produce it or not.
