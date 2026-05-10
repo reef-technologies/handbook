@@ -62,8 +62,7 @@ All of the items from "Evaluation period candidates" section, plus:
 - <https://techblog.bozho.net/gdpr-practical-guide-developers/> - GDPR - A Practical Guide For Developers;
 - <https://www.howtodeal.dev/> - Neil Green - How to Deal with Difficult People on Software Projects;
 - <http://alexthunder.livejournal.com/309815.html> - "DON'T WAKE UP THE PROGRAMMER!";
-- <http://chrisaitchison.com/2011/05/03/you-are-not-a-software-engineer/> - You are NOT a Software Engineer!
-  (you are a software gardener);
+- <https://medium.com/@cmaitchison/are-you-a-software-gardener-f79eba5b7fb7> - Are you a Software Gardener?
 - <https://youtu.be/502ILHjX9EE> - Henrik Kniberg - Agile Product Ownership in a Nutshell (16 min video);
 - <https://threader.app/thread/1376985854229504007> - This is a story about how I lost $10,000,000 by doing something stupid
 - <https://hbr-org.cdn.ampproject.org/c/s/hbr.org/amp/2016/12/if-your-boss-could-do-your-job-youre-more-likely-to-be-happy-at-work> - If Your Boss Could Do Your Job, You’re More Likely to Be Happy at Work
