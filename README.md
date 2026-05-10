@@ -498,6 +498,10 @@ For business communications, we use Slack and [Zoom](https://zoom.us).
 You may use them in your browser, but they are usually installed on **the host computer** for convenience.
 Zoom usually doesn't work from an encrypted VM (no audio or video) - perhaps it's possible to perform some extra setup steps to make it work, but it's not worth it.
 
+### 6.6 Jira and Notion
+
+We use Jira to track work items, current, past and future. Tasks in Jira should be described properly so that any person in given project can pick it up and start working. the Description should be placed in the jira task itself if it's not very big and is self contained. If the task is a part of a larger design/algorthm/feature set then the full description should be placed in Notion. Individual task(s) related to that should then make it clear which part of the design is supposed to be considered when working on that task and the description should have a link to Notion. It is our joint responsibility to make sure jira issues are described that way - centralising that burden on a single person is not good for the state of tasks or for the culture in general. So follow these rules whne creating tasks and act when you find ones not adhering to these rules.
+
 #### Slack
 
 In your company email inbox, you will find a message with an invitation to the Slack team reeftechnologies.slack.com.
