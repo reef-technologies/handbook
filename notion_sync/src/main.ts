@@ -122,11 +122,18 @@ function placePages(page: Page, parentDir: string, placed: Map<string, PlacedPag
 
 // ---------- Link resolution ----------
 
-// A Notion URL whose last path segment ends in a 32-hex page id, optionally
-// followed by a query string and/or a #fragment.
-const NOTION_URL_RE = /^https:\/\/(?:app\.notion\.com|www\.notion\.so|notion\.so)\/(?:[^#?]*?)([0-9a-f]{32})(?:\?[^#]*)?(#.*)?$/;
-// In-workspace inline links arrive from the API as bare paths, not full URLs.
-const NOTION_PATH_RE = /^\/([0-9a-f]{32})(#.*)?$/;
+// Hosts that serve Notion pages; links to any other host are external.
+const NOTION_HOSTS = new Set(['notion.so', 'www.notion.so', 'app.notion.com']);
+const HEX32_RE = /^[0-9a-f]{32}$/;
+
+// The page-URL path shapes Notion is known to produce (the list lives in the
+// README): the page id is the last path segment (`/<id>`, `/p/<id>`) or its
+// suffix after the final dash (`/<Title>-<id>`, `/<workspace>/<Title>-<id>`).
+function pageIdFromPathname(pathname: string): string | null {
+  const last = pathname.split('/').pop() ?? '';
+  const candidate = last.slice(last.lastIndexOf('-') + 1);
+  return HEX32_RE.test(candidate) ? candidate : null;
+}
 
 const relativeTo = (fromFile: string, toFile: string): string =>
   path.posix.relative(path.posix.dirname(fromFile), toFile);
@@ -152,13 +159,26 @@ function renderPage(placedPage: PlacedPage, placed: Map<string, PlacedPage>, dow
 
   const ctx: MapperContext = {
     resolveUrl(url) {
-      const match = NOTION_URL_RE.exec(url) ?? NOTION_PATH_RE.exec(url);
-      if (!match) return url; // external or same-page #anchor
-      const target = placed.get(match[1]!);
-      if (target) return relativeTo(file, target.file) + (match[2] ?? '');
-      // Out-of-tree Notion page: a bare path would be a dead link in markdown,
-      // so emit an absolute Notion URL; full URLs pass through verbatim.
-      return url.startsWith('/') ? `https://www.notion.so/${match[1]}${match[2] ?? ''}` : url;
+      // In-workspace inline links arrive from the API as bare paths, not full URLs.
+      const isBarePath = url.startsWith('/');
+      let parsed: URL;
+      try {
+        parsed = isBarePath ? new URL(url, 'https://www.notion.so') : new URL(url);
+      } catch {
+        return url; // same-page #anchor and other non-URL values
+      }
+      if (!isBarePath && !NOTION_HOSTS.has(parsed.hostname)) return url; // external: verbatim
+      const id = pageIdFromPathname(parsed.pathname);
+      const target = id === null ? undefined : placed.get(id);
+      if (target) return relativeTo(file, target.file) + parsed.hash;
+      // A full Notion URL we cannot place stays verbatim: it opens in Notion
+      // regardless of whether we understood its shape.
+      if (!isBarePath) return url;
+      // A bare path to an out-of-tree page would be a dead link in markdown.
+      if (id !== null) return `https://www.notion.so/${id}${parsed.hash}`;
+      // An in-workspace link whose shape we don't know is new Notion behavior;
+      // passing it through would silently emit a dead link.
+      throw new Error(`${page.title} (${file}): unrecognized in-workspace link: ${url}`);
     },
     resolvePage(pageId) {
       const target = placed.get(normalizeId(pageId));

@@ -38,13 +38,16 @@ File layout produced: the root page becomes `README.md`; a page with child pages
 - Strict typing end-to-end: everything drives off the SDK's discriminated unions. No `any`, no `as` casts, no `@ts-ignore`.
 - `NOTION_TOKEN` is env-only: never written to a file, never echoed, never passed as a command-line argument.
 - Links & attachments:
-  - links to pages inside the exported tree → relative markdown links;
-  - Notion-hosted attachments (anything on Notion's CDN — the presigned URLs expire) → downloaded into the output and linked relatively; a presigned URL must never appear in the output;
-  - external links → verbatim.
+  - a link is treated as pointing at a Notion page when it is a bare path (how the API serves in-workspace inline links) or its host is a Notion host (`notion.so`, `www.notion.so`, `app.notion.com`), and a 32-hex page id can be extracted from the last path segment. Known page-URL shapes: `/<id>`, `/p/<id>`, `/<Title>-<id>`, `/<workspace>/<Title>-<id>`. Notion invents new shapes without documenting them (`/p/` appeared in 2026); extend the list deliberately as they surface;
+  - page link inside the exported tree → relative markdown link;
+  - bare-path link to a page outside the tree → absolute `notion.so/<id>` URL (a bare path would be a dead link in markdown);
+  - bare-path link whose page id cannot be extracted → the render fails, naming the URL and the page it sits on: an unrecognized shape is new Notion behavior and must never pass through as a dead link;
+  - full Notion-host URL that cannot be placed in the tree → verbatim;
+  - any other host → verbatim, whatever it is;
+  - Notion-hosted attachments (anything on Notion's CDN — the presigned URLs expire) → downloaded into the output and linked relatively; a presigned URL must never appear in the output.
 
 ## TBD
 
-- Links to Notion pages outside the exported tree (currently kept as absolute notion.so URLs).
 - Block types nobody used yet: `tab`, `meeting_notes`, `transcription` fail loud today; build a handler when someone actually needs one. `synced_block` / `child_database` / `template` are deliberately rejected with fix-it-in-Notion error messages.
 - When/how CI runs the sync and manages the resulting PR.
 - The readability reflow is `readable`'s semantic line breaks (one sentence per line), which leaves long single-sentence lines intact — maybe reflow at some line length instead of / in addition to sentence boundaries.
