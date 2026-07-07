@@ -88,6 +88,7 @@ We follow [PEP257](https://peps.python.org/pep-0257/) for docstring conventions.
 ### Trailing commas on multiline statements
 
 See [here](https://stackoverflow.com/a/17492103/1935381).
+
 We skip it after `**kwargs` as no argument will ever follow it.
 
 ### keepachangelog
@@ -124,6 +125,7 @@ Always mention the license of the source code which is copied.
 ### Package naming (package, repository, etc.)
 
 For consistency, use exactly the same package name, written using `kebab-case`, everywhere (e.g. github repo name, PyPI dist name).
+
 Use exactly same name, but with `_` instead of `-` for package name in Python code and other place where `-` is not allowed.
 
 ### Don't use stuff from forbidden technology list without prior discussion
@@ -141,11 +143,12 @@ The restricted technologies are:
    As with any global state modification, it makes code hard to follow.
 4. `atexit.register()` (use `try: ... finally: ...` instead)
 5. Defaults for environment variables in `settings.py` (all defaults should be defined in `dev/.env.template` and `prod/.env.template`) This prevents misspells, as application will simply error out on start with simple to debug error.
-   This also means, we won't have different default values (one in settings.py, one in `env.template`) which would make things more confusing.
+   This also means, we won't have different default values (one in `settings.py`, one in `env.template`) which would make things more confusing.
 6. Always use `BIGINT` for primary key field, for performance and scalability reasons.
 
 All of those technologies have their uses in good cases, but what we found is that often the alternative is more elegant, so in order to limit the amount of rewritten code, in those cases we choose to review the design before implementation.
 Design review is generally welcome and can save a lot of time, but in this case we have unanimously agreed it will be mandatory.
 
 See also:
+
 <https://github.com/reef-technologies/python-review-zoo/>

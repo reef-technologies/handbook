@@ -1,19 +1,19 @@
 # Veracrypt installation
 
-![](images/veracrypt_01.png)
+![](../../attachments/workstation-setup/veracrypt-installation.md-1.png)
 
-![](images/veracrypt_02.png)
+![](../../attachments/workstation-setup/veracrypt-installation.md-2.png)
 
-![](images/veracrypt_03.png)
+![](../../attachments/workstation-setup/veracrypt-installation.md-3.png)
 
-![](images/veracrypt_04.png)
+![](../../attachments/workstation-setup/veracrypt-installation.md-4.png)
 
-![](images/veracrypt_05.png)
+![](../../attachments/workstation-setup/veracrypt-installation.md-5.png)
 
-![](images/veracrypt_06.png)
+![](../../attachments/workstation-setup/veracrypt-installation.md-6.png)
 
-![](images/veracrypt_07.png)
+![](../../attachments/workstation-setup/veracrypt-installation.md-7.png)
 
-![](images/veracrypt_08.png)
+![](../../attachments/workstation-setup/veracrypt-installation.md-8.png)
 
-![](images/veracrypt_09.png)
+![](../../attachments/workstation-setup/veracrypt-installation.md-9.png)

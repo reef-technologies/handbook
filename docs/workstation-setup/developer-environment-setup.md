@@ -4,11 +4,11 @@ This guide will show how to set up a standard, secure work environment for softw
 
 ## Ensure you have a Secure Work Environment
 
-For Secure Work Environment we recommend a Virtual Machine or dual-boot with [Full Disk Encryption](Storage_Encryption.md#full-disk-encryption) enabled.
+For Secure Work Environment we recommend a Virtual Machine or dual-boot with [Full Disk Encryption](storage-encryption.md) enabled.
 This ensures a clear segregation between your professional and personal digital spaces, preventing accidental cross-access or data leaks involving customer data.
 
-If you have previously used your reef.pl email address (or any associated) on a personal environment, make sure to remove it from all devices and accounts.
-Only exception being [secure mobile devices](../README.md#storage-encryption-and-secure-work-environment).
+If you have previously used your `reef.pl` email address (or any associated) on a personal environment, make sure to remove it from all devices and accounts.
+Only exception being [secure mobile devices](../README.md).
 
 Our preference for FDE arises from its ability to securely store Docker images, potentially containing client code, which often can land outside your home directory.
 Solely encrypting the home directory would leave these sensitive data vulnerable.
@@ -32,7 +32,7 @@ Using such will help save time, but in the end, it is individual's responsibilit
 > **Note:** Skip if you are using separate work physical machine or dual-booting.
 
 We generally recommend [VirtualBox](https://www.virtualbox.org/).
-A step-by-step guide to creating a virtual machine can be found [here](VirtualBox.md).
+A step-by-step guide to creating a virtual machine can be found [here](virtual-machine-configuration.md).
 
 Apple hardware support in VirtualBox is dire, so the recommended virtualization solution is currently QEMU-based, eg.
 [UTM](https://getutm.app/) (+ [guest system installation tutorial](https://www.youtube.com/watch?v=O19mv1pe76M))

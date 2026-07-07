@@ -31,4 +31,4 @@ Please note, the boot partition might not get actually be encrypted, but this is
 
 ## Volume Encryption
 
-Due to its ease of use, we recommend **VeraCrypt**, for which a simple tutorial can be found [here](https://github.com/reef-technologies/handbook/blob/master/docs/VeraCrypt.md).
+Due to its ease of use, we recommend **VeraCrypt**, for which a simple tutorial can be found [here](veracrypt-installation.md).
