@@ -64,7 +64,8 @@
 
 ### Fire safety 🔥
 
-- never ignore a fire alarm and get out as quickly as possible. Fire spreads extremely quickly, every second counts:
+- never ignore a fire alarm and get out as quickly as possible.
+  Fire spreads extremely quickly, every second counts:
   - <https://www.youtube.com/watch?v=piofZLySsNc> - A small fire completely engulfs a room in 2 min 30 sec
 
 ### Organization

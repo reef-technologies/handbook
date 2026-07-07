@@ -47,7 +47,8 @@ This is an agreed upon gentle reminder, that carries no criticism or hard feelin
 
 - 👋 (`:wave:`) – “I cannot help you right now”,
 - 👀 (`:eyes:`) – “I am reviewing your code now”,
-- ✅ (`:white_check_mark:`) – “I have reviewed your code” (warning: it only means "review is ready to be read" and NOT "ready to be merged"),
+- ✅ (`:white_check_mark:`) – “I have reviewed your code” (warning:
+  it only means "review is ready to be read" and NOT "ready to be merged"),
 - 🔒 (`:lock:`) – “I don't have permission to access this project”.
 
 Developers should also take into consideration the following rules:
@@ -62,16 +63,17 @@ Developers should also take into consideration the following rules:
 - Each post is a separate review round, so any developer may respond, even if they did not review the previous iterations.
 - It is recommendable for different developers to look at the subsequent iterations of the same code, as it may help catch bugs or look at the code differently.
 - If a staff member realizes that everyone has refused to review a post, they should escalate the issue and discuss it with the team.
-- The Author of the PR must take all Code Review comments into consideration, but as a Senior Engineer, they are expected to make a decision on how to address them. 
-- Reviewer MAY use https://conventionalcomments.org/ for clarity which comments are blocking or should be treated differently.
+- The Author of the PR must take all Code Review comments into consideration, but as a Senior Engineer, they are expected to make a decision on how to address them.
+- Reviewer MAY use <https://conventionalcomments.org/> for clarity which comments are blocking or should be treated differently.
 
 ## Alerts channels
 
 The various "alerts" channels receive issue messages from running deployments.
-In order to prevent alert blidness, each time new alert message appears it should be reacted to, i.e. resolved or silenced. 
-Each channel has assigned people (in the monkey registry) resposible for checking alerts appearing in them at least once per their workday. 
+In order to prevent alert blidness, each time new alert message appears it should be reacted to, i.e. resolved or silenced.
+Each channel has assigned people (in the monkey registry) resposible for checking alerts appearing in them at least once per their workday.
 
 Similarly to the code review channel, when reviewing an alert please following emoji reactions:
+
 - 👀 (`:eyes:`) – “I am looking at this right now”,
 - ✅ (`:white_check_mark:`) – “Issue resolved”,
 
@@ -85,20 +87,32 @@ Even experienced engineers find it difficult to know when to stop trying to solv
 Our goal is to **save money for our Clients**, which means that we cannot waste it by banging our heads against the wall and billing hours without getting results or by working incessantly on unnecessary elements of a feature.
 
 In many cases, there are **better approaches** than attempting the same thing over and over:
-- Taking a break and returning to the problem with a clear head. You may switch to another project for a while or just go for a walk.
-- Reaching out to your colleagues to discuss the problem, find inspiration, or get a confirmation for the way you see the project priorities. You can use #python for that.
+
+- Taking a break and returning to the problem with a clear head.
+  You may switch to another project for a while or just go for a walk.
+- Reaching out to your colleagues to discuss the problem, find inspiration, or get a confirmation for the way you see the project priorities.
+  You can use #python for that.
 - Trying out a suggestion that you personally don’t like, but which may be the right choice.
 - Reaching out to the software / tool / library provider and asking for support or a bug fix.
 
 How can you know that you’re stuck and the time has come to try an alternative approach?
 
-It’s impossible to create an algorithm for when to stop working on a problem or to define a maximum amount of time allowed per problem. After all, every project is different.
+It’s impossible to create an algorithm for when to stop working on a problem or to define a maximum amount of time allowed per problem.
+After all, every project is different.
 
-Knowing when to stop making useless efforts or when to back out from an idea is a tacit skill that we all need to develop and foster. This **self-awareness is an important part of the reason why our Clients trust us** to deliver great software at a fair price.
+Knowing when to stop making useless efforts or when to back out from an idea is a tacit skill that we all need to develop and foster.
+This **self-awareness is an important part of the reason why our Clients trust us** to deliver great software at a fair price.
 
 Currently, there are two things we can do to reinforce this skill in Reef Technologies developers:
-- We should all try to maintain an awareness of our working process. If you’re starting to feel frustrated, or if you find yourself trying the same thing as before and expecting different results, refer to this agreement. Give it a short read to remind yourself of the value Reef Technologies brings to our Clients by saving their money. Ask yourself if the way you’re working right now still fits the Reef way. If it is, well, happy coding. If you’re in doubt, maybe you should try one of the methods that you can find in the bullet points above.
-- We want to build a culture where backing out of a dead end is not something to be embarrassed about – it’s something to be proud of, and it’s a skill that earns us more satisfied Clients. That is why in every status call, we spend some time discussing instances when we felt stuck or annoyed by a problem and methods we used to fix those situations.
+
+- We should all try to maintain an awareness of our working process.
+  If you’re starting to feel frustrated, or if you find yourself trying the same thing as before and expecting different results, refer to this agreement.
+  Give it a short read to remind yourself of the value Reef Technologies brings to our Clients by saving their money.
+  Ask yourself if the way you’re working right now still fits the Reef way.
+  If it is, well, happy coding.
+  If you’re in doubt, maybe you should try one of the methods that you can find in the bullet points above.
+- We want to build a culture where backing out of a dead end is not something to be embarrassed about – it’s something to be proud of, and it’s a skill that earns us more satisfied Clients.
+  That is why in every status call, we spend some time discussing instances when we felt stuck or annoyed by a problem and methods we used to fix those situations.
 
 ## Maintaining organizational culture
 
@@ -213,20 +227,28 @@ To manage situations where feedback may seem nonconstructive, we will use the fo
 
 ### Example 1
 
-- Person A: “This solution is crap. I can break it in one day!”
-- Person B: “I don't understand. Could you please rephrase your concern in a more constructive way?”
-- Person A: “Sorry. I am worried this design has some vulnerabilities that someone could exploit. How can we make sure that this does not happen?”
+- Person A: “This solution is crap.
+  I can break it in one day!”
+- Person B: “I don't understand.
+  Could you please rephrase your concern in a more constructive way?”
+- Person A: “Sorry.
+  I am worried this design has some vulnerabilities that someone could exploit.
+  How can we make sure that this does not happen?”
 
 ### Example 2
 
-- Person A: “This is obvious. Anybody above the age of 6 knows this!”
-- Person C: “Hey, Person B put some work into this. Could you rephrase your feedback in a more constructive way?”
-- Person A: “Sorry. My concern here is that we should write only things that are not obvious and not generic. Otherwise, this won't provide much value.”
+- Person A: “This is obvious.
+  Anybody above the age of 6 knows this!”
+- Person C:
+  “Hey, Person B put some work into this.
+  Could you rephrase your feedback in a more constructive way?”
+- Person A: “Sorry.
+  My concern here is that we should write only things that are not obvious and not generic.
+  Otherwise, this won't provide much value.”
 
 ## Audio/video processing in Zoom calls
 
-Using audio or video processing in company Zoom calls is generally not allowed,
-with the following exceptions:
+Using audio or video processing in company Zoom calls is generally not allowed, with the following exceptions:
 
 1. Active noise cancellation.
 2. Blurred backgrounds.
@@ -246,7 +268,7 @@ Please make sure the subscription is terminated if you don't need it anymore to 
 
 You can get:
 
-1. one big (up to \$250/month) and one small (up to \$25/month) subscription,
+1. one big (up to $250/month) and one small (up to $25/month) subscription,
 2. or up to five small subscriptions,
 
 depending on your needs.

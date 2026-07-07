@@ -5,17 +5,24 @@ We don't follow them blindly, but we do follow them unless there's a very good r
 
 ### 7 Django cookiecutter template
 
-New Django projects must use the template. Any exceptions must be discussed with the team beforehand.
+New Django projects must use the template.
+Any exceptions must be discussed with the team beforehand.
 
-We use an internally-developed [cookiecutter template](https://github.com/reef-technologies/cookiecutter-rt-django/) for our Django projects. When we start a new project, the template empowers us to immediately focus on the core of the business problems instead of spending time on set-up tasks. It also provides a common base of libraries, dev-ops tools and conventions that Reef developers are familiar with. Over time, we improve the template - we update dependencies, add new features, fix issues. Therefore, it is important not only to start new projects using the template but also to port template updates to existing projects.
+We use an internally-developed [cookiecutter template](https://github.com/reef-technologies/cookiecutter-rt-django/) for our Django projects.
+When we start a new project, the template empowers us to immediately focus on the core of the business problems instead of spending time on set-up tasks.
+It also provides a common base of libraries, dev-ops tools and conventions that Reef developers are familiar with.
+Over time, we improve the template - we update dependencies, add new features, fix issues.
+Therefore, it is important not only to start new projects using the template but also to port template updates to existing projects.
 
 #### Cookiecutter template for packages
 
-We also have a template for packages: [cookiecutter-rt-pkg](https://github.com/reef-technologies/cookiecutter-rt-pkg)
+We also have a template for packages:
+[cookiecutter-rt-pkg](https://github.com/reef-technologies/cookiecutter-rt-pkg)
 
 #### Automatic-updates of the cookiecutter template
 
-When the template changes - for example to fix a bug - we use Github Actions and cruft to automatically create pull-requests to update projects based on the template. See the [cookiecutter-rt-django](https://github.com/reef-technologies/cookiecutter-rt-django/) repo for more information.
+When the template changes - for example to fix a bug - we use Github Actions and cruft to automatically create pull-requests to update projects based on the template.
+See the [cookiecutter-rt-django](https://github.com/reef-technologies/cookiecutter-rt-django/) repo for more information.
 
 ## Code Conventions
 
@@ -96,9 +103,10 @@ When options are set in the shebang of a script, they are ignored when the scrip
 
 ### Celery
 
-https://blog.gitguardian.com/celery-tasks-retries-errors/
+<https://blog.gitguardian.com/celery-tasks-retries-errors/>
 
-We use [Celery](https://docs.celeryq.dev/) in most of our projects. The article above describes how to make Celery tasks more resilient with best practices to prevent workflow interruptions and handle various failure scenarios.
+We use [Celery](https://docs.celeryq.dev/) in most of our projects.
+The article above describes how to make Celery tasks more resilient with best practices to prevent workflow interruptions and handle various failure scenarios.
 
 ### SemBr
 
@@ -132,8 +140,7 @@ The restricted technologies are:
 3. Writing to `self.__class__`.
    As with any global state modification, it makes code hard to follow.
 4. `atexit.register()` (use `try: ... finally: ...` instead)
-5. Defaults for environment variables in `settings.py` (all defaults should be defined in `dev/.env.template` and `prod/.env.template`)
-   This prevents misspells, as application will simply error out on start with simple to debug error.
+5. Defaults for environment variables in `settings.py` (all defaults should be defined in `dev/.env.template` and `prod/.env.template`) This prevents misspells, as application will simply error out on start with simple to debug error.
    This also means, we won't have different default values (one in settings.py, one in `env.template`) which would make things more confusing.
 6. Always use `BIGINT` for primary key field, for performance and scalability reasons.
 
