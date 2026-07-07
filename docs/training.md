@@ -19,22 +19,16 @@ This section is for the evaluation period candidates in the 2nd stage of the Eva
 The rest of the sections are meant for after-evaluation staff.
 
 - <https://youtu.be/A3IQj0LCocA> - Why Every Dev Has Imposter Syndrome (2 min video);
-
 - <https://youtu.be/ZQUxL4Jm1Lo> - What is imposter syndrome and how can you combat it?
   (5 min video);
-
 - <https://asana.com/pl/resources/impostor-syndrome> - Turn impostor syndrome into confidence:
   15 tips for managers and individuals (11 min read);
-
 - <https://www.med.unc.edu/uncaims/wp-content/uploads/sites/764/2014/03/Oncken-_-Wass-Who_s-Got-the-Monkey.pdf> - "Management Time:
   Who’s Got the Monkey?"
   by William Oncken, Jr.Donald L. Wass (1974) (11 min read);
-
 - <https://youtu.be/n7wH2XdOWpM> - AgileByExample 2016:
   Henrik Kniberg - Keynote - Focus (or Stop Starting, Start Finishing) (44 min video);
-
 - <https://www.smashingmagazine.com/2017/12/designers-copyright-law-essentials/> - Copyright Law Essentials All Designers Should Know (11 min read);
-
 - <https://www.datadriveninvestor.com/2018/05/17/5-things-every-developer-must-know-about-intellectual-property-rights/#> - 5 Things Every Developer Must Know about Intellectual Property Rights (2 min read);
 
 # All staff
@@ -44,19 +38,12 @@ For all staff *except* those on evaluation / trial / training period.
 All of the items from "Evaluation period candidates" section, plus:
 
 - <http://randsinrepose.com/archives/be-unfailingly-kind/> - a 100% effective guide on how to work efficiently with people when you have no power over them (6 min read);
-
 - <https://youtu.be/eYMz-VOw4r8> - James Priest - Agile, decentralized Learning Organizations With Sociocracy 3.0 (BTW when he mentions the startup sitting at the front, that actually was our team, taking most of the front row) (30 min video);
-
 - <https://www.linkedin.com/pulse/77-elements-sociocracy-30-ewa-koprowska/> - Ewa Koprowska - 77 Elements of Sociocracy 3.0;
-
 - <https://www.ted.com/talks/derek_sivers_how_to_start_a_movement> - Derek Sivers - How to start a movement (3 min video);
-
 - <https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are> - this explains what cortisol is (21 min video);
-
 - <https://risk-engineering.org/concept/Rasmussen-practical-drift> - this explains a fairly critical viewpoint on the erosion of procedures;
-
 - <https://management30.com/practice/celebration-grids/> - Celebration grid - Celebrate Learnings with Management 3.0 (watch intro - 9 min);
-
 - <https://medium.com/@tadeumarinho/identifying-learning-from-problems-and-successes-with-celebration-grid-3b38244f07e9> - Celebration grid (5 min read);
 
 # All staff that has anything to do with software development
@@ -77,13 +64,13 @@ All of the items from "Evaluation period candidates" section, plus:
 ## Business travel
 
 For now, you can skip it, but read it before you go on your first business trip:
-[travel.md](travel.md).
+[Business travel tips & tricks](business-travel-tips-tricks.md).
 
 # Technical staff
 
 (coders, sysops, devops etc - people who primarily work with machines)
 
-- <http://http.jameshfisher.com/2019/05/26/i-can-see-your-local-web-servers/> - on "localhost" servers;
+- <http://http.jameshfisher.com/2019/05/26/i-can-see-your-local-web-servers/> - on "`localhost`" servers;
 - how to convert a putty key from a customer to id\_rsa:
   <https://askubuntu.com/a/584631> (you don't need to read it - just know it is here if you ever have to use it);
 
@@ -107,7 +94,7 @@ If it does, watch it all.
 - <https://blog.ploeh.dk/2020/10/05/fortunately-i-dont-squash-my-commits/> - good reason to not squash commits
 - <https://www.divio.com/blog/documentation/> - basic knowledge of software documentation structure
 - <https://bessey.dev/blog/2024/05/24/why-im-over-graphql/> - why not graphql
-- [Correct parameters values for AWS RDS Postgres databases](docs/aws_rds_params.md)
+- [Correct parameters values for AWS RDS Postgres databases](engineering/aws-rds-postgres-parameters.md)
 - <https://blog.gitbutler.com/how-git-core-devs-configure-git/> - showcase of common git options
 
 #### all junior developers
@@ -137,7 +124,7 @@ If it does, watch it all.
 - <http://cryto.net/~joepie91/blog/2015/07/19/why-you-should-never-ever-ever-use-mongodb/> - why you should never, ever, ever use MongoDB.
   NOTE:
   read that until you are sure you will never use it.
-  If you are still not convinced after reading it, read [this](https://blog.scrapinghub.com/2013/05/13/mongo-bad-for-scraped-data/), if you are still not convinced, try [this](http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/comment-page-1/), if you want more recent info, try \[this]\(<https://www.mongodb.com/community/forums/t/primary-node-in-replica-set-down-and-2-weeks-of-data-lost/110472/6> - TL;DR:
+  If you are still not convinced after reading it, read [this](https://blog.scrapinghub.com/2013/05/13/mongo-bad-for-scraped-data/), if you are still not convinced, try [this](http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/comment-page-1/), if you want more recent info, try [this](https://www.mongodb.com/community/forums/t/primary-node-in-replica-set-down-and-2-weeks-of-data-lost/110472/6) (TL;DR:
   in a cluster overwhelmed with writes during primary node failure most writes landed in a journal, but became inaccessible after failback and in practice lost because there is no way to retrieve it from there; June 2021, Mongo 4.0), and if you still are not entirely sure, you might want to know that their "atomic" property actually makes it so that if you have a collection with some objects, and you'll query to get 1000 objects based on some criteria during an update operation, you will sometimes get 999 back.
   And that is by design, they closed the bug as "won't fix".
   So if you ask mongodb for something, you have to check if it returned what you asked for, because if it didn't, then you need to retry and *if you are lucky* then eventually you'll get what you asked for.
@@ -201,7 +188,7 @@ If it does, watch it all.
 
 Why pathlib is fun:
 
-```pycon
+```python
 >>> import platform
 >>> platform.system()
 'Darwin'
@@ -213,7 +200,7 @@ PosixPath('/usr/lib')
 >>> 
 ```
 
-```pycon
+```python
 >>> import platform
 >>> platform.system()
 'Windows'

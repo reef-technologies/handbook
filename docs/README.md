@@ -21,7 +21,7 @@ They might choose, which sometimes they do, to use that power to change how the 
 That, in turn, might increase their happiness.
 This mechanism works surprisingly well.
 
-Here you can find a list of [active agreements](agreements.md).
+Here you can find a list of [active agreements](policies/agreements.md).
 
 ## Deadlines and estimates
 
@@ -90,13 +90,13 @@ This is both for additional security and improved focus.
 Setting up Storage Encryption might initially appear daunting, but rest assured that it is fairly straightforward process.
 Our top recommendation is Full Disk Encryption (FDE), a method that encrypts the entire disk for comprehensive protection.
 Our second recommendation is Volume Encryption, a method that encrypts only the volume (/folder) where sensitive data is stored.
-Due to its ease of use, we recommend VeraCrypt by default, for which a simple tutorial can be found [here](https://github.com/reef-technologies/handbook/blob/master/docs/VeraCrypt.md).
-If you want to learn more about available options, please refer to the [Storage Encryption](docs/Storage_Encryption.md) document.
+Due to its ease of use, we recommend VeraCrypt by default, for which a simple tutorial can be found [here](workstation-setup/veracrypt-installation.md).
+If you want to learn more about available options, please refer to the [Storage Encryption](workstation-setup/storage-encryption.md) document.
 
 So to sum it up:
 
-- Software Developers **after** completing 2nd stage of Evaluation period (i.e. are about to work with Clients' code) are required to set up [Secure Work Environment](docs/Developer_environment_setup.md#ensure-you-have-a-secure-work-environment) on their workstations.
-- All other roles (e.g. Virtual Assistants) are required to use [Storage Encryption](docs/Storage_Encryption.md).
+- Software Developers **after** completing 2nd stage of Evaluation period (i.e. are about to work with Clients' code) are required to set up [Secure Work Environment](workstation-setup/developer-environment-setup.md) on their workstations.
+- All other roles (e.g. Virtual Assistants) are required to use [Storage Encryption](workstation-setup/storage-encryption.md).
 
 ### Mobile devices
 
@@ -132,7 +132,7 @@ Most clients explicitly agreed to the use of non-local LLMs.
 Ask a lead developer on the given project what tools you can use for which type of work - there are a couple of modules which should never be shown as context for an external LLM.
 
 We pay for the AI tools used by our staff members.
-See [AI tool funding agreement](agreements.md#ai-tool-use--funding) for more details.
+See [AI tool funding agreement](policies/agreements.md) for more details.
 
 ## What does "high performance" mean?
 
@@ -168,7 +168,7 @@ We employ several techniques to output a lot of value in a unit of time:
 At Reef we do code review for almost all pull requests.
 We treat this like friendly help, with the reviewer offering suggestions on how to improve the given code.
 It is intuitive to most people, but not for everyone.
-[This document](docs/Code_Review.md) explains in detail how we approach reviews and why.
+[This document](engineering/code-review.md) explains in detail how we approach reviews and why.
 
 # Time-tracking
 
@@ -200,7 +200,7 @@ You can download the application here:
 
 If you ever wonder how Hubstaff calculates the activity levels, here is a handy link to [their documentation](https://support.hubstaff.com/how-are-activity-levels-calculated/) (not that anyone looks on it, calls have 0% activity and we do them a few times per week, this metric is a bit impractical).
 
-Here you can find [time-tracking rules which were co-created by company staff members](time-tracking-how-to.md).
+Here you can find [time-tracking rules which were co-created by company staff members](time-tracking/time-tracking-how-to.md).
 
 ### I CAN SEE YOU
 
@@ -237,7 +237,7 @@ RT generally means "investment", RTO generally means "operations".
 | RT / sociocracy development             | Contribute to sociocracy development as a tuner.                                                                                                                                                                                                        |
 | RTO / status call                       | Weekly status calls. Please toggle between this and client-specific projects during the duration of the call dedicated to the status of the project you are explicitly assigned to.                                                                     |
 | RT / special assignment from CEO        | Work on special assignments from the CEO as specifically requested. Extremely rare. Typically used to do something that must be done where we don't want to create a new project for a one-time thing.                                                  |
-| RTO / onboarding                        | Go through training materials during the onboarding phase ([training](training.md)).                                                                                                                                                                    |
+| RTO / onboarding                        | Go through training materials during the onboarding phase ([Training](training.md)).                                                                                                                                                                    |
 | OTHER / just-in-case                    | Work on a project before being officially assigned to it (if needed). Notify management to re-bill the time later to the appropriate project.                                                                                                           |
 
 ### Non-RT projects
@@ -363,8 +363,8 @@ Our goal is to observe and detect problems quickly enough and help you return to
 
 ## Where is TIMAS?
 
-Visit the [website](https://timas.reef.pl), and you'll first see an almost white page.
-Log in with your Gmail account and enter “timas.reef.pl” into the search bar again to access your TIMAS account.
+Visit the [website](https://timas.reef.pl/), and you'll first see an almost white page.
+Log in with your Gmail account and enter “`timas.reef.pl`” into the search bar again to access your TIMAS account.
 Save TIMAS in your browser bookmarks and visit the site daily to note your mood and observe the work focus time.
 
 After registering on TIMAS website, you will also be able to install Slack TIMAS app - just click "Add apps" in left panel's "Apps" section and select "Timas".
@@ -398,13 +398,13 @@ For Linux systems, it can be LUKS.
 For macOS, you can use built-in FileVault encryption.
 
 In case you have no preferences, we recommend using [VeraCrypt](https://www.veracrypt.fr/en/Home.html).
-A step-by-step instruction for the installation process can be found [here](docs/VeraCrypt.md).
+A step-by-step instruction for the installation process can be found [here](workstation-setup/veracrypt-installation.md).
 
 ## Configuring your development environment
 
 > **Note** This section applies only to Software Developer positions after the 1st stage of the Evaluation period.
 
-Follow the instructions laid out in [Development environment setup](docs/Developer_environment_setup.md).
+Follow the instructions laid out in [Development environment setup](workstation-setup/developer-environment-setup.md).
 
 ## Configure your Google Account and GitHub
 
@@ -421,7 +421,7 @@ The suggested username is the same as one used in your reef email (replace dots 
 
 Handles must be clearly identifiable — at minimum, your last name must be present.
 This makes it easy to scan the org members list and confirm no unnecessary accounts are present.
-External collaborators with non-identifiable handles are allowed, but they must be listed on our [internal Notion](https://www.notion.so/GitHub-27fb63b4ef1e804095a9c8caaddff673?source=copy_link#27fb63b4ef1e8053aa13e77b7e1dd604) page for the same reason.
+External collaborators with non-identifiable handles are allowed, but they must be listed on our [internal Notion](https://app.notion.com/p/27fb63b4ef1e804095a9c8caaddff673#27fb63b4ef1e8053aa13e77b7e1dd604) page for the same reason.
 
 2-step authorization should be enabled as well.
 If you don't enable it (or if you disable it - which is crazy, but technically possible), a periodic audit will catch you and you will make the auditor very sad 😭.
@@ -442,7 +442,7 @@ Check the latest changes [here](https://github.com/reef-technologies/handbook/co
 Please add your photo (one that shows your face clearly without sunglasses, etc.)
 to all services that we use:
 Slack, GitHub, time tracker, Trello, Atlassian account, etc.
-It is recommended to add it to [Gravatar](https://gravatar.com), as it will then load up automatically to many services.
+It is recommended to add it to [Gravatar](https://gravatar.com/), as it will then load up automatically to many services.
 Avatars are important, especially on non-small teams, but also everywhere in the context of communication with the client (or ourselves), where we want to be recognized as human beings rather than lines of text.
 Cultural differences, time zones, and language barriers make communication a challenge - let's make it at least slightly easier by showing a smiling face to the client and their team.
 
@@ -495,12 +495,12 @@ We use simple hand signals during video calls to communicate more efficiently.
 
 | sign                | meaning                      | context               |
 | ------------------- | ---------------------------- | --------------------- |
-| :fist:              | pass (no comment)            | moderated discussion  |
-| :point\_up:         | request voice                | moderated discussion  |
-| :thumbsup:          | vote "consent"               | S3 decision making    |
+| ✊                   | pass (no comment)            | moderated discussion  |
+| ☝️                  | request voice                | moderated discussion  |
+| 👍                  | vote "consent"               | S3 decision making    |
 | hand with palm down | vote "concern"               | S3 decision making    |
 | hand with palm up   | vote "protest"               | S3 decision making    |
-| :wave:              | ready to disconnect the call | call coming to an end |
+| 👋                  | ready to disconnect the call | call coming to an end |
 
 When we're trying to make a decision or closing the call, everyone holds their sign until everyone shows a sign of their choice.
 This way, the situation is clear at a glance.
@@ -524,13 +524,13 @@ If you need to be sure that someone sees your email, ping them on Slack.
 
 ### 6.5 Instant messengers
 
-For business communications, we use Slack and [Zoom](https://zoom.us).
+For business communications, we use Slack and [Zoom](https://zoom.us/).
 You may use them in your browser, but they are usually installed on **the host computer** for convenience.
 Zoom usually doesn't work from an encrypted VM (no audio or video) - perhaps it's possible to perform some extra setup steps to make it work, but it's not worth it.
 
 #### Slack
 
-In your company email inbox, you will find a message with an invitation to the Slack team reeftechnologies.slack.com.
+In your company email inbox, you will find a message with an invitation to the Slack team `reeftechnologies.slack.com`.
 Right after signing in, remember to fill out the phone number field in your account settings.
 Remember to **add your country-specific prefix number**, e.g., Poland uses `+48`.
 It's essential, as our members come from many different countries.
@@ -617,13 +617,13 @@ If there is a conference that you'd like to attend, and we agree that your atten
 
 - The company will fund your conference ticket.
 - The company will fund your train/bus/airplane ticket.
-- The company will fund your stay if the price is reasonable (we use a booking.com bed\&breakfast option, but AirBnB might be ok too).
+- The company will fund your stay if the price is reasonable (we use a `booking.com` bed\&breakfast option, but AirBnB might be ok too).
 - The company will not pay for the time spent at the conference, at the afterparty, etc.
 - ... unless you are actually going there to sell.
 
 ### 7.2 Code conventions
 
-If your role requires you to write code, please look up our [code conventions](docs/Code_conventions.md).
+If your role requires you to write code, please look up our [code conventions](engineering/code-general-development-conventions.md).
 They may seem obvious, and RT developers tend to follow them subconsciously, but we wrote them down to bring new devs up to speed ASAP.
 
 ### 7.3 Holidays (days off)
@@ -674,19 +674,19 @@ docker-compose down --rmi all --remove-orphans -v
 
 # FAQ - Frequently Asked Questions
 
-##### *What's a virtual assistant?*
+#### *What's a virtual assistant?*
 
 It's like an office manager for a company that doesn't have an office.
 
-##### *Do we have CI/CD?*
+#### *Do we have CI/CD?*
 
 Typically Github Actions.
 
-##### *How to re-bill my time to a different project?*
+#### *How to re-bill my time to a different project?*
 
-In case you ever bill the time worked to the wrong project, [here](docs/Hubstaff.md) is a step-by-step guide on how to fix it.
+In case you ever bill the time worked to the wrong project, [here](time-tracking/hubstaff.md) is a step-by-step guide on how to fix it.
 
-##### *Why is all communication (except 1to1) in English?*
+#### *Why is all communication (except 1to1) in English?*
 
 Pawel: Let me tell you a story.
 There was a Python office in Warsaw where most employees were from Poland, but eventually, the company started hiring foreigners, too.
@@ -724,7 +724,7 @@ Good luck!
 
 Now head on to [training](training.md)!
 
-# linkedin.py
+# `linkedin.py`
 
 ```python
 from __future__ import annotations

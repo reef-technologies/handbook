@@ -1,63 +1,57 @@
-# Time Tracking How-To
+Please start by reading all the information about the time tracker in our [handbook](https://github.com/reef-technologies/handbook#time-tracking).
+Below are the time-tracking rules, co-created by company staff members.
 
-Please start by reading all the information about the time tracker that can be found in our \[handbook] (<https://github.com/reef-technologies/handbook#time-tracking>).
+## What to track
 
-Below you can find time-tracking rules which were co-created by company staff members.
+As per a legal agreement, Reef Technologies only pays for time tracked by the company's time tracker (Hubstaff as of writing).
+Usually we work in front of the computer, but if you need to sketch something on paper or do some deep thinking away from it, track that time too — as long as you're fully dedicated to a company project.
+Stop the timer when you're not working (see Common cases below).
+Hubstaff tracks time by the second, so you don't need to work in 10-minute slots like some other tools (*cough* Upwork *cough*).
 
-## How-To
+## Which project to bill
 
-- As per a legal agreement, Reef Technologies only pays for the time that is tracked by the company's time tracker (Hubstaff as of writing this document).
-- Usually, we do our work in front of the computer, but if you need to sketch something on paper or do some deep thinking away from the computer, it is allowed required to track that time – as long as you're fully dedicated to a company project.
-- We stop the timer when we are not working.
-  See examples below.
-- There are two types of projects: <br>
+There are two types of projects:
+`Internal (RT / *)` is paid by the company, `External` is paid by our clients.
+If an external project hasn't been created in Hubstaff yet, or you don't have access to the right one, use the special `OTHER / just-in-case` option, mention it to the project manager, and rebill that time once you've been given access.
 
-`Internal (RT / *)` – the time is paid by the company<br> `External` – the time is paid by our clients
+If you're working on an external project, bill all your time to it — knowledge gathering, environment preparation, programming, meetings, emails, design, track it all.
+If you need to learn a framework, library, or language to deliver value, bill that learning to the project; if it took a long time, mention it to the PM and they'll make sure it's billed fairly (they may, for example, discount the client for that week).
+This depends on contract terms and is generally a tough call, but don't worry about it — that's what PMs are for.
+They have the tools and procedures to deal with such issues efficiently.
+If you think contributing to an open-source project first (to fix a bug or add a feature) would help deliver better value, talk to the PM on that project first.
 
-- In case an external project has not yet been created in Hubstaff, or you don't have access to the right project, please use the special option `OTHER / just-in-case`, mention it to the project manager and rebill that time when you've been given access.
-- If you are working on an external project for the client, you should bill all your time spent on this project onto it.
-  Knowledge gathering, environment preparation, actual programming, attending meetings, responding to emails, or working on the design – track it all.
-- If you need to learn a framework, library, or language to deliver value to the project, bill the learning to that project.
-  If it took you a long time to learn a new skill, please mention it to the PM of that project.
-  They will make sure it is billed fairly.
-  For example, they may choose to discount the client for that week.
-  This heavily depends on contract terms and is generally a tough decision, but please do not worry about it – that's what we have PMs for.
-  They have the tools and procedures to deal with such issues efficiently.
-- If you think that in order to deliver better value for a project, it would be helpful to contribute to an open-source project first to, for example, fix a bug or add a feature, please first talk with the PM on that project.
-- The company doesn't care about activity levels ("activity level" in hubstaff web UI, estimated from mouse and keyboard events).
-  We only use the time tracker to know how much we should charge the client and how much we should pay our staff.
-  It shows 0% activity during most meetings, for instance, so it's practically useless, and so nobody looks at it (not just in Reef but in general).
-- You can add manual time, and inputting a reason is optional.
-  There is no need to ask for permission, but if you make some changes to the time tracked to an external project in the past, please mention it to the PM.
-  In some cases, an invoice adjustment may be necessary.
-  If it is the same day, then there is no problem – this is about changing the time you tracked at least one day earlier.
-- Hubstaff tracks time by the second, so you don't need to work in 10 min time slots like with some other time-tracking tools (*cough* Upwork *cough*).
-- Please use Hubstaff to-dos, especially for external projects.
-  It helps to have a more detailed history of our work in case we need it (our clients sometimes ask for reports – please allow PMs to provide them).
+## Activity levels
 
-## How-To use To-Dos
+The company doesn't care about activity levels (the "activity level" in the Hubstaff web UI, estimated from mouse and keyboard events).
+We only use the tracker to know how much to charge the client and how much to pay our staff.
+It shows 0% activity during most meetings, so it's practically useless and nobody looks at it (not just at Reef, but in general).
 
-- Group calls should be billed in related projects (`RT / sociocracy S3`, `RT / status call`) without to-dos.
-- All work done for external projects should be tracked in a to-do (that includes reviews, see the review channel agreement for more details).
+## Editing tracked time
+
+You can add manual time, and giving a reason is optional.
+You don't need to ask permission, but if you change time tracked to an external project in the past, mention it to the PM — an invoice adjustment may be necessary.
+Same-day changes are fine; this only concerns time you tracked at least one day earlier.
+
+## To-dos
+
+Please use Hubstaff to-dos, especially for external projects — it gives us a more detailed history in case we need it (clients sometimes ask for reports, and PMs should be able to provide them).
+
+- Group calls should be billed to related projects (`RT / sociocracy S3`, `RT / status call`) without to-dos.
+- All work done for external projects should be tracked in a to-do (including reviews — see the review channel agreement for details).
 - The to-do name should contain a description followed by an issue tracker link.
-- If the to-do does not relate to a specific issue, try coming up with a descriptive name, like `deployment`, `devops`
-- Calls that concern a specific issue should be billed to a proper to-do
-- Work done for internal projects should be billed in to-dos if it's a major (3h+) development task.
+- If the to-do doesn't relate to a specific issue, come up with a descriptive name like `deployment` or `devops`.
+- Calls about a specific issue should be billed to a proper to-do.
+- Work on internal projects should be billed to a to-do if it's a major (3h+) development task.
 
-## Common cases:
+## Common cases
 
-- If you're doing a lot of thinking for your task or during a call, and you need to get up and get yourself something to drink (even if it requires menial preparation labor, like coffee).
-  If you spend the whole time thinking about your task/discussion, it is okay to leave the timer on.
-  If you spend your time on other activities, the timer should be stopped.
-- If you're having problems concentrating because someone is messaging you every 5 minutes and you run into a dilemma like:
-  "should I really be stopping the timer every 5 minutes for 15 seconds to reply?", the answer is:
-  tell them you are at work now and you can talk later OR take a break, stop the timer, and discuss whatever you need.
-- *Real-life example:* Luke is coding for a project.
-  He sees that Andrew asked something on Slack in `#random` about Luke's earlier post.
-  Luke's reply is a simple yes or no, that doesn't take too much thinking.
-  Luke does not stop the timer in this case.
-  Luke remembers not to answer such messages very often (like every 5 minutes).
-  Otherwise, his productivity will decrease.
-- *Another real-life example:* Same as above, only this time Luke's answer is a few paragraphs of text about his favorite board game genre.
-  Luke stops his timer this time.
-  If the discussion were not about a board game genre but concerned a code review or internal procedures, Luke would switch the timer to the appropriate project.
+- If you're doing a lot of thinking for your task or during a call and need to get up for a drink (even with menial prep like making coffee):
+  if you spend the whole time thinking about your task or discussion, it's okay to leave the timer on; if you spend the time on other activities, stop it.
+- If you can't concentrate because someone is messaging you every 5 minutes — "should I really stop the timer every 5 minutes for 15 seconds to reply?"
+  — the answer is:
+  tell them you're at work and can talk later, or take a break, stop the timer, and discuss what you need.
+- **Real-life example:** Luke is coding for a project.
+  He sees Andrew asked something in `#random` about Luke's earlier post.
+  Luke's reply is a simple yes or no that doesn't take much thinking, so he doesn't stop the timer — but he remembers not to answer such messages too often (like every 5 minutes), or his productivity will drop.
+- **Another real-life example:** Same as above, but this time Luke's answer is a few paragraphs about his favorite board game genre, so he stops the timer.
+  If the discussion were about a code review or internal procedures instead, he'd switch the timer to the appropriate project.

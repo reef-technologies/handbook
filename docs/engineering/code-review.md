@@ -2,32 +2,42 @@
 
 This document covers the rules of code review at Reef Technologies.
 
-<details>
-<summary>Why is this document so long, so many rules? (click here to see more details)</summary>
-We had our way of doing things which didn’t need to be described for us, but in early 2025 we noticed that new engineers
-joining our team tend to bring in code review habits from their previous workplace. When we put it like that,
-it doesn’t sound so bad, but it caused some friction and has shown us really terrible ways in which some companies
-tend to operate. We wrote this document for newcomers so that they can smoothly transition into our culture.
-As with every policy, if something is bad and you care about it enough, feel free to bring it up on S3
-and the governance process, operating in front of you and with you, will decide whether to change (most likely yes).
-</details>
+**Why is this document so long, so many rules?
+(click here to see more details)**
+
+We had our way of doing things which didn’t need to be described for us, but in early 2025 we noticed that new engineers joining our team tend to bring in code review habits from their previous workplace.
+When we put it like that, it doesn’t sound so bad, but it caused some friction and has shown us really terrible ways in which some companies tend to operate.
+We wrote this document for newcomers so that they can smoothly transition into our culture.
+As with every policy, if something is bad and you care about it enough, feel free to bring it up on S3 and the governance process, operating in front of you and with you, will decide whether to change (most likely yes).
 
 ## When/how to request a code review
 
 1. If you are a developer, always perform basic functional testing (manually!)
-   of your code and self-review your PR before you give it to a peer for review, ensure that CI passed and that the PR fully resolves all of the requirements specified in the ticket. <details><summary>Why? </summary>If you won’t do that, then inevitably you’ll end up submitting review requests which bounce for silly reasons.
-   It is important for us to avoid that as such behavior can negatively impact the mutual respect senior developers should have for each other. </details>
+   of your code and self-review your PR before you give it to a peer for review, ensure that CI passed and that the PR fully resolves all of the requirements specified in the ticket.
+
+   **Why?**
+
+   If you won’t do that, then inevitably you’ll end up submitting review requests which bounce for silly reasons.
+   It is important for us to avoid that as such behavior can negatively impact the mutual respect senior developers should have for each other.
 2. The developer who needs their code reviewed posts to the `#review` channel on Slack with a `@here`, `@engineering-team-1` or `@engineering-team-2` mark, the project name as shown in Hubstaff, a todo name (in order to make time reporting super easy for the reviewer), and a link to the PR.
    Slack automatically attaches the title of the pull request to the message.
 3. Sometimes it doesn’t make sense to request reviews for trivial changes – if you think no one would have anything useful to comment on, just merge it.
 4. If no one has started reviewing your code before the daily standup, you should ask for a reviewer during the daily.
 5. When using GitHub and someone has already started reviewing your PR, don’t force push commits to your PRs before getting final approval, as it will force the reviewer to start from scratch during the next review round.
-   Create new commits instead, like “Fix XYZ”, “Add tests”. <details><summary>Note. </summary>This is a limitation of GitHub and a primary motivator to consider moving development off to gitlab / gerrit, though as of writing this document we have not decided to switch. </details>
+   Create new commits instead, like “Fix XYZ”, “Add tests”.
+
+   **Note.**
+
+   This is a limitation of GitHub and a primary motivator to consider moving development off to gitlab / gerrit, though as of writing this document we have not decided to switch.
 
 ## How to review
 
 1. In order to minimize delays, in most cases reviews should be prioritized above other duties.
-   A developer should pick up a code review request upon a flow break (see below), unless engaged in a highest-priority task, such as a critical bug fix. <details><summary>What’s a “flow break”? </summary> By flow break we understand a moment in work such as:
+   A developer should pick up a code review request upon a flow break (see below), unless engaged in a highest-priority task, such as a critical bug fix.
+
+   **What’s a “flow break”?**
+
+   By flow break we understand a moment in work such as:
 
    - Starting the day
    - Finishing a task
@@ -37,12 +47,16 @@ and the governance process, operating in front of you and with you, will decide 
    or any event which causes a developer to unload the context of a task from their mind.
    We are a performance-conscious bunch.
    We don’t obsess over work performance, but “multi-tasking” is the top 1 reason for performance degradation which can absolutely decimate the output level of software developers, so ignoring it would be foolish.
-   There’s a link to an incredible lecture from ABE 2016 in [training](../training.md), check it out if you haven’t already. </details>
+   There’s a link to an incredible lecture from ABE 2016 in [training](../training.md), check it out if you haven’t already.
 2. Any team member may review any PR – there is no preference as to who should do that.
    By “team member” we mean a member of the same engineering team, although sometimes it may be any staff member.
 3. When you start a review add a reaction to the author’s message:
-   👀 (`:eyes:`) – “I am reviewing your code now”. <details><summary>Why? </summary> This is a locking mechanism which prevents multiple developers from reviewing the same PR at the same time.
-   Technically the reviewer should wait a second or two after reacting and make sure that the number of eye reactions is still 1.</details>
+   👀 (`:eyes:`) – “I am reviewing your code now”.
+
+   **Why?**
+
+   This is a locking mechanism which prevents multiple developers from reviewing the same PR at the same time.
+   Technically the reviewer should wait a second or two after reacting and make sure that the number of eye reactions is still 1.
 4. Only one developer should review each PR posted to the `#review` channel (unless there is an explicit call for more reviewers).
    Therefore, if someone has already posted the eyes emoji, other staff members should ignore the post and carry on with their work.
 5. If there is a change that is up to taste, the reviewer should refrain from suggesting it.
@@ -58,7 +72,11 @@ and the governance process, operating in front of you and with you, will decide 
 Note: not all of these apply to all PRs, of course.
 
 1. Whether CI passed.
-2. Does the PR do several unrelated things? <details><summary>Why is this important? </summary>In some products it's better to have a feature per PR because if you'll have to roll something back, and it's glued together to a bunch of other stuff in a massive PR, that'll increase the recovery time after failed deployment by orders of magnitude. </details>
+2. Does the PR do several unrelated things?
+
+   **Why is this important?**
+
+   In some products it's better to have a feature per PR because if you'll have to roll something back, and it's glued together to a bunch of other stuff in a massive PR, that'll increase the recovery time after failed deployment by orders of magnitude.
 3. Is the code doing the correct thing?
 4. Does the code do the thing in the correct way?
 5. Does it handle corner cases properly?
@@ -81,7 +99,7 @@ Note: not all of these apply to all PRs, of course.
 10. Security:
     1. Can someone hack it?
     2. Can someone exploit the changes to perform a DoS attack?
-11. Usage of [Forbidden Technology](Code_conventions.md#restricted-patterns--forbidden-technologies).
+11. Usage of [Forbidden Technology](code-general-development-conventions.md).
 12. Performance / memory considerations.
     Will it OOM in a corner case after the change?
 13. Self-healing. If a (network, HDD) device or a part of the system breaks temporarily, will the rest of the system recover automatically or will it require manual intervention?

@@ -38,12 +38,13 @@ We use the following procedure for the code review process:
 The general structure of the review request is:
 
 > @here <https://github.pr.link> `Hubstaff project name` ::
+
 > `Todo name`
 
 If a developer spots a review request not following this structure (usually missing some information), they should reply with `Please follow the review request structure` and react with ❌ (`:x:`).
 This is an agreed upon gentle reminder, that carries no criticism or hard feelings.
 
-2. Other team members may react to the message in the following ways:
+1. Other team members may react to the message in the following ways:
 
 - 👋 (`:wave:`) – “I cannot help you right now”,
 - 👀 (`:eyes:`) – “I am reviewing your code now”,
@@ -258,7 +259,7 @@ We've observed that certain video effects, especially those used without a green
 
 ## Equipment co-funding
 
-See the new [Equipment Funding Policy](https://github.com/reef-technologies/handbook/blob/master/equipment_funding.md)
+See the new [Equipment Funding Policy](equipment-funding-policy.md)
 
 ## AI tool use & funding
 
