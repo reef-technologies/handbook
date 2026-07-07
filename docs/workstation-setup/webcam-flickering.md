@@ -14,12 +14,12 @@ You'd think in 2023 a modern operating system, driver, video chat software *or s
 
 Albeit, we have yet to see a flickering camera on modern Linux, if you encounter it, you can try to set the power line frequency manually:
 
-```
+```bash
 v4l2-ctl --set-ctrl=power_line_frequency=1  # 50Hz (common in Europe), use 2 for 60Hz
 ```
 
 To see what other options you have, run:
 
-```
+```bash
 v4l2-ctl -L
 ```

@@ -1,21 +1,21 @@
 # Hubstaff - how to edit time entry (e.g. change project to bill)?
 
-##### Go to Timesheets > Daily
+#### Go to Timesheets > Daily
 
-![](images/hubstaff/hubstaff_01.png)
+![](../../attachments/time-tracking/hubstaff.md-1.png)
 
-##### Choose date range (click the same date twice to get time entries for one day)
+#### Choose date range (click the same date twice to get time entries for one day)
 
-![](images/hubstaff/hubstaff_02.png)
+![](../../attachments/time-tracking/hubstaff.md-2.png)
 
-##### Choose Actions > Edit time entry
+#### Choose Actions > Edit time entry
 
-![](images/hubstaff/hubstaff_03.png)
+![](../../attachments/time-tracking/hubstaff.md-3.png)
 
-##### Choose project that you want to move your time to
+#### Choose project that you want to move your time to
 
-![](images/hubstaff/hubstaff_04.png)
+![](../../attachments/time-tracking/hubstaff.md-4.png)
 
-##### Fill the reason for your time edit and click Save
+#### Fill the reason for your time edit and click Save
 
-![](images/hubstaff/hubstaff_05.png)
+![](../../attachments/time-tracking/hubstaff.md-5.png)

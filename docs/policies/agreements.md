@@ -8,7 +8,15 @@ This mechanism works surprisingly well.
 Below you can find all our active agreements at the company.
 All of them were co-created by company staff members.
 
-## Communication channels
+## 🕐 24h format
+
+Some staff members mentioned that the 12-hour clock led to unnecessary confusion.
+As we are an international company and we live in different time zones, it can be doubly problematic.
+Thus, we decided to always use the 24-hour standard (the so-called “military time”) to minimize misunderstandings.
+
+The default timezone is CET/CEST, so when someone says “we meet at 13:00”, they mean “13:00 CET”.
+
+## 📲 Communication channels
 
 At Reef Technologies, we mainly use the following communication channels:
 
@@ -23,54 +31,53 @@ All developers are supposed to have their contact preferences displayed publicly
 - “phone -> SMS” – for people who want to be called first and texted later\*.
 - “SMS -> phone” – for people who wish to be texted first and then called.
 
-All staff members must respect the preferences of their colleagues.
+All staff members shall respect the preferences of their colleagues.
 
 - It is acceptable for people who want to be called first to reject the call and wait for a text message.
 
-## Review channel
+## 📜 Review channel
 
-The `#review` channel on Slack is where we request code reviews and perform them for other developers whenever needed.
+We only have senior developers in the team, so if they feel like their code does not need a review they can merge it right away.
+They can ask a human to review their PR using the `#review` channel on Slack.
 
-We use the following procedure for the code review process:
+The developer who needs their code to be reviewed posts a `@here` mark, the project name as shown on time tracker, a todo name, and a link to the PR on the `#review` channel.
 
-1. The developer who needs their code to be reviewed posts a `@here` mark, the project name as shown on Hubstaff, a todo name, and a link to the PR on the `#review` channel.
+The template of the review request message is:
 
-The general structure of the review request is:
+> @here <https://github.pr.link> `Project name` ::
+> `Task name`
 
-> @here <https://github.pr.link> `Hubstaff project name` ::
-> `Todo name`
+Other team members may react to the message in the following ways:
 
-If a developer spots a review request not following this structure (usually missing some information), they should reply with `Please follow the review request structure` and react with ❌ (`:x:`).
-This is an agreed upon gentle reminder, that carries no criticism or hard feelings.
-
-2. Other team members may react to the message in the following ways:
-
-- 👋 (`:wave:`) – “I cannot help you right now”,
 - 👀 (`:eyes:`) – “I am reviewing your code now”,
 - ✅ (`:white_check_mark:`) – “I have reviewed your code” (warning:
   it only means "review is ready to be read" and NOT "ready to be merged"),
-- 🔒 (`:lock:`) – “I don't have permission to access this project”.
+- Other emoji have no semantic meaning and are signs of appreciation for the fact that you made the given PR.
+  Commonly used in this case are 🔥, 👍, 🙏, ❤️, `:partyparrot:`
 
-Developers should also take into consideration the following rules:
+Developers should also take into consideration the following points:
 
-- Code reviews for other staff members are seen as important, and, in most cases, they should be prioritized above other duties.
-  A developer should only ignore a code review request if engaged in a highest-priority task such as a critical bug fix or finishing up a project for an upcoming deadline.
-- The reviewer should track the time it took them to do the review on the project and todo indicated in the review request.
-- Only one developer should perform a code review for each code snippet posted to the `#review` channel.
+- ❗Code reviews for other staff members are seen as important, and, in most cases, they should be prioritized above other duties.
+  A developer should only ignore a code review request if:
+  - Engaged in a highest-priority task such as a critical bugfix
+  - Finishing up a project for an upcoming deadline, *when ignoring reviews was approved by the project manager* (as of writing this hasn’t really happened in years)
+- ⏱️The reviewer should track the time it took them to do the review on the project and todo indicated in the review request.
+- 🔒Only one developer should perform a code review for each code snippet posted to the `#review` channel.
   Therefore, if someone has already posted the eyes emoji, other staff members should ignore the post and carry on with their work.
-- Any team member may review any post – there is no preference as to who should do that.
-- If your PR wasn't marked with 👀 or ✅ before daily standup, you must pick Code Reviewer during the daily.
-- Each post is a separate review round, so any developer may respond, even if they did not review the previous iterations.
-- It is recommendable for different developers to look at the subsequent iterations of the same code, as it may help catch bugs or look at the code differently.
-- If a staff member realizes that everyone has refused to review a post, they should escalate the issue and discuss it with the team.
-- The Author of the PR must take all Code Review comments into consideration, but as a Senior Engineer, they are expected to make a decision on how to address them.
-- Reviewer MAY use <https://conventionalcomments.org/> for clarity which comments are blocking or should be treated differently.
+- 🏳️‍🌈 Any team member may review any post – there is no preference as to who should do that.
+  - 🔐Except if they don’t have permissions to the fork on which the PR is.
+- 👆If your PR wasn't marked with 👀 or ✅ before daily standup, you shall ask for the code reviewer during the daily.
+- ♻️ Each post is a separate review round, so any developer may respond, even if they did not review the previous iterations.
+- 👨‍👩‍👧‍👦 It is recommended for different developers to look at the subsequent iterations of the same PR, as it may help catch bugs or look at the code from a different perspective.
+- ❌ If a staff member realizes that everyone has refused to review a post, they should escalate the issue and discuss it with the team.
+- 🧙‍♂️The Author of the PR must take all Code Review comments into consideration, but as a Senior Engineer, they are expected to make a decision on how to address them.
+- 📜 Reviewer MAY use <https://conventionalcomments.org/> for clarity which comments are blocking or should be treated differently.
 
-## Alerts channels
+## 🔔Alert channels
 
 The various "alerts" channels receive issue messages from running deployments.
-In order to prevent alert blidness, each time new alert message appears it should be reacted to, i.e. resolved or silenced.
-Each channel has assigned people (in the monkey registry) resposible for checking alerts appearing in them at least once per their workday.
+In order to prevent alert blindness, each time new alert message appears it should be reacted to, i.e. resolved or silenced.
+Each channel has assigned people (in the monkey registry) responsible for checking alerts appearing in them at least once per their workday.
 
 Similarly to the code review channel, when reviewing an alert please following emoji reactions:
 
@@ -80,7 +87,9 @@ Similarly to the code review channel, when reviewing an alert please following e
 Staff members should to periodically skim through the alerts channels and do a quick checkup on their state.
 It should be easy to spot channels that are neglected, i.e. without any reactions or just 👀, but no resolutions.
 
-## Trying to solve a problem
+There is also a **Bug Detective** agent available to help you resolve the alerts - just tag **@Bug Detective** on an alert thread to summon it for help.
+
+## 📐Trying to solve a hard problem
 
 Even experienced engineers find it difficult to know when to stop trying to solve a problem – but **knowing when to stop is a vital skill for Reef developers** for a simple reason.
 
@@ -155,7 +164,7 @@ The Bug Zoo is a useful resource that allows experienced staff members to quickl
 
 When a Reef Technologies developer encounters a bug that fits this description, they should propose changes to the [Bug Zoo repository](https://github.com/reef-technologies/python-review-zoo/) and describe the bug and an appropriate solution.
 
-## Opensource contributions
+## 📂 Opensource contributions
 
 Sometimes we encounter a bug or a missing feature in an opensource package that we use in one of our projects.
 We then face a choice:
@@ -180,23 +189,17 @@ That's one of the reasons we have someone in that role for every project.
 This also allows for other solutions such as, for example, splitting the cost of a fix between two clients, discounts etc - something you couldn't do on your own.
 Fortunately, with a dedicated client contact person, you don't have to!
 
-## Fast track decisions via Slack instead of standard Sociocracy approach
+## 🏍️ Fast track decisions via Slack instead of standard Sociocracy approach
 
 At Reef Technologies, we mostly make decisions in our weekly Sociocracy meetings.
 The standard Sociocracy framework for proposing changes is a useful tool, but we admit that it can be time-consuming.
 Additionally, in some cases, a staff member may not want to wait for the Sociocracy call.
 
 The fast-track approach for decision-making allows staff members to propose “small changes”, such as minor operational improvements on the `#sociocracy` channel on Slack.
-Everyone is invited to cast their votes through upvoting (:thumbsup:) or downvoting (:thumbsdown:) the message.
+Everyone is invited to cast their votes through upvoting (👍) or downvoting (👎) the message.
 If no one objects to the proposal within 24 hours, it becomes a new active agreement.
 
-## 24h format
-
-Some staff members mentioned that the 12-hour clock led to unnecessary confusion.
-As we are an international company and we live in different time zones, it can be doubly problematic.
-Thus, we decided to always use the 24-hour standard (the so-called “military time”) to minimize misunderstandings.
-
-## Joking in company meetings
+## 🃏Joking in company meetings
 
 We want the company environment to be friendly and allow for joking around in good humor.
 However, we realize that due to cultural differences or a slip of the tongue, someone may make a joke that is offensive to another staff member.
@@ -214,7 +217,7 @@ This solution is meant to allow the team to auto-calibrate and recognize what co
 If the offensive comment is seen as severe and above the grade of this agreement, it will be raised to the HR circle to decide on further steps.
 Fortunately, so far, there have been no such situations.
 
-## Constructive feedback
+## 👷Constructive feedback
 
 We aim to maintain a positive work environment where feedback is given constructively to promote improvement.
 To manage situations where feedback may seem nonconstructive, we will use the following procedure:
@@ -246,7 +249,7 @@ To manage situations where feedback may seem nonconstructive, we will use the fo
   My concern here is that we should write only things that are not obvious and not generic.
   Otherwise, this won't provide much value.”
 
-## Audio/video processing in Zoom calls
+## 📺 Audio/video processing in Zoom calls
 
 Using audio or video processing in company Zoom calls is generally not allowed, with the following exceptions:
 
@@ -256,11 +259,11 @@ Using audio or video processing in company Zoom calls is generally not allowed, 
 This policy aims to minimize distractions during calls.
 We've observed that certain video effects, especially those used without a green screen or with loose hair, can cause flickering and partially obscure participants' faces.
 
-## Equipment co-funding
+## 🤑 Equipment co-funding
 
-See the new [Equipment Funding Policy](https://github.com/reef-technologies/handbook/blob/master/equipment_funding.md)
+See the new [Equipment Funding Policy](equipment-funding-policy.md)
 
-## AI tool use & funding
+## 🤖AI tool use & funding
 
 Each Reef Technologies senior staff member is eligible to receive company-funded AI service subscriptions (e.g. GitHub Copilot, ChatGPT Plus, Claude Code).
 The subscription is paid by Reef Technologies for the entire time it is being used for any tasks related to Reef Technologies projects.
@@ -268,8 +271,8 @@ Please make sure the subscription is terminated if you don't need it anymore to 
 
 You can get:
 
-1. one big (up to $250/month) and one small (up to $25/month) subscription,
-2. or up to five small subscriptions,
+1. One big (up to $250/month) and one small (up to $25/month) subscription,
+2. Or up to five small subscriptions,
 
 depending on your needs.
 
@@ -285,13 +288,13 @@ As of mid 2023 every client has approved LLMs except one that is still consideri
 As for work done for Reef Technologies internal projects, you are free to use LLMs as you see fit.
 In all cases you are responsible for quality of your work, regardless if LLM was used to produce it or not.
 
-### Company card
+### 💸Invoice & payment
 
 To pay for a subscription, use a company card.
 You can get one by contacting our HR manager.
 Make sure you put in the company name, tax ID etc in the subscription details for invoicing and forward the invoices to the same address to which you send all the other invoices.
 
-## Training and upskilling
+## 🧑‍🏫Training and upskilling
 
 At Reef Technologies, we support the development of our staff members in the following areas:
 
