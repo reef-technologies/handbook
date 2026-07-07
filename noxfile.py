@@ -1,4 +1,5 @@
 import os
+import tempfile
 from pathlib import Path
 
 import nox
@@ -35,4 +36,24 @@ def run_readable(session, mode="fmt"):
 
 @nox.session(name='format', python=PYTHON_DEFAULT_VERSION)
 def format_(session):
+    run_readable(session, mode="fmt")
+
+
+@nox.session(name='sync', python=PYTHON_DEFAULT_VERSION)
+def sync(session):
+    """Render the Notion handbook tree into docs/ and format it.
+
+    Requires NOTION_TOKEN and NOTION_HANDBOOK_ROOT in the environment.
+    """
+    root = os.environ.get('NOTION_HANDBOOK_ROOT')
+    if not root:
+        session.error('NOTION_HANDBOOK_ROOT is not set')
+    session.run('npm', 'ci', '--prefix', 'notion_sync', external=True)
+    # Export to a scratch dir and swap it in only after the export fully
+    # succeeded, so a mid-crawl failure cannot leave docs/ deleted or partial.
+    # The path must be absolute: `npm run --prefix` chdirs into notion_sync/.
+    out = Path(tempfile.mkdtemp()) / 'docs'
+    session.run('npm', 'run', '--prefix', 'notion_sync', 'sync', '--', root, str(out), external=True)
+    session.run('rm', '-rf', 'docs', external=True)  # docs/ is generated-only; stale pages must not survive a sync
+    session.run('mv', str(out), 'docs', external=True)
     run_readable(session, mode="fmt")
