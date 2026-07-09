@@ -44,6 +44,9 @@ jobs:
         with:
           branch: notion-sync
           commit-message: Regenerate handbook content from Notion
+          # Default author is the triggering actor or whoever merged to master / last edited this workflow file.
+          author: Notion Sync <notion-sync-action@invalid>
+          committer: Notion Sync <notion-sync-action@invalid>
           title: Regenerate handbook content from Notion
           body: Automated render of the Notion handbook
           delete-branch: true
