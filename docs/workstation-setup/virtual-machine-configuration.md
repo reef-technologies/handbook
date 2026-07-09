@@ -4,7 +4,8 @@
 
 ![](images/hyperv_windows/hyperv_windows_01.png)
 
-Make sure that **Hyper-V is NOT checked**, so deselect it if it's selected like below. Also deselect **Virtual Machine Platform**, **Windows Hypervisor Platform** and **Windows Sandbox**.
+Make sure that **Hyper-V is NOT checked**, so deselect it if it's selected like below.
+Also deselect **Virtual Machine Platform**, **Windows Hypervisor Platform** and **Windows Sandbox**.
 
 ![](images/hyperv_windows/hyperv_windows_02.png)
 
@@ -37,9 +38,12 @@ Guide on resizing linux partitions in case you'd need to grow the device can be 
 
 VirtualBox guest additions from the "CD" that comes with VirtualBox works better than what you can get from `apt`.
 
-Another thing which should be done is installing Extension Pack - it is needed at least to allow guest machine to access laptop camera. [Here](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/intro-installing.html) is detailed instruction. Then camera can be enabled in Devices menu of VirtualBox guest.
+Another thing which should be done is installing Extension Pack - it is needed at least to allow guest machine to access laptop camera.
+[Here](https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/intro-installing.html) is detailed instruction.
+Then camera can be enabled in Devices menu of VirtualBox guest.
 
 If performance is weak here are some tips to try for increasing it:
- * Change power plan to high performance - for host and guest machine.
- * Run VirtualBox as administrator.
- * Do not use too many processors (4 should be enough).
+
+- Change power plan to high performance - for host and guest machine.
+- Run VirtualBox as administrator.
+- Do not use too many processors (4 should be enough).
