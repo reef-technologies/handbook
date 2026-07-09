@@ -1,0 +1,21 @@
+{
+  "name": "notion-sync",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "tsx src/main.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@notionhq/client": "^5.22.0",
+    "@types/mdast": "^4.0.4",
+    "mdast-util-gfm": "^3.1.0",
+    "mdast-util-math": "^3.0.0",
+    "mdast-util-to-markdown": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "tsx": "^4.23.0",
+    "typescript": "^6.0.3"
+  }
+}
