@@ -298,7 +298,7 @@ Make sure you put in the company name, tax ID etc in the subscription details fo
 
 At Reef Technologies, we support the development of our staff members in the following areas:
 
-### Organized events
+### 🏄Organized events
 
 When a Reef Technologies staff member participates in an event such as an industry-themed conference or a visit to a client’s office, the company refunds transportation, accommodation, and food costs.
 
@@ -318,7 +318,7 @@ He can then take it into account when looking for new projects and try to create
 We all love what we do and enjoy upskilling and self-development, so staff members are also encouraged to expand their knowledge in their free time.
 That effort is also compensated, but indirectly – through periodic hourly rate adjustments, which currently happen in November.
 
-## Establishing $1024/monthly/staff member budget for operational mistakes
+## 💸Establishing $1024/monthly/staff member budget for operational mistakes
 
 ### a. If operational mistakes made by staff member:
 
@@ -326,7 +326,7 @@ That effort is also compensated, but indirectly – through periodic hourly rate
 - our CFO confirms that it was not fraud,
 - if it is the first mistake of the given type made by that staff member,
 
-CEO will have a "please do not make the same mistake again" conversation with the staff member and the company absorbs the cost.
+Someone will have a "please do not make the same mistake again" conversation with the affected staff member and the company absorbs the cost.
 
 ### b. If operational mistakes made by staff member:
 
