@@ -1,11 +1,16 @@
 # Handbook
 
-This repository is a **generated mirror** of our company handbook. The source of
-truth lives in Notion; this repo publishes it as Markdown for reading and history.
+> **To start reading, go here: [`docs/README.md`](./docs/README.md)**
 
-**Do not edit the generated content under [`docs/`](./docs/).** Changes there are
-overwritten on the next sync — edit the handbook in Notion instead. The
-[`notion-sync`](.github/workflows/notion-sync.yml) workflow renders Notion into
-`docs/` and maintains a single rolling pull request.
+## Contributing
 
-Start reading at **[`docs/README.md`](./docs/README.md)**.
+This repository is a **public, generated mirror** of our company handbook. The source of truth lives in Notion.
+
+### To contribute to the content of the handbook
+
+1. Edit the handbook in Notion
+2. Run the sync
+    - [via the workflow's Actions page](https://github.com/reef-technologies/handbook/actions/workflows/sync-from-notion.yml)
+    - or `gh workflow run sync-from-notion.yml`
+    - or wait for the nightly run
+3. Review and merge the auto-created pull request
