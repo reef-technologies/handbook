@@ -18,8 +18,7 @@ You are expected to watch or read everything that matches your position within t
 This section is for the evaluation period candidates in the 2nd stage of the Evaluation period (after Evaluation tasks 1-3).
 The rest of the sections are meant for after-evaluation staff.
 
-- <https://youtu.be/A3IQj0LCocA> - Why Every Dev Has Imposter Syndrome
-  (2 min video);
+- <https://youtu.be/A3IQj0LCocA> - Why Every Dev Has Imposter Syndrome (2 min video);
 
 - <https://youtu.be/ZQUxL4Jm1Lo> - What is imposter syndrome and how can you combat it?
   (5 min video);
@@ -40,18 +39,24 @@ The rest of the sections are meant for after-evaluation staff.
 
 # All staff
 
-For all staff _except_ those on evaluation / trial / training period.
+For all staff *except* those on evaluation / trial / training period.
 
 All of the items from "Evaluation period candidates" section, plus:
 
 - <http://randsinrepose.com/archives/be-unfailingly-kind/> - a 100% effective guide on how to work efficiently with people when you have no power over them (6 min read);
+
 - <https://youtu.be/eYMz-VOw4r8> - James Priest - Agile, decentralized Learning Organizations With Sociocracy 3.0 (BTW when he mentions the startup sitting at the front, that actually was our team, taking most of the front row) (30 min video);
+
 - <https://www.linkedin.com/pulse/77-elements-sociocracy-30-ewa-koprowska/> - Ewa Koprowska - 77 Elements of Sociocracy 3.0;
+
 - <https://www.ted.com/talks/derek_sivers_how_to_start_a_movement> - Derek Sivers - How to start a movement (3 min video);
+
 - <https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are> - this explains what cortisol is (21 min video);
+
 - <https://risk-engineering.org/concept/Rasmussen-practical-drift> - this explains a fairly critical viewpoint on the erosion of procedures;
 
 - <https://management30.com/practice/celebration-grids/> - Celebration grid - Celebrate Learnings with Management 3.0 (watch intro - 9 min);
+
 - <https://medium.com/@tadeumarinho/identifying-learning-from-problems-and-successes-with-celebration-grid-3b38244f07e9> - Celebration grid (5 min read);
 
 # All staff that has anything to do with software development
@@ -103,7 +108,7 @@ If it does, watch it all.
 - <https://www.divio.com/blog/documentation/> - basic knowledge of software documentation structure
 - <https://bessey.dev/blog/2024/05/24/why-im-over-graphql/> - why not graphql
 - [Correct parameters values for AWS RDS Postgres databases](docs/aws_rds_params.md)
-- <https://blog.gitbutler.com/how-git-core-devs-configure-git/> - showcase of common git options 
+- <https://blog.gitbutler.com/how-git-core-devs-configure-git/> - showcase of common git options
 
 #### all junior developers
 
