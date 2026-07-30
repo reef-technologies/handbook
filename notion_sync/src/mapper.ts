@@ -276,10 +276,107 @@ function linkParagraph(url: string, caption: string, ctx: MapperContext): FlowCo
 
 // ---------- Rich text -> mdast phrasing ----------
 
+// Notion styles text as flat runs with style flags and freely splits one
+// styled span into several runs (comment anchors, color changes do this).
+// The run list is repaired before translation — shapes markdown cannot spell
+// are rewritten into render-equivalent ones, stage by stage below.
 export function richTextToMdast(runs: RichTextItemResponse[], ctx: MapperContext): PhrasingContent[] {
-  const nodes = runs.flatMap((run) => runToMdast(run, ctx));
-  trimTrailingSpace(nodes);
-  return nodes;
+  return runs
+    .filter((run) => !(run.type === 'text' && run.text.content === ''))
+    .reduce(mergeIdenticallyStyled, [])
+    .flatMap(hoistEdgeWhitespace)
+    .flatMap((run) => runToMdast(run, ctx))
+    .reduceRight(trimTrailing, [])
+    .flatMap(separateAdjacentSpans);
+}
+
+type TextRun = Extract<RichTextItemResponse, { type: 'text' }>;
+
+// Trailing whitespace at the end of a block is insignificant; serialized it
+// would become "&#x20;" noise or a dangling hard break. reduceRight reducer:
+// an empty accumulator means the block edge is still being trimmed; once a
+// visible node lands, everything before it passes through untouched. Works on
+// nodes rather than runs so it reaches inside a trailing link (mention labels
+// included).
+function trimTrailing(trailing: PhrasingContent[], node: PhrasingContent): PhrasingContent[] {
+  if (trailing.length > 0) return [node, ...trailing];
+  if (node.type === 'break') return trailing;
+  if ('children' in node) {
+    const children = node.children.reduceRight(trimTrailing, []);
+    return children.length === 0 ? trailing : [{ ...node, children }];
+  }
+  if (node.type === 'text') {
+    const value = node.value.trimEnd();
+    return value === '' ? trailing : [{ ...node, value }];
+  }
+  return [node]; // inlineCode/inlineMath content is verbatim; never trim it
+}
+
+// Merged back into one run, a split span serializes as a single markdown span.
+function mergeIdenticallyStyled(merged: RichTextItemResponse[], run: RichTextItemResponse): RichTextItemResponse[] {
+  const prev = merged[merged.length - 1];
+  if (prev?.type === 'text' && run.type === 'text' && sameStyling(prev, run)) {
+    merged[merged.length - 1] = { ...prev, text: { ...prev.text, content: prev.text.content + run.text.content } };
+  } else {
+    merged.push(run);
+  }
+  return merged;
+}
+
+// POLICY: color is ignored — it has no markdown equivalent, so runs differing
+// only in color are the same span to us.
+function sameStyling(a: TextRun, b: TextRun): boolean {
+  const x = a.annotations;
+  const y = b.annotations;
+  return (
+    x.bold === y.bold &&
+    x.italic === y.italic &&
+    x.strikethrough === y.strikethrough &&
+    x.underline === y.underline &&
+    x.code === y.code &&
+    (a.text.link?.url ?? null) === (b.text.link?.url ?? null)
+  );
+}
+
+// CommonMark forbids a closing delimiter next to whitespace, so edge
+// whitespace moves out of styled runs into plain ones. Inline code keeps its
+// whitespace (it is content there, and backtick delimiters tolerate it);
+// linked runs need no hoisting either, the brackets already separate the
+// styling delimiters from the whitespace.
+function hoistEdgeWhitespace(run: RichTextItemResponse): RichTextItemResponse[] {
+  if (run.type !== 'text' || run.text.link) return [run];
+  const a = run.annotations;
+  if (a.code || !(a.bold || a.italic || a.strikethrough || a.underline)) return [run];
+  const content = run.text.content;
+  const lead = content.match(/^\s+/)?.[0] ?? '';
+  if (lead === content) return [plainRun(run, content)]; // whitespace-only styled run
+  const trail = content.match(/\s+$/)?.[0] ?? '';
+  const out: RichTextItemResponse[] = [];
+  if (lead) out.push(plainRun(run, lead));
+  out.push({ ...run, text: { ...run.text, content: content.slice(lead.length, content.length - trail.length) } });
+  if (trail) out.push(plainRun(run, trail));
+  return out;
+}
+
+function plainRun(base: TextRun, content: string): RichTextItemResponse {
+  return {
+    ...base,
+    annotations: { ...base.annotations, bold: false, italic: false, strikethrough: false, underline: false, code: false },
+    text: { content, link: null },
+    plain_text: content,
+  };
+}
+
+const DELIMITED = new Set(['strong', 'emphasis', 'delete', 'inlineCode', 'inlineMath']);
+
+// Two styled spans serialized back to back make their delimiters touch and
+// fuse (`**a****b**` re-parses as one span with literal asterisks). An empty
+// HTML comment between them renders as nothing and keeps the delimiters
+// apart. Links need none: their brackets already separate.
+function separateAdjacentSpans(node: PhrasingContent, i: number, nodes: PhrasingContent[]): PhrasingContent[] {
+  return i > 0 && DELIMITED.has(node.type) && DELIMITED.has(nodes[i - 1]!.type)
+    ? [{ type: 'html', value: '<!-- -->' }, node]
+    : [node];
 }
 
 function runToMdast(run: RichTextItemResponse, ctx: MapperContext): PhrasingContent[] {
@@ -339,30 +436,6 @@ function breaksToSpaces(nodes: PhrasingContent[]): PhrasingContent[] {
     if ('children' in node) return { ...node, children: breaksToSpaces(node.children) };
     return node;
   });
-}
-
-// Notion rich text may carry insignificant trailing spaces (and, at the end of
-// a block, trailing breaks); serialized they would become "&#x20;" noise or a
-// dangling hard break, so trim them off.
-function trimTrailingSpace(nodes: PhrasingContent[]): void {
-  const last = nodes[nodes.length - 1];
-  if (!last) return;
-  if (last.type === 'break') {
-    nodes.pop();
-    trimTrailingSpace(nodes);
-    return;
-  }
-  if ('children' in last) {
-    trimTrailingSpace(last.children);
-    if (last.children.length > 0) return;
-  } else if (last.type === 'text') {
-    last.value = last.value.trimEnd();
-    if (last.value !== '') return;
-  } else {
-    return; // inlineCode/inlineMath content is verbatim; never trim it
-  }
-  nodes.pop();
-  trimTrailingSpace(nodes);
 }
 
 const plainText = (runs: RichTextItemResponse[]): string => runs.map((run) => run.plain_text).join('');

@@ -39,6 +39,9 @@ CI runs the nox session:
 - `src/mapper.ts` — the complete "what translates to what" catalog: 
   - every block type and rich-text run, one handler each
   - every lossy equivalence (toggle → bold summary line, underline → italic, …) is a policy comment at its decision site
+  - rich-text runs are normalized before translation — empty runs dropped, identically-styled neighbors merged (Notion splits spans on comment anchors and color changes), edge whitespace hoisted out of styled runs (CommonMark forbids a closing delimiter next to whitespace)
+  - trailing whitespace and hard breaks at a block's edge are dropped after translation, including inside a trailing link's label (insignificant, and would otherwise serialize as `&#x20;` noise or a dangling `\`)
+  - styled spans that still end up adjacent are separated by an empty HTML comment, which renders as nothing but keeps their delimiters from fusing (`**a****b**` would re-parse as literal asterisks)
   - translation decisions live only here
 - `src/main.ts` — everything else
 
