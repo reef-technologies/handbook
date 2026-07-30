@@ -42,6 +42,7 @@ CI runs the nox session:
   - rich-text runs are normalized before translation — empty runs dropped, identically-styled neighbors merged (Notion splits spans on comment anchors and color changes), edge whitespace hoisted out of styled runs (CommonMark forbids a closing delimiter next to whitespace)
   - trailing whitespace and hard breaks at a block's edge are dropped after translation, including inside a trailing link's label (insignificant, and would otherwise serialize as `&#x20;` noise or a dangling `\`)
   - styled spans that still end up adjacent are separated by an empty HTML comment, which renders as nothing but keeps their delimiters from fusing (`**a****b**` would re-parse as literal asterisks)
+  - a mention of an out-of-tree page renders as its Notion URL — the API withholds titles of pages not shared with the integration — and emits a warning, which in CI also surfaces as a GitHub annotation
   - translation decisions live only here
 - `src/main.ts` — everything else
 
