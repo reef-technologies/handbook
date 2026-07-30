@@ -197,7 +197,10 @@ function renderPage(placedPage: PlacedPage, placed: Map<string, PlacedPage>, dow
       return target ? { path: relativeTo(file, target.file), title: target.page.title } : null;
     },
     saveAttachment: scheduleDownload,
-    warn: (message) => console.error(`warning: ${page.title}: ${message}`),
+    warn: (message) => {
+      console.error(`warning: ${page.title}: ${message}`);
+      if (process.env['GITHUB_ACTIONS']) console.log(`::warning title=notion_sync::${file}: ${message}`);
+    },
   };
 
   const tree: Root = { type: 'root', children: blocksToMdast(page.blocks, ctx) };

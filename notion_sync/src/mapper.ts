@@ -400,8 +400,21 @@ function runToMdast(run: RichTextItemResponse, ctx: MapperContext): PhrasingCont
       // All other mention kinds (user, date, ...) have no markdown equivalent
       // and fall back to their plain text.
       if (run.mention.type === 'page') {
-        nodes = [{ type: 'text', value: ctx.resolvePage(run.mention.page.id)?.title ?? run.plain_text }];
-        url = run.href;
+        const target = ctx.resolvePage(run.mention.page.id);
+        if (target) {
+          nodes = [{ type: 'text', value: target.title }];
+          url = run.href;
+        } else {
+          // POLICY: for an out-of-tree page the API withholds the title
+          // (plain_text reads "Untitled" unless the page is shared with the
+          // integration), so the URL doubles as the label and a warning is
+          // emitted. Nothing to do here - we can't and shouldn't pull a page
+          // from the outside of the explicitly public handbook tree.
+          const mentionUrl = `https://www.notion.so/${run.mention.page.id.replace(/-/g, '')}`;
+          ctx.warn(`out-of-tree page mention ${run.mention.page.id}: title unavailable, rendering the URL`);
+          nodes = [{ type: 'text', value: mentionUrl }];
+          url = mentionUrl;
+        }
       } else {
         nodes = [{ type: 'text', value: run.plain_text }];
       }
