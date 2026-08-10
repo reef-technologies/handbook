@@ -12,7 +12,8 @@ As an internal/core staff member, you can request the purchase of equipment you'
 2. Requests can only be made **while your contract is active** (i.e., before giving notice or termination).
 3. The fund is available **for team members only**; it is **not available for Evaluation Period candidates and External contractors**.
 4. There is a **maximum purchase limit per employee** (see Workplace Upgrade Fund and Budget).
-5. Approvals are **presumed**, but you must **contact the HR Manager** before purchasing any equipment to confirm and receive guidance on the ordering procedure.
+5. Approvals are **presumed**, but you must **contact the COO** before purchasing any equipment to confirm and receive guidance on the ordering procedure.
+   Due to intricacies of the European VAT system as well as particularities of invoicing procedures used by equipment suppliers in regard to ordering in one country, but invoicing the company to another country it is **strongly** **recommended** that you select the equipment type, but you allow the COO to help you properly arrange the store/vendor invoice.
 6. Equipment orders must be **paid using company funds** (company card or bank transfer), and **invoices must be issued in the company's name**.
 7. **All amounts mentioned in this procedure refer to NET amounts (excluding added VAT, if applicable)**.
 
@@ -34,7 +35,7 @@ Total Purchase Price ≤ $3,000 + WUF
 
 You can request additional equipment at any time, as long as the **total purchase price does not exceed the limit**.
 
-If you need to buy more expensive equipment, or if your accumulated funds are not yet sufficient and the purchase would exceed the limit, **please contact the HR Manager** to discuss your situation individually.
+If you need to buy more expensive equipment, or if your accumulated funds are not yet sufficient and the purchase would exceed the limit, **please contact the COO** to discuss your situation individually.
 
 ## Remaining Value and Transfer of Ownership
 
@@ -63,19 +64,15 @@ Former **internal/core team members** who are currently **external contributors*
 All worked hours count towards WUF, regardless of internal/core team member vs.
 external contributor status at the time.
 
-## Transition
-
-If you are using any company equipment purchased under the **previous co-funding policy**, you may **opt to switch to this new policy instead**.
-
 ## How to use the Fund?
 
-1. **Identify your equipment needs.** Contact the HR Manager to:
+1. **Identify your equipment needs.** Contact the COO to:
    - Confirm the equipment you want, or ask the assistant for help in selecting the best option.
    - Check your available budget and total accumulated **Workplace Upgrade Fund**, and estimate how long it will take to cover the cost of the equipment fully.
    - Get instructions for purchasing.
 2. After confirmation, **place your order**:
-   - **On your own** – use the company card to pay and ensure the invoice is issued in the company's name and forwarded to the accounting & HR Manager.
-   - **With help** – if you don't have a company card, cannot pay by card (bank transfers only), or simply prefer not to order yourself - the assistant/HR Manager will handle the purchase, obtain the invoice, and arrange delivery to your specified address.
+   - **On your own** – use the company card to pay and ensure the invoice is issued in the company's name and forwarded to the accounting & COO.
+   - **With help** – if you don't have a company card, cannot pay by card (bank transfers only), or simply prefer not to order yourself - the assistants will handle the purchase, obtain the invoice, and arrange delivery to your specified address.
 3. Record & Settlement
    - After the purchase, the HR Manager will record the invoice and the purchase amount on your account.
    - In the event of contract termination, all completed purchases will be reviewed.
