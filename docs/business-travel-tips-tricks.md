@@ -55,6 +55,7 @@
   Keep watching until you are convinced:
   - <https://www.youtube.com/watch?v=d-7o9xYp7eE> - Don't talk to the police (it has two completely different parts that show different angles)
   - <https://www.youtube.com/watch?v=EEUhE0NbinA> - You Have the Right to Remain Innocent with Professor James Duane (shows more very specific examples of why it's *never*)
+- Be aware of local laws and customs regarding the extent of required cooperation with law enforcement, e.g. your duty to identify yourself or the consequences of not answering questions (truthfully or at all).
 
 ### Accommodation 🏨
 

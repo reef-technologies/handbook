@@ -1,10 +1,3 @@
-# Active agreement - Sociocracy 3.0 - What is this about?
-
-We use the Sociocracy 3.0 decision making process to give control over the environment to the company staff.
-They might choose, which sometimes they do, to use that power to change how the company works.
-That, in turn, might increase their happiness.
-This mechanism works surprisingly well.
-
 Below you can find all our active agreements at the company.
 All of them were co-created by company staff members.
 
@@ -77,7 +70,7 @@ Developers should also take into consideration the following points:
 
 The various "alerts" channels receive issue messages from running deployments.
 In order to prevent alert blindness, each time new alert message appears it should be reacted to, i.e. resolved or silenced.
-Each channel has assigned people (in the monkey registry) responsible for checking alerts appearing in them at least once per their workday.
+Each channel has assigned people (in the <https://www.notion.so/3a6b63b4ef1e80d98975f26fb6a4fa1f>) responsible for checking alerts appearing in them at least once per their workday.
 
 Similarly to the code review channel, when reviewing an alert please following emoji reactions:
 
@@ -88,40 +81,6 @@ Staff members should to periodically skim through the alerts channels and do a q
 It should be easy to spot channels that are neglected, i.e. without any reactions or just 👀, but no resolutions.
 
 There is also a **Bug Detective** agent available to help you resolve the alerts - just tag **@Bug Detective** on an alert thread to summon it for help.
-
-## 📐Trying to solve a hard problem
-
-Even experienced engineers find it difficult to know when to stop trying to solve a problem – but **knowing when to stop is a vital skill for Reef developers** for a simple reason.
-
-Our goal is to **save money for our Clients**, which means that we cannot waste it by banging our heads against the wall and billing hours without getting results or by working incessantly on unnecessary elements of a feature.
-
-In many cases, there are **better approaches** than attempting the same thing over and over:
-
-- Taking a break and returning to the problem with a clear head.
-  You may switch to another project for a while or just go for a walk.
-- Reaching out to your colleagues to discuss the problem, find inspiration, or get a confirmation for the way you see the project priorities.
-  You can use #python for that.
-- Trying out a suggestion that you personally don’t like, but which may be the right choice.
-- Reaching out to the software / tool / library provider and asking for support or a bug fix.
-
-How can you know that you’re stuck and the time has come to try an alternative approach?
-
-It’s impossible to create an algorithm for when to stop working on a problem or to define a maximum amount of time allowed per problem.
-After all, every project is different.
-
-Knowing when to stop making useless efforts or when to back out from an idea is a tacit skill that we all need to develop and foster.
-This **self-awareness is an important part of the reason why our Clients trust us** to deliver great software at a fair price.
-
-Currently, there are two things we can do to reinforce this skill in Reef Technologies developers:
-
-- We should all try to maintain an awareness of our working process.
-  If you’re starting to feel frustrated, or if you find yourself trying the same thing as before and expecting different results, refer to this agreement.
-  Give it a short read to remind yourself of the value Reef Technologies brings to our Clients by saving their money.
-  Ask yourself if the way you’re working right now still fits the Reef way.
-  If it is, well, happy coding.
-  If you’re in doubt, maybe you should try one of the methods that you can find in the bullet points above.
-- We want to build a culture where backing out of a dead end is not something to be embarrassed about – it’s something to be proud of, and it’s a skill that earns us more satisfied Clients.
-  That is why in every status call, we spend some time discussing instances when we felt stuck or annoyed by a problem and methods we used to fix those situations.
 
 ## Maintaining organizational culture
 
@@ -136,24 +95,6 @@ how we deal with challenges, solve problems, and make decisions.
 
 As new members spend more time at the company, they may come up with their own stories to tell… which will be read by a yet newer member in the future.
 The cycle continues, and we all gain a better understanding of the values we want this company to present.
-
-## HR Circle
-
-At any organization, sensitive and critical HR decisions sometimes need to be made with privacy, care, and discretion.
-To handle these complex matters in Reef Technologies, we have established a HR Circle - a sub-group within the wider "root" Sociocracy circle, staffed by those few of us who have the necessary level of experience to not just do the right thing, but to do it the right way.
-
-The HR Circle is endowed with specific authorities:
-
-- **Termination of Staff Members**:
-  The HR Circle has the authority to terminate any staff member at its sole discretion, with the exception of the Sociocracy Circle members, unless special conditions apply.
-- **Termination of Sociocracy Circle Members**:
-  The HR Circle may also terminate a Sociocracy Circle member, but only in urgent situations, such as sabotage, theft, gross violation of the terms of legal agreement etc.
-  The decision must be explained to the Sociocracy Circle afterward.
-
-### Notes:
-
-- While the Sociocracy Circle does not need to be involved in the decision-making process for terminating a staff member, the HR Circle may consult with them if there is uncertainty or concern about potential reactions.
-- If a Sociocracy Circle member's (non-urgent) termination is being considered, they are allowed to be present in the discussion.
 
 ## Bug zoo
 
@@ -291,12 +232,12 @@ In all cases you are responsible for quality of your work, regardless if LLM was
 ### 💸Invoice & payment
 
 To pay for a subscription, use a company card.
-You can get one by contacting our HR manager.
+You can get one by contacting our COO.
 Make sure you put in the company name, tax ID etc in the subscription details for invoicing and forward the invoices to the same address to which you send all the other invoices.
 
 ## 🧑‍🏫Training and upskilling
 
-At Reef Technologies, we support the development of our staff members in the following areas:
+At Reef Technologies, we support the development of our staff members in the following ways:
 
 ### 🏄Organized events
 
@@ -316,7 +257,7 @@ When a staff member wants to learn a new technology out of their own interest, t
 He can then take it into account when looking for new projects and try to create an opportunity to learn the requested skill while working for a client.
 
 We all love what we do and enjoy upskilling and self-development, so staff members are also encouraged to expand their knowledge in their free time.
-That effort is also compensated, but indirectly – through periodic hourly rate adjustments, which currently happen in November.
+That effort is also compensated, but indirectly – through periodic hourly rate adjustments, which currently happen in June and December.
 
 ## 💸Establishing $1024/monthly/staff member budget for operational mistakes
 
@@ -338,23 +279,25 @@ we will decide how to proceed during S3 in a separate decision.
 
 If a mistake is not due to an accident, but negligence (like violating NDA, fraud, Working Agreement or other established procedure that we have), then the policy above does not apply (because customers can sue the company for damages and usually some legal agreement defines the way we handle such cases).
 
-## Immediate need to buy something
+## 🛒 Immediate need to buy something
 
 If you need some things to continue work and they are <= $64, for example a domain, a temporary server, cloudflare paid account or some SaaS, just buy it, tell CFO and put that cost on the invoice at the end of the month.
-Even if CEO will be against the expense, he'll absorb the cost rather than see you block on some silly thing.
+We don’t want developers to be blocked by some silly things.
+\
+The limit of $64 resets every month.
 
-## Company's time tracker agreement
+## ⏱️ Company's time tracker agreement
 
 Reef Technologies pays only for the time which is tracked by company's time tracker.
 
-## Absence notice periods
+## 🏝️ Absence notice periods
 
 We empower our staff to manage their working schedule and allow flexibility.
 With great power comes great responsibility.
 If you want to take some time off, please remember that it is very important respect others and give them a reasonable notice period to manage any hand-offs.
 The sooner you inform others about any planned absence the better for the team.
 
-## Billable online team-building activities
+## 🕹️ Billable online team-building activities
 
 We recognize the importance of team building, especially in a remote work environment.
 To foster stronger connections among our staff, we've implemented the following policy:
@@ -365,6 +308,12 @@ To foster stronger connections among our staff, we've implemented the following 
 
 This policy aims to create opportunities for informal interaction and relationship-building among team members, which we believe contributes to a better work environment.
 
-## Referral fee $2048 for Senior Python Developer
+## 🤝🏻 Referral fee $2048 for Senior Python Developer
 
-"If you as the staff member has contacted us with a potential candidate who passed the evaluation period and tracked at least 168h work later, referral fee will be paid for you - $2048".
+If you as the staff member has contacted us with a potential candidate who passed the evaluation period and tracked at least 168h work later, referral fee will be paid for you - $2048.
+
+There is no referral links or any special framework for referrals - if you know that the recommended person applied / is going to apply, just let HR manager know.
+
+## 🤝🏻 Referral fee $550 for Executive Assistant
+
+The same rules as for Python Developer applies.

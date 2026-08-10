@@ -21,6 +21,8 @@ They might choose, which sometimes they do, to use that power to change how the 
 That, in turn, might increase their happiness.
 This mechanism works surprisingly well.
 
+Here you can find more detail on how we organize our [Sociocracy circles](policies/sociocracy-3-0.md).
+
 Here you can find a list of [active agreements](policies/agreements.md).
 
 ## Deadlines and estimates
