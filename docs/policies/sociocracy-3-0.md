@@ -38,10 +38,14 @@ It develops and maintains the entire recruitment process.
 
 ## HR Circle
 
-At any organization, sensitive and critical HR decisions sometimes need to be made with privacy, care, and discretion.
-To handle these complex matters in Reef Technologies, we have established a HR Circle - a sub-group within the wider "root" Sociocracy circle, staffed by those few of us who have the necessary level of experience to not just do the right thing, but to do it the right way.
+The HR Circle is responsible for handling sensitive people-related matters with care, fairness, and discretion.
+Its purpose is to ensure that HR decisions are made thoughtfully, with the right context and the interests of both the individual and the company in mind.
 
-The HR Circle is endowed with specific authorities:
+The HR Circle is **not a permanent group**.
+Its composition is determined based on the matter being discussed and is kept as small as reasonably possible.
+It typically includes the Founder, HR Manager, and the Team Lead or colleague with the closest understanding of the person’s work and situation.
+
+The HR Circle may make decisions on sensitive HR matters, including staff termination when necessary.
 
 - **Termination of Staff Members**:
   The HR Circle has the authority to terminate any staff member at its sole discretion, with the exception of the Sociocracy Circle members, unless special conditions apply.

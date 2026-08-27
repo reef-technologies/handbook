@@ -222,12 +222,12 @@ Examples:
 1. Claude Max and ChatGPT Plus;
 2. Copilot, Codex, Cursor, Claude, Junie; each of these in the up to $25/month tier.
 
-The numbers are approximations, the exact price may exceed the limits a bit.
+The numbers are approximations; the exact price may exceed the limits a bit.
 
-Please note, while our default contract with clients allows use of LLMs, make sure to check with a project manager before using an LLM on any particular project.
-As of mid 2023 every client has approved LLMs except one that is still considering it.
+Please note that while our default contract with clients allows use of LLMs, make sure to check with a project manager before using an LLM on any particular project.
+As of mid-2023, every client has approved LLMs except one that is still considering it.
 As for work done for Reef Technologies internal projects, you are free to use LLMs as you see fit.
-In all cases you are responsible for quality of your work, regardless if LLM was used to produce it or not.
+In all cases, you are responsible for the quality of your work, regardless if LLM was used to produce it or not.
 
 ### 💸Invoice & payment
 
@@ -261,13 +261,13 @@ That effort is also compensated, but indirectly – through periodic hourly rate
 
 ## 💸Establishing $1024/monthly/staff member budget for operational mistakes
 
-### a. If operational mistakes made by staff member:
+### a. If operational mistakes made by a staff member:
 
 - cost the company less than 1024 USD in the given month AND,
 - our CFO confirms that it was not fraud,
 - if it is the first mistake of the given type made by that staff member,
 
-Someone will have a "please do not make the same mistake again" conversation with the affected staff member and the company absorbs the cost.
+Someone will have a "please do not make the same mistake again" conversation with the affected staff member, and the company absorbs the cost.
 
 ### b. If operational mistakes made by staff member:
 
@@ -288,14 +288,14 @@ The limit of $64 resets every month.
 
 ## ⏱️ Company's time tracker agreement
 
-Reef Technologies pays only for the time which is tracked by company's time tracker.
+Reef Technologies pays only for the time that is tracked by the company's time tracker.
 
 ## 🏝️ Absence notice periods
 
 We empower our staff to manage their working schedule and allow flexibility.
 With great power comes great responsibility.
-If you want to take some time off, please remember that it is very important respect others and give them a reasonable notice period to manage any hand-offs.
-The sooner you inform others about any planned absence the better for the team.
+If you want to take some time off, please remember that it is very important to respect others and give them a reasonable notice period to manage any hand-offs.
+The sooner you inform others about any planned absence, the better for the team.
 
 ## 🕹️ Billable online team-building activities
 
@@ -310,10 +310,10 @@ This policy aims to create opportunities for informal interaction and relationsh
 
 ## 🤝🏻 Referral fee $2048 for Senior Python Developer
 
-If you as the staff member has contacted us with a potential candidate who passed the evaluation period and tracked at least 168h work later, referral fee will be paid for you - $2048.
+If you, as a staff member, have contacted us with a potential candidate who passed the evaluation period and has tracked at least 168h of work later, the referral fee will be paid to you - $2048.
 
-There is no referral links or any special framework for referrals - if you know that the recommended person applied / is going to apply, just let HR manager know.
+There are no referral links or any special framework for referrals - if you know that the recommended person applied/is going to apply, just let the HR manager know.
 
 ## 🤝🏻 Referral fee $550 for Executive Assistant
 
-The same rules as for Python Developer applies.
+The same rules as for Python Developer apply; the only difference is the fee amount.
