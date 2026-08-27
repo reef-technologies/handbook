@@ -56,7 +56,7 @@ We will not accept a project targeted to manipulate people, to rip people off, o
 
 We trust our core staff to self-organize their work hours, in a way fostering a reliable and productive work environment that enables us to consistently meet our obligations to our clients.
 To ensure this, the core staff membership is considered optional and conditioned on meeting committed work hours.
-Membership is required to participate in the daily meetings, the weekly status calls, S3 meetings, and Sociocracy sessions.
+Membership is required to participate in the daily meetings, weekly status calls, S3 meetings, Sociocracy sessions and annual gatherings.
 
 ### Daily and Weekly Commitments
 
