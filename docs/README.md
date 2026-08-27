@@ -56,7 +56,7 @@ We will not accept a project targeted to manipulate people, to rip people off, o
 
 We trust our core staff to self-organize their work hours, in a way fostering a reliable and productive work environment that enables us to consistently meet our obligations to our clients.
 To ensure this, the core staff membership is considered optional and conditioned on meeting committed work hours.
-Membership is required to participate in the weekly status calls, S3 meetings, and Sociocracy sessions.
+Membership is required to participate in the daily meetings, the weekly status calls, S3 meetings, and Sociocracy sessions.
 
 ### Daily and Weekly Commitments
 
@@ -73,8 +73,8 @@ If you lose core staff membership, you can still participate in S3 meetings by b
 
 The relatively high security level we maintain allows us to work for financial institutions and, in general, institutions that treat their security seriously.
 Funny story:
-Pawel talked to a bank once about a potential contract, and they wanted him to work on-site due to security concerns.
-So, Pawel described our security model, and when he finished, an engineer from the bank said, "They have more security at their homes than we have at the office!"
+Paweł talked to a bank once about a potential contract, and they wanted him to work on-site due to security concerns.
+So, Paweł described our security model, and when he finished, an engineer from the bank said, "They have more security at their homes than we have at the office!"
 The manager looked at the engineer and was not happy.
 ;)
 
@@ -82,23 +82,17 @@ UPDATE: A fully encrypted laptop of our senior developer has been stolen from hi
 
 ### Storage Encryption and Secure Work Environment
 
-All data pertaining to the company and its clients must be either stored in the cloud (specifically, Google Drive/Docs/Sheets within the company domain) or on encrypted media (an encrypted volume or drive).
+All data pertaining to the company and its clients must be either stored in the cloud (specifically, services within the company domain like Google Drive/Docs/Sheets, Notion etc.)
+or on encrypted media (an encrypted volume or drive).
 This excludes data categorized as being of no value or already publicly available.
 
-In addition, developers (after 2nd stage of Evaluation period i.e. before working on our clients' code base) are required to set up a Secure Work Environment on their workstations.
-As not to slow down 1st stage of Evaluation period, please refrain from setting it up before you get clear signal, that your next task will require you to work with private Client data.
-This is both for additional security and improved focus.
+In addition:
 
-Setting up Storage Encryption might initially appear daunting, but rest assured that it is fairly straightforward process.
-Our top recommendation is Full Disk Encryption (FDE), a method that encrypts the entire disk for comprehensive protection.
-Our second recommendation is Volume Encryption, a method that encrypts only the volume (/folder) where sensitive data is stored.
-Due to its ease of use, we recommend VeraCrypt by default, for which a simple tutorial can be found [here](workstation-setup/veracrypt-installation.md).
+- Software Developers are required to set up [Secure Work Environment](workstation-setup/developer-environment-setup.md) on their workstations.
+- All other roles (e.g. managers) are required to use [Storage Encryption](workstation-setup/storage-encryption.md).
+
+Setting up Full Disk Encryption might initially appear daunting, but rest assured that it is fairly straightforward process.
 If you want to learn more about available options, please refer to the [Storage Encryption](workstation-setup/storage-encryption.md) document.
-
-So to sum it up:
-
-- Software Developers **after** completing 2nd stage of Evaluation period (i.e. are about to work with Clients' code) are required to set up [Secure Work Environment](workstation-setup/developer-environment-setup.md) on their workstations.
-- All other roles (e.g. Virtual Assistants) are required to use [Storage Encryption](workstation-setup/storage-encryption.md).
 
 ### Mobile devices
 
@@ -295,6 +289,9 @@ Billing a client inaccurately goes against a foundation of the company ("happy c
 
 After the end of a billing cycle (typically the 1st day of a month), we semi-automatically calculate the invoice amounts for everyone.
 The Polish tax system got way more complicated than it used to be in 2022, and lawful accounting of the optimal tax mode requires detailed time logs, which we then help our staff follow with automation.
+\
+\
+\[We apply an automatic, inflation-based hourly rate update every 6 months to preserve the real value of compensation and it’s rolled out for everybody (you don’t need to request it).]
 
 ### It can save the contract
 
@@ -679,6 +676,7 @@ docker-compose down --rmi all --remove-orphans -v
 #### *What's a virtual assistant?*
 
 It's like an office manager for a company that doesn't have an office.
+We have a dedicated assistant team (available commercially for clients) that also provides strong support to the founder and can occasionally help team members as an employee benefit - they can truly save the day.
 
 #### *Do we have CI/CD?*
 
