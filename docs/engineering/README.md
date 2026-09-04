@@ -1,7 +1,5 @@
 [Code & general development conventions](code-general-development-conventions.md)
 
-[Code Review](code-review.md)
-
 [Maturity Levels](maturity-levels.md)
 
 [Release Process](release-process.md)

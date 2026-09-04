@@ -89,10 +89,7 @@ This excludes data categorized as being of no value or already publicly availabl
 In addition:
 
 - Software Developers are required to set up [Secure Work Environment](workstation-setup/developer-environment-setup.md) on their workstations.
-- All other roles (e.g. managers) are required to use [Storage Encryption](workstation-setup/storage-encryption.md).
-
-Setting up Full Disk Encryption might initially appear daunting, but rest assured that it is fairly straightforward process.
-If you want to learn more about available options, please refer to the [Storage Encryption](workstation-setup/storage-encryption.md) document.
+- All other roles (e.g. managers) are required to use at least volume encryption.
 
 ### Mobile devices
 
@@ -122,13 +119,15 @@ Q: Do I still need to set up service-specific 2FA if I use Google SSO?
 A: No.
 Google SSO (with 2FA enabled on your Google account) already covers this, as long as password-based login is disabled.
 
-### External LLMs
+### LLMs
 
-Most clients explicitly agreed to the use of non-local LLMs.
-Ask a lead developer on the given project what tools you can use for which type of work - there are a couple of modules which should never be shown as context for an external LLM.
+Most clients explicitly agreed to the use of LLMs.
+Ask a lead developer on the given project what tools you can use for which type of work.
+
+Some clients also require that their code isn’t used to train the models, so make sure you have “Help improve our AI models” setting in all your LLMs turned off.
 
 We pay for the AI tools used by our staff members.
-See [AI tool funding agreement](policies/agreements.md) for more details.
+See [AI tool funding agreement](policies/agreements.md#74fb63b4ef1e8255a58e81855b8a6921) for more details.
 
 ## What does "high performance" mean?
 
@@ -144,27 +143,28 @@ We employ several techniques to output a lot of value in a unit of time:
    We don't like that part of the project, so we invest in automation to minimize its impact.
 4. Design systems in such a way that they are easy to think about and implement.
 5. Design systems in such a way that they are durable and, whenever possible, self-healing.
-6. We prefer candidates who are not an order of magnitude slower than others.
-   For example, a program that reverts a small file can take less than a minute to implement, but some candidates need more than 10 minutes.
-   Someone might have a problem with this, but we just don't hire the slowest developers on the market.
-7. If there is doubt on whether something should be done or not, we stop and ask.
+6. If there is doubt on whether something should be done or not, we stop and ask.
    This theoretically increases Time To Market, but in practice, it only does so for the last task of the iteration (so a hint for planning is that the last task in the iteration should be low-risk).
-8. We are allergic to waste.
+7. We are allergic to waste.
    This drives many of our actions, including good communication with the client who knows what must be done.
    While some software houses lose \~30% of their performance (due to miscommunications, etc.), we stay way below 1% (the exact number is hard to measure when the amount of waste is so low).
    As mentioned above, we tend to pause work on a ticket when we are not sure, choosing a small delay on a particular task over potentially having to discard work due to a bad assumption.
    Our clients prefer it this way.
-9. Use modern IDEs.
-   PyCharm, Cursor, Windsurf or Visual Studio with a LLM plugin.
-   Some people are trying to use Vim with plugins for LLMs, but nowadays it's mostly Cursor/Windsurf/PyCharm.
-10. Use LLMs (ChatGPT, GitHub Copilot, Claude etc) to speed up the work on the code, though watch every single byte of the diff like it's been written by a party you shouldn't trust.
+8. Use LLMs
 
 # Code Review
 
-At Reef we do code review for almost all pull requests.
-We treat this like friendly help, with the reviewer offering suggestions on how to improve the given code.
-It is intuitive to most people, but not for everyone.
-[This document](engineering/code-review.md) explains in detail how we approach reviews and why.
+At Reef, code reviews are optional.
+In the age of LLMs, it makes little sense to ask another engineer to feed your code to an LLM and relay the suggestions back to you—you can do that yourself.
+Human input is much more valuable one level above the code.
+If you are unsure about the architecture, design, user stories, assumptions, or scope, ask someone for a sanity check.
+The goal is not to approve every line of code, but to catch expensive mistakes early and get a second perspective where human context and judgment actually matter.
+
+1. The developer who needs their code reviewed posts to the `#review` channel on Slack with a `@here`, `@engineering-team-1` or `@engineering-team-2` mark, the TiMaS tracker smart link to the task, and a link to the PR.
+2. When you start a review add a reaction to the author’s message:
+   👀 (`:eyes:`) – “I am reviewing your code now”.
+3. After you finished reviewing someone’s code, react to the review request with ✅ (`:white_check_mark:`) – “I have reviewed your code” (warning:
+   it only means “review is finished” and NOT “code is ready to be merged”).
 
 # Time-tracking
 
