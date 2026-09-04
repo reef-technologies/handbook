@@ -2,7 +2,7 @@
 
 For Secure Work Environment we recommend a Virtual Machine or dual-boot.
 This ensures a clear segregation between your professional and personal digital spaces, preventing accidental cross-access or data leaks involving customer data.
-In any case, [Full Disk Encryption](storage-encryption.md) is required.
+In any case, Full Disk Encryption is required.
 
 Our requirement for FDE arises from its ability to securely store Docker images, potentially containing client code, which often can land outside your home directory.
 Solely encrypting the home directory would leave these sensitive data vulnerable.
