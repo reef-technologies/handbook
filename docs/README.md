@@ -168,33 +168,17 @@ The goal is not to approve every line of code, but to catch expensive mistakes e
 
 # Time-tracking
 
-This guide will show how to set up a time tracking app.
+At some point in the recruitment process you will get access to our Time Management System (TiMaS), from where you can download the TiMaS tracker desktop app.
+It supports the most popular OS, but in case you use some exotic one, you may use web version of the app as a fallback.
 
-It is needed for Evaluation period assignments.
-
-## Sign in to your new email account
-
-The first step you need to take is to sign in to your new Google account at `reef.pl`.
-All the necessary information, including credentials, have been sent to your personal email address.
-
-**Caution!**
-
-You have to set up 2-factor authentication within 24 hours from the first successful login, or the security policy will cut you off.
-It's best to set it up right after you perform the initial login.
-If you forget to do it, we'll need to ask the domain admin to disable 2FA enforcement on the whole organization for a couple of days.
-Please do not forget :)
+It is needed for recruitment tasks, evaluation period assignments and our daily work.
 
 ## Time tracking app
 
-We use an application that measures the time you spend at work and takes regular screenshots.
+The application measures the time you spend at work and takes regular screenshots.
 The first step in preparing your work environment is to install it.
 
-Please install it and then accept the invitation that you received on your email address.
-
-You can download the application here:
-[Hubstaff Tracker](https://app.hubstaff.com/download)
-
-If you ever wonder how Hubstaff calculates the activity levels, here is a handy link to [their documentation](https://support.hubstaff.com/how-are-activity-levels-calculated/) (not that anyone looks on it, calls have 0% activity and we do them a few times per week, this metric is a bit impractical).
+You can familiarize with the app by playing the tutorial with “start tour” button.
 
 Here you can find [time-tracking rules which were co-created by company staff members](time-tracking/time-tracking-how-to.md).
 
@@ -202,50 +186,15 @@ Here you can find [time-tracking rules which were co-created by company staff me
 
 As it turns out, people usually find this document before they sign a contract with us and before their tracker account is created.
 Then they decide to work on their environment even before they have access to the tracker.
-If you are one of those people, please, track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can compensate you for this time as soon as you get access to the official company tracker.
-For example, you can use the free [toptracker](https://www.toptal.com/tracker/).
+If you are one of those people, please, track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can compensate you for this time.
 We really, really don't like it when people work for us but are not getting paid for it.
 
 UPDATE after 2 years or so:
 nobody seems to actually track it, but now that we have more data, we know it takes approximately 90 minutes to set everything up, so in worst case we can compensate them based on that average value.
 
-### RT / RTO projects
+#### Why it’s important to track the task properly
 
-Below you can find the list of RT (Reef Technologies) projects alongside with their descriptions.
-The descriptions tell you where you should bill your RT time on Hubstaff.
-RT generally means "investment", RTO generally means "operations".
-
-| Project                                 | Description                                                                                                                                                                                                                                             |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| RT / content marketing                  | Write articles or blog posts under the company name and present the company to the outside world.                                                                                                                                                       |
-| RT / django cookiecutter template       | Develop our internal Django template.                                                                                                                                                                                                                   |
-| RT / internal infrastructure management | Manage workspace setup, including creating encrypted partitions, installing virtual machines, and installing software **not tied to specific projects**. If it's related to any internal or external project then please bill the time on that project. |
-| RT / non-project meeting                | Participate in phone calls and Slack conversations related to work but not directly project-related. These are very rare, almost non-existent.                                                                                                          |
-| RTO / virtual assistant                 | Organize and procure equipment and supplies needed in the company, including laptops and office supplies, or perform other virtual assistant tasks.                                                                                                     |
-| RT / other internal development         | Improve internal infrastructure, such as onboarding, training, or other company-related activities that might benefit others.                                                                                                                           |
-| RT / security training                  | Complete mandatory security training for all staff (and client staff too) to harden against fraud and hackers.                                                                                                                                          |
-| RTO / sales                             | any pre-work needed to be done **before** the contract is signed with a client                                                                                                                                                                          |
-| RTO / nurturing client relationship     | Discuss upcoming projects with existing clients OR, theoretically, after-sales support on a fixed price project (we haven't had any since like 2019 and the guarantee expired already on these).                                                        |
-| RTO / recruitment                       | Actively recruit other people.                                                                                                                                                                                                                          |
-| RTO / Evaluation Period                 | Track usual Evaluation Period tasks and Stage 2 calls (status call and S3). Real-life Stage 2 internal or client tasks will be assigned to a specific project.                                                                                          |
-| RT / recruitment                        | Improve the recruitment process.                                                                                                                                                                                                                        |
-| RTO / sociocracy meeting                | Participate in sociocracy meetings and engage in related discussions on the channel.                                                                                                                                                                    |
-| RT / sociocracy development             | Contribute to sociocracy development as a tuner.                                                                                                                                                                                                        |
-| RTO / status call                       | Weekly status calls. Please toggle between this and client-specific projects during the duration of the call dedicated to the status of the project you are explicitly assigned to.                                                                     |
-| RT / special assignment from CEO        | Work on special assignments from the CEO as specifically requested. Extremely rare. Typically used to do something that must be done where we don't want to create a new project for a one-time thing.                                                  |
-| RTO / onboarding                        | Go through training materials during the onboarding phase ([Training](training.md)).                                                                                                                                                                    |
-| OTHER / just-in-case                    | Work on a project before being officially assigned to it (if needed). Notify management to re-bill the time later to the appropriate project.                                                                                                           |
-
-### Non-RT projects
-
-If you are working on any external project for a client, you should bill all your time spent on this project onto it.
-Knowledge gathering, environment preparation, actual programming, meetings or design.
-If you need to learn a framework, library or language in order to deliver value for the project, bill the learning to that project as well.
-If it took you a long time to learn a new skill, please mention it to our PM on that project - depending on the terms of the contract, a client may be eligible for a discount and it is the responsibility of the PM to manage that (but they won't be able to do their job well if you won't ever tell them anything ;) ).
-
-#### TODOs
-
-Using Hubstaff TODOs only takes seconds to get right, and there are a few reasons why we use it:
+Tracking the proper task only takes seconds to get right, and there are a few reasons why we do it:
 
 1. On longer contracts, sometimes the client would like to get an understanding of the cost of a particular feature when building another one in the future.
    Specifying which feature we are working on allows for easy aggregation of the time spent on its development, and that allows the client to plan the future of their products to maximize the value.
@@ -256,11 +205,6 @@ Using Hubstaff TODOs only takes seconds to get right, and there are a few reason
 4. Sometimes a client decides to start a new company after something we've built becomes a success, and in order to properly settle the development costs between the old client company and the new client company, we need to be able to make a report out of it.
 5. In Poland, in some tax accounting modes, there are different rates for development phases such as design, implementation, sysadmin work, and coordination.
    Billing a feature and its development phase allows you to pay the proper taxes properly.
-
-When working on a Jira issue, prefix the TODO with the Jira issue key.
-The issue key should be in ALL CAPS.
-For example, if the Jira issue key is `RT-12`, then the TODO becomes:
-`RT-12 some text describing the TODO`.
 
 ## Why we use a time tracker
 
