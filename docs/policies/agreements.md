@@ -28,6 +28,13 @@ All staff members shall respect the preferences of their colleagues.
 
 - It is acceptable for people who want to be called first to reject the call and wait for a text message.
 
+### Slack access for external collaborators
+
+- External collaborators may only be invited to the Reef Slack workspace as single-channel guests.
+- Full workspace access may only be granted after the person has signed an NDA and received a `@reef.pl` email address.
+- Do not create separate Slack workspaces for individual projects.
+  Everyone involved in Reef projects should communicate through project-specific channels in the Reef Slack workspace.
+
 ## 📜 Review channel
 
 We only have senior developers in the team, so if they feel like their code does not need a review they can merge it right away.

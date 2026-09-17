@@ -206,6 +206,18 @@ Tracking the proper task only takes seconds to get right, and there are a few re
 5. In Poland, in some tax accounting modes, there are different rates for development phases such as design, implementation, sysadmin work, and coordination.
    Billing a feature and its development phase allows you to pay the proper taxes properly.
 
+### Self-development
+
+When a staff member needs to learn a new skill for a specific project, they need to bill that time to the client as a separate task in the tracker (i.e., “Learning Kubernetes”).
+They are also required to inform project manager before the end of that week, as he needs to check if he should discount the client for the training time.
+
+We have all agreed that it would be artificial and stifling to have a fixed, tracked time budget for regular upskilling.
+When a staff member wants to learn a new technology out of their own interest, they should inform Paweł about it.
+He can then take it into account when looking for new projects and try to create an opportunity to learn the requested skill while working for a client.
+
+We all love what we do and enjoy upskilling and self-development, so staff members are also encouraged to expand their knowledge in their free time.
+That effort is also compensated, but indirectly – through periodic hourly rate adjustments, which currently happen in June and December.
+
 ## Why we use a time tracker
 
 It may seem weird, but actually RT is not the only consulting business out there.
@@ -222,7 +234,7 @@ In 2022Q2 we tried to open a position for a "full-time" engagement with a fixed 
 
 ### So that we know how much we should charge the client
 
-Even if you'd only work for one client per billing period, you'd still log some time to `RT / *` and `RTO / *` projects, and those are paid by the company and not by the client.
+Even if you'd only work for one client per billing period, you'd still log some time to internal projects, and those are paid by the company and not by the client.
 
 ### So that we know how much we should charge which client
 
@@ -250,37 +262,13 @@ UPDATE: this counter stopped incrementing in mid-2018 when we changed the target
 It seems that "better" clients don't really care about the time, but they do care about results.
 The CEO even wanted to disable the screenshot feature of the tracker in early 2020, but others said they use it to inspect their own diary at the end of the day, and after a short discussion, everyone said they don't really care about it, so we just left it as it was.
 
-It seems that nobody has reviewed a screenshot since July 2018, except for people reviewing their own thing at the end of the day.
+Screenshots from the tracker are stored only locally on your machine.
 Being able to easily recover from a situation where you have accidentally billed a client for doing something private (as you forgot to pause the timer) is nice and in line with the company values.
 
-Some candidates feel uncomfortable with a 3rd party application collecting screenshots, and we are willing to accommodate that.
-If a fitting candidate is unhappy with the current setup, we'll invest time into creating a custom solution that would keep the employee in control of the screenshots.
-This could be done using encryption with the employee's key or uploading to private buckets - the exact details will be decided once (and if) we need it.
-
-# Time management system (TIMAS)
-
-TIMAS is a tool that supports monitoring work efficiency and the mood and attitude of employees.
-Here are the main functions of this tool:
-
-## Workday Evaluation
-
-TIMAS integrates with Hubstaff, a time tracking tool, gathering information about time spent on tasks and breaks.
-It assesses work efficiency based on collected data, marking it green when the work is effective (uninterrupted, long-lasting) or yellow when it is ineffective (short, with long breaks).
-
-Each employee determines their planned availability and expected working hours in Jira (e.g. 6 hours daily).
-TIMAS evaluates the effectiveness of the day, marking it as green when a minimum of 70% of the planned working time has been worked per day.
-If you finish your work after midnight, TIMAS counts it as the same day, as long as you finish before 3am.
-
-For the entire month to be green, a minimum of 75% of working days should be effective.
-That means you can still get a green month, even with about 5 red days.
-Days off, holidays, and non-working weekends are excluded from the calculation.
-
-We use this tool to observe our work focus - it helps us improve :)
-
-## Mood Evaluation
+# Mood evaluation in TiMaS
 
 TIMAS is also used to assess the daily well-being of employees.
-In the upper right corner, there are three 5-star scales where the employee evaluates their subjective feelings regarding:
+In the upper right corner of the web page, there are three 5-star scales where the employee evaluates their subjective feelings regarding:
 
 💻 Work Mood - How do you rate your working day?
 How was your work experience?
@@ -304,14 +292,8 @@ When marking the stars, be honest!
 Both green, yellow and red marks are valuable information for the company about the condition of its employees.
 Our goal is to observe and detect problems quickly enough and help you return to well-being.
 
-## Where is TIMAS?
-
-Visit the [website](https://timas.reef.pl/), and you'll first see an almost white page.
-Log in with your Gmail account and enter “`timas.reef.pl`” into the search bar again to access your TIMAS account.
-Save TIMAS in your browser bookmarks and visit the site daily to note your mood and observe the work focus time.
-
-After registering on TIMAS website, you will also be able to install Slack TIMAS app - just click "Add apps" in left panel's "Apps" section and select "Timas".
-It will allow you to mark your mood directly from Slack, but only for current day.
+We also have slack integration with TiMaS - it will remind you every day to fill the stars.
+You can configure the hour of the alert, and also fill the stars directly from Slack app!
 
 ## What if I forget to mark stars?
 
@@ -319,35 +301,7 @@ Scroll down on the website and you will see the “Your mood in the past” sect
 Here you can mark missing stars.
 Changes are saved automatically.
 
-If Mood Evaluation is not filled in for a whole week during which you worked you will be invited on a video call to check if everything is okay.
-
-# Configuring the environment
-
-Once you have installed the time-tracking app, it's time to prepare your environment.
-
-This guide will show how to set up a standard, secure environment for software development.
-The handbook is written with Ubuntu-based distros (e.g. [Linux Mint](https://www.linuxmint.com/download.php)) in mind.
-Using such will help save time, but in the end, it is the individual's responsibility to maintain a productive working environment.
-
-**Fully secured environment as described by this document is not needed for initial Trial tasks.**
-
-It is needed beyond 2nd stage of Trial, i.e. when you start working on clients' tasks.
-
-## Encryption
-
-Due to the variety of operating systems used by our team, we do not impose a specific solution.
-It depends on what software you use.
-For Linux systems, it can be LUKS.
-For macOS, you can use built-in FileVault encryption.
-
-In case you have no preferences, we recommend using [VeraCrypt](https://www.veracrypt.fr/en/Home.html).
-A step-by-step instruction for the installation process can be found [here](workstation-setup/veracrypt-installation.md).
-
-## Configuring your development environment
-
-> **Note** This section applies only to Software Developer positions after the 1st stage of the Evaluation period.
-
-Follow the instructions laid out in [Development environment setup](workstation-setup/developer-environment-setup.md).
+If Mood Evaluation is not filled in for a few days during which you worked you will be invited on a video call to check if everything is okay.
 
 ## Configure your Google Account and GitHub
 
@@ -377,14 +331,11 @@ Go [here](https://github.com/reef-technologies/handbook/subscription) and select
 This will send you an email whenever this repository is updated.
 This is useful to keep up with the training video/article list, description of chat channels and meaning of projects in the time tracker.
 
-**WARNING:** if the document was updated after you started reading it and before you set the repository to watched, you could miss an update.
-Check the latest changes [here](https://github.com/reef-technologies/handbook/commits/master) after subscribing to updates.
-
 ### Avatars
 
 Please add your photo (one that shows your face clearly without sunglasses, etc.)
 to all services that we use:
-Slack, GitHub, time tracker, Trello, Atlassian account, etc.
+Slack, GitHub, YouTrack, Gmail, Notion etc.
 It is recommended to add it to [Gravatar](https://gravatar.com/), as it will then load up automatically to many services.
 Avatars are important, especially on non-small teams, but also everywhere in the context of communication with the client (or ourselves), where we want to be recognized as human beings rather than lines of text.
 Cultural differences, time zones, and language barriers make communication a challenge - let's make it at least slightly easier by showing a smiling face to the client and their team.
@@ -399,22 +350,25 @@ Therefore, we should all use clear pictures from the beginning.
 
 ### 6.1 Weekly video calls
 
-Every week, we hold two internal calls:
-Status call and a Sociocracy call.
+Every week, we hold internal calls:
+watercooler and multiple sociocracy calls.
 
-The purpose of these two calls, briefly speaking, is:
+The purpose of these calls, briefly speaking, is:
 
-- Status call - share achievements and other significant developments from previous week and make plans for next one.
-- Sociocracy call - facilitate Sociocracy 3.0 decision processes giving everyone an opportunity to influence the shape of the company.
+- Watercooler - share achievements and other significant developments from previous week and make plans for next one.
+- Sociocracy calls - facilitate Sociocracy 3.0 decision processes giving everyone an opportunity to influence the shape of the company.
+  These calls are optional and are made in smaller circles.
+  You can read more about it here:
+  [Sociocracy 3.0](policies/sociocracy-3-0.md)
 
-There is a second purpose of these two internal calls, and that is team building.
+There is a second purpose of these calls, and that is team building.
 These calls perform the role of a water cooler or a coffee machine in a regular office.
 That is, we make them a bit loose, with time to make jokes, add personal stories, divert from the main topic, etc.
 We are a fully remote team with some members that have never met one another in person.
 Therefore it is even more important for us to invest that extra time (and therefore money).
 All that so we can get to know each other better, build trust, have fun and acknowledge that we are more than "just" excellent problem solvers.
 
-During your Evaluation period you will be invited to attend and participate at least once in these calls.
+During your Evaluation period you will be invited to attend and participate at least once in watercooler.
 
 ### 6.2 Daily Stand-ups
 
@@ -425,12 +379,12 @@ This daily stand-up follows a structured format where each participant addresses
 2. What is on their agenda for today?
 3. Are there any obstacles in their way?
 
-Each team member is allocated 3 minutes to succinctly cover these three points.
+Each team member is allocated few minutes to succinctly cover these three points.
 To maintain the efficiency of the stand-up, we strive to keep open discussions to a minimum.
 Any topic necessitating a longer conversation is earmarked for a separate follow-up meeting.
 
 If, for any reason, you cannot attend the daily stand-up, please notify the team in the #announcements channel on Slack.
-Additionally, post your updates there so everyone stays informed.
+Additionally, post your updates to your team channel so they stay informed.
 
 ### 6.3 Video hand signal protocol
 
@@ -591,6 +545,17 @@ The basic idea is that if a client decides to switch to another vendor, they sho
 To reduce bus-factor, we keep references to these repositories along with whom to contact to get access etc in <https://github.com/reef-technologies/internal-handbook> . This repository should be first thing you look at when you are assigned to new project.
 
 ## 8. Tools
+
+### Notion
+
+We use Notion as our central source of company-related information, including procedures, policies, and links to internal resources.
+If you are unsure where something is located or how a process works, try asking Notion AI—it can search the workspace and point you to the relevant information.
+If you still cannot find what you need, ask on `#default` or `#staff`.
+
+In Notion we also keep project related information - research, designs, open questions etc.
+
+Fun fact:
+this handbook is actually written in notion, and we only synchronize it to GitHub repository via automatic pull requests.
 
 ### Secure delete
 
