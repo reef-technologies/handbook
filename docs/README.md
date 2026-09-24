@@ -386,7 +386,17 @@ Any topic necessitating a longer conversation is earmarked for a separate follow
 If, for any reason, you cannot attend the daily stand-up, please notify the team in the #announcements channel on Slack.
 Additionally, post your updates to your team channel so they stay informed.
 
-### 6.3 Video hand signal protocol
+### 6.3 Remote team building sessions
+
+Every month we spend some hours to integrate with each other, usually by playing some games together.
+For some reason most of the games involves killing aliens together (rock and stone!)
+but you can also choose more cozy game like Pico Park.
+
+The best part is the company is paying for it!
+You can find more details here:
+[Agreements](policies/agreements.md#967b63b4ef1e8230a27101d570e2959d)
+
+### 6.4 Video hand signal protocol
 
 We use simple hand signals during video calls to communicate more efficiently.
 
@@ -412,8 +422,8 @@ Slack, text message, and phone call.
 First, we try to connect via Slack.
 Then, you can attempt a phone call and finally a text message or the other way around:
 a text message and then a phone call.
-Everyone has a description "phone -> SMS" or "SMS -> phone" under their avatar on Slack.
-Please choose which sequence suits you better, and we will respect it.
+Everyone has a description of their desired communication order, like "phone -> SMS" or "Telegram -> SMS -> phone" under their avatar on Slack.
+Please choose which sequence suits you, and we will respect it.
 We expect you to respect our contact preferences too.
 
 We don't really use email for communications, as some people don't check it too often.
@@ -423,7 +433,6 @@ If you need to be sure that someone sees your email, ping them on Slack.
 
 For business communications, we use Slack and [Zoom](https://zoom.us/).
 You may use them in your browser, but they are usually installed on **the host computer** for convenience.
-Zoom usually doesn't work from an encrypted VM (no audio or video) - perhaps it's possible to perform some extra setup steps to make it work, but it's not worth it.
 
 #### Slack
 
@@ -431,8 +440,7 @@ In your company email inbox, you will find a message with an invitation to the S
 Right after signing in, remember to fill out the phone number field in your account settings.
 Remember to **add your country-specific prefix number**, e.g., Poland uses `+48`.
 It's essential, as our members come from many different countries.
-Also, remember to place your chosen sequence under your picture:
-"phone -> SMS" or "SMS -> phone".
+Also, remember to place your chosen communication channels sequence under your picture.
 
 Replying with a :+1:
 reaction is better than writing "ok" (especially when there are many acknowledgers on the channel!)
@@ -449,25 +457,21 @@ If you use a browser, you are only shown as available on the tab that you curren
 Therefore, you should use the desktop application, not the browser.
 To some extent the client perceives availability of the team by those indicators (if he never sees us online, it's not so good).
 
-Channels:
+Most frequently used channels:
 
 - `#announcements` - the general announcement channel, where we mostly welcome new people and announce our vacation periods to others
-- `#default` - the default channel (if there is no dedicated channel for something, we use this one)
-- `#python` - where we sometimes discuss things such as the usage of walrus operator (`:=`) or if it is better to use `raise` or `raise e` (as not everyone speaks Python on `#default`)
+- `#default` - The channel is practically dead but feel free to revive it 😀
+- `#python`
 - `#random` - all topics not directly related to work.
   If you read something interesting, don't hesitate to share it with us.
-- `#sales` - sales team sends notifications there about high quality leads, signed/terminated contracts etc.
-- `#security` - for things like [heartbleed](http://heartbleed.com/), [shellshock](https://www.symantec.com/outbreak/?id=shellshock), [krack](https://www.krackattacks.com/), [poodle](https://www.us-cert.gov/ncas/alerts/TA14-290A), [venom](http://venom.crowdstrike.com/), [ghost](https://blog.qualys.com/laws-of-vulnerabilities/2015/01/27/the-ghost-vulnerability), [meltdown/spectre](https://meltdownattack.com/)
 - `#sociocracy` - the channel where sociocracy is coordinated
-- `#recruitment` - to discuss recruitment, trial candidate progress etc
 - `#staff` - internal staff channel - the only practical difference between a trial candidate and a staff member.
-  The channel is practically dead because we don't want to have any part of the culture that is not available to the trial candidates.
 - `#va_for_rt` - for delegating things to Virtual Assistants
-- `#website` - discussion about our company website and its development
+- `#vibes` - sharing LLM knowledge, news, etc.
+- `#games` - arranging the gaming sessions and sharing games news
+- `#timas-tracker` - discussion about our time tracker tool
 
-(private channel names don't start with a `#`)
-
-The remaining channels are client- or project-specific.
+Most of the channels are client- or project-specific.
 Only the people involved in those projects get invited to the channels (for IP compartmentalization).
 
 [Slack's 2-step authorization setup](https://reeftechnologies.slack.com/account/settings)
@@ -479,10 +483,6 @@ Do not forget to say hello to us on `#announcements` :)
 Here are some miscellaneous rules to follow that were hard to put in other categories, so they were all collected here:
 
 - When a meeting starts, decide where to bill it.
-- If you are a junior and you get stuck - ask for help.
-  Really, really, really do.
-  Do not spend two days trying to solve something a senior peer could help you go through in 10 minutes.
-  Ask on the project Slack and if that's not possible, use our `#default` channel.
 - If you are a developer, always perform basic functional testing (manually!)
   of your code and self-review your PR before you give it to a peer for review.
 - If there is ever a time when you are working, but for some reason, you are not able to bill it, escalate it immediately.
@@ -495,15 +495,19 @@ Here are some miscellaneous rules to follow that were hard to put in other categ
   Generally, we do our best to switch only on "breakpoints", which are the moments when you lose concentration on the task at hand, such as the end of the working day, going away for lunch, the end of a task.
   Thus, if a new task appears on a high priority project, we do not expect you to switch to it immediately, but rather after you finish what you are doing, or first thing next day, etc.
   Usually, you should have at most one project switch per day.
+  \
+  \
+  EDIT: In the age of LLMs this rule may be hard to follow exactly, but the main idea remains.
+  Let’s try to reduce the blast impact on our focus by adjusting our workflows, like switching between the tasks in one project instead of multiple ones when it is possible.
 - Avoid `ssh -A`, also called `ForwardAgent` (except for jb).
   If we use it on a server owned by a client and it gets hacked, someone could potentially set a trap for us and authorize using our key.
   The correct way is to use deployment keys on the client server to access the repository.
-- Do not use the company email for RSS, out of work stuff etc.
+- Do not use the company email for newsletters, personal social networks, out of work stuff etc.
   Minimize distractions.
 - If you issue an invoice to the company, please prefix the name of the file with your surname.
   This makes things much easier to find for the staff members who are dealing with a few dozen invoices every month.
 - If your changes are not ready to be submitted at the end of your work day, make a dirty branch, commit all of your changes to it (typically `git commit -am'WIP'`) and push it to a remote.
-  This way if your HDD is damaged or something, you will never lose more than a day of work.
+  This way if your disk is damaged or something, you will never lose more than a day of work.
 - While various skin color options are available for emojis, we limit ourselves to use the default, yellow emojis.
 
 If any of the above is not clear, not optimal, or you are curious about the rationale behind a rule, speak up on `#default`.
