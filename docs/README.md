@@ -396,7 +396,13 @@ The best part is the company is paying for it!
 You can find more details here:
 [Agreements](policies/agreements.md#967b63b4ef1e8230a27101d570e2959d)
 
-### 6.4 Video hand signal protocol
+### 6.4 Annual gathering
+
+This is the only meeting that takes place in real life!
+Each year the company organizes a meeting for everyone, usually in Warsaw where we spend some quality time together like playing board games, shooting with 3d-printed guns at each other or just hanging around together.
+Turns out our colleagues also have legs!
+
+### 6.6 Video hand signal protocol
 
 We use simple hand signals during video calls to communicate more efficiently.
 
@@ -414,7 +420,7 @@ This way, the situation is clear at a glance.
 In the past, we used to show signs for a moment, but then the quick responders hid their signals before the slow ones started signing and the situation was not clear.
 Now we all hold the sign until we're sure of the consent.
 
-### 6.4 Communication channels
+### 6.7 Communication channels
 
 When you need to contact one of your Reef teammates, you have three channels to choose from:
 Slack, text message, and phone call.
@@ -429,7 +435,7 @@ We expect you to respect our contact preferences too.
 We don't really use email for communications, as some people don't check it too often.
 If you need to be sure that someone sees your email, ping them on Slack.
 
-### 6.5 Instant messengers
+### 6.8 Instant messengers
 
 For business communications, we use Slack and [Zoom](https://zoom.us/).
 You may use them in your browser, but they are usually installed on **the host computer** for convenience.
@@ -531,8 +537,8 @@ They may seem obvious, and RT developers tend to follow them subconsciously, but
 
 Whenever you're taking some days off, it's important to let other team members know, so that work can be planned and client expectations managed.
 
-- You should mark days when you won't be working in the ['Staff Availability project'](https://reeftechnologies.atlassian.net/jira/core/projects/SA) in our Jira as soon as you know about it.
 - Announce it on Slack in `#announcements` channel beforehand.
+  The agent will mark your absence in our days off notion database.
 - If you need time off urgently because of something unexpected, please let the affected (people you had planned meetings with / or that need to pick up the task from you) know through Slack right away.
   Use `#announcements` if you are really in a hurry.
   Ignore whole announcing thing in a life-and-death situations.
@@ -595,13 +601,9 @@ We have a dedicated assistant team (available commercially for clients) that als
 
 Typically Github Actions.
 
-#### *How to re-bill my time to a different project?*
-
-In case you ever bill the time worked to the wrong project, [here](time-tracking/hubstaff.md) is a step-by-step guide on how to fix it.
-
 #### *Why is all communication (except 1to1) in English?*
 
-Pawel: Let me tell you a story.
+Paweł: Let me tell you a story.
 There was a Python office in Warsaw where most employees were from Poland, but eventually, the company started hiring foreigners, too.
 They could not understand the kitchen conversations, which was awkward for both sides, so a new rule was introduced.
 Everyone was supposed to switch to English as soon as a foreigner entered the room.
@@ -620,7 +622,7 @@ I like to think that by keeping communications in English, we show respect to th
 We want as little friction as possible.
 
 UPDATE: We now have several staff members who don't know a word of Polish, so the story above is no longer relevant for explaining why we communicate in English... but I am leaving it here because it shows a part of our culture:
-it's ok for all of us to be slightly inconvenienced to make sure that we properly respect another staff member (even when he or she does not exist yet).
+it's ok for all of us to be slightly inconvenienced to make sure that we properly respect another staff member (even when they does not exist yet).
 I wish I snapped a photo of our CFO when I told her why we logged the time for internal activities in quite a lot of detail for the last 5 years.
 We knew a day will come when someone will try to analyze how internal company operations evolved over time.
 It was for her.

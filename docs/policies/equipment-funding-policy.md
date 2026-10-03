@@ -25,7 +25,7 @@ The total purchase price of all equipment that the company funds for your use sh
 
 - Calculate **2% of your total net earnings** since you joined the company.
 - For example, if your total net earnings over a given period are X, your WUF is 0.02 × X.
-- Always **confirm the exact amount with the HR Manager**.
+- Always **confirm the exact amount with the COO**.
 
 **Formula:**
 
@@ -89,6 +89,7 @@ You requested that the company purchase a laptop valued at **$1,000**.
 So far, you have earned $30,000 and accumulated $600 (2%) through the **Workplace Upgrade Fund (WUF)**.
 The request has been approved, and the company paid **$1,000** to acquire the laptop on your behalf.
 
+-
 - You may now continue working on the new device and accumulate the remaining balance to eventually become its owner.
 - If your contract is terminated at this point, you would be required to pay **$400** to obtain full ownership of the laptop.
 
