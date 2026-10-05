@@ -402,7 +402,7 @@ This is the only meeting that takes place in real life!
 Each year the company organizes a meeting for everyone, usually in Warsaw where we spend some quality time together like playing board games, shooting with 3d-printed guns at each other or just hanging around together.
 Turns out our colleagues also have legs!
 
-### 6.6 Video hand signal protocol
+### 6.5 Video hand signal protocol
 
 We use simple hand signals during video calls to communicate more efficiently.
 
@@ -420,7 +420,7 @@ This way, the situation is clear at a glance.
 In the past, we used to show signs for a moment, but then the quick responders hid their signals before the slow ones started signing and the situation was not clear.
 Now we all hold the sign until we're sure of the consent.
 
-### 6.7 Communication channels
+### 6.6 Communication channels
 
 When you need to contact one of your Reef teammates, you have three channels to choose from:
 Slack, text message, and phone call.
@@ -435,7 +435,7 @@ We expect you to respect our contact preferences too.
 We don't really use email for communications, as some people don't check it too often.
 If you need to be sure that someone sees your email, ping them on Slack.
 
-### 6.8 Instant messengers
+### 6.7 Instant messengers
 
 For business communications, we use Slack and [Zoom](https://zoom.us/).
 You may use them in your browser, but they are usually installed on **the host computer** for convenience.
