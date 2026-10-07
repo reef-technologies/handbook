@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 .nox/
 notion_sync/node_modules/
+.idea

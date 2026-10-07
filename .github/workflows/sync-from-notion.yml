@@ -35,10 +35,22 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade nox pip setuptools
       - name: Render handbook
-        run: nox -vs sync
+        id: render
+        run: |
+          set -o pipefail
+          nox -vs sync 2>&1 | tee "$RUNNER_TEMP/notion-sync.log"
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_HANDBOOK_ROOT: ${{ vars.NOTION_HANDBOOK_ROOT }}
+      - name: Show failing Markdown
+        if: failure() && steps.render.outcome == 'failure'
+        run: |
+          failed_file=$(sed -n "s/.*failed to render '\/data\/\([^']*\)'.*/\1/p" "$RUNNER_TEMP/notion-sync.log" | head -n 1)
+          if [[ -n "$failed_file" && -f "$failed_file" ]]; then
+            echo "::group::Unformatted $failed_file"
+            nl -ba "$failed_file"
+            echo "::endgroup::"
+          fi
       - name: Create or update sync PR
         uses: peter-evans/create-pull-request@v7
         with:
