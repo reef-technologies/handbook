@@ -168,57 +168,7 @@ The goal is not to approve every line of code, but to catch expensive mistakes e
 
 # Time-tracking
 
-At some point in the recruitment process you will get access to our Time Management System (TiMaS), from where you can download the TiMaS tracker desktop app.
-It supports the most popular OS, but in case you use some exotic one, you may use web version of the app as a fallback.
-
-It is needed for recruitment tasks, evaluation period assignments and our daily work.
-
-## Time tracking app
-
-The application measures the time you spend at work and takes regular screenshots.
-The first step in preparing your work environment is to install it.
-
-You can familiarize with the app by playing the tutorial with “start tour” button.
-
-Here you can find [time-tracking rules which were co-created by company staff members](time-tracking/time-tracking-how-to.md).
-
-### I CAN SEE YOU
-
-As it turns out, people usually find this document before they sign a contract with us and before their tracker account is created.
-Then they decide to work on their environment even before they have access to the tracker.
-If you are one of those people, please, track the time you spend on setting the encrypted partition, virtual machine etc, so that you know how much time it took and so that we can compensate you for this time.
-We really, really don't like it when people work for us but are not getting paid for it.
-
-UPDATE after 2 years or so:
-nobody seems to actually track it, but now that we have more data, we know it takes approximately 90 minutes to set everything up, so in worst case we can compensate them based on that average value.
-
-#### Why it’s important to track the task properly
-
-Tracking the proper task only takes seconds to get right, and there are a few reasons why we do it:
-
-1. On longer contracts, sometimes the client would like to get an understanding of the cost of a particular feature when building another one in the future.
-   Specifying which feature we are working on allows for easy aggregation of the time spent on its development, and that allows the client to plan the future of their products to maximize the value.
-2. One time, we had a client who replaced a vendor with us, and they did not charge the user of the system for fixing the errors made by the previous vendor.
-   Fair billing between our client and the user of the system was only possible because we logged the time appropriately.
-3. Sometimes we make a deal with a client to buy a module we've built for them and open-source it, so that we can use it in the future.
-   Ideally, we'd predict that a module will be reusable before starting to work on it, but sometimes that comes as a hindsight.
-4. Sometimes a client decides to start a new company after something we've built becomes a success, and in order to properly settle the development costs between the old client company and the new client company, we need to be able to make a report out of it.
-5. In Poland, in some tax accounting modes, there are different rates for development phases such as design, implementation, sysadmin work, and coordination.
-   Billing a feature and its development phase allows you to pay the proper taxes properly.
-
-### Self-development
-
-When a staff member needs to learn a new skill for a specific project, they need to bill that time to the client as a separate task in the tracker (i.e., “Learning Kubernetes”).
-They are also required to inform project manager before the end of that week, as he needs to check if he should discount the client for the training time.
-
-We have all agreed that it would be artificial and stifling to have a fixed, tracked time budget for regular upskilling.
-When a staff member wants to learn a new technology out of their own interest, they should inform Paweł about it.
-He can then take it into account when looking for new projects and try to create an opportunity to learn the requested skill while working for a client.
-
-We all love what we do and enjoy upskilling and self-development, so staff members are also encouraged to expand their knowledge in their free time.
-That effort is also compensated, but indirectly – through periodic hourly rate adjustments, which currently happen in June and December.
-
-## Why we use a time tracker
+At Reef Technologies we track every second of our (work) time.
 
 It may seem weird, but actually RT is not the only consulting business out there.
 Traditionally lawyers bill their clients per hour and nobody blinks an eye :) Also a language teacher, therapist and nanny often bills like that.
@@ -232,9 +182,17 @@ In the end, it doesn't matter much - if you get paid by the hour, you do a certa
 Assuming you earn at least slightly more than you spend and that you have some kind of a financial buffer, at the end of the year, you'll end up with the same amount.
 In 2022Q2 we tried to open a position for a "full-time" engagement with a fixed monthly payment model (which would automatically bonus people who perform well to make it fair, sort of like a liquidity pool)... But nobody was really interested, so we took the job ad down.
 
+## Why we use a time tracker
+
 ### So that we know how much we should charge the client
 
 Even if you'd only work for one client per billing period, you'd still log some time to internal projects, and those are paid by the company and not by the client.
+
+On longer contracts, sometimes the client would like to get an understanding of the cost of a particular feature when building another one in the future.
+Specifying which feature we are working on allows for easy aggregation of the time spent on its development, and that allows the client to plan the future of their products to maximize the value.
+
+One time, we had a client who replaced a vendor with us, and they did not charge the user of the system for fixing the errors made by the previous vendor.
+Fair billing between our client and the user of the system was only possible because we logged the time appropriately.
 
 ### So that we know how much we should charge which client
 
@@ -262,8 +220,38 @@ UPDATE: this counter stopped incrementing in mid-2018 when we changed the target
 It seems that "better" clients don't really care about the time, but they do care about results.
 The CEO even wanted to disable the screenshot feature of the tracker in early 2020, but others said they use it to inspect their own diary at the end of the day, and after a short discussion, everyone said they don't really care about it, so we just left it as it was.
 
+UPDATE 2:
+we've since switched to a different tracking app.
 Screenshots from the tracker are stored only locally on your machine.
 Being able to easily recover from a situation where you have accidentally billed a client for doing something private (as you forgot to pause the timer) is nice and in line with the company values.
+
+### Other (less frequent) reasons
+
+1. Sometimes we make a deal with a client to buy a module we've built for them and open-source it, so that we can use it in the future.
+   Ideally, we'd predict that a module will be reusable before starting to work on it, but sometimes that comes as a hindsight.
+2. Sometimes a client decides to start a new company after something we've built becomes a success, and in order to properly settle the development costs between the old client company and the new client company, we need to be able to make a report out of it.
+3. In Poland, in some tax accounting modes, there are different rates for development phases such as design, implementation, sysadmin work, and coordination.
+   Billing a feature and its development phase allows you to pay the proper taxes properly.
+
+## How to track time
+
+After many years of using SaaS time trackers, we've decided to cook our own.
+The math said:
+it's gonna pay off in less than 2 years (in license fees) and we can make something actually flexible **the way we need**.
+
+You can access the app [here](https://timas.reef.pl/tracker).
+Sign in with you @reef.pl google account.
+If you cannot, reach out to your contact in the company.
+
+We've designed the system (and keep working on it) so that it's intuitive, and hard to get wrong.
+The goal was simple:
+have a time tracking system that's accurate and convenient to use.
+Because if its inconvenient, it's gonna get inaccurate really soon.
+
+The plan is:
+we all know the base rules, we care about the tracking and collectively put some effort into making sure we track accurately.
+
+More details can be found at [Time Tracking How-To.](time-tracking/time-tracking-how-to.md)
 
 # Mood evaluation in TiMaS
 
@@ -629,8 +617,8 @@ It was for her.
 
 # Handbook document improvement
 
-If you find that some key knowledge (not covered by the NDA) that might be useful for the next candidate is missing from this document, please create a pull request.
-Log the time spend on this to `RT / other internal development`.
+If you find that some key knowledge (not covered by the NDA) that might be useful for the next candidate is missing from this document, please edit the handbook in notion - CI will then make a pull request to the handbook repository.
+Log the time spend on this to `RT internal` project.
 
 # Congratulations
 
