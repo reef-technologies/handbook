@@ -311,7 +311,7 @@ To foster stronger connections among our staff, we've implemented the following 
 
 - Each staff member can bill up to 4 hours of billable time for online team-building activities each month.
 - These include online games, learning together or other non-work-related team activities.
-- The time needs to be tracked via Hubstaff under the `BAC / remote team building` project.
+- The time needs to be tracked to the project mentioned in the calendar event (if its missing, ask people, people know)
 
 This policy aims to create opportunities for informal interaction and relationship-building among team members, which we believe contributes to a better work environment.
 
