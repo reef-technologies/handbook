@@ -97,7 +97,6 @@ If it does, watch it all.
 
 - <https://youtu.be/H0Ji7bsEoUo> - on some modern hw/sw problems for backend systems in 2017, and on types of storage devices and how they work, what are the problems with them, etc.
   (16 min video);
-- <https://thehftguy.com/2016/11/01/docker-in-production-an-history-of-failure/> and <https://thehftguy.com/2017/02/23/docker-in-production-an-update/> - on the current state of Docker;
 - <http://cryto.net/~joepie91/blog/2015/07/19/why-you-should-never-ever-ever-use-mongodb/> - why you should never, ever, ever use MongoDB.
   NOTE:
   read that until you are sure you will never use it.
@@ -109,25 +108,20 @@ If it does, watch it all.
   And also [this](https://www.infoq.com/news/2014/04/bitcoin-banking-mongodb/).
   If the largest cryptomarkets couldn't use it properly, are you sure you will be able to?
   :) Anyway, if you are still not sure whether you can use it or not, speak up on `#default`, someone will help you;
-- <https://briancaffey.github.io/2020/08/01/django-and-lambda-with-cdk-and-api-gateway.html> - basically the same thing but with serverless django - the amount of pain you need to get through and fragility of the solution makes you wonder if a $5/mo droplet can do the same job more reliably;
+- <https://briancaffey.github.io/2020/08/01/django-and-lambda-with-cdk-and-api-gateway/> - basically the same thing but with serverless django - the amount of pain you need to get through and fragility of the solution makes you wonder if a $5/mo droplet can do the same job more reliably;
 - <https://www.serverless.com/blog/api-gateway-websockets-example> - same thing with serverless websockets (technically possible but with \~60 pages tutorial);
 - <https://www.jasondavies.com/bloomfilter/> - a data structure used for lookup speedups, among other uses, in databases;
 - <http://thesecretlivesofdata.com/raft/> - a demo of RAFT, a consensus algorithm;
-- <https://arp242.net/weblog/yaml_probably_not_so_great_after_all.html> - YAML:
-  probably not so great after all;
-- <https://rock-it.pl/how-to-write-excellent-dockerfiles/> - (somewhat outdated) information about good dockerfile creation (reducing amount of layers by multi-stage build was added after this guide had been written);
 - <https://wingolog.org/archives/2018/05/21/correct-or-inotify-pick-one> - if you are tempted to use `inotify` in production.
   See [fatrace](http://manpages.ubuntu.com/manpages/trusty/man1/fatrace.1.html) or [python-fanotify](https://github.com/google/python-fanotify) instead;
 
 #### senior backend developers
 
 - <https://www.twilio.com/blog/a-http-headers-for-the-responsible-developer> - about modern http headers and what they do;
-- <https://datatracker.ietf.org/meeting/97/materials/slides-97-iccrg-bbr-congestion-control> - about new TCP congestion control;
 - <https://danluu.com/deconstruct-files/> - why writing to files is hard and you should probably not do it;
 - <http://morningcoffee.io/killing-a-process-and-all-of-its-descendants.html> - killing a process and all of its descendants;
 - <http://sven.stormbind.net/blog/posts/docker_from_30_to_230/> - (read if ever needed) on running many docker containers on the same host;
 - <https://dzone.com/articles/understanding-recursive-queries-in-postgres> - recursive queries in postgres (to find the topmost parent, for example);
-- <https://txt.black/~jack/cloud.txt> - an opinion about cloud performance (or the lack thereof) and alternative solutions;
 - <https://chrisshort.net/the-aws-bill-heard-around-the-world/> - scary story about S3 and Cloudflare CDN that shows a couple interesting things;
 - <https://www.citusdata.com/blog/2016/03/30/five-ways-to-paginate/> - Five ways to paginate in Postgres, from the basic to the exotic;
 - <https://hoytech.com/vmtouch/> - Portable file system cache diagnostics and control tool
@@ -136,101 +130,15 @@ If it does, watch it all.
   When Does BRIN Win?
 - <https://www.cybertec-postgresql.com/en/column-order-in-postgresql-does-matter/> - Column order in PostgreSQL does impact reading speed
 - <https://r.ena.to/blog/optimizing-postgres-table-layout-for-maximum-efficiency/> - Column order in PostgreSQL impacts table size, index size and performance
+- <https://tonybaloney.github.io/posts/sub-interpreter-web-workers.html> - Threads vs Multiprocessing vs Subinterpreters
 
 ### all python developers
 
-- <https://docs.python.org/3/library/typing.html#typing.NamedTuple> - how to typing.NamedTuple;
-- <https://www.python.org/dev/peps/pep-0498/> - Python 3.6 string formatting;
-- <https://youtu.be/hk85RUtQsBI> - a presentation of Python 3.6 goodies (28 min video);
-- <https://datawhatnow.com/things-you-are-probably-not-using-in-python-3-but-should/> - things you’re probably not using in Python 3, but you should;
-- <https://youtu.be/wf-BqAjZb8M> - Raymond Hettinger - Beyond PEP 8 (52 min video);
-- <https://youtu.be/p33CVV29OG8> - Modern Dictionaries by Raymond Hettinger (68 min video);
-- <http://www.laurentluce.com/posts/python-dictionary-implementation/> - how are the Python (pre-3.6?) dictionaries implemented and why it is necessary to add an item to a Python dictionary that was emptied to reduce memory usage;
-- <https://youtu.be/EiOglTERPEo> - Raymond Hettinger - `super()` considered super!
-  (47 min video);
-- <https://pypi.org/project/indexed.py/> - a dictionary that is indexed by insertion order;
 - <https://more-itertools.readthedocs.io/en/latest/> - a library of rarely useful itertools functions.
   It's better to use this than to write it yourself;
 - <https://medium.com/zendesk-engineering/hunting-for-memory-leaks-in-python-applications-6824d0518774> - if you ever need to track memory leaks, see here first;
 - <https://benbernardblog.com/tracking-down-a-freaky-python-memory-leak/> - if it's a more demanding memory leak, here's even more tools;
-- <https://medium.com/@dwdraju/python-function-on-aws-lambda-with-api-gateway-endpoint-288eae7617cb> - how to do a simple serverless application on AWS Lambda and publish it;
-- <https://golang-for-python-programmers.readthedocs.io/en/latest/> - to read one day if/when we need golang;
 - [candy japan / credit card fraud](https://www.candyjapan.com/behind-the-scenes/candy-japan-hit-with-credit-card-fraud), [candy japan / fraud under control](https://www.candyjapan.com/behind-the-scenes/how-i-got-credit-card-fraud-somewhat-under-control), [candy japan / fraud signs](https://www.candyjapan.com/behind-the-scenes/fraudulent-transaction-warning-signs) - in case you gonna accept credit card payments in some project;
-- <https://youtu.be/YjHsOrOOSuI> - Sebastian Witowski - Writing faster Python (24 min video);
-- <https://blog.heroku.com/python37-dataclasses-async-await> - well written summary of what's new in python-3.7;
-- <https://realpython.com/python38-new-features/> - cool new features in Python 3.8;
-- <https://realpython.com/python39-new-features/> - cool new features in Python 3.9;
-- <https://pypi.org/project/django-test-migrations/> - handling migration testing in Django (don't write it yourself);
-- <https://jcristharif.com/msgspec/benchmarks.html> - how to do json encoding/decoding but quickly
-
-Why pathlib is fun:
-
-```python
->>> import platform
->>> platform.system()
-'Darwin'
->>> from pathlib import Path
->>> base_path = Path('/usr')
->>> lib = base_path / 'lib'
->>> lib
-PosixPath('/usr/lib')
->>> 
-```
-
-```python
->>> import platform
->>> platform.system()
-'Windows'
->>> from pathlib import Path
->>> base_path = Path('C:\Windows')
->>> system = base_path / 'system'
->>> system
-WindowsPath('C:/Windows/system')
->>>
-```
-
-### junior python developers
-
-- <https://github.com/reef-technologies/python-review-zoo/> - here we collect common/interesting review findings
-- <https://treyhunner.com/2019/05/python-builtins-worth-learning/> - a friendly description of python builtin functions
-- <https://write.as/simone-robutti/python-project-tooling-explained> - a list of tools commonly used in development of python-based projects
-
-### intermediate python developers
-
-- <https://youtu.be/cKPlPJyQrt4> - some advanced python patterns (114 min video);
-- <https://youtu.be/Bv25Dwe84g0> - Raymond Hettinger:
-  Thinking about Concurrency (52 min video);
-- <https://hackernoon.com/asynchronous-python-45df84b82434> - Asynchronous Python
-- <https://hackernoon.com/async-through-the-looking-glass-d69a0a88b661> - Async Through the Looking Glass
-- <https://www.dabapps.com/blog/api-performance-profiling-django-rest-framework/> - on where the time is spent in DRF-based APIs and what to do with it
-- <https://medium.com/zendesk-engineering/hunting-for-memory-leaks-in-python-applications-6824d0518774> - Hunting for Memory Leaks in Python applications
-- <https://dev.to/methane/how-to-speed-up-python-application-startup-time-nkf> - how to use 3.7's `-X importtime` import time tracer
-- <https://vsupalov.com/favorite-django-packages-2019/> - list of modern useful Django packages.
-  All nice stuff, except DRF - see TastyPie below instead
-- <https://django-tastypie.readthedocs.io/> - how to API in django
-- <https://www.toptal.com/python/top-10-mistakes-that-python-programmers-make> - an explanation for a few uncommon errors which shouldn't really happen in the first place as good practices will prevent you from running into those... but still it might be interesting to see a few of those
-- <https://nedbatchelder.com//blog/201908/why_your_mock_doesnt_work.html> - on mocking right, or, why dependency injection might be a good idea
-- <https://books.agiliq.com/projects/django-admin-cookbook/> - many recipes for django admin customization
-- <https://stevedower.id.au/blog/most-critical-python-metric> - article about an interesting code metric, testability and side effects
-- <https://web.eecs.utk.edu/~azh/blog/pythonstringsaremutable.html> - Python strings are immutable, but only sometimes
-
-### senior python developers
-
-- <https://realpython.com/modeling-polymorphism-django-python/> - Modeling Polymorphism in Django With Python
-- <https://julien.danjou.info/high-performance-in-python-with-zero-copy-and-the-buffer-protocol/> - High-Performance in Python with Zero-Copy and the Buffer Protocol
-- <https://robert-mcdermott.gitlab.io/posts/speeding-up-python-with-nim/> - Speeding Up Python with Nim(py)
-- <https://pydist.com/blog/distributions-vs-releases> - on troubles with consistent installations of python packages
-- <https://books.agiliq.com/projects/django-multi-tenant/> - on various ways to make django apps multitenant
-- ijson.backends.yajl2\_c - iterative json parser capable of going through a 0.5TB json, maybe use cython to run it quickly.
-- <https://www.dabeaz.com/python/UnderstandingGIL.pdf> - GIL War
-- <https://tenthousandmeters.com/blog/python-behind-the-scenes-13-the-gil-and-its-effects-on-python-multithreading/> - state of the GIL in 2021
-- <https://www.linkedin.com/posts/danilovmy_euro-python-2023-ended-today-i-had-a-great-activity-7088241937048047616-4VJ-/> - generators look nice but decrease performance due to context switching
-- <https://tonybaloney.github.io/posts/sub-interpreter-web-workers.html> - Threads vs Multiprocessing vs Subinterpreters
-
-### junior quality assurance engineers
-
-- <https://www.chiark.greenend.org.uk/~sgtatham/bugs.html> - How to Report Bugs Effectively
-- <https://www.softwaretestinghelp.com/exploratory-testing-tours/> - How to Use Tours to Ensure Complete and Thorough Exploratory Testing
 
 # Non-technical staff
 
