@@ -169,8 +169,8 @@ If it does, watch it all.
 - <https://youtu.be/yIPbE7BssOs> - Randall Koutnik:
   Rethinking the Developer Career Path (25 min video);
 - <https://medium.com/better-programming/the-differences-between-a-junior-mid-level-and-senior-developer-bb2cb2eb000d> - a perspective on junior vs senior developer level
-- <https://nortal.com/blog/the-myth-of-developer-productivity/> - comprehensive look on the subject of measuring developer productivity
-- [www.crisp.se/henrik.kniberg/How-we-got-rid-of-time-reports.pdf](http://www.crisp.se/henrik.kniberg/How-we-got-rid-of-time-reports.pdf) - inspiring story of Henrik Kniberg fighting bureaucracy with success
+- <https://web.archive.org/web/20191118140704/https://nortal.com/blog/the-myth-of-developer-productivity/> - comprehensive look on the subject of measuring developer productivity
+- <https://blog.crisp.se/wp-content/uploads/2010/10/How-we-got-rid-of-time-reports.pdf> - inspiring story of Henrik Kniberg fighting bureaucracy with success
 - <https://youtu.be/N8KXxfF4dtg> - Jurgen Appelo - Keynote:
   Managing for Happiness (53 min video);
 - <https://youtu.be/lvs7VEsQzKY> - Dan North:
@@ -207,10 +207,5 @@ If it does, watch it all.
 # bonus material
 
 - <https://youtu.be/4u5N00ApR_k> - if you are wondering how agile in corporations might look like (10 min video);
-- <https://hbr.org/2018/11/how-our-careers-affect-our-children> - if you are worried working long hours may affect your kids.
+- <https://www.linkedin.com/pulse/how-our-careers-affect-children-jane-mckean-lpc> - if you are worried working long hours may affect your kids.
   Turns out, the problem is not in the hours at all.
-
-```
-WIP:
-https://www.joelonsoftware.com/
-```

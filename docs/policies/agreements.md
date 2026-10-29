@@ -315,9 +315,9 @@ To foster stronger connections among our staff, we've implemented the following 
 
 This policy aims to create opportunities for informal interaction and relationship-building among team members, which we believe contributes to a better work environment.
 
-## 🤝🏻 Referral fee $2048 for Senior Python Developer
+## 🤝🏻 Referral fee $4096 for Senior Python Developer
 
-If you, as a staff member, have contacted us with a potential candidate who passed the evaluation period and has tracked at least 168h of work later, the referral fee will be paid to you - $2048.
+If you, as a staff member, have contacted us with a potential candidate who passed the evaluation period and has tracked at least 168h of work later, the referral fee will be paid to you - $4096.
 
 There are no referral links or any special framework for referrals - if you know that the recommended person applied/is going to apply, just let the HR manager know.
 
