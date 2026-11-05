@@ -1,3 +1,9 @@
+## Ensure your operating system is up-to-date
+
+Make sure to keep up with security updates for your operating system.
+If your OS no longer receives security updates (is EOL), switch to a newer one.
+If your hardware doesn’t support a newer OS (you have an older MacBook, for example), buy a new computer for work using our [Workplace Upgrade Fund](../policies/equipment-funding-policy.md).
+
 ## Ensure you have a Secure Work Environment
 
 For Secure Work Environment we recommend a Virtual Machine or dual-boot.
