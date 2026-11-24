@@ -150,7 +150,23 @@ We employ several techniques to output a lot of value in a unit of time:
    While some software houses lose \~30% of their performance (due to miscommunications, etc.), we stay way below 1% (the exact number is hard to measure when the amount of waste is so low).
    As mentioned above, we tend to pause work on a ticket when we are not sure, choosing a small delay on a particular task over potentially having to discard work due to a bad assumption.
    Our clients prefer it this way.
-8. Use LLMs
+8. We bring in creativity from everybody interested, not just developers directly involved in the project.
+   We have coding harnesses strapped to slack bots, so people can start requesting changes, or even ask questions, easily, without having to check out repos.
+   Other people can then chip in.
+   Not everyone is able to drive such work till the end, though.
+   That’s why we have the “Rules of starting work via slack agents and whose responsibility it is to finish it”
+9. Use LLMs
+
+# Rules of starting work via slack agents and whose responsibility it is to finish it
+
+Starting a task with a coding agent on Slack is useful even if you don't have time to see it through.
+Answering the agent's questions, clarifying requirements, or reviewing a mockup gives the project owner something to work with.
+If the task remains unfinished after about a day (this time parameter is sbuject to change) without activity, an automation will ping the person who started it in the same thread to ask whether they want to continue or need someone to take over.
+If they don't reply, it will bring the thread to the project owner's attention.
+The project owner then decides what happens next:
+merge the work, request changes, clarify something with the requester, defer it, or close it.
+Project owners don't need to follow every agent conversation, but they are responsible for deciding what to do with unfinished tasks brought to them this way.
+Which includes the possibility of making a rule in their project like "no activity for N days -> close".
 
 # Code Review
 
